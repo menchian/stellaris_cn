@@ -1,0 +1,20 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ hallucinogen_removal:0 "消滅幻覺"
+ hallucinogen_removal_DESC:1 "試圖移除[Root.GetName]大氣層的致幻物質。"
+ impact_defence_system:0 "隕石防禦系統"
+ impact_defence_system_DESC:0 "我們必須查明如何才能更好保護頻繁受到小行星撞擊的[Root.GetName]上的殖民地。"
+ titanic_life_study_normal:0 "巨大生命體研究"
+ titanic_life_study_normal_DESC:1 "通過研究[Root.GetName]的巨大生命體，我們希望能夠借此瞭解他們並與他們溝通。"
+ titanic_life_study_mean:0 "巨大生命體屍檢"
+ titanic_life_study_mean_DESC:1 "通過回收[Root.GetName]的巨大生命體，我們可以得到利用他們的最佳方式！"
+ titanic_life_study_nice:0 "巨大生命體觀測"
+ titanic_life_study_nice_DESC:1 "通過仔細觀測[Root.GetName]的巨大生命體，我們希望能和他們和平共處。"
+ retaliatory_genome_mapping:0 "報復性基因組定位"
+ retaliatory_genome_mapping_DESC:0 "如果能用星艦偵測外星人的母星，則可以獲取其種族的訊息。知己知彼，百戰不敗。"
+ woodwind_instrument_investigation:0 "木管樂器調查"
+ woodwind_instrument_investigation_DESC:0 "這木管樂器的音色令人渾身放鬆，一定要調查出其原料的秘密。"

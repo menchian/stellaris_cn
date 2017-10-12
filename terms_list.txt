@@ -1,166 +1,166 @@
-# 种族和政体
-Species - 种族（星际文明）;物种（未开化的、低阶文明、泛称（examli gratia 智慧物种））
-Trait - 特质
-Ethic - 道德观;道德(的);道德准则
-Ethos - 道德准则
-Collectivism - 集体本位论
-Collectivist - 集体本位者;集体本位(的);集体本位论
-Individualism - 个体本位论
-Individualist - 个体本位者;个体本位(的);个体本位论
+# 種族和政體
+Species - 種族（星際文明）;物種（未開化的、低階文明、泛稱（examli gratia 智慧物種））
+Trait - 特質
+Ethic - 道德觀;道德(的);道德準則
+Ethos - 道德準則
+Collectivism - 集體本位論
+Collectivist - 集體本位者;集體本位(的);集體本位論
+Individualism - 個體本位論
+Individualist - 個體本位者;個體本位(的);個體本位論
 Xenophobia - 排外
 Xenophobe - 排外者;排外(的)
 Xenophobic - 排外(的)
-Xenophilia - 亲外
-Xenophile - 亲外者;亲外(的)
-Militarism - 军国主义
-Militarist - 军国主义者;军国主义(的)
-Militaristic - 军国主义(的)
-Pacifism - 和平主义
-Pacifist - 和平主义者;和平主义(的)
-Pacifistic - 和平主义(的)
-Spiritualism - 精神主义
-Spiritualist - 精神主义者
-Spiritualistic - 精神主义(的)
-Materialism - 物质主义
-Materialist - 物质主义者
-Materialistic - 物质主义(的)
+Xenophilia - 親外
+Xenophile - 親外者;親外(的)
+Militarism - 軍國主義
+Militarist - 軍國主義者;軍國主義(的)
+Militaristic - 軍國主義(的)
+Pacifism - 和平主義
+Pacifist - 和平主義者;和平主義(的)
+Pacifistic - 和平主義(的)
+Spiritualism - 精神主義
+Spiritualist - 精神主義者
+Spiritualistic - 精神主義(的)
+Materialism - 物質主義
+Materialist - 物質主義者
+Materialistic - 物質主義(的)
 Neutral - 中立
-Authoritarianism - 威权主义
-Egalitarianism - 平等主义
+Authoritarianism - 威權主義
+Egalitarianism - 平等主義
 
-# 事件名词
-Curators - 典藏研究员/典藏研究所
+# 事件名詞
+Curators - 典藏研究員/典藏研究所
 Riggan - 瑞玵
-XuraCorp - 旭然集团
-Muutagan - 穆塔钢
-Drake - 龙兽
-Pantagruel - 庞大固埃
+XuraCorp - 旭然集團
+Muutagan - 穆塔鋼
+Drake - 龍獸
+Pantagruel - 龐大固埃
 Gargantua - 高康大
 Stellar Devourer - 噬星者
 
-Tiyanki - 天凯
-Cybrex - 赛博霸王
-Void Cloud - 虚空之云
+Tiyanki - 天凱
+Cybrex - 賽博霸王
+Void Cloud - 虛空之雲
 Space Amoeba - 太空阿米巴
 
-Javorian Pox - 枫痘   # 原来翻译成 杰法利亚瘟疫 和 贾沃安瘟疫 不统一，所以干脆瞎起了个易读的名字。枫来自克罗地亚语中的 Javor 痘指 Pox 。
+Javorian Pox - 楓痘   # 原來翻譯成 傑法利亞瘟疫 和 賈沃安瘟疫 不統一，所以乾脆瞎起了個易讀的名字。楓來自克羅地亞語中的 Javor 痘指 Pox 。
 
-#行为
+#行為
 Survey - 勘察
-Jump - 跃迁
-Uplift - 开化
-Purge - 肃清;大清洗
-Purging - 肃清;肃清中;大清洗
+Jump - 躍遷
+Uplift - 開化
+Purge - 肅清;大清洗
+Purging - 肅清;肅清中;大清洗
 Disassemble - ?
-Displace - 驱离
+Displace - 驅離
 
-Click - 点击
-Right Click - 右键点击
+Click - 點擊
+Right Click - 右鍵點擊
 
 # 科技/武器
 Deflector - 偏向器
-X-ray Laser - X射线激光
-Garrison - 驻军
-Drone - 无人机
-Droid - 人型机器人
+X-ray Laser - X射線雷射
+Garrison - 駐軍
+Drone - 無人機
+Droid - 人型機器人
 Projectile (weapon) - 投射武器
 Warp - 曲速
-HyperDrive - 超空间驱动
-JumpDrive - 折跃引擎
-Psionic - 灵能
+HyperDrive - 超空間驅動
+JumpDrive - 折躍引擎
+Psionic - 靈能
 FTL - 超光速引擎(FTL)
 FTL travel - 超光速航行
-Hyperlane - 超空间航道
-Positronic - 正电子
+Hyperlane - 超空間航道
+Positronic - 正電子
 
 #外交
-League of Non-Aligned Powers - 不结盟力量联合体
-Tributary - 藩属国
-Vassal - 臣属国
-Thrall - 仆从国
-Dominion - 自治领
-Signatory - 协约国
-Satellite - 卫星国
-Lord - 宗主国
+League of Non-Aligned Powers - 不結盟力量聯合體
+Tributary - 藩屬國
+Vassal - 臣屬國
+Thrall - 僕從國
+Dominion - 自治領
+Signatory - 協約國
+Satellite - 衛星國
+Lord - 宗主國
 Subject - 附庸
-Embassy - 大使馆;外交使节
+Embassy - 大使館;外交使節
 
-#名词
-modifier - 修正;调整因素
-Government - 政体;政府
-government form - 政体;政府形式
-government type - 政体;政府形式
+#名詞
+modifier - 修正;調整因素
+Government - 政體;政府
+government form - 政體;政府形式
+government type - 政體;政府形式
 Edict - 法令
-committee - 委员会
-council - 议会
+committee - 委員會
+council - 議會
 cost - 消耗
-lesser lifeform - 低级生物
-Authority - 权力制度
+lesser lifeform - 低級生物
+Authority - 權力制度
 Civic - 公民性
-Tradition - 传统
-Ascension Perk - 飞升特典
-(Orbital) Habitat - 轨道栖所
+Tradition - 傳統
+Ascension Perk - 飛昇特典
+(Orbital) Habitat - 太空移民站
 Shroud - 天幕
 synthetic - 合成人
 
-Hotkey - 快捷键
+Hotkey - 快捷鍵
 Habitability - 宜居性
-Subspace - 亚空间
+Subspace - 亞空間
 Homeworld - 母星
-Frontier - 边境
-Ship - 舰船
-Species - 种族
+Frontier - 邊境
+Ship - 星艦
+Species - 種族
 Sector - 星域
 Spaceport - 太空港
 Station - 基地
 Power - 能量
-Energy (credits) - 能源(点数)
+Energy (credits) - 能源(點數)
 Unity - 凝聚力
 
-Xeno - 异星;异族;异种;异形  #视语境
-Dimension(al) - 次元;维度(作第n维度时用)
-Extradimension(al) - 异次元
+Xeno - 異星;異族;異種;異形  #視語境
+Dimension(al) - 次元;次元(作第n次元時用)
+Extradimension(al) - 異次元
 
-Fallen Empire - 堕落帝国
+Fallen Empire - 墮落帝國
 
 Molten World - 熔岩世界
 Frozen World - 寒冰世界
-Barren World - 荒芜世界
+Barren World - 荒蕪世界
 Desert World - 沙漠世界
 Arid World - 旱地世界
-Tundra World - 冻原世界
-Continental World - 大陆世界
-Tropical World - 热带世界
+Tundra World - 凍原世界
+Continental World - 大陸世界
+Tropical World - 熱帶世界
 Ocean World - 海洋世界
-Arctic World - 极地世界
+Arctic World - 極地世界
 Alpine World - 高寒世界
 Savannah World - 草原世界
-Toxic World - 剧毒世界
-Gaia World - 盖娅世界
+Toxic World - 劇毒世界
+Gaia World - 蓋亞世界
 
-megastructure - 巨型结构
+megastructure - 巨型結構
 Yurantic Crystals - 羽然水晶
 
-Whisperers in the Void - 虚咽灵尊
-Composer of Strands - 谱命灵尊
-Eater of Worlds - 吞世灵尊
-Instrument of Desire - 极欲灵尊
-End of the Cycle - 终寰灵尊
+Whisperers in the Void - 虛咽靈尊
+Composer of Strands - 譜命靈尊
+Eater of Worlds - 吞世靈尊
+Instrument of Desire - 極欲靈尊
+End of the Cycle - 終寰靈尊
 
-Gestalt Consciousness - 完形意识
+Gestalt Consciousness - 完形意識
 
-organic creator - 有机创造者
-organic - 有机体
-Machine - 机械体
-Machine Intelligence - 机械智慧体
+organic creator - 有機創造者
+organic - 有機體
+Machine - 機械體
+Machine Intelligence - 機械智慧體
 Bio-Trophy  - 生化展品
 
-cybernetics - 神经机械学
-cybernetic implant - 机械内植体
-implant - 内植物
-cyborg - 半机械人
-cybernetic unit - 半机械单元
-cybernetic - 半机械化
+cybernetics - 神經機械學
+cybernetic implant - 機械內植體
+implant - 內植物
+cyborg - 半機械人
+cybernetic unit - 半機械單元
+cybernetic - 半機械化
 
-Pre-Sapient - 亚智慧; 亚智慧物种
-warform - 作战体
+Pre-Sapient - 亞智慧; 亞智慧物種
+warform - 作戰體

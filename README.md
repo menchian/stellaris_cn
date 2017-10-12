@@ -1,26 +1,26 @@
-群星中文校对 Mod
+群星中文校對 Mod
 ============
-当前支持游戏版本： 群星 Stellaris 1.8.0
+當前支持遊戲版本： 群星 Stellaris 1.8.0
 
-你可以直接在创意工坊订阅本 mod:
+你可以直接在創意工坊訂閱本 mod:
 http://steamcommunity.com/sharedfiles/filedetails/?id=734129025
 
-本项目目录结构：
+本項目目錄結構：
 
-* cn 与 cn.mod 是最新的汉化 mod 文件。 
-* cn1.3 是过去 1.3 版本的旧翻译文本，由于 1.4.1 曾经短暂出现过官方翻译，已经合并到 cn 下，这个目录可做参考。
-* en 是当前英文原文文本。
-* term_list.txt 是术语列表，参加翻译时请参考这里统一术语。
-* script 是一些实用工具脚本，用来检查错误。
-* [workflow.md](https://github.com/cloudwu/stellaris_cn/blob/master/workflow.md)  想参与的同学，如果不熟悉 github 的工作流，可以参考。
+* cn 與 cn.mod 是最新的漢化 mod 文件。 
+* cn1.3 是過去 1.3 版本的舊翻譯文本，由於 1.4.1 曾經短暫出現過官方翻譯，已經合併到 cn 下，這個目錄可做參考。
+* en 是當前英文原文文本。
+* term_list.txt 是術語列表，參加翻譯時請參考這裡統一術語。
+* script 是一些實用工具腳本，用來檢查錯誤。
+* [workflow.md](https://github.com/cloudwu/stellaris_cn/blob/master/workflow.md)  想參與的同學，如果不熟悉 github 的工作流，可以參考。
 
-### 本汉化 Mod 引用尚未公开的官方中文字体，如果需要其它字体可以单独订阅 字体 mod :
+### 本漢化 Mod 引用尚未公開的官方中文字體，如果需要其它字體可以單獨訂閱 字體 mod :
 
-* 悦黑 http://steamcommunity.com/workshop/filedetails/?id=784471286  （群星汉化最早使用的字体）
-* 粗圆 http://steamcommunity.com/workshop/filedetails/?id=826928128  （低分辨率下可能更清晰一些）
-* 创意工坊中搜索关键字 `font` 查找其他字体mod。
+* 悅黑 http://steamcommunity.com/workshop/filedetails/?id=784471286  （群星漢化最早使用的字體）
+* 粗圓 http://steamcommunity.com/workshop/filedetails/?id=826928128  （低分辨率下可能更清晰一些）
+* 創意工坊中搜索關鍵字 `font` 查找其他字體mod。
 
 ### License
 
-* 本文本的的原文版本属于 Paradox Interactive ( https://www.paradoxplaza.com/ ) 
-* 翻译文本基于 CREATIVE COMMONS BY-SA 创作 ( https://creativecommons.org/licenses/by-sa/3.0/deed.zh ) 转载请附上 github 仓库地址：https://github.com/cloudwu/stellaris_cn 
+* 本文本的的原文版本屬於 Paradox Interactive ( https://www.paradoxplaza.com/ ) 
+* 翻譯文本基於 CREATIVE COMMONS BY-SA 創作 ( https://creativecommons.org/licenses/by-sa/3.0/deed.zh ) 轉載請附上 github 倉庫地址：https://github.com/cloudwu/stellaris_cn 

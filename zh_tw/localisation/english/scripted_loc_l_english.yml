@@ -1,0 +1,34 @@
+﻿l_english:
+
+ # GetEdibleSpeciesName Test
+ edible_avi:0 "雞塊"
+ edible_avi_plural:0 "一堆雞塊"
+ edible_mam:0 "漢堡"
+ edible_mam_plural:0 "豐盛的漢堡"
+ edible_rep:0 "蜥蜴串燒"
+ edible_rep_plural:0 "蜥蜴大燒烤"
+ edible_fun:0 "香菇"
+ edible_fun_plural:0 "一堆香菇"
+ edible_mol:0 "生蠔"
+ edible_mol_plural:0 "生蠔大餐"
+ edible_hum:0 "美味的牛排"
+ edible_hum_plural:0 "嫩烤全牛"
+ edible_art:0 "香脆的蟲"
+ edible_art_plural:0 "蘸醬小蟲"
+ edible_plant:0 "生菜"
+ edible_plants:0 "什錦沙拉"
+ edible_fallback:0 "一小份食物"
+ edible_fallback_plural:0 "美味佳餚"
+
+ test.edible.title:0 "餓了？"
+ test.edible.desc:0 "即使[Root.GetRulerName]，我們偉大的[Root.GetRulerTitle]，也不過是[Root.GetEdibleNamePlural]裡膚質濕嫩的[Root.GetEdibleName]。"
+
+ getunitdrone_unit:0 "單位"
+ getunitdrone_unit_plural:0 "單位們"
+ getunitdrone_drone:0 "自主個體蜂"
+ getunitdrone_drone_plural:0 "自主蜂群"
+ getunitdrone_leader:0 "領袖"
+ getunitdrone_leader_plural:0 "領袖們"
+ 
+ monsteronship_desc:0 "一隻兇惡的未知生物襲擊了我們的科研船並試圖殺死全部船員，假若沒有軍隊支援，他們撐不了多久的！"
+ monsteronship_mach_desc:0 "一個野蠻的有機個體襲擊了我們的科研船並試圖摧毀我們的船務單位，假設沒有軍事支援，它們將會全軍覆沒。"
