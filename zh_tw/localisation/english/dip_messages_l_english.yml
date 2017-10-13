@@ -1058,12 +1058,12 @@
  01_PROPOSE_INVITE_ACCEPT:0 "我們決定接受你們的邀請提議。"
  01_PROPOSE_INVITE_REFUSE:0 "經討論，我們決定拒絕你們的邀請提議。"
  
- 01_OFFER_TRADE_DEAL_GIFT_ACCEPT_FE:0 "Very well. We accept your offer of tribute."
- 01_OFFER_TRADE_DEAL_GIFT_ACCEPT_MACHINE_FE:0 "Transfer received. The [Root.GetName] appreciates the [From.GetSpeciesName] contribution to the Custodian Project."
- 01_OFFER_TRADE_DEAL_ACCEPT_FE:0 "This deal is acceptable, [From.GetSpeciesName]. We will deign to trade with you."
- 01_OFFER_TRADE_DEAL_ACCEPT_MACHINE_FE:0 "Trade evaluation complete. Trade value above acceptable thresholds. Initiate transfer protocols."
- 01_OFFER_TRADE_DEAL_REFUSE_FE:0 "Begone, primitive. You have nothing we need."
- 01_OFFER_TRADE_DEAL_REFUSE_MACHINE_FE:0 "Trade evaluation complete. Trade value below acceptable thresholds. Adjust parameters and resubmit."
+ 01_OFFER_TRADE_DEAL_GIFT_ACCEPT_FE:0 "非常好，我們接受你的敬意。"
+ 01_OFFER_TRADE_DEAL_GIFT_ACCEPT_MACHINE_FE:0 "收到，[Root.GetName]感謝[From.GetSpeciesName]對託管項目的貢獻。"
+ 01_OFFER_TRADE_DEAL_ACCEPT_FE:0 "這個交易是可以接受的，[From.GetSpeciesName]，我們將會與你交易。"
+ 01_OFFER_TRADE_DEAL_ACCEPT_MACHINE_FE:0 "貿易項目評估完成， 交易價值高於可接受的評級，啟動傳輸協議。"
+ 01_OFFER_TRADE_DEAL_REFUSE_FE:0 "滾吧，原始人，我們不需要你的任何東西。"
+ 01_OFFER_TRADE_DEAL_REFUSE_MACHINE_FE:0 "貿易項目評估完成，交易價值低於可接受的評級，請調整參數並重新提交。"
 
  01_OFFER_TRADE_DEAL_GIFT_PROPOSE:1 "請收下這份禮物，以示[From.GetAdjective]對[Root.GetName]的善意。"
  02_OFFER_TRADE_DEAL_GIFT_PROPOSE:1 "[From.GetRulerTitle][From.GetRulerName]決定將這份禮物送給[Root.GetName]，作為雙方友誼的見證。"
