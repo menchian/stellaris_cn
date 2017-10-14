@@ -280,7 +280,7 @@
  MACHINE_mouth:0 "能量輸入端口"
 
  SWARM:0 "蟲群"
- EXD:0 "Extradimensionals"
+ EXD:0 "異次元"
 
  ####################################
  # Species
@@ -297,8 +297,8 @@
  Human_spawn_plural:0 "嬰兒"
  Yondar_adj:0 "勇達"
  Yondar_plural:0 "勇達人"
- Ixidar_adj:0 "伊科斯'伊達"
- Ixidar_plural:0 "伊科斯'伊達人"
+ Ixidar_adj:0 "伊科斯·伊達"
+ Ixidar_plural:0 "伊科斯·伊達人"
  Chinorr_adj:0 "齊諾爾"
  Chinorr_plural:0 "齊諾爾人"
  Jehetma_plural:0 "傑赫特瑪人"
