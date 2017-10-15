@@ -1496,7 +1496,7 @@
  HM_INSULT_PROPOSE_02:0 "我們對[Root.GetRulerTitle][Root.GetRulerName]加入[From.GetName]一事進行了評估。遺憾的是，若想加入，沒有腦子是不行的。"
  HM_INSULT_ACCEPT_NEUTRAL:0 "所有[Root.GetSpeciesName]都聽到了你們的醜惡言詞。[From.GetSpeciesName]，大家都很憤怒。"
  HM_INSULT_ACCEPT_FRIENDLY:0 "我們也希望忘掉如此傷人的話語，但只要有一個[Root.GetSpeciesName]活著，就不會忘記你們有多麼冷酷無情。"
- HM_INSULT_ACCEPT_HOSTILE:0 "不要以為相容並包就代表我們缺乏情感。我們的憤怒超乎你們的想像，而我們會確保讓你們好好感受這一點。"
+ HM_INSULT_ACCEPT_HOSTILE:0 "不要以為兼容並蓄就代表我們缺乏情感。我們的憤怒超乎你們的想像，而我們會確保讓你們好好感受這一點。"
 
  # Generic Machine Empire Phrases
  MECH_CONSIDER_01:0 "你的提案正在處理中。請稍後。"

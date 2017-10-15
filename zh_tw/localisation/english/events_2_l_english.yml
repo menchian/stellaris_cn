@@ -1600,7 +1600,7 @@
  fallen_machine_empire.21.tooltip:0 "這將產生不可預知的後果。在這些影響被揭露之前，我們的人口維護將會增加。"
  fallen_machine_empire.21.a:0 "只要對我們有利，我們歡迎改進我們的編譯。"
  fallen_machine_empire.21.b:0 "我們不相信外星智慧對我們的代碼進行更改。"
- fallen_machine_empire.22.name:0 "代碼重寫結果：不相容"
+ fallen_machine_empire.22.name:0 "程式碼重寫結果：不相容"
  fallen_machine_empire.22.desc:0 "古代監護人對我們的基礎程式碼所做的改變，與我們編譯的其他核心部分是不相容的。不僅承諾的效率提高未能體現出來，反而造成了大量嚴重的bug，嚴重影響了我們的資源收集操作。在代碼更改可以完全恢復之前，我們需要經歷一段生產率降低的時期。"
  fallen_machine_empire.22.a:0 "不幸！"
  fallen_machine_empire.23.name:0 "程式碼重寫結果：大幅優化"
