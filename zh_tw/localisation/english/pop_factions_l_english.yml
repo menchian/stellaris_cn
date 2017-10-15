@@ -202,7 +202,7 @@
 
  # TRADITIONALISTS
  TRADITIONALIST_NO_ROBOTS:0 "生命有機"
- TRADITIONALIST_NO_ROBOTS_DESC:0 "用沒有靈魂的機器替代有機生命或工人將使 [Root.GetName] 不滿。"
+ TRADITIONALIST_NO_ROBOTS_DESC:0 "用沒有靈魂的機器替代有機生物或工人將使 [Root.GetName] 不滿。"
  TRADITIONALIST_ROBOTS:0 "無機空殼"
  TRADITIONALIST_NO_ROBOT_RIGHTS:0 "合成人無人權"
  TRADITIONALIST_NO_ROBOT_RIGHTS_DESC:0 "不禁止會思考的機器是一種褻瀆，會使 [Root.GetName] 不滿意。"

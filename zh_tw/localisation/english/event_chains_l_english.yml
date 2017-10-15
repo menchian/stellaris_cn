@@ -62,7 +62,7 @@
  coming_storm_chain_title:0 "風暴將至"
  coming_storm_chain_desc:0 "據探測，一個神秘的亞空間種群正在靠近我們的星系。看來馬上有訪客要來了……"
  prethoryn_scourge_chain_title:0 "虛空災難"
- prethoryn_scourge_chain_desc:0 "我們的星系被一群貪婪的外星生物入侵了，他們意圖吞食所有遇到的生命體。必須趕在他們用人海戰術碾壓我們之前阻止這些普雷索林入侵者。"
+ prethoryn_scourge_chain_desc:0 "我們的星系被一群貪婪的外星生物入侵了，他們意圖吞食所有遇到的生命體。必須趕在他們用人海戰術碾壓我們之前阻止這些蟲族入侵者。"
  extradimensional_invasion_chain_title:1 "天外來客"
  extradimensional_invasion_chain_desc:0 "我們的銀河系之中出現了巨大的空間裂痕，那可能是連接其他次元的通道。奇怪的虛體飛船從中湧出，他們會從路上碰到的一切物體身上吸取能量，直到那不幸的物體失去一切能量為止。"
  star_power_chain_title:0 "異常恆星物質"
@@ -133,7 +133,7 @@
  new_precursor.1_poi_desc:0 "我們得知，在這些坐標點處可能有先驅文明留下的文物或重要訊息。"
  new_precursor_anomaly:0 "在§L[precursor_planet.GetName]§!發現了新的先驅異象。"
 
- prethoryn_defeated:0 "已擊敗普雷索林"
+ prethoryn_defeated:0 "已擊敗蟲族"
  anchor_station:0 "次元錨"
  anchor_station_plural:0 "次元錨"
  dimensional_anchors_1:0 "§Y次元錨已啟動§!"
@@ -154,9 +154,9 @@
  
  infested_worlds:0 "§Y被感染的星球§!"
  infested_worlds_cleansed:0 "§Y已淨化的被感染的星球§!"
- prethoryn_kills_us:0 "§G普雷索林被我方消滅§!"
- prethoryn_kills_others:0 "§G普雷索林被其他勢力消滅§!"
- prethoryn_victims:0 "§R星艦被普雷索林消滅§!"
+ prethoryn_kills_us:0 "§G蟲族被我方消滅§!"
+ prethoryn_kills_others:0 "§G蟲族被其他勢力消滅§!"
+ prethoryn_victims:0 "§R星艦被蟲族消滅§!"
 
  refugees.1.name:0 "[Root.GetSpeciesName]的難民已抵達"
  refugees.1.desc.1:0 "搭載§Y[Root.GetSpeciesName]§!難民的民用運輸艦隊從§Y[RefugeeEscapedFrom.GetName]§!來到了我們的領地。他們已經獲准在§H[Root.Planet.GetName]§!上安居。\n\n這些不幸的受逐者被[RefugeeEscapedFrom.GetSpeciesName]當局強制驅離出家。自那以來，他們一直在恆星系之間旅行， 絕望地努力在最後的補給物資用完之前找到新家。"

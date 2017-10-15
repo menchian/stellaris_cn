@@ -792,7 +792,7 @@
  dimensional_horror_weak_points_desc:0 "如果我們針對弱電進行精確打擊，次元惡魔產生的傳送門就會動搖。"
  automated_dreadnought_weak_points:0 "無畏艦擾亂者"
  automated_dreadnought_weak_points_desc:0 "遭遇自動化無畏艦的艦隊指揮官被命令瞄準其自動化控制的子系統。"
- asteroid_hive_weak_points:0 "蜂巢獵手"
+ asteroid_hive_weak_points:0 "蜂巢獵人"
  asteroid_hive_weak_points_desc:0 "更新後的目標數據能讓我們的星艦直擊蜂巢小行星表面裝甲最薄弱的地方。"
  damage_vs_country_type_guardian_horror_mult:0 "對次元惡魔的傷害"
  damage_vs_country_type_guardian_dreadnought_mult:0 "對自動化無畏艦的傷害"

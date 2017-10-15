@@ -839,7 +839,7 @@
  tech_amoeba_strike_craft_1:0 "變形蟲飼養程序"
  tech_amoeba_strike_craft_1_desc:1 "通過飼養太空變形蟲，我們可以修改基因讓它們的鞭毛成為我們軍隊的艦載機。"
  tech_swarm_strike_craft_1:0 "蟲群孳息池"
- tech_swarm_strike_craft_1_desc:1 "收集標本擊敗普雷索林，這使得我們可以複製並修改基因造出我們自己的戰鬥武器。"
+ tech_swarm_strike_craft_1_desc:1 "收集標本擊敗蟲族，這使得我們可以複製並修改基因造出我們自己的戰鬥武器。"
  tech_scourge_missile_1:0 "災禍導彈"
  tech_scourge_missile_1_desc:1 "通過分析蜂群使用的生物武器，我們可以造出同樣可怕的自航炮彈傳播式殺傷性武器。"
  tech_space_whale_weapon_1:0 "頻率調諧"

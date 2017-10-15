@@ -225,7 +225,7 @@
  SYNTH_INFILTRATION_PROJECT:0 "探測人造生物的辦法"
  SYNTH_INFILTRATION_PROJECT_DESC:0 "人造潛入者偽裝成[Root.GetSpeciesNamePlural]在[Root.GetName]上進行活動。我們需要找到可靠有效的方法辨認他們。"
  CAPTURE_QUEEN:0 "捕獲女王"
- CAPTURE_QUEEN_DESC:0 "[queen_system.GetName]星系最近發生了一場太空戰，普雷索林女王受重傷，受到折磨，無藥可救。這生物仍活著，捕獲它會是情報工作的重大成功。"
+ CAPTURE_QUEEN_DESC:0 "[queen_system.GetName]星系最近發生了一場太空戰，蟲族女王受重傷，受到折磨，無藥可救。這生物仍活著，捕獲它會是情報工作的重大成功。"
  
  ESTABLISH_COMMUNICATIONS:0 "調查[Prev.From.GetName]"
  ESTABLISH_COMMUNICATIONS_DESC:1 "我們需要進一步瞭解我們將其編碼命名為§Y[Prev.From.GetName]§!的神秘外星種族。如果他們也擁有語言，那我們必須對其進行破譯並且建立交流。\n\n獎勵: £influence §G影響力§!或§S特殊項目§!"

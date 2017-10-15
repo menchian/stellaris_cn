@@ -353,7 +353,7 @@
  tr_supremacy_war_games_hive_delayed:0 "水生生物由於其生存環境的三維性質而擁有更優越的空間意識。一旦我們將那部分皮層嫁接到戰爭主腦中，我們的蟲群就能像魚類一樣遨遊。" # TODO battlemind 戰爭主腦
  tr_supremacy_overwhelming_force:0 "戰士思維"
  tr_supremacy_overwhelming_force_machine:0 "電子戰爭"
- tr_supremacy_overwhelming_force_hive:0 "獵手外骨骼" #TODO Hunter Exoskeletons 獵手外骨骼
+ tr_supremacy_overwhelming_force_hive:0 "獵人外骨骼" #TODO Hunter Exoskeletons 獵人外骨骼
  tr_supremacy_overwhelming_force_desc:0 "§Y$MOD_ARMY_DAMAGE_MULT$§!增加§G+25%§!。"
  tr_supremacy_overwhelming_force_machine_desc:0 "$tr_supremacy_overwhelming_force_desc$"
  tr_supremacy_overwhelming_force_hive_desc:0 "$tr_supremacy_overwhelming_force_desc$"
@@ -441,7 +441,7 @@
  tr_synchronicity_organic_paradise_delayed:2 "通過持續監視這些被我們照料的智慧有機體，我們對他們的物質與精神需求有了全新的領悟。"
  tr_synchronicity_organic_intermediaries:0 "有機體中介"
  tr_synchronicity_organic_intermediaries_delayed:0 "大多數有機體社會充斥著反覆無常與混亂不堪的個體本位論，這可以用來對付他們。向特定人群提供短期報酬以換取合作，將他們轉變為中間人或告密者。這使我們可以更容易的控制大型有機體種群。"
- tr_versatility_universal_compatibility:0 "通用兼容"
+ tr_versatility_universal_compatibility:0 "通用相容"
  tr_versatility_universal_compatibility_desc:0 "§H解鎖外交功能：§!成立聯邦\n\n§Y$MOD_COUNTRY_TRUST_CAP_ADD$§!增加§G+50§!且 £opinion §Y評價§!增加§G+20§!，但只對同為$機械智慧體$的帝國有效。"
  tr_versatility_universal_compatibility_delayed:1 "對管理有機體與其他機械智慧體行為的無數刺激與心理因素進行的深入分析，將會減少外交摩擦。"
  tr_versatility_finish:0 "通用傳統完成"
