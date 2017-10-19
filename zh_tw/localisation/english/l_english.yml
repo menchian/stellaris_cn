@@ -7347,10 +7347,10 @@
  TORPEDO_3:0 "破壞者魚雷"
  TORPEDO_3_DESC:0 "裝備了強大彈頭的高級魚雷。造型呈流線型，引擎更快，護盾調製器更先進，可以穿過敵方的能量屏障。"
 
- MASS_DRIVER_1:0 "質量加速器"
+ MASS_DRIVER_1:0 "動能武器"
  MASS_DRIVER_1_DESC:0 "配備了磁場加速穿甲彈，這種電磁炮彈會以極高速度命中目標。"
  MASS_DRIVER_2:0 "線圈炮"
- MASS_DRIVER_2_DESC:0 "早期質量加速器的威力加強版，使用電磁線圈為炮彈不斷加速。"
+ MASS_DRIVER_2_DESC:0 "早期動能武器的威力加強版，使用電磁線圈為炮彈不斷加速。"
  MASS_DRIVER_3:0 "軌道炮"
  MASS_DRIVER_3_DESC:0 "軌道炮通過兩個平行軌道加速炮彈，以令人驚訝的速度發射出去。"
  MASS_DRIVER_4:0 "高級軌道炮"
@@ -7358,8 +7358,8 @@
  MASS_DRIVER_5:0 "高斯炮"
  MASS_DRIVER_5_DESC:0 "線圈炮的升級版，破壞力比最新的軌道炮還要高。炮彈的精確度和速度都無與倫比。"
 
- SPACEPORT_MASS_DRIVER:0 "太空港質量加速器"
- SPACEPORT_MASS_DRIVER_DESC:1 "搭載在太空港上的質量加速器，儘管設計陳舊，但威力不輸於艦載型號。"
+ SPACEPORT_MASS_DRIVER:0 "太空港動能武器"
+ SPACEPORT_MASS_DRIVER_DESC:1 "搭載在太空港上的動能武器，儘管設計陳舊，但威力不輸於艦載型號。"
 
  KINETIC_ARTILLERY_1:0 "動能炮臺"
  KINETIC_ARTILLERY_1_DESC:0 "超遠距離的火炮，發射的炮彈能以較高精確度擊中極遠的目標。"
