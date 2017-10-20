@@ -50,12 +50,12 @@
  triggered_opinion_both_hive_mind:0 "蜂群思維同伴"
  triggered_opinion_hive_mind:0 "蜂群思維"
 
- utopia.2700.name:0 "進化工程"
+ utopia.2700.name:0 "$ap_engineered_evolution$"
  utopia.2700.desc:0 "有時，進化需要向正確的方向作出微調。我們現在有了技術來基因修飾我們的身體和思想，以空前的效率耐受住不斷變化的環境的考驗。"
- utopia.2703.name:0 "進化掌控"
+ utopia.2703.name:0 "$ap_evolutionary_mastery$"
  utopia.2703.desc:0 "我們種族的生存需要仰仗機會的憐憫的日子已經成為過去。[Root.GetSpeciesName]的命運不再受到大自然在遺傳學的賭博中的一時心血來潮的影響。\n\n我們當代的工程師不是在鋼鐵與混凝土中工作，而是在於生命的磚塊本身。通過先進的基因修飾，我們將能確保我國的未來。"
 
- utopia.2600.name:0 "心勝於物"
+ utopia.2600.name:0 "$ap_mind_over_matter$"
  utopia.2600.desc:0 "自從文明的曙光將我們從蒙昧中照亮，就有無數關於異能者的傳說，那種力量，只能被形容是超自然。據說，這些超凡的[Root.GetSpeciesNamePlural]可以控制同伴的思想，抬起一個物體只需要心念一動，或展現無數近似於「魔法」奇觀。在不久之前，這些故事只是故事而已。\n\n然而現在，我們的科學家終於得到了確鑿的證據，證明了我們[Root.GetSpeciesName]之中的某些人，毫無疑問具有靈能潛力。雖然我們的種族中只有極少數的人似乎具有這種天賦，但這些靈能者的數量相對於總人口已經在過去的幾個世紀裡穩步增長。\n\n這究竟是由於某種飛躍式的突然進化，還是是因為某些東西啟動了潛藏在我們基因密碼中的靈能潛力，科學家們尚不能作出解釋。"
  utopia.2600.a:0 "在這一瞬的閃光中，或許，是等待著我們的未來。"
  utopia.2602.name:0 "[From.GetSpeciesNamePlural]展示出了靈能潛力"

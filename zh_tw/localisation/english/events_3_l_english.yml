@@ -466,7 +466,7 @@
  colony.2015.name:0 "古怪工廠"
  colony.2015.desc:0 "一隊調查小組在[Root.GetName]上發現了隱藏的工廠。根據建築磨損程度判斷，它源自一個古老文明，這個文明十分擅長建造經得起時間考驗的建築。\n\n我們的人民可以輕鬆使用這個工廠，增加殖民地的的產出。"
  colony.2015.a.tooltip:0 " [Root.GetName] 的地表出現一座§S£building 奇特工廠§!。"
- colony.2016.desc:0 "在[Root.GetName]上古怪特工廠工作的員工突然消失了！我們可以派遣工人替補，或者以防萬一，直接將工廠夷為平地"
+ colony.2016.desc:0 "在[Root.GetName]上古怪工廠工作的員工突然消失了！我們可以派遣工人替補，或者以防萬一，直接將工廠夷為平地"
  colony.2016.a:0 "它仍然符合我們的需求。"
  colony.2016.a.tooltip:0 "[Root.GetName]失蹤了一個人口。"
  colony.2016.b:0 "拆除它。"
