@@ -241,7 +241,7 @@
  anomaly.4105.desc.mach:0 "[From.GetName]行星是一片有毒廢土，但是我們的掃瞄發現這裡曾經不是現在這樣的。一個如今已滅絕的文明因為過度依賴改變氣候的液體和毒素而徹底毀了自己的這個母星。\n\n在一個大城市附近的一處偏僻山丘上，我們發現了一座還能運行的設施。這是一個組裝機器人的工廠，周圍泊滿了軍用車輛。但這些車輛稍稍一碰就化成了塵埃。\n\n這座設施非常神秘奇特，但可以為我們提供豐富的學習材料。"
  anomaly.4105.a.tooltip:1 "添加§Y失落的機械社會§!調整因素到[From.GetName]：\n£engineering §G+5§!"
  anomaly.4105.a:0 "可引以為戒。"
- anomaly.4105.a.mach:0 "有機生物往往目光短淺。"
+ anomaly.4105.a.mach:0 "有機生命體往往目光短淺。"
  anomaly.4105.b.tooltip:1 "解鎖§Y$edict_renewable_energy$§!帝國法令。\n\n添加§Y失落的機械社會§!調整因素到[From.GetName]：\n£engineering §G+5§!"
  anomaly.4105.robot:0 "試圖啟動機器人。"
  anomaly.4106.desc:0 "[From.From.From.GetName]上的那座設施因為科學家[Root.GetLeaderName]的努力而恢復運作了。\n\n機器人們啟動後馬上各就各位工作。[From.GetName]的艦員們目瞪口呆，看著機器人們向四面八方移動，開始清除整個星球上的毒素。\n\n不禁讓人猜測之前的種族是不是因為過於忙著自相殘殺而忽略了自救。"
@@ -260,7 +260,7 @@
  anomaly.4115.b:0 "讓他們聽天由命吧。"
  anomaly.4115.b.tooltip:0 "§Y[Root.GetName]§!被摧毀了。"
  anomaly.4116.desc:0 "我們的救援隊成功擊斃了[From.From.GetName]上的那隻猛獸。科學家[From.From.GetLeaderName]和艦員們都受到了驚嚇，但依然能夠勝任各自的職務。他們非常感激士兵們的援救，這件事激發了人們參軍的熱情。"
- anomaly.4116.desc.mach:0 "我們的救援隊成功幹掉了登陸[From.From.GetName]的那隻猛獸。科學家[From.From.GetLeaderName]團隊受了點輕傷，不過還能工作。武裝單位成功狙擊有機生物威脅刺激了裝配站建造過程。\n\n其結果導致了戰鬥單位的建造速度增加、軟體運轉更為高效。"
+ anomaly.4116.desc.mach:0 "我們的救援隊成功幹掉了登陸[From.From.GetName]的那隻猛獸。科學家[From.From.GetLeaderName]團隊受了點輕傷，不過還能工作。武裝單位成功狙擊有機生命體威脅刺激了裝配站建造過程。\n\n其結果導致了戰鬥單位的建造速度增加、軟體運轉更為高效。"
  anomaly.4116.a:0 "這是艦隊的驕傲！"
  anomaly.4116.a.tooltip:1 "§Y你的帝國§!獲得了§G$army_inspiration$§!調整因素。"
  anomaly.4116.a.mach.tooltip:0 "§Y你的帝國§!獲得了§G$army_inspiration$§!調整因素。"
@@ -364,7 +364,7 @@
  ####################################
  # Anomaly Failure Events
  ####################################
- anomaly_failure.4000.desc:0 "[Root.GetLeaderName]有了驚人發現。[From.From.GetName]的植被對非植物有機體極其危險。我們還不清楚其中原理；只知道[From.From.GetPlanetMoon]十分危險，這將限制其殖民地的發展。"
+ anomaly_failure.4000.desc:0 "[Root.GetLeaderName]有了驚人發現。[From.From.GetName]的植被對非植物有機生命體極其危險。我們還不清楚其中原理；只知道[From.From.GetPlanetMoon]十分危險，這將限制其殖民地的發展。"
  anomaly_failure.4000.a:0 "真是個可怕的地方。"
  anomaly_failure.4000.a.tooltip:1 "科學家[Root.GetLeaderName]獲得§R偏執狂§!Trait。\n\n[From.From.GetName]獲得§Y酸性叢林§!的調整因素：\n£blocker 劇毒沼澤 §R+3§!\n£society §G+6§!"
  anomaly_failure.4005.desc:0 "很不幸，我們的科研隊伍沒能從小行星中發現任何有價值的東西，和當初預想的不同，只發現了一些普通礦物。"

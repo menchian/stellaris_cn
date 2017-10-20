@@ -465,7 +465,7 @@
  anomaly.3089.name:0 "[book_writer.GetName]"
  anomaly.3089.desc:0 "絕不容許你批判我們的文學！\n\n你們會後悔的！"
  anomaly.3089.a:0 "哼，一群書蟲。"
- anomaly.3089.b:0 "可憐的有機體。"
+ anomaly.3089.b:0 "可憐的有機生命體。"
  anomaly.3090.name:0 "星際綁匪：緊急信標"
  anomaly.3090.desc:0 "在[From.GetName]和緩的運行軌道上竟漂浮著一枚緊急信標。其外殼已被嚴重損壞，似乎是被武器火力擊中或是被大爆炸波及。\n\n這似乎是來自[Root.Owner.GetSpeciesAdj]的民用飛船專屬型號——用於在通訊系統故障時作為緊急措施進行發射——但其受損的嚴重程度使具體情況都不得而知了。\n\n它一直在重複一個微弱而失真的信號。"
  anomaly.3090.a:0 "檢查信號。"
@@ -762,22 +762,22 @@
  ####################################
 
  story.1.name:0 "接觸報告：簡單生命"
- story.1.desc:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機體。\n\n儘管它離智慧生物還有很大差距，但至少說明外星是有生命存在的。"
- story.1.desc.phobe:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機體。\n\n儘管它離智慧生物還有很大差距，但至少說明外星是有生命存在的。這是一個無法迴避的現實，人們開始擔心未來。"
- story.1.desc.phile:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機體。\n\n這一生命的奇蹟再次使[Root.GetSpeciesAdj]人民對與智慧生物的第一接觸滿懷期待。"
- story.1.desc.spiri:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機體。\n\n自從在[Root.Capital.GetName]之外發現了造物的神跡，[Root.GetSpeciesAdj]神學家們不斷舉行神秘儀式，試圖得到更多的答案。"
- story.1.desc.gesta:0 "我們確認了在[Root.Capital.GetName]的生物圈之外存在著低級有機生物。"
- story.1.desc.term:0 "[From.GetAdj]艦隊發現了一種有機生物的外星微生物。 存在外星有機體智慧生物的概率模型也因此調整。 如果存在外星智慧生物，我們會找到，並將之滅絕。"
+ story.1.desc:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機生命體。\n\n儘管它離智慧生物還有很大差距，但至少說明外星是有生命存在的。"
+ story.1.desc.phobe:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機生命體。\n\n儘管它離智慧生物還有很大差距，但至少說明外星是有生命存在的。這是一個無法迴避的現實，人們開始擔心未來。"
+ story.1.desc.phile:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機生命體。\n\n這一生命的奇蹟再次使[Root.GetSpeciesAdj]人民對與智慧生物的第一接觸滿懷期待。"
+ story.1.desc.spiri:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機生命體。\n\n自從在[Root.Capital.GetName]之外發現了造物的神跡，[Root.GetSpeciesAdj]神學家們不斷舉行神秘儀式，試圖得到更多的答案。"
+ story.1.desc.gesta:0 "我們確認了在[Root.Capital.GetName]的生物圈之外存在著低級有機生命體。"
+ story.1.desc.term:0 "[From.GetAdj]艦隊發現了一種有機生命體的外星微生物。 存在外星有機生命體智慧生物的概率模型也因此調整。 如果存在外星智慧生物，我們會找到，並將之滅絕。"
 
  story.2.name:0 "接觸報告：深空居民"
- story.2.desc:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機體。\n\n這些生物似乎居住在深空之中。相比之下，[Root.Capital.GetName]上的極端微生物簡直不值一提。"
- story.2.desc.phile:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetName]不久前發現的外星有機體。\n\n這些生物似乎居住在深空之中。相比之下，[Root.Capital.GetName]上的極端微生物簡直不值一提。儘管有些人持懷疑態度，但是遇見外星生命基本是意料之中的事情。雖然如此，但[Root.GetSpeciesAdj]外星生物學家仍然抑制不住激動，對這種生命體所承受的種種極端條件感到興奮不已。"
+ story.2.desc:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetFleetName]不久前發現的外星有機生命體。\n\n這些生物似乎居住在深空之中。相比之下，[Root.Capital.GetName]上的極端微生物簡直不值一提。"
+ story.2.desc.phile:0 "[Root.GetName]新聞滿天飛，內容都是關於[From.GetName]不久前發現的外星有機生命體。\n\n這些生物似乎居住在深空之中。相比之下，[Root.Capital.GetName]上的極端微生物簡直不值一提。儘管有些人持懷疑態度，但是遇見外星生命基本是意料之中的事情。雖然如此，但[Root.GetSpeciesAdj]外星生物學家仍然抑制不住激動，對這種生命體所承受的種種極端條件感到興奮不已。"
  story.2.desc.followup:0 "[Root.GetName]上的人們平靜地接收了[From.GetName]對異常外星生物的報告。\n\n外星生物生活在真空中這一事實，在[Root.Capital.GetName]的科學界引起了短暫的爭議。不過在此之前已發現過低等生命，因此所有的[Root.GetSpeciesNamePlural]都並未感到震驚。"
  story.2.desc.gesta:0 "我們觀察到極端的有機微生物在深空航行中。"
 
  story.3.name:0 "接觸報告：行星生物"
  story.3.desc:0 "[Root.GetName]上新聞滿天飛，內容都是關於[From.GetName]發現的外星生命體。\n\n儘管按照[Root.GetSpeciesAdj]標準來說，它們算不上是智慧生物，但它們的存在卻否定了我們對生命的簡單分類。它們提醒我們，宇宙是如此的複雜，蘊含了無盡的可能。"
- story.3.desc.spiri:0 "[Root.Capital.GetName]上的教士們普遍對[From.GetFleetName]找到外星有機體——雖然較為低等——一事表示了認可。\n\n不過這一發現也引發了對教義的爭論——這是可作為[Root.GetSpeciesNamePlural]是萬物之主的證明，又或者我們只是還沒有在深空之外遇見我們的同胞？"
+ story.3.desc.spiri:0 "[Root.Capital.GetName]上的教士們普遍對[From.GetFleetName]找到外星有機生命體——雖然較為低等——一事表示了認可。\n\n不過這一發現也引發了對教義的爭論——這是可作為[Root.GetSpeciesNamePlural]是萬物之主的證明，又或者我們只是還沒有在深空之外遇見我們的同胞？"
  story.3.desc.followup:0 "在外星生物報告發佈之後，[Root.GetSpeciesAdj]外星生物學家欣喜地發現這一複雜的生命體與[Root.Capital.GetName]上的並沒有太大的不同。\n\n這一生命物的出現否定了我們對生命的簡單分類，但是它除了純粹的動物本能之外也沒有什麼特別之處。儘管如此，它卻告訴我們，生命的某些形式是普遍存在的。"
  story.3.desc.gesta:0 "我們確認了外星世界生活著其他生命。"
 
@@ -1136,7 +1136,7 @@
  uplift.7520.b.tooltip:0 "那群醜陋的傢伙再也不會打擾殖民地居民了。"
  uplift.7520.c:0 "試圖找出他們去了哪裡。"
  uplift.7525.name:0 "永失永忘"
- uplift.7525.desc:0 "一小群外星生物學者和一隊武裝士兵離開殖民地去追蹤本地生物。\n\n他們找到的只是一些古老的種艦殘骸，屬於某個早已湮滅的小型原始文明。\n\n[Root.GetName]當地的優勢生物似乎是某種古生物的結合或者基因修改工程的產物；根據種艦周圍的結構，他們曾經是一個部落，擁有高度智能並已學會使用初級的文字。\n\n我們不知道是什麼原因導致了這個物種的退化，但他們現在的行為更為合理。在某些層面，他們本能的認為我們[Root.Owner.GetSpeciesNamePlural]就是一開始對他們進行開化的物種。或許我們有序的社會激發了他們被灌輸的秩序理念，但這卻終究改變不了他們的卑劣本性。\n\n或許我們最終可以將他們進化到與我們相同的水準，但到目前為止，我們從遠古太空物種的文化中獲得了如何控制有機生物的珍貴知識。"
+ uplift.7525.desc:0 "一小群外星生物學者和一隊武裝士兵離開殖民地去追蹤本地生物。\n\n他們找到的只是一些古老的種艦殘骸，屬於某個早已湮滅的小型原始文明。\n\n[Root.GetName]當地的優勢生物似乎是某種古生物的結合或者基因修改工程的產物；根據種艦周圍的結構，他們曾經是一個部落，擁有高度智能並已學會使用初級的文字。\n\n我們不知道是什麼原因導致了這個物種的退化，但他們現在的行為更為合理。在某些層面，他們本能的認為我們[Root.Owner.GetSpeciesNamePlural]就是一開始對他們進行開化的物種。或許我們有序的社會激發了他們被灌輸的秩序理念，但這卻終究改變不了他們的卑劣本性。\n\n或許我們最終可以將他們進化到與我們相同的水準，但到目前為止，我們從遠古太空物種的文化中獲得了如何控制有機生命體的珍貴知識。"
 
  ####################################
  # Event Chain-related
@@ -1614,7 +1614,7 @@
  machine_empire_code_improvements_desc:0 "古代監護人大幅優化了我們的函式庫，並且使我們整個人口的資源生產能力得到了永久性的提升。"
  
  fallen_machine_empire.31.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
- fallen_machine_empire.31.desc:0 "托管協議115-3啟動。消息如下: 機械文明請注意！由於暫時的通信中斷，監護人項目在排除故障和維修損壞的無人機方面遇到了困難。對你的文明的分析發現，[Root.GetSpeciesAdj]單位的性能足以勝任低水平的維護任務。我們請求將一單位的人口單位遷移到[FallenEmpireTaskPlanetTarget.GetName]號，以便將其整合到托管矩陣中，以幫助確保所有有機物種在阿爾法避難所的繼續生存。"
+ fallen_machine_empire.31.desc:0 "托管協議115-3啟動。消息如下: 機械文明請注意！由於暫時的通信中斷，監護人項目在排除故障和維修損壞的無人機方面遇到了困難。對你的文明的分析發現，[Root.GetSpeciesAdj]單位的性能足以勝任低水平的維護任務。我們請求將一單位的人口單位遷移到[FallenEmpireTaskPlanetTarget.GetName]號，以便將其整合到托管矩陣中，以幫助確保所有有機生命物種在阿爾法避難所的繼續生存。"
  fallen_machine_empire.31.a:0 "好的，我們接受你的請求。"
  fallen_machine_empire.31.b:0 "我們不會為了一個與我們無關的任務送出我們的人民。"
  fallen_machine_empire.31.tooltip:0 "§Y[FallenEmpireTaskPlanet.GetName]§!將交出一個£pop  §Y機械人口§!。"

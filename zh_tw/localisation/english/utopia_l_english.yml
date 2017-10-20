@@ -66,7 +66,7 @@
  allow_edict_consectrated_worlds:3 "§H解鎖行星法令：§!$edict_consecrated_worlds$"
  describe_edict_consectrated_worlds:3 "§E這是一個持續§Y100§!年的行星法令，會提高 £pop 人口的§Y$MOD_POP_HAPPINESS$§!、§Y精神主義道德吸引力§!和§Y$MOD_POP_GROWTH_SPEED$§!，並提升 £unity 凝聚力§Y產出§!。§!"
  allow_machine_worlds:2 "§H解鎖環境改造方案:§!機械世界"
- describe_machine_worlds:0 "§Y機械世界§!是一種不適合有機體的特殊行星類別。§Y機械體人口§!生活在§Y機器世界§!會將他們的產出增加§G+15%§!。"
+ describe_machine_worlds:0 "§Y機械世界§!是一種不適合有機生命體的特殊行星類別。§Y機械體人口§!生活在§Y機器世界§!會將他們的產出增加§G+15%§!。"
  
  ALLOW_PSI_CORPS:0 "可以建造建築§H$building_psi_corps$§!。"
  ALLOW_PSI_ARMIES:0 "可以徵募§H$psionic_army_plural$§!。"
@@ -156,7 +156,7 @@
  FLESH_IS_WEAK_PROJECT:0 "$ap_the_flesh_is_weak$"
  FLESH_IS_WEAK_PROJECT_DESC:0 "當更有效的身體替代品出現時，非要留戀那些破舊衰老的儀器的人都是傻瓜。\n\n我們現在擁有大範圍為[Root.GetName]的人口加裝機械內植體的技術。我們的公民將會更強大、更迅速、更智能，因為四肢和器官都被先進的機械版本取代。"
  SYNTHETIC_EVOLUTION_PROJECT:0 "$ap_synthetic_evolution$"
- SYNTHETIC_EVOLUTION_PROJECT_DESC:0 "放棄充滿缺陷的有機體擁抱不朽的時候到了。我們必須為全體人口準備先進的合成人化身，然後開始意識轉移的過程。"
+ SYNTHETIC_EVOLUTION_PROJECT_DESC:0 "放棄充滿缺陷的有機生命體擁抱不朽的時候到了。我們必須為全體人口準備先進的合成人化身，然後開始意識轉移的過程。"
  
  trait_cybernetic:0 "半機械化"
  trait_cybernetic_desc:0 "§L此種族大量運用神經機械學，其程度致其個體可被稱為半機械人。他們通常將有機身體部件替換成先進的機械版本。§!\n"

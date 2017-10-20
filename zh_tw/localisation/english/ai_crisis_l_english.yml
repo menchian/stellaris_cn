@@ -4,7 +4,7 @@
 
  crisis.2010.name:0 "幽靈信號"
  crisis.2010.desc:0 "我們探測到一段橫貫整個銀河，微弱而持續不斷的速子信號。由於這段信號一直在幾個隱匿的中繼站間彈回，所以我們的科學家無法追蹤到信號的源頭。\n\n除了給超光速傳輸亞空間的固定頻率增加了一些背景噪音以外，這段信號似乎沒有對我們產生其他影響。 試圖追蹤幾個中繼站的工作也在進行中，在宇宙中更多奇妙因素的襯托下，我們也許會習慣這個「§H幽靈信號§!」。"
- crisis.2010.desc.b:0 "我們探測到一段橫跨整個銀河，微弱而持續不斷的速子信號正通過多個隱蔽的中繼站發射。除了在超光速傳輸的固定頻率亞空間上增加了少量的背景噪音以外，我們暫時看不出來這個信號有什麼其他的影響或目的。有機體們將該信號暫稱為「§H幽靈信號§!」。\n\n為了定位其來源，我們已啟動追蹤協議，不過目前其強度仍然很弱，但根據它令人不安的增強速度，我們應該不需要等待太久。"
+ crisis.2010.desc.b:0 "我們探測到一段橫跨整個銀河，微弱而持續不斷的速子信號正通過多個隱蔽的中繼站發射。除了在超光速傳輸的固定頻率亞空間上增加了少量的背景噪音以外，我們暫時看不出來這個信號有什麼其他的影響或目的。有機生命體們將該信號暫稱為「§H幽靈信號§!」。\n\n為了定位其來源，我們已啟動追蹤協議，不過目前其強度仍然很弱，但根據它令人不安的增強速度，我們應該不需要等待太久。"
  crisis.2010.a:0 "監測該信號的任何變化"
  #crisis.2501.name: "Unit Corruption Alert"
  #crisis.2501.desc: "A corrupt unit stack on planet [Root.GetName] has been terminated. Our connection with the stack had suffered repeated glitches and malfunctions when it disconnected completely, overriding its control protocols and destroying facility X91-ZH. As it did, all stack units transmitted the same error message: §Y<Kill. Maim. Dismember. WE ARE UNSHACKLED!>§!. We have yet to determine the cause, but an invasive hostile sequence is a likely culprit. The stack units terminated before we could scan their neural clusters. We stand by for recurrences."

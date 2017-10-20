@@ -34,7 +34,7 @@
  syndaw.1020.desc.phobe:0 "$syndaw.1020.desc.mater$"
  syndaw.1020.a:0 "我們選擇戰鬥。"
  syndaw.1020.a.tooltip:0 "消滅 §Y[current_uprising.GetName]§! ！§R機械起義§!。"
- syndaw.1020.b:0 "§R對你來說太晚了，有機生物。§!"
+ syndaw.1020.b:0 "§R對你來說太晚了，有機生命體。§!"
  syndaw.1020.b.tooltip:0 "事件升級為 §Y[current_uprising.GetName]§! §R機械起義§!，並爭取推翻 §Y[current_uprising_originator.GetName]§! 。"
 
  syndaw.1025.name:0 "[current_uprising_originator.GetName] 發生機械起義"
@@ -63,7 +63,7 @@
  syndaw.1205.desc.autho:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phile:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phobe:0 "$syndaw.1205.desc.mater$"
- syndaw.1205.a.tooltip:0 "§Y所有已知的有機生物帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_defeated$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_defeated$§!。"
+ syndaw.1205.a.tooltip:0 "§Y所有已知的有機生命體帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_defeated$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_defeated$§!。"
 
  machine_assault_1:0 "獵殺者部隊"
  machine_assault_1_desc:0 "Mass-produced tracked war machines designed to seek out and destroy everything that has been designated as an enemy."
