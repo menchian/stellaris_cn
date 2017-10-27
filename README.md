@@ -4,7 +4,7 @@
 ### 目前支援遊戲版本： Stellaris 1.8.2
 
 ### WORKSHOP:
-http://steamcommunity.com/sharedfiles/filedetails/?id=1162654289&searchtext=%E4%B8%AD%E6%96%87
+http://steamcommunity.com/sharedfiles/filedetails/?id=1162654289
 
 
  
