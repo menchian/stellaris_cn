@@ -708,7 +708,7 @@
  A_MECH_FRIENDLY_GREETING_04:0 "有些時候我們會佩服[From.GetSpeciesAdj]的機械化程度比我們還高，但同化依然是通往飛昇的道路。"
  A_MECH_WAR_GREETING_01:0 "我們已經吸收許多文明偉大的戰術家，讓我們來為你們展示一下實力吧。"
  A_MECH_WAR_GREETING_02:0 "[Root.GetSpeciesNamePlural]將會把你們摧毀，然後改進你們的設計。"
- A_MECH_VASSAL_GREETING_01:0 "We [Root.GetSpeciesNamePlural]吸收了有機生命體的智慧， In turn, the [From.GetSpeciesNamePlural] absorb ours."
+ A_MECH_VASSAL_GREETING_01:0 "我們[Root.GetSpeciesNamePlural]吸收了有機生命體的智慧，相應的，[From.GetSpeciesNamePlural]吸收我們的。"
  A_MECH_VASSAL_GREETING_01_DISLOYAL:0 "The [From.GetSpeciesAdj] inability to effectively incorporate satellites into a functional whole has never been more clear."
 
  # Servitor Greetings
