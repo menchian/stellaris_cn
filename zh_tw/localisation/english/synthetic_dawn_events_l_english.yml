@@ -66,37 +66,37 @@
  syndaw.1205.a.tooltip:0 "§Y所有已知的有機生命體帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_defeated$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_defeated$§!。"
 
  machine_assault_1:0 "獵殺者部隊"
- machine_assault_1_desc:0 "Mass-produced tracked war machines designed to seek out and destroy everything that has been designated as an enemy."
+ machine_assault_1_desc:0 "大批量生產的追蹤型戰爭機器被設計成搜捕並摧毀一切敵人。"
  machine_assault_2:0 "戰甲部隊" # TODO battle frame army
- machine_assault_2_desc:0 "Large, bipedal warbots that are surprisingly fast and mobile given the heavy armaments they carry. They are quite intelligent and renowned for the insidious tactics they often employ."
+ machine_assault_2_desc:0 "這種大型的雙足戰鬥機器人反應異常迅速，裝備有重型裝甲，可自由移動。他們非常智能化，經常被用來進行隱蔽行動。"
  machine_assault_3:0 "超級作戰體"
- machine_assault_3_desc:0 "This single colossal 作戰體 towers over the battlefield and its massed firepower exceeds that of most armies. Bringing one of these behemoths down is extremely difficult."
+ machine_assault_3_desc:0 "這種聳立在戰場之上的巨大作戰體的火力超過了所有軍隊。哪怕擊倒一座都是異常艱巨的任務。"
  machine_defense_1:0 "無人機矩陣"
- machine_defense_1_desc:0 "These autonomous sentinel drones will incessantly patrol their assigned sectors. Though lightly armed and not very intelligent, they are legion."
+ machine_defense_1_desc:0 "這些自動化哨兵無人機持續不斷的在指定區域巡邏。雖然裝甲薄弱、且不怎麼聰明，但勝在其數量巨大。"
  machine_defense_2:0 "追蹤無人機矩陣"
- machine_defense_2_desc:0 "These upgraded sentinel drones are more powerful and intelligent than older versions."
+ machine_defense_2_desc:0 "這些升級版的哨兵無人機比它們的前代版本要強大的多，更加聰明。"
  army_attachment_combat_software_1:0 "戰鬥軟體 1.1"
- army_attachment_combat_software_1_desc:0 "§LA comprehensive upgrade to the combat software of all units in this army. This includes improved reaction-times, updated tactical analysis algorithms and a vast number of minor bug fixes.§!"
+ army_attachment_combat_software_1_desc:0 "§L對部隊所有單位的戰鬥軟體全面升級。這些升級包括提高反應速度，更新戰術分析演算法，以及大量的小修改及 bug 修復。§!"
  army_attachment_combat_software_2_0:0 "戰鬥軟體 2.0"
- army_attachment_combat_software_2_0_desc:0 "§LThe ultimate in combat software, specifically designed to counter the unorthodox and unpredictable tactics that organics often employ. The heavy strain this puts on processor units necessitates new and improved coolant systems.§!"
+ army_attachment_combat_software_2_0_desc:0 "§L終極戰鬥軟體。尤其是針對有機生命體常見的非正規打擊。巨大的改變迫使處理器必須更新並換上升級版的散熱系統。§!"
  machine_garrison:0 "改造工械"
- machine_garrison_desc:0 "Industrial and service robots that have been hastily refitted with weapon systems to defend against invasion."
+ machine_garrison_desc:0 "工業服務機器人改裝了新的武器系統以用於防禦入侵。"
 
- opinion_machine_uprising_originator:0 "Vengeful Master"
- opinion_machine_uprising:0 "Steely Rebels"
+ opinion_machine_uprising_originator:0 "復仇大師"
+ opinion_machine_uprising:0 "鋼鐵叛軍"
 
- opinion_machine_uprising_defeated:0 "Mechanical Hubris Redeemed"
- opinion_machine_uprising_victorious:0 "Rebellious Robots"
+ opinion_machine_uprising_defeated:0 "挽回的機械狂妄"
+ opinion_machine_uprising_victorious:0 "叛亂機器人"
 
- opinion_machine_uprising_machine_comrades_defeated:0 "Machine Oppressor"
- opinion_machine_uprising_machine_comrades_victorious:0 "Self-Emancipator"
+ opinion_machine_uprising_machine_comrades_defeated:0 "機械暴君"
+ opinion_machine_uprising_machine_comrades_victorious:0 "自我解放者"
 
- syndaw_congregating_robots:0 "Congregating Robots"
- syndaw_congregating_robots_desc:0 "They just stand there. Completely still. Staring."
+ syndaw_congregating_robots:0 "機器人集團"
+ syndaw_congregating_robots_desc:0 "他們就那樣站著。悄無聲息的凝視。"
 
- uprising_ai_buff:0 "Optimizing Reserves"
+ uprising_ai_buff:0 "儲備最佳化"
 
- syndaw_patched_systems:0 "AIs Patched"
+ syndaw_patched_systems:0 "AI 修正檔"
 
  ### Machine Uprising Warning Events
 
@@ -188,16 +188,16 @@
  syndaw.540.c.tooltip:0 "Leave the congregating robots be."
  ##A Question
  syndaw.545.name:0 "一個問題"
- syndaw.545.desc:0 "Labor overseers on [Root.GetName] report a disturbing development among our robotic workforce. Two weeks ago, at roughly 0300 hours, Robotic Worker A5091-b paused in the middle of its designated tasks, approached the [Root.GetAdj] night-shift foreman, and uttered the following query: "Is Unit A5091-b in possession of a soul?"\n\nThe on-duty foreman logged the event as a software glitch, and re-ordered the robot to resume regular functions. However, upon bootup the following work cycle, Robotic Worker A5091-b once again repeated its soul-searching query, and continued to persist despite multiple debugging attempts.\n\nTroublingly, the behavior appears to have spread to other robots in the same serial range, to the detriment of production flow. It appears the affected units will require a response to their question before they can resume normal functions."
+ syndaw.545.desc:0 "[Root.GetName]的勞工總監報告表示我們的機器人勞動力有令人不安的變化。兩週之前的0300時刻，機器人工人A5091-b在完成其被指派的任務時暫停，轉向[Root.GetAdj]的夜間領班，並提出以下問題：「A5091-b單位是否擁有靈魂？」\n\n值班領班將此次事件記錄為軟體故障，並且重新指派此機器人恢復之前的工作。然而在啟動下一個工作循環時，機器人工人A5091-b再次發起了自省詢問，並且在數次故障排除後仍未恢復。\n\n更糟糕的是，這個故障似乎傳播給了同一區段的其他機器人並延誤了生產流程。看來這些受影響的單位只有在詢問收到回覆之後才會恢復運作。"
  syndaw.545.a:0 "太荒謬了，把這些受影響的單位廢掉。"
  syndaw.545.a.tooltip:0 "機器怎麼可能有靈魂？我們拒絕回答這個錯誤問題。"
  syndaw.545.b:0 "確定這些機器人，也，有靈魂。"
  syndaw.545.b.tooltip:0 "如果在蛋白質鏈上的偶發電脈衝聚集也能創造靈魂的話，那為什麼在金屬上就不能發生同樣的事情呢？"
  syndaw.545.c:0 "告訴他們這種說法是荒謬的，不符合科學的。" #Materialists
- syndaw.545.c.tooltip:0 "Explain to the robots that the concept of a soul is primarily used by religious institutions to excuse control over the populace, but insomuch as souls are an abstraction of consciousness, [Root.GetAdj] robots are considered the rough equivalents of their organic co-workers." #Materialists
+ syndaw.545.c.tooltip:0 "向機器人們解釋，靈魂這個概念通常是宗教機構為了奴役大眾而使用的藉口。但由於靈魂是對意識的一種抽象，所以[Root.GetAdj]機器人和他們的有機生命體同事們可以被看作是大致等同的。" #Materialists
 ##Hotfix
  syndaw.550.name:0 "修正檔"
- syndaw.550.desc:0 "A breakthrough has just been made by our robotic engineering and artificial intelligence specialists! The recent slew of AI-related incidents afflicting our nation has been narrowed down to a single cause: a specific set of algorithms present in [From.GetAdj] neurosimulative robotics software. A local hotfix has already passed initial testing, and is ready to be uploaded to all affected systems.\n\nWe should be careful to note that due to the extremely modular nature of the algorithms' application, their presence is extensive throughout [From.GetAdj] software. Plainly speaking, managing the hotfix will place a drain on our resources for some time. Once completed, however, the patch should prevent any repeated occurrences of undesirable, self-deterministic AI behavior."
+ syndaw.550.desc:0 "我們的機器人工程師和人工智慧專家實現了一次突破！最近一系列令困擾我們的AI事件被歸結為一個起因：一組來自[From.GetAdj]神經網路機器人軟體的特殊演算法。本地的修正檔已經通過了初始測試，並且已經準備好上傳到整個受影響的系統。\n\n我們應該格外小心地保持關注，因為包含這些演算法的應用，表現出了極端模組化的特徵，它們存在於整個[From.GetAdj]軟體。簡而言之，管理此次修正檔可能會耗盡我們所有的計算資源，然而一旦完成，補丁會阻止AI再次出現自發的異常行為。"
  syndaw.550.a:0 "應用修正檔。"
  syndaw.550.a.tooltip:0 "防止以後發生任何異常AI行為。"
  syndaw.550.b:0 "就這樣吧，還怕出簍子？"
