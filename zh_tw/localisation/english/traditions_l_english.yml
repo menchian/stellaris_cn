@@ -506,7 +506,7 @@
  tr_discovery_faith_in_science:0 "科學信仰"
  tr_discovery_faith_in_science_machine:0 "上行延遲減小"
  tr_discovery_faith_in_science_hive:0 "突觸廣播"
- tr_discovery_faith_in_science_desc:4 "§Y$ASSIST_RESEARCH_ORDER$§!現在根據科學家的等級產出 §Y1§!£unity 凝眾力，當研發 £society  §Y$tech_improved_databank_uplinks$§!後會改為根據科學家的等級產出 §Y2§!£unity 凝眾力。"
+ tr_discovery_faith_in_science_desc:4 "§Y$ASSIST_RESEARCH_ORDER$§!現在根據科學家的等級產出 §Y1§!£unity 凝聚力，當研發 £society  §Y$tech_improved_databank_uplinks$§!後會改為根據科學家的等級產出 §Y2§!£unity 凝聚力。"
  tr_discovery_faith_in_science_machine_desc:0 "$tr_discovery_faith_in_science_desc$"
  tr_discovery_faith_in_science_hive_desc:0 "$tr_discovery_faith_in_science_desc$"
  tr_discovery_faith_in_science_delayed:0 "對公眾來說，科學幾乎成為了一種宗教——對其產生了絕對信仰。宇宙中沒有什麼問題大到科學所不能解釋的。"
