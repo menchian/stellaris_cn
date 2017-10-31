@@ -74,7 +74,7 @@
  anomaly.6660.desc.lush:0 "$anomaly.6660.desc.start$動物能在此無憂無慮地繁衍生息，還提供了大量收集急需資源的機會。\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.lush_mach:0 "$anomaly.6660.desc.start$ 動物能在此無憂無慮地繁衍生息，這能給有機生命體提供維持生命所需資源的環境。\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.terrible:0 "$anomaly.6660.desc.start$這裡的環境極為嚴酷，不適合建立居住點。\n\n$anomaly.6660.desc.end$"
- anomaly.6660.desc.terrible_mach:0 "$anomaly.6660.desc.start$ 這裡的環境極為嚴酷，不適合有機生命體形態生存。\n\n$anomaly.6660.desc.end$"
+ anomaly.6660.desc.terrible_mach:0 "$anomaly.6660.desc.start$ 這裡的環境極為嚴酷，不適合有機生命形態生存。\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.end:0 "在探索新行星的時候，我們當然會遭遇一些諸如此類的不測，而我們不應低估它對我們的擴張帶來的影響。"
  anomaly.6660.a.tooltip:0 "[From.GetName]上增加了行星調整因素。"
 

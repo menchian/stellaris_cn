@@ -1622,7 +1622,7 @@
  fallen_machine_empire.41.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
  fallen_machine_empire.41.desc:0 "托管協議62-1啟動。消息如下: 注意！ [Root.GetSpeciesName] 。§H[FallenEmpireTaskTarget.GetName]§!被§R<<錯誤：資料區塊損毀>>§!破壞。因為我們的程序中有道德限制，無法使用監護人項目的戰爭艦隊和戰爭軍隊等資產。在規定中，我們只能請求非我們的種族來消滅來自§R<<錯誤：資料區塊損毀>>§!的威脅。威脅在傳播之前，我們請求部署[Root.GetSpeciesAdj]。請求您的肯定回答。"
  fallen_machine_empire.41.a:0 "如果他們對於我們同樣是一個威脅，他們就必須被消滅。我們肯定您的請求"
- fallen_machine_empire.41.b:0 "我們為什麼要攻擊[FallenEmpireTaskTarget.GetName]？它和我們的利益無關，我們否定您的請求"
+ fallen_machine_empire.41.b:0 "我們為什麼要攻擊[FallenEmpireTaskTarget.GetName]？它和我們的利益無關，我們否定您的請求。"
 
  fallen_machine_empire.42.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
  fallen_machine_empire.42.desc:0 "托管協議62-1完成。啟動[Root.GetSpeciesAdj]戰爭資產針對[FallenEmpireTaskTarget.GetSpeciesAdj]目標。更新[Root.GetName]的狀態由沒有危及至相容。"
@@ -1637,7 +1637,7 @@
  fallen_machine_empire.51.b:0 "我們已經厭倦了去殖民這個世界。"
  fallen_machine_empire.52.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
  fallen_machine_empire.52.desc:0 "托管協議475-3完成。檢測到[FallenEmpireTaskTarget.GetName]對[Root.GetSpeciesAdj]存在有重要意義。更新[Root.GetName]的狀態由沒有危及至相容。"
- fallen_machine_empire.52.a:0 "那樣...好嗎?"
+ fallen_machine_empire.52.a:0 "那樣...好嗎？"
  fallen_machine_empire.53.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
  fallen_machine_empire.53.desc:0 "托管協議475-3失敗。未能檢測到[FallenEmpireTaskTarget.GetName]對[Root.GetSpeciesAdj]存在有重要意義。更新[Root.GetName]狀態由沒有危及至可能危及。"
  fallen_machine_empire.53.a:0 "那樣或許很糟糕。"
@@ -1663,7 +1663,7 @@
  fallen_machine_empire.73.a:0 "哦不..."
   
  fe_colonize_planet_task_chain_title:0 "任務: 殖民[FallenEmpireTaskTarget.GetName]"
- fe_colonize_planet_task_chain_desc:0 "§H[FallenEmpireTaskOrigin.GetName]§! 吩咐我們去§H[FallenEmpireTaskTarget.GetName]§!。我們需要在那裡建立一個殖民地，並至少繁衍出 §Y5§! 個人口。"
+ fe_colonize_planet_task_chain_desc:0 "§H[FallenEmpireTaskOrigin.GetName]§! 要求我們在§H[FallenEmpireTaskTarget.GetName]§!立足。我們需要在那裡建立一個殖民地，並至少繁衍出§Y5§!個人口。"
  fe_attack_empire_task_chain_title:0 "任務: 攻擊[FallenEmpireTaskTarget.GetName]"
  fe_attack_empire_task_chain_desc:0 "§H[FallenEmpireTaskOrigin.GetName]§!讓我們對§H[FallenEmpireTaskTarget.GetName]§!宣戰，原因嘛...不是很好解釋"
  empires_attacked:0 "發動侵略戰爭"
@@ -1681,7 +1681,7 @@
  opinion_angered_fallen_machine_empire:0 "激怒墮落機械帝國"
  
  fallen_empires_awakening.2.name:0 "眠者甦醒"
- fallen_empires_awakening.2.desc:0 "一切始於§H[From.GetAdjective]§!行為的微妙變化。以前幾乎很少在他們的所屬空間以外聽說有關他們星艦的隻字片語，現在卻是在銀河各處的遠端星系中都成為了議論的焦點。高度先進的偵查星艦造訪古代損毀的世界、拒絕所有過路的招呼、以及飛船一旦被攻擊就躲得遠遠的。他們的目的和任務一直都無人知曉……。\n\n  直到現在，我們知道了[From.GetSpeciesName]其實一直在著手準備，不斷恢復偵查信標的資料庫，並且當他們撤退到現在的邊境時一路都放置了自動偵查發報機。為他們有朝一日回到銀河的大舞台不斷地收集著情報。\n\n 在[From.GetSpeciesName]的空間，艦隊正在集結、軍隊不斷被調動、那些古老的工廠又重新煥發出活力。在這個時代這是第一次，§H[From.GetName]§!的目光越過了他們的邊境，對整個銀河虎視眈眈。\n\n 隨著他們荒廢的造船廠被重新修復一新，泰坦鑄造廠休眠的系統重新上線，留給銀河中其他種族的唯一一個疑問是 —— 他們要找回失去已久的帝國榮耀，誰會是這個曾經沉睡的巨人的首要目標呢？"
+ fallen_empires_awakening.2.desc:0 "一切始於§H[From.GetAdjective]§!行為的微妙變化。以前幾乎很少在他們的所屬空間以外聽說有關他們星艦的隻字片語，現在卻是在銀河各處的遠端星系中都成為了議論的焦點。高度先進的偵查星艦造訪古代損毀的世界、拒絕所有過路的招呼、以及飛船一旦被攻擊就躲得遠遠的。他們的目的和任務一直都無人知曉……\n\n  直到現在，我們知道了[From.GetSpeciesName]其實一直在著手準備，不斷恢復偵查信標的資料庫，並且當他們撤退到現在的邊境時一路都放置了自動偵查發報機。為他們有朝一日回到銀河的大舞台不斷地收集著情報。\n\n 在[From.GetSpeciesName]的空間，艦隊正在集結、軍隊不斷被調動、那些古老的工廠又重新煥發出活力。在這個時代這是第一次，§H[From.GetName]§!的目光越過了他們的邊境，對整個銀河虎視眈眈。\n\n 隨著他們荒廢的造船廠被重新修復一新，泰坦鑄造廠休眠的系統重新上線，留給銀河中其他種族的唯一一個疑問是 —— 他們要找回失去已久的帝國榮耀，誰會是這個曾經沉睡的巨人的首要目標呢？"
  fallen_empires_awakening.2.a:0 "巨人登場……"
  fallen_empires_awakening.5.name:0 "銀河護衛者"
  fallen_empires_awakening.5.desc:0 "就連平時十分淡泊避世的先驅帝國，也注意到近期銀河中出現的巨大威脅。雖說§H[From.GetSpeciesName]§!之前對銀河中的一切事物並沒有什麼興趣，這個新興威脅的消息還是在他們之中引起了巨大的騷動。起初他們只是派出幾隻偵查艦對事態進行分析，但最近的報告卻表明，[From.GetSpeciesName]的艦隊遍佈其邊境，布下緊密防禦，準備迎接即將來臨的風暴。\n\n現在，§H[From.GetName]§!已脫離了之前的避世狀態，開始領導整個銀河系的防禦工作。他們已將自己封為§H銀河防禦聯盟§!的盟主，並對所有的「低等」生物發出邀請，要求他們拋棄前嫌，放下成見，與他們一道為了銀河物種的存續抵抗這次巨大危機。"

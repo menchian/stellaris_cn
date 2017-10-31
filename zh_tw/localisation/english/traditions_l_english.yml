@@ -52,13 +52,13 @@
  tradition_expansion_hive_desc:0 "蜂群只有兩條路可走：要嘛發展，要嘛滅亡。"
  tr_expansion_adopt:0 "擴張傳統"
  tr_expansion_adopt_machine:1 "擴張傳統"
- tr_expansion_adopt_hive:0 "$tr_expansion_adopt_machine$"
+ tr_expansion_adopt_hive:0 "$tr_expansion_adopt$"
  tr_expansion_adopt_desc:0 "$tradition_expansion_desc$\n\n$tr_expansion_adopt_effect$\n\n$tr_expansion_finish_effect$"
  tr_expansion_adopt_machine_desc:0 "$tradition_expansion_machine_desc$\n\n$tr_expansion_adopt_machine_effect$\n\n$tr_expansion_finish_machine_effect$"
  tr_expansion_adopt_hive_desc:0 "$tradition_expansion_hive_desc$\n\n$tr_expansion_adopt_hive_effect$\n\n$tr_expansion_finish_hive_effect$"
- tr_expansion_adopt_effect:3 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!增加§G+100%§!。"
- tr_expansion_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!增加§G+100%§!。"
- tr_expansion_adopt_hive_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!增加§G+100%§!。"
+ tr_expansion_adopt_effect:3 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!加快§G+100%§!。"
+ tr_expansion_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!加快§G+100%§!。"
+ tr_expansion_adopt_hive_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!加快§G+100%§!。"
  tr_expansion_colonization_fever:0 "殖民狂熱"
  tr_expansion_colonization_fever_machine:0 "分散式計算" #TODO Distributed Computing 分佈計算
  tr_expansion_colonization_fever_hive:0 "萬眾一心" #TODO One Mind 萬眾一心
@@ -148,7 +148,7 @@
  tr_domination_fleet_levies_machine_delayed:0 "經過適當的訓練後，來自客戶端帝國的勞動力單元可以在我們的船上提供有用的服務。工作相關單元的損耗和偶發的小規模暴動產生的浪費尚在容忍範圍內。" # TODO client empires 客戶端帝國
  tr_domination_fleet_levies_hive_delayed:0 "將奴僕蜂群合併進我們團體的承諾似乎並沒能緩和他們的痛苦。他們反倒提出會支援我們的星艦戰蟲，作為交換要保證他們那脆弱而又孤獨的獨立人格。為什麼呢？" # TODO star swarms 星艦戰蟲
  tr_domination_protection_racket:0 "保護費"
- tr_domination_protection_racket_machine:0 "貧困協議" # TODO Destitution Protocols 貧困協議
+ tr_domination_protection_racket_machine:0 "赤貧協定" # TODO Destitution Protocols
  tr_domination_protection_racket_hive:0 "生化貢品" # TODO Bio-Tribute 生化貢品
  tr_domination_protection_racket_desc:2 "來自藩屬國的收入增加§G+50%§!。"
  tr_domination_protection_racket_machine_desc:0 "$tr_domination_protection_racket_desc$"
@@ -316,7 +316,7 @@
  tr_supremacy_adopt_machine_effect:0 "$tr_supremacy_adopt_effect$"
  tr_supremacy_adopt_hive_effect:0 "$tr_supremacy_adopt_effect$"
  tr_supremacy_great_game:0 "大博弈"
- tr_supremacy_great_game_machine:0 "外交目標優先" # TODO Diplomatic Target Prioritization 炮艦外交
+ tr_supremacy_great_game_machine:0 "權衡外交目標" # FIXME Prioritization
  tr_supremacy_great_game_hive:0 "獵人之眼" # Hunter's Eye 打量獵物
  tr_supremacy_great_game_desc:1 "每有一個接壤的宿敵，£unity §Y凝聚力§!產出增加§G+10%§!。"
  tr_supremacy_great_game_machine_desc:0 "$tr_supremacy_great_game_desc$"
@@ -334,16 +334,16 @@
  tr_supremacy_right_of_conquest_machine_delayed:0 "我們會向佔領世界的大氣中播撒一種對我們無害，但對敵人致命的氣體，因此他們情願割讓領土，避免消耗額外的資源。"
  tr_supremacy_right_of_conquest_hive_delayed:0 "這些種族的思想很奇怪。比起數千人喪生於軌道轟炸，將單個工蜂公開溶解在消化倉中更能激起他們的強烈反應。這種選擇性的手段有效地恐嚇住了他們的抵抗。"
  tr_supremacy_master_shipwrights:0 "造船宗師"
- tr_supremacy_master_shipwrights_machine:0 "模組化船體模組" # TODO Modular Hull Templates 船體模組
- tr_supremacy_master_shipwrights_hive:0 "仿生結構" # TODO Organic Architecture 仿生結構
- tr_supremacy_master_shipwrights_desc:0 "§Y$MOD_SPACEPORT_SHIP_BUILD_SPEED_MULT$§!增加§G+15%§!且§Y$MOD_NAVY_SIZE_MULT$§!增加§G+10%§!。"
+ tr_supremacy_master_shipwrights_machine:0 "模組化船體模組"
+ tr_supremacy_master_shipwrights_hive:0 "仿生結構"
+ tr_supremacy_master_shipwrights_desc:0 "§Y$MOD_SPACEPORT_SHIP_BUILD_SPEED_MULT$§!加快§G+15%§!，§Y$MOD_NAVY_SIZE_MULT$§!增加§G+10%§!。"
  tr_supremacy_master_shipwrights_machine_desc:0 "$tr_supremacy_master_shipwrights_desc$"
  tr_supremacy_master_shipwrights_hive_desc:0 "$tr_supremacy_master_shipwrights_desc$"
  tr_supremacy_master_shipwrights_delayed:0 "規模不斷增長的造船業導致了船廠的製造技能和勞動力配置效率提高。工藝持續改進，從船殼到完整星艦的過程被極大的縮短。"
  tr_supremacy_master_shipwrights_machine_delayed:0 "由於預存了大量的可替換船體部件，我們的艦隊生產工作變得更加合理。"
  tr_supremacy_master_shipwrights_hive_delayed:0 "我們像生物的骨架一般建造船體框架，然後將我們需要的部件連接上去，宛如生物的器官、肉體和皮膚。"
  tr_supremacy_war_games:0 "戰爭遊戲"
- tr_supremacy_war_games_machine:0 "削減戰鬥變量" # TODO Combat Variable Mitigation 削減變量
+ tr_supremacy_war_games_machine:0 "削減戰鬥變量"
  tr_supremacy_war_games_hive:0 "空間意識"
  tr_supremacy_war_games_desc:0 "§Y$MOD_LEADER_ADMIRAL_SKILL_LEVELS$§!增加§Y2§!。"
  tr_supremacy_war_games_machine_desc:0 "$tr_supremacy_war_games_desc$"
@@ -363,7 +363,7 @@
  tr_supremacy_finish:0 "霸權傳統完成"
  tr_supremacy_finish_machine:0 "霸權傳統完成"
  tr_supremacy_finish_hive:0 "$tr_supremacy_finish$"
- tr_supremacy_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納所有的$tr_supremacy_adopt$會將§Y$MOD_SHIP_FIRE_RATE_MULT$§!增加§G+15%§!。"
+ tr_supremacy_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納所有的$tr_supremacy_adopt$會將§Y$MOD_SHIP_FIRE_RATE_MULT$§!加快§G+15%§!。"
  tr_supremacy_finish_machine_effect:0 "$tr_supremacy_finish_effect$"
  tr_supremacy_finish_hive_effect:0 "$tr_supremacy_finish_effect$"
  
@@ -468,9 +468,9 @@
  tr_discovery_adopt_machine_effect:5 "$tr_discovery_adopt_effect$"
  tr_discovery_adopt_hive_effect:0 "$tr_discovery_adopt_effect$"
  tr_discovery_to_boldly_go:0 "勇往直前"
- tr_discovery_to_boldly_go_machine:0 "探索無人機" # Drones for a mechine empire should mean a strike craft without a pilot
+ tr_discovery_to_boldly_go_machine:0 "探索無人機"
  tr_discovery_to_boldly_go_hive:0 "傳感捲鬚"
- tr_discovery_to_boldly_go_desc:3 "§Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§!提升§G+35%§!，§Y$shipclass_science_ship_evasion_add$§!提升§G+30§!。"
+ tr_discovery_to_boldly_go_desc:3 "§Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§!加快§G+35%§!，§Y$shipclass_science_ship_evasion_add$§!提升§G+30§!。"
  tr_discovery_to_boldly_go_machine_desc:0 "$tr_discovery_to_boldly_go_desc$"
  tr_discovery_to_boldly_go_hive_desc:0 "$tr_discovery_to_boldly_go_desc$"
  tr_discovery_to_boldly_go_delayed:0 "在我們的面前是一個大探險的新時代。我們已經踏遍了母星每一寸土地，是時候勇敢的邁向新世界 - 太空了。這個充滿奇蹟的銀河等待著我們去探索。"
@@ -482,8 +482,8 @@
  tr_discovery_planetary_survey_corps_desc:1 "在完成星球勘測後獲得相當於我們月收入十分之一的 §Y研究點§!。"
  tr_discovery_planetary_survey_corps_machine_desc:0 "$tr_discovery_planetary_survey_corps_desc$"
  tr_discovery_planetary_survey_corps_hive_desc:0 "$tr_discovery_planetary_survey_corps_desc$"
- tr_discovery_planetary_survey_corps_delayed:0 "我們不斷改善對未知天體的測量方法，而我們的掃描結果現在產生了大量對我們科學家有用的的研究數據。"
- tr_discovery_planetary_survey_corps_machine_delayed:0 "最新一代的無人機提改善了以前的型號，他們發現的每個一新環境，也會跟一個已知銀河現象的集中數據庫進行自動比較，並會標記過去未有審查過的數據以作進一步研究。"
+ tr_discovery_planetary_survey_corps_delayed:0 "我們不斷改善對未知天體的測量方法，而我們的掃描結果現在產生了大量對我們科學家有用的的研究資料。"
+ tr_discovery_planetary_survey_corps_machine_delayed:0 "最新一代的無人機提改善了以前的型號，他們發現的每個一新環境，也會跟一個已知銀河現象的集中資料庫進行自動比較，並會標記過去未有審查過的資料以作進一步研究。"
  tr_discovery_planetary_survey_corps_hive_delayed:0 "我們孕育了一部巨型無人機，它一口可以舀起數以千噸的材料，吃掉任何可以消化的東西，學習任何東西。"
  tr_discovery_science_division:0 "科研部門"
  tr_discovery_science_division_machine:0 "研究路徑優化"
@@ -515,7 +515,7 @@
  tr_discovery_finish:0 "探索傳統完成"
  tr_discovery_finish_machine:0 "$tr_discovery_finish$"
  tr_discovery_finish_hive:0 "$tr_discovery_finish$"
- tr_discovery_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納所有的$tr_discovery_adopt$會將§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§!增加§G+10%§!。"
+ tr_discovery_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納所有的$tr_discovery_adopt$會將§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§!加快§G+10%§!。"
  tr_discovery_finish_machine_effect:0 "$tr_discovery_finish_effect$"
  tr_discovery_finish_hive_effect:0 "$tr_discovery_finish_effect$"
  
@@ -535,7 +535,7 @@
  tr_prosperity_adopt_machine_effect:0 "$tr_prosperity_adopt_effect$"
  tr_prosperity_sct:0 "標準化建設模組"
  tr_prosperity_sct_machine:0 "量產型船殼"
- tr_prosperity_sct_desc:3 "§Y$MOD_SPACEPORT_SHIP_BUILD_SPEED_MULT$§!和§Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!提升§G+15%§!."
+ tr_prosperity_sct_desc:3 "§Y$MOD_SPACEPORT_SHIP_BUILD_SPEED_MULT$§!和§Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!加快§G+15%§!."
  tr_prosperity_sct_machine_desc:0 "$tr_prosperity_sct_desc$"
  tr_prosperity_sct_delayed:0 "隨著科技發展，技術變得越來越複雜，勞動者需要面對各種新需求。利用標準化建設模組，工人可以不必理解細節就能造出東西來。"
  tr_prosperity_sct_machine_delayed:0 "生產大量的通用標準船體比小型的專門化星艦的效率要高得多。"
@@ -650,7 +650,7 @@
  ap_one_vision:0 "一心同體"
  ap_consecrated_worlds:0 "聖地朝聖"
 
- ap_galactic_force_projection:0 "銀河施武"
+ ap_galactic_force_projection:0 "銀河布武"
  ap_defender_of_the_galaxy:0 "銀河衛士"
  ap_galactic_contender:0 "銀河競者"
  ap_technological_ascendancy:0 "技術優越"

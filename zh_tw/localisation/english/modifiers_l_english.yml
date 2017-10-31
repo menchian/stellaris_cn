@@ -415,8 +415,8 @@
  shipclass_military_station_hit_points_mult:0 "軍事基地生命值"
  shipclass_military_station_build_cost_mult:0 "軍事基地建造成本"
  
- weapon_type_explosive_weapon_damage_mult:0 "爆炸武器傷害"
- weapon_type_explosive_weapon_fire_rate_mult:0 "爆炸武器攻擊速度"
+ weapon_type_explosive_weapon_damage_mult:0 "導彈武器傷害"
+ weapon_type_explosive_weapon_fire_rate_mult:0 "導彈武器攻擊速度"
  weapon_type_kinetic_weapon_damage_mult:0 "動能武器傷害"
  weapon_type_kinetic_weapon_fire_rate_mult:0 "動能武器攻擊速度"
  weapon_type_energy_weapon_damage_mult:0 "能量武器傷害"

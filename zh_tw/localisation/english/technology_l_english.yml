@@ -512,13 +512,13 @@
  tech_mining_drone_weapon_1_desc:1 "使用強烈聚焦透鏡結合振蕩發射頻率來創造出足夠開採小行星或擊落敵人的雷射。"
  tech_space_cloud_weapon_1:0 "雲中雷電導線"
  tech_space_cloud_weapon_1_desc:1 "雲的電壓差製造出巨大的燃燒的等離子體構成了雷電。使用相同得氣體合併在一起，可以製造出同樣強大的雷電武器。"
- tech_blue_crystal_weapon_1:0 "藍晶石發射器"
+ tech_blue_crystal_weapon_1:0 "藍色晶石發射器"
  tech_blue_crystal_weapon_1_desc:1 "水晶晶體內部的菱形可以儲存一些射線，並放出雷射一樣的粒子束。利用這種藍色的稜柱特性，我們可以造出能產生更短波長的雷射的電容器。"
- tech_green_crystal_weapon_1:0 "綠晶石發射器"
+ tech_green_crystal_weapon_1:0 "綠色晶石發射器"
  tech_green_crystal_weapon_1_desc:1 "水晶晶體內部的菱形可以儲存一些射線，並放出雷射一樣的粒子束。利用這種綠色的稜柱特性，我們可以造出能產生更短波長的雷射的電容器。"
- tech_yellow_crystal_weapon_1:0 "黃晶石發射器"
+ tech_yellow_crystal_weapon_1:0 "黃色晶石發射器"
  tech_yellow_crystal_weapon_1_desc:1 "水晶晶體內部的菱形可以儲存一些射線，並放出雷射一樣的粒子束。利用這種黃色的稜柱特性，我們可以造出能產生更短波長的雷射的電容器。"
- tech_red_crystal_weapon_1:0 "紅晶石發射器"
+ tech_red_crystal_weapon_1:0 "紅色晶石發射器"
  tech_red_crystal_weapon_1_desc:1 "水晶晶體內部的菱形可以儲存一些射線，並放出雷射一樣的粒子束。利用這種紅色的稜柱特性，我們可以造出能產生更短波長的雷射的電容器。"
  
  # ###################################
