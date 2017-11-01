@@ -16,4 +16,4 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=1162654289
 
  * 轉載請附上原專案 github 倉庫網址：https://github.com/cloudwu/stellaris_cn
 
- * 本專案網址：https://github.com/menchian/stellaris_zhtw。
+ * 本專案網址：https://github.com/menchian/stellaris_zhtw
