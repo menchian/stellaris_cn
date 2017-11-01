@@ -145,7 +145,7 @@
  tr_domination_fleet_levies_machine_desc:0 "$tr_domination_fleet_levies_desc$"
  tr_domination_fleet_levies_hive_desc:0 "$tr_domination_fleet_levies_desc$"
  tr_domination_fleet_levies_delayed:0 "附庸國效忠領主的重要責任就是提供軍事支持。我們將從那些侍奉我們的國家中徵募人手來填充我們艦隊中的低階職位。"
- tr_domination_fleet_levies_machine_delayed:0 "經過適當的訓練後，來自客戶端帝國的勞動力單元可以在我們的船上提供有用的服務。工作相關單元的損耗和偶發的小規模暴動產生的浪費尚在容忍範圍內。" # TODO client empires 客戶端帝國
+ tr_domination_fleet_levies_machine_delayed:0 "經過適當的訓練後，來自對方帝國的勞工單位可以在我們的船上提供有用的服務。工作相關單位的損耗和偶發的小規模暴動產生的浪費尚在容忍範圍內。" # TODO client empires 客戶端帝國
  tr_domination_fleet_levies_hive_delayed:0 "將奴僕蜂群合併進我們團體的承諾似乎並沒能緩和他們的痛苦。他們反倒提出會支援我們的星艦戰蟲，作為交換要保證他們那脆弱而又孤獨的獨立人格。為什麼呢？" # TODO star swarms 星艦戰蟲
  tr_domination_protection_racket:0 "保護費"
  tr_domination_protection_racket_machine:0 "赤貧協定" # TODO Destitution Protocols

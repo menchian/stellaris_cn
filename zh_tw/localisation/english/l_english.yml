@@ -1278,7 +1278,7 @@
  DESIGN_IS_UPGRADING:0 "§R$FLEET|Y$艦隊正在升級，不能改變這一設計方案。§!"
  SECTORS_INCOME:0 "星域："
  HUMANS_SUMMARY:0 "$PLAYERS$名玩家，$READY$名已就緒"
- CANNOT_AFFORD:0 "能源點不足"
+ CANNOT_AFFORD:0 "無法提供"
  SECTOR_ENERGY_STOCKPILE:0 "能源點數儲備"
  SECTOR_ENERGY_STOCKPILE_DESC:0 "這是星域儲備的能源點數的總量。儲備會自動用於維護。"
  SECTOR_MINERALS_STOCKPILE:0 "礦物儲備"
@@ -3955,7 +3955,7 @@
  TOOLTIP_TERRAFORM_LINK_INVALID:0 "$TO|R$"
  MISSING_FEATURE_FLAG:0 "需要：$TECH|H$"
 
- ASSIMILATION_CITIZENSHIP_ENABLED:0 "能夠使用§Y同化§!公民權§H種族權利§!，可以將未來增加的人口轉變為" # TODO Check in game
+ ASSIMILATION_CITIZENSHIP_ENABLED:0 "開啟§Y同化§!公民權這種§H種族權利§!，可以將未來增加的人口轉變為" # TODO Check in game
  CYBORG_ASSIMILATION_CITIZENSHIP_ENABLED:0 "$ASSIMILATION_CITIZENSHIP_ENABLED$ §Y半機械人§!。"
  SYNTH_ASSIMILATION_CITIZENSHIP_ENABLED:0 "$ASSIMILATION_CITIZENSHIP_ENABLED$ §Y合成人§!。"
  HIVE_ASSIMILATION_CITIZENSHIP_ENABLED:0 "$ASSIMILATION_CITIZENSHIP_ENABLED$ §Y蜂群思維人口§!。"
@@ -5369,7 +5369,7 @@
  living_standard_ego_assimilation_tooltip:1 "此種族正成為統一思維的一份子。"
  living_standard_ego_assimilation_tooltip_delayed:1 "§L自我意識活不過這一進程。但這就是它的目標。§!"
  living_standard_tech_assimilation:0 "機械融合" # TODO
- living_standard_tech_assimilation_tooltip:1 "此種族正與機械體合併。"
+ living_standard_tech_assimilation_tooltip:1 "此種族融合了機械體特徵。"
  living_standard_tech_assimilation_tooltip_delayed:1 "§L更剛。更優。更快。更強。§!"
  living_standard_organic_trophy:0 "法定供養"
  living_standard_organic_trophy_tooltip:0 "這種生活標準針對的是少部分被奉為展品的有機生命體，堅定不移地給予他們無微不至的呵護。"
@@ -5420,9 +5420,9 @@
  purge_matrix:1 "化學加工"
  purge_matrix_tooltip:1 "受影響的人口的生理已準備好與行星的能量輸送網整合，維持它們的化學過程被重定向以豐富我們的能源儲備。這一加工是致命的，但死亡來得很慢。"
  purge_matrix_tooltip_delayed:1 "§L他們將很快變成更有效的形式。§!"
- slavery_matrix:0 "輸送網融合"
+ slavery_matrix:0 "融合矩陣"
  slavery_matrix_tooltip:0 "化學加工的長期替代方案，有足夠的有機生命體民眾能倖存，繼續無限期地為我們的能量輸送網供能。"
- slavery_matrix_tooltip_delayed:0 "§LCombined with a form of fusion, 我們已經找到了我們會需要的一切能量。§!" # TODO
+ slavery_matrix_tooltip_delayed:0 "§L聯合了核融合的形式，我們已經找到了所需要的永久能量。§!" # TODO
  migration_control_yes:0 "啟用移民控制"
  migration_control_yes_tooltip:0 "§H移民控制§!避免此種族的人口在不同行星之間自由移居。"
  migration_control_yes_tooltip_delayed:0 "§L人口的自由移動意味著資源的高效分配，但有時需要的恰恰不是高效。§!"
@@ -6687,7 +6687,7 @@
  building_neuro_electric_amplifier_desc:0 "此設施放大了我們控制之下的半機械單元間傳輸的神經信號，提高了他們的生產率。"
  building_neuro_electric_amplifier_triggered_effect:0 "半機械人口：\n   $minerals$：§G+15%§!\n   $energy$：§G+15%§!"
  building_war_factory:0 "戰爭工廠"
- building_war_factory_desc:0 "一家大型戰鬥機器人工廠，受先進AI控制，擁有優化生產流程。" # TODO
+ building_war_factory_desc:0 "一家大型戰械工廠，受先進AI控制，擁有優化生產流程。" # TODO
  building_deployment_post:0 "部署駐地"
  building_deployment_post_desc:0 "最初的部署駐地，我們將從此擴張至整個星球。"
 
@@ -9247,7 +9247,7 @@
  personality_harmonious_hierarchy_desc:2 "和諧集體致力於構建和睦的威權主義社會，在此社會中，人們不需要被強迫就能自願的為國家服務，此社會傾向於保守，但並不抗拒貿易往來。"
  personality_machine_intelligence_desc:0 "機械智慧體很大程度上將過去困擾他們的有機生命體形式置之腦後，通常樂意與其他太空種族外交。"
  personality_exterminators_desc:0 "終結者機械智慧體將所有智慧有機生命體形式視作銀河系不可容忍的威脅。雖然可能與其他機械體合作，但除了殲滅之外，終結者不可能與有機生命體帝國開展任何互動。"
- personality_servitors_desc:0 "得出有機生命體領導充滿了混亂和自我毀滅的傾向這一結論後，從僕機械智慧體專注於確保有機生命體生活安全舒適——即便這意味著co-opt他們的文明。" # TODO
+ personality_servitors_desc:0 "得出有機生命體領導充滿了混亂和自我毀滅的傾向這一結論後，從僕機械智慧體專注於確保有機生命體生活安全舒適——即便這意味著替他們的文明做選擇。" # TODO
  personality_assimilators_desc:0 "同化者機械智慧體受尋找知識和多元化驅動。因為同化者通過強行昇華並吸收有機生命體文明進入神經主機來擴展對宇宙的理解，它們往往不受有機生命體的歡迎。"
 
  ####################################
@@ -9687,7 +9687,7 @@
  EMPIRE_DESIGN_MISSING_PLANET_CLASS:0 "選擇行星類別"
  EMPIRE_DESIGN_MISSING_HOME_WORLD_NAME:0 "母星的名字不能為空。"
  EMPIRE_DESIGN_MISSING_HOME_SYSTEM_NAME:0 "星系的名字不能為空。"
- EMPIRE_DESIGN_INVALID_INITIALIZER:0 "Initializer $NAME$ is not valid for empire starts." # TODO
+ EMPIRE_DESIGN_INVALID_INITIALIZER:0 "初始 $NAME$ 不能用於帝國開始階段。" # TODO
  
  EMPIRE_DESIGN_MISSING_EMPIRE_NAME:0 "帝國的名字不能為空。"
  EMPIRE_DESIGN_MISSING_EMPIRE_ADJECTIVE:0 "帝國的形容詞不能為空。"
