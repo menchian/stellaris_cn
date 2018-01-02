@@ -144,7 +144,7 @@
 ##Tears of an AI
  syndaw.520.name:0 "人工智慧的眼淚"
  syndaw.520.desc:0 "我們在[Root.GetName]上的設備發生了一起事故。一個參與社會研究的人工智慧終端硬體受損，涉及到核心軟體和記憶體系統。直到實驗室安裝新的人工智慧之前，我們的研究能力都會受到影響。\n\n終端宕機的原因尚不清楚。"
- syndaw.520.a.tooltip:0 "結束人工智慧之淚事件鏈。\n"
+ syndaw.520.a.tooltip:0 "結束人工智慧的眼淚事件鏈。\n"
  syndaw.520.b:0 "展開調查以確定原因。\n"
  syndaw.520.b.tooltip:0 "開始調查人工智慧毀壞的原因。"
 #Follow-up from syndaw.520.b

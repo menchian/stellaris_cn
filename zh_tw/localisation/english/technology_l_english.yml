@@ -43,13 +43,13 @@
  tech_spaceport_2:1 "改良型太空港"
  tech_spaceport_2_desc:1 "增強人工重力和生命保障系統，因此能夠進一步擴建軌道設施。"
  tech_spaceport_3:1 "驅逐艦"
- tech_spaceport_3_desc:1 "擴建乾船塢，以建造驅逐艦。"
+ tech_spaceport_3_desc:1 "擴建後的船塢讓太空港足以建造驅逐艦。"
  tech_spaceport_4:1 "先進型太空港"
- tech_spaceport_4_desc:1 "使用了最先進的軌道建築技術，使得太空港規模與行星上的主要衛城相當。"
+ tech_spaceport_4_desc:1 "最先進的軌道施工技術後讓太空港的規模甚至可以媲美主星上的衛星城。"
  tech_spaceport_5:1 "巡洋艦"
- tech_spaceport_5_desc:1 "擴建乾船塢，以建造巡洋艦。"
+ tech_spaceport_5_desc:1 "更大的太空港意味著更大的星艦。"
  tech_spaceport_6:0 "戰列艦"
- tech_spaceport_6_desc:0 "擴建乾船塢，以建造戰列艦。"
+ tech_spaceport_6_desc:0 "建造大型戰列艦不再是夢。"
 
  #Spaceport Modules
  #tech_corvette_assembly:0 "Advanced Corvette Designs"
@@ -812,7 +812,7 @@
  # Unity
  tech_cultural_heritage:0 "社會文化史"
  tech_cultural_heritage_desc:0 "理解共同的過去是我們大步走向未來所必要的。"
- tech_heritage_site:0 "文化遺址"
+ tech_heritage_site:0 "文化遺跡"
  tech_heritage_site_desc:0 "它提醒我們無論走了多遠，都應過去充滿敬意，對未來充滿雄心。"
  tech_heritage_site_machine_intelligence:0 "行星通信"
  tech_heritage_site_desc_machine_intelligence:0 "不同單元間訊息和指令的近瞬時傳輸至關重要。"

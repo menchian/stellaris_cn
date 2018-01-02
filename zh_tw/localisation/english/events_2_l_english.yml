@@ -588,7 +588,7 @@
  anomaly.3130.a:2 "真是太糟糕了。"
  anomaly.3130.b:2 "那些甚至都算不上真的道德標準……"
  anomaly.3135.name:0 "保持冷靜"
- anomaly.3135.desc:0 "從[From.GetName]荒涼的表面返回時， 科學家[Root.GetLeaderName]帶回了 a sheet of woven plant fiber。其確切材料和用途未知，但實驗已證實其吸水性很好。儘管對科研無用，[Root.GetLeaderName] has taken a shine to the thing and 現在不管去哪都要帶著它。\n\n「Officer [Root.GetLeaderName] is a real hoopy frood,」船員耳語道。"
+ anomaly.3135.desc:0 "從[From.GetName]荒涼的表面返回時， 科學家[Root.GetLeaderName]帶回了一塊編織纖維布 。其確切材料和用途未知，但實驗已證實其吸水性很好。儘管對科研無用，[Root.GetLeaderName] 卻對他有極大的興趣，現在不管去哪都要帶著它。\n\n「[Root.GetLeaderName] 真是一個好相處的人」船員耳語道。"
  anomaly.3135.a:0 "這是什麼意思？"
  anomaly.3135.a.tooltip:0 "[Root.GetLeaderName]得到一條毛巾。"
 
