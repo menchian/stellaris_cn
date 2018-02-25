@@ -1,7 +1,7 @@
 # 群星正體中文校對 Mod
 
 
-### 目前支援遊戲版本： Stellaris 1.9.1
+### 目前支援遊戲版本： Stellaris 2.0.0
 
 ### WORKSHOP:
 http://steamcommunity.com/sharedfiles/filedetails/?id=1162654289
