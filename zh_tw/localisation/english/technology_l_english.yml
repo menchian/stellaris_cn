@@ -307,7 +307,7 @@
  tech_flak_batteries_2:1 "高射加農砲"
  tech_flak_batteries_2_desc:1 "Upgraded flak batteries with new, more powerful shrapnel rounds."
  tech_flak_batteries_3:1 "高射火炮"
- tech_flak_batteries_3_desc:1 "可預測的跟蹤演演算法以及加強的單輪射擊對於敵船有驚人的致命性。"
+ tech_flak_batteries_3_desc:1 "可預測的跟蹤演算法以及加強的單輪射擊對於敵船有驚人的致命性。"
 
  # Missile Branch
  tech_missiles_1:0 "核導彈"
