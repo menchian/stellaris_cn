@@ -26,7 +26,7 @@
  MEGASTRUCTURE_IS_UPGRADING:0 "升級至$TYPE|H$\n預計完成日期：$DATE|H$"
  MEGASTRUCTURE_ALREADY_UPGRADING:0 "§R升級進行中！§!"
  MEGASTRUCTURE_TOOLTIP_PRODUCTION_HEADER:0 "每月產出："
- MEGASTRUCTURE_TOOLTIP_MAINTENANCE_HEADER:0 "每月維持費用："
+ MEGASTRUCTURE_TOOLTIP_MAINTENANCE_HEADER:1 "每月維持費用："
  MEGASTRUCTURE_UPGRADE_REMAINING:0 "還剩 £time $DAYS|Y0$ 天"
  MEGASTRUCTURE_UPGRADES_TO:0 "升級至："
 
@@ -66,12 +66,12 @@
  allow_edict_consectrated_worlds:3 "§H解鎖行星法令：§!$edict_consecrated_worlds$"
  describe_edict_consectrated_worlds:3 "§E這是一個持續§Y100§!年的行星法令，會提高 £pop 人口的§Y$MOD_POP_HAPPINESS$§!、§Y精神主義道德吸引力§!和§Y$MOD_POP_GROWTH_SPEED$§!，並提升 £unity 凝聚力§Y產出§!。§!"
  allow_machine_worlds:2 "§H解鎖環境改造方案:§!機械世界"
- describe_machine_worlds:0 "§Y機械世界§!是一種不適合有機生命體的特殊行星類別。§Y機械體人口§!生活在§Y機器世界§!會將他們的產出增加§G+20%§!。"
+ describe_machine_worlds:2 "§Y機械世界§!是一種不適合有機體的特殊行星類別。§Y機械體人口§!生活在§Y機器世界§!會將他們的產出增加§G+20%§!。"
  
  ALLOW_PSI_CORPS:0 "可以建造建築§H$building_psi_corps$§!。"
  ALLOW_PSI_ARMIES:0 "可以徵募§H$psionic_army_plural$§!。"
  
- dyson_sphere_0_MEGASTRUCTURE_DETAILS:0 "§Y$dyson_sphere_5$§! 會完全籠罩恆星，並直接將所有的恆星能量轉化為 £energy 能源點。"
+ dyson_sphere_0_MEGASTRUCTURE_DETAILS:1 "§Y$dyson_sphere_5$§! 會完全籠罩恆星，並直接將所有的恆星能量轉化為 £energy 能源點。"
  dyson_sphere_0_CONSTRUCTION_INFO_DELAYED:3 "$dyson_sphere_5$ 將完全遮住太陽，將恆星系中的所有行星變成$pc_barren_cold$或$pc_frozen$。"
  dyson_sphere_0:0 "戴森球基址"
  dyson_sphere_0_DESC:0 "這一初始站點將會作為未來搭建戴森球的基址。"
@@ -86,7 +86,7 @@
  dyson_sphere_5:0 "戴森球"
  dyson_sphere_5_DESC:0 "一個完整的戴森球 - §G100%§!能源產生效率"
  
- spy_orb_0_MEGASTRUCTURE_DETAILS:0 "不同階段的 §Y$spy_orb_4$§! 將逐步提高傳感器的範圍，最終覆蓋整個銀河。"
+ spy_orb_0_MEGASTRUCTURE_DETAILS:1 "不同階段的 §Y$spy_orb_4$§! 將逐步提高傳感器的範圍，最終覆蓋整個銀河。"
  spy_orb_0_CONSTRUCTION_INFO_DELAYED:3 "不同階段的$spy_orb_4$將逐步提高傳感器的範圍，最終覆蓋整個銀河。"
  spy_orb_0:0 "監探陣列基址"
  spy_orb_0_DESC:0 "這一初始站點將會作為未來搭建監探陣列的基址。"
@@ -275,8 +275,7 @@
  utopia.2014.desc:0 "[sentry_system.GetName]恆星系顯然在銀河歷史上的某個時刻支持過一個無比龐大的軌道設施，但它已經被系統的拆解了。環繞星體的同步軌道上密佈著碎片，其中包括幾個巨型太空站的殘骸。\n\n其中最大的殘骸是一個巨大的§H監探陣列§!。我們的初步掃瞄顯示，當它運行時，它強大的陣列可以給整個銀河系提供實時的傳感器覆蓋。"
  utopia.2014.a:0 "我們已經邁出了第一步。"
  utopia.2015.name:0 "監探陣列修復完成"
- utopia.2015.desc:0 "雖然不容易，我工程師還是設法修復了[From.GetName]恆星系毀壞的監探陣列。在修復工程中，其他太空站的殘骸以及包裹它們的碎片被用作了建築材料。\n\n跨越悠久的歲月後，矩陣現在充盈著能量。它強力的天線可以再次清晰觀察銀河的另一側。
- "
+ utopia.2015.desc:0 "雖然不容易，我方工程師還是設法修復了[From.GetName]恆星系毀壞的監探陣列。在修復工程中，其他太空站的殘骸以及包裹它們的碎片被用作了建築材料。\n\n跨越悠久的歲月後，矩陣現在充盈著能量。它強力的天線可以再次清晰觀察銀河的另一側。"
 
  utopia.2016.name:0 "毀壞的環形世界"
  utopia.2016.desc:0 "環形世界的破損零件圍繞著[ring_system.GetName]恆星系的恆星。任何可能存在過的行星肯定都被當做了這個巨型結構的建造材料。\n\n沒有證據表明到底是誰建造了這個工程奇蹟，但它肯定是一個非常先進文明的產物。"

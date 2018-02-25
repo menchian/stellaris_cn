@@ -16,7 +16,7 @@
  marauder.7.a:0 "各就各位！"
  marauder.8.desc:0 "一支§H[marauder_species.GetName]§!傭兵的大艦隊進入了§H[From.GetName]§!。看來在我們摧毀他們最後一座太空站時，當時部署在其它地方而倖存的[marauder_species.GetName]傭兵們摒棄前嫌並聯手合作了。\n\n他們意圖對家園的毀滅進行復仇，而截獲的通訊表明他們的戰士打算與我們同歸於盡。"
  marauder.10.name:0 "[marauder_species.GetName]難民抵達"
- marauder.10.desc:0 "一支傷痕纍纍的貨艦隊載著§H[marauder_species.GetName]§!難民，在其家園最近被毀後抵達了我們的星系。他們已獲准安身於§H[Root.GetName]§!。\n\n儘管這些難民習慣居住在骯髒而擁擠的太空站上，他們似乎很適應新的星球家園。但願他們已經準備拋棄自己身為襲擊者和海賊的過去。"
+ marauder.10.desc:0 "一支傷痕纍纍的運輸艦隊載著§H[marauder_species.GetName]§!難民，在其家園最近被毀後抵達了我們的星系。他們已獲准安身於§H[Root.GetName]§!。\n\n儘管這些難民習慣居住在骯髒而擁擠的太空站上，他們似乎很適應新的星球家園。但願他們已經準備拋棄自己身為襲擊者和海賊的過去。"
  marauder.10.a:0 "我們將給他們安排新家。"
  gov_marauder_clans:0 "搶奪者氏族"
  gov_marauder_clans_desc:0 "一些氏族與部落，不是在襲擊鄰居就是在互相爭鬥。"

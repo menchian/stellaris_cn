@@ -7,7 +7,7 @@
  syndaw.2.desc:0 "我們吸收了合成人單位 [Root.GetName] 到我們的網路中。"
 
  syndaw.21.name:1 "§R單位折損§!"
- syndaw.21.desc:0 "Survey Unit §R[malfunctioning_leader.GetName]§! of the [malfunctioning_leader.Ship.GetFleetName] has ceased functioning due to unintended and prolonged exposure to unshielded high-voltage cables."
+ syndaw.21.desc:0 "在[malfunctioning_leader.Ship.GetFleetName]上服役的勘察單位§R[malfunctioning_leader.GetName]§!由於意外地長期暴露於無遮罩高壓電纜之下，而停止了運行。"
  syndaw.22.name:0 "$syndaw.21.name$"
  syndaw.22.desc:0 "工程研究單位 §R[malfunctioning_leader.GetName]§! 由於校準錯誤的外骨骼安裝器在為它安裝新的背板時使出了所必要的力的2984倍，而停止了運行。"
  syndaw.23.name:0 "$syndaw.21.name$"

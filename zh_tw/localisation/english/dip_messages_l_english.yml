@@ -1002,7 +1002,7 @@
  01_ASK_FOR_VASS_PROPOSE:0 "我們太過弱小，僅靠自身難以在危機四伏的銀河系中存活……如果我們成為你們的附庸國，§Y[Root.GetName]§!會保護我們嗎？"
 
  01_DEMAND_PROT_SELECT:0 "$01_DEMAND_VASS_SELECT$"
- 02_DEMAND_PROT_SELECT:1 "You wish to become our protector?"
+ 02_DEMAND_PROT_SELECT:1 "你想成為我們的保護者？"
  03_DEMAND_PROT_SELECT:0 "$03_DEMAND_VASS_SELECT$"
  04_DEMAND_PROT_SELECT:0 "$04_DEMAND_VASS_SELECT$"
  01_DEMAND_PROT_ACCEPT:0 "很好，如果你們同意幫助我們抵禦銀河系的任何威脅，那麼[Root.GetName]願意臣服，接受[From.GetName]的庇護。"
@@ -2177,7 +2177,3 @@
  MECH_DEMAND_SATELLITE_ACCEPT:0 "同意。[Root.GetName]將成為[From.GetAdj]的成員國。"
  MECH_DEMAND_SATELLITE_REFUSE:0 "否決，[From.GetSpeciesName]。[Root.GetName]不會成為您的成員國。"
  MECH_ASK_BECOME_SATELLITE_PROPOSE:0 "詢問：[Root.GetName]是否接受[From.GetName]成為衛星國? 對[From.GetName]的生存評估表明這是最合乎邏輯的行動。"
- #HM_REQUEST_WAR_SELECT:0 "你們想讓我們來評估你們的作戰計劃？"
- MECH_ITOA_VOTE_PROPOSE:0 "咨詢所有成員。§Y[Root.GetName]§的加入是否會為[From.GetAllianceName]帶來好處？"
- MECH_CANCEL_TRADE_DEAL_PROPOSE:0 "警告：之前的貿易協議已經失效。如果您希望繼續進行雙邊貿易，請重新協商。"
- MECH_CANCEL_TRADE_DEAL_ACCEPT:0 "明白，正在終止雙邊貿易協定。"
