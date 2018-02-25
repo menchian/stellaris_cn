@@ -79,6 +79,10 @@
  SUPREMACIST_GIANT_MASSACRE:0 "屠殺巨物"
  SUPREMACIST_NO_GIANT_MASSACRE:0 "$SUPREMACIST_GIANT_MASSACRE$"
  SUPREMACIST_GIANT_MASSACRE_DESC:0 "擊破任何§Y利維坦§!異族巨物將在一定時期之內取悅 [Root.GetName] 。"
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION:0 "Strong Alone"
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:1 "Allowing the [Root.Owner.GetName] to be exploited by alien interests by §Yjoining a Federation§! will displease the [Root.GetName]."
+ SUPREMACIST_ISOLATIONIST_FEDERATION:1 "$SUPREMACIST_ISOLATIONIST_NO_FEDERATION$"
+ 
  
  # XENOISTS
  XENOIST_PASSIVE_STUDY:0 "間接外星研究"
@@ -143,9 +147,6 @@
  IMPERIALIST_RIVALS3:0 "銀河仇敵"
  IMPERIALIST_RIVALS_DESC3:0 "把至少§G3§!個§Y相鄰的帝國§!當作宿敵，可使 [Root.GetName] 更滿意。"
  IMPERIALIST_FEW_RIVALS3:0 "$IMPERIALIST_RIVALS3$"
- IMPERIALIST_NO_FEDERATION:0 "孤獨強者"
- IMPERIALIST_NO_FEDERATION_DESC:1 "[Root.Owner.GetName]若§Y加入一個聯邦§!並使被外來勢力利用，會使 [Root.GetName] 不高興。"
- IMPERIALIST_FEDERATION:1 "$IMPERIALIST_NO_FEDERATION$"
  IMPERIALIST_OVERLORD:0 "帝國霸權"
  IMPERIALIST_NOT_OVERLORD:0 "$IMPERIALIST_OVERLORD$"
  IMPERIALIST_OVERLORD_DESC:0 "使我們成為其他帝國的§Y宗主國§!將取悅 [Root.GetName] 。"
@@ -202,7 +203,7 @@
 
  # TRADITIONALISTS
  TRADITIONALIST_NO_ROBOTS:0 "生命有機"
- TRADITIONALIST_NO_ROBOTS_DESC:0 "用沒有靈魂的機器替代有機生命體或工人將使 [Root.GetName] 不滿。"
+ TRADITIONALIST_NO_ROBOTS_DESC:1 "用沒有靈魂的機器替代有機生命體或工人將使 [Root.GetName] 不滿。"
  TRADITIONALIST_ROBOTS:0 "無機空殼"
  TRADITIONALIST_NO_ROBOT_RIGHTS:0 "合成人無人權"
  TRADITIONALIST_NO_ROBOT_RIGHTS_DESC:0 "不禁止會思考的機器是一種褻瀆，會使 [Root.GetName] 不滿意。"
@@ -225,8 +226,8 @@
  TRADITIONALIST_NO_TOMB_WORLDS:0 "不潔之地"
  TRADITIONALIST_NO_TOMB_WORLDS_DESC:0 "踏足任何§Y死寂世界§!會使[Root.GetName]不高興。"
  TRADITIONALIST_TOMB_WORLDS:0 "$TRADITIONALIST_NO_TOMB_WORLDS$"
- TRADITIONALIST_GAIA_WORLDS:0 "居於樂土"
- TRADITIONALIST_GAIA_WORLDS_DESC:0 "殖民§Y蓋亞世界§!會使[Root.GetName]更滿意。"
+ TRADITIONALIST_GAIA_WORLDS:1 "居於樂土"
+ TRADITIONALIST_GAIA_WORLDS_DESC:1 "殖民§Y蓋亞世界§!會使[Root.GetName]更滿意。"
  TRADITIONALIST_NO_GAIA_WORLDS:0 "$TRADITIONALIST_GAIA_WORLDS$"
  TRADITIONALIST_UNBLISSED:0 "脫樂受福"
  TRADITIONALIST_BLISSED:0 "$TRADITIONALIST_UNBLISSED$"
@@ -251,7 +252,7 @@
  TRADITIONALIST_SHROUD_CURSE_DESC:0 "從天幕獲得有害的回饋將在一定時期之內激怒 [Root.GetName] 。" 
  TRADITIONALIST_HARMONY:0 "和諧的帝國"
  TRADITIONALIST_NO_HARMONY:0 "$TRADITIONALIST_HARMONY$"
- TRADITIONALIST_HARMONY_DESC:0 "採用 §Y和諧傳統§! 會使 [Root.GetName] 更滿意。"
+ TRADITIONALIST_HARMONY_DESC:0 "採用 §Y和諧§! 傳統會使 [Root.GetName] 更滿意。"
 
  # TECHNOLOGISTS
  TECHNOLOGIST_ROBOTS:0 "機器熱愛"
@@ -282,7 +283,7 @@
  PROGRESSIVE_DEMOCRATIC_GOVERNMENT_DESC:1 "如果我們的政府最少在名義上是選舉的，會使 [Root.GetName] 更滿意。"
  PROGRESSIVE_FREE_MOVEMENT:0 "自由流動"
  PROGRESSIVE_NO_FREE_MOVEMENT:0 "$PROGRESSIVE_FREE_MOVEMENT$"
- PROGRESSIVE_FREE_MOVEMENT_DESC:0 "允許所有種族進入我們的核心世界來保證人口的自由流動、禁止強制遷移、禁用遷移控制，會使 [Root.GetName] 更滿意。"
+ PROGRESSIVE_FREE_MOVEMENT_DESC:0 "允許所有種族進入我們的核心世界來保證人口的自由流動、禁止強制移居、禁用移民管制，會使 [Root.GetName] 更滿意。"
  PROGRESSIVE_REPRODUCTIVE_FREEDOM:0 "生育自由"
  PROGRESSIVE_REPRODUCTIVE_FREEDOM_DESC:1 "確保我們帝國中沒有種族受人口控制，會使 [Root.GetName] 更滿意。"
  PROGRESSIVE_NO_REPRODUCTIVE_FREEDOM:1 "$PROGRESSIVE_REPRODUCTIVE_FREEDOM$"
@@ -799,7 +800,7 @@
  ### Peace Movement
 
  faction.400.title:0 "戰艦遭到破壞！"
- faction.400.desc:0 "[From.GetName]的激進分子潛入了至少一艘[Root.Owner.GetSpeciesAdj]軍事飛船並埋下炸藥。現在炸藥已經引爆，導致[Root.GetName]嚴重受創。\n\n[From.GetName]的領導者[From.Leader.GetName]發表聲明表示這是一場純粹的惡劣暴行，同時也譴責了[Root.Owner.GetName]與[From.parameter:enemy.GetName]之間的武裝衝突。"
+ faction.400.desc:0 "[From.GetName]的激進分子潛入了至少一艘[Root.Owner.GetSpeciesAdj]軍事星艦並埋下炸藥。現在炸藥已經引爆，導致[Root.GetName]嚴重受創。\n\n[From.GetName]的領導者[From.Leader.GetName]發表聲明表示這是一場純粹的惡劣暴行，同時也譴責了[Root.Owner.GetName]與[From.parameter:enemy.GetName]之間的武裝衝突。"
  faction.400.a:0 "真是個偽君子。"
  faction.400.a.tooltip:0 "§R[Root.GetName]已摧毀§!"
 

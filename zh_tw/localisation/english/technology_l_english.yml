@@ -6,9 +6,9 @@
 
  materials:0 "材料學"
  materials_desc:0 "創造並處理材料，以提高其實用性和耐久度。"
- rocketry:0 "火箭學"
- rocketry_desc:0 "研究工質推進。"
- voidcraft:0 "太空飛船"
+ propulsion:0 "Propulsion"
+ propulsion_desc:1 "The study of propulsion and trajectory."
+ voidcraft:0 "太空星艦"
  voidcraft_desc:0 "太空是最後的荒外，掌握它就掌握了未來。" #frontier means undeveloped land.
  robotics:0 "機器人學"
  robotics_desc:0 "全面機械化。"
@@ -37,29 +37,81 @@
  # Engineering
  # ###################################
 
- # Spaceport Upgrades
- tech_spaceport_1:0 "太空港"
- tech_spaceport_1_desc:0 "太空港是行星在太空中的據點，是商貿中心，也是軍用、民用星艦的大本營。"
- tech_spaceport_2:1 "改良型太空港"
- tech_spaceport_2_desc:1 "增強人工重力和生命保障系統，因此能夠進一步擴建軌道設施。"
- tech_spaceport_3:1 "驅逐艦"
- tech_spaceport_3_desc:1 "擴建後的船塢讓太空港足以建造驅逐艦。"
- tech_spaceport_4:1 "先進型太空港"
- tech_spaceport_4_desc:1 "最先進的軌道施工技術後讓太空港的規模甚至可以媲美主星上的衛星城。"
- tech_spaceport_5:1 "巡洋艦"
- tech_spaceport_5_desc:1 "更大的太空港意味著更大的星艦。"
- tech_spaceport_6:0 "戰列艦"
- tech_spaceport_6_desc:0 "建造大型戰列艦不再是夢。"
+ # Ship sizes
+ tech_space_exploration:0 "Space Exploration"
+ tech_space_exploration_desc:0 "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary."
+ tech_corvettes:0 "Corvettes"
+ tech_corvettes_desc:0 "The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower."
+ tech_destroyers:0 "驅逐艦"
+ tech_destroyers_desc:0 "While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats."
+ tech_cruisers:0 "巡洋艦"
+ tech_cruisers_desc:0 "Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance."
+ tech_battleships:0 "戰列艦"
+ tech_battleships_desc:0 "The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries."
+ tech_titans:0 "泰坦"
+ tech_titans_desc:0 "Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons."
+ tech_colossus:0 "Colossi"
+ tech_colossus_desc:0 "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button."
+ 
+ # Ships upgrades
+ tech_corvette_hull_1:0 "Improved Corvette Hulls"
+ tech_corvette_hull_1_desc:0 "Advances in building techniques will allow for the construction of sturdier and more durable corvettes."
+ tech_corvette_hull_2:0 "Advanced Corvette Hulls"
+ tech_corvette_hull_2_desc:0 "The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads."
+ tech_corvette_build_speed:0 "Standardized Corvette Patterns"
+ tech_corvette_build_speed_desc:0 "Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline."
+  
+ tech_destroyer_hull_1:0 "Improved Destroyer Hulls"
+ tech_destroyer_hull_1_desc:0 "Advances in building techniques will allow for the construction of sturdier and more durable destroyers."
+ tech_destroyer_hull_2:0 "Advanced Destroyer Hulls"
+ tech_destroyer_hull_2_desc:0 "The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads."
+ tech_destroyer_build_speed:0 "Standardized Destroyer Patterns"
+ tech_destroyer_build_speed_desc:0 "Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline."
+  
+ tech_cruiser_hull_1:0 "Improved Cruiser Hulls"
+ tech_cruiser_hull_1_desc:0 "Advances in building techniques will allow for the construction of sturdier and more durable cruisers."
+ tech_cruiser_hull_2:0 "Advanced Cruiser Hulls"
+ tech_cruiser_hull_2_desc:0 "The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads."
+ tech_cruiser_build_speed:0 "Standardized Cruiser Patterns"
+ tech_cruiser_build_speed_desc:0 "Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline."
+ 
+ tech_battleship_hull_1:0 "Improved Battleship Hulls"
+ tech_battleship_hull_1_desc:0 "Advances in building techniques will allow for the construction of sturdier and more durable battleships."
+ tech_battleship_hull_2:0 "Advanced Battleship Hulls"
+ tech_battleship_hull_2_desc:0 "The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads."
+ tech_battleship_build_speed:0 "Standardized Battleship Patterns"
+ tech_battleship_build_speed_desc:0 "Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled."
+
+ tech_titan_hull_1:0 "Improved Titan Hulls"
+ tech_titan_hull_1_desc:0 "Advances in building techniques will allow for the construction of sturdier and more durable titans."
+ tech_titan_hull_2:0 "Advanced Titan Hulls"
+ tech_titan_hull_2_desc:0 "The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads."
+ # no titan is the same... they dont have a build speed tech!
+ 
+ # Starbases
+ tech_starbase_1:0 "Starbase Construction"
+ tech_starbase_1_desc:0 "A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system."
+ tech_starbase_2:0 "Starport"
+ tech_starbase_2_desc:0 "The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems."
+ tech_starbase_3:0 "Starhold"
+ tech_starbase_3_desc:0 "As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes."
+ tech_starbase_4:0 "Star Fortress"
+ tech_starbase_4_desc:0 "These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers."
+ tech_starbase_5:0 "Citadel"
+ tech_starbase_5_desc:0 "Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs."
+ 
+ tech_modular_engineering:0 "Modular Engineering"
+ tech_modular_engineering_desc:0 "Streamlined starbase construction procedures, using modular designs, will halve the present build cost and time."
+ 
+ tech_defense_platform_hull_1:0 "Improved Structural Integrity"
+ tech_defense_platform_hull_1_desc:0 "A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure."
 
  #Spaceport Modules
  #tech_corvette_assembly:0 "Advanced Corvette Designs"
  #tech_corvette_assembly_desc:0 "Unused" # TEMP
  #tech_destroyer_assembly:0 "Advanced Destroyer Designs"
  #tech_destroyer_assembly_desc:0 "Unused" # TEMP
- tech_cruiser_yard:0 "標準化巡洋艦模組"
- tech_cruiser_yard_desc:1 "確立新的巡洋艦的設計建造標準，極大提高生產流水線效率。"
- tech_battleship_yard:0 "標準化戰列艦模組"
- tech_battleship_yard_desc:1 "確立新的戰列艦設計建造標準，極大提高其組裝速度。"
+
  tech_solar_panel_network:0 "軌道能量轉換"
  tech_solar_panel_network_desc:0 "太陽能板技術的進步可能能夠降低太空港的運轉成本。然而，需要一整個太空港模組的太陽能板才能生產足夠能量。"
  tech_mining_terminal:0 "礦業行會"
@@ -69,15 +121,15 @@
 
  # Strike Craft
  tech_strike_craft_1:0 "航母作戰"
- tech_strike_craft_1_desc:0 "近程有人駕駛艦載機從母艦發射，憑借其速度和較小的體型，能夠堅持存活至突破敵軍防禦。"
+ tech_strike_craft_1_desc:0 "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses."
  tech_strike_craft_2:0 "改良型艦載機"
  tech_strike_craft_2_desc:0 "新一代艦載機，具有更加完善的航空電子設備、更好的操控特性以及更加強大的火力。"
  tech_strike_craft_3:0 "先進型艦載機"
- tech_strike_craft_3_desc:0 "對艦載機設計的深入優化。這些先進的戰鬥機和轟炸機的表現遠超先前型號，是飛行員的夢想機型。"
+ tech_strike_craft_3_desc:0 "A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models."
 
  # Armies and Attachments - Engineering
- tech_defense_army:0 "行星防禦"
- tech_defense_army_desc:0 "總有一天，龐大、冷漠、無情的智慧生命會覬覦我們的世界。我們必須提前做好準備。"
+ tech_planetary_defenses:0 "行星防禦"
+ tech_planetary_defenses_desc:0 "There may come a time when intellects, vast and cool and unsympathetic, regard our worlds with envy and draw plans against us. We must be ready."
  tech_assault_armies:0 "星際遠征軍"
  tech_assault_armies_desc:0 "侵略另一個世界是一項驚人的壯舉。在招募第一支星際軍之前，我們必須先克服後勤方面的巨大挑戰。"
  tech_drop_pod:0 "軌道空降艙"
@@ -120,7 +172,7 @@
  
  # Military Stations
  tech_space_defense_station_1:0 "外太空前哨"
- tech_space_defense_station_1_desc:0 "使能夠在遠離行星引力井之處修建防禦性外太空平台。"
+ tech_space_defense_station_1_desc:0 "使能夠在遠離行星引力井之處修建防禦性外太空基地。"
  tech_space_defense_station_2:0 "外太空軍事基地"
  tech_space_defense_station_2_desc:0 "新型施工方式，使能夠在深空修建更大型的軍事基地。"
  tech_space_defense_station_3:0 "外太空堡壘"
@@ -177,12 +229,14 @@
  tech_robomodding_m_desc:0 "標準化的裝配模組使能夠改進無人機人口的特化程度。"
  tech_robomodding_points_1:0 "跨模組標準化"
  tech_robomodding_points_1_desc:0 "改良的生產工藝使能夠在不影響核心功能的前提下更大規模地改造合成人工人。"
- #tech_robomodding_points_1_modifier_desc: "$species_trait_points_add$：$POINTS|0=+$"
+ #tech_robomodding_points_1_modifier_desc: "$species_trait_points_add$: $POINTS|0=+$"
  # TEMP
  tech_robomodding_points_2:0 "可更換電路"
  tech_robomodding_points_2_desc:0 "改良的生產工藝使能夠在不影響核心功能的前提下更深層次地改造合成人工人。"
- #tech_robomodding_points_2_modifier_desc: "$species_trait_points_add$：$POINTS|0=+$"
+ #tech_robomodding_points_2_modifier_desc: "$species_trait_points_add$: $POINTS|0=+$"
  # TEMP
+ tech_matter_generator:0 "Matter Generation"
+ tech_matter_generator_desc:0 "By using vast amounts of energy we are able to convert light into matter from seemingly nothing."
  
  # Space Mining
  tech_space_construction:0 "世外建設"
@@ -247,10 +301,12 @@
  tech_autocannons_2_desc:0 "升級後的機炮，具備完善的追蹤能力和火控系統，是以能維持更高射速。"
  tech_autocannons_3:0 "烈焰風暴機炮"
  tech_autocannons_3_desc:0 "先進的機炮，能夠向目標傾瀉一群群穿甲彈和高爆彈。"
- tech_flak_batteries_1:0 "高射炮台"
- tech_flak_batteries_1_desc:0 "高射排炮發射近程範圍性殺傷榴霰彈。對敵方艦載機極其致命，亦可對更大的艦艇造成傷害。"
- tech_flak_batteries_2:0 "高射火炮"
- tech_flak_batteries_2_desc:0 "升級後的高射排炮使用更強力的榴霰彈。能夠高效防禦艦載機和導彈的襲擊。"
+ tech_flak_batteries_1:1 "高射炮台"
+ tech_flak_batteries_1_desc:1 "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles."
+ tech_flak_batteries_2:1 "高射火炮"
+ tech_flak_batteries_2_desc:1 "Upgraded flak batteries with new, more powerful shrapnel rounds."
+ tech_flak_batteries_3:1 "Flak Artillery"
+ tech_flak_batteries_3_desc:1 "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft."
 
  # Missile Branch
  tech_missiles_1:0 "核導彈"
@@ -320,6 +376,8 @@
  tech_combat_computers_2_desc:0 "預測演算法的進一步進展使得你可以在戰場上處處先人一步。"
  tech_combat_computers_3:0 "智慧型戰鬥模擬"
  tech_combat_computers_3_desc:0 "使用高強度戰鬥模擬訓練智慧型人工智慧，可以得到對風險評估技術的潛在優化的深遠洞見。"
+ tech_combat_computers_autonomous:0 "Autonomous Ship Intellects"
+ tech_combat_computers_autonomous_desc:0 "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat."
  tech_pd_tracking_1:0 "主動反制"
  tech_pd_tracking_1_desc:0 "有效的進攻是最好的防禦。"
  tech_pd_tracking_2:0 "互聯支援系統"
@@ -340,10 +398,12 @@
  tech_automated_exploration_desc:0 "先進的人工智慧可以輔助科學官探索新世界，尋找新生命和新文明，前往從未有任何布洛葛去過的地方。在人工智慧幫助下，科學船可以探索宇宙。"
  tech_automated_exploration_machine_intelligence:0 "自主探索演算法"
  tech_automated_exploration_desc_machine_intelligence:0 "最新的更先進的演算法不僅可以加快勘察速度，還允許我們的探索器在缺少機械智慧體中心持續指示的情況下在深空中運作更久。"
+ tech_auxiliary_fire_control:0 "Auxiliary Fire-control"
+ tech_auxiliary_fire_control_desc:1 "$FIRE_CONTROL_1_DESC$"
 
  # Resources
  tech_lythuric_gas:1 "萊素氣體精煉"
- tech_lythuric_gas_desc:1 "只需少量就能明顯強化能量障壁的輸出。對暴露在氣體之中的生物的心智也會產生印象。"
+ tech_lythuric_gas_desc:1 "只需少量就能明顯強化能量障壁的輸出。對暴露在氣體之中的生物的心智也會產生影響。"
  tech_mine_teldar:0 "鈦達爾晶體開採"
  tech_mine_teldar_desc:0 "鈦達爾晶體會發射出可見光頻譜之外的射線。"
  tech_mine_yuranic:0 "羽然水晶開採"
@@ -364,8 +424,15 @@
  tech_antimatter_power_desc:0 "通過利用正反物質結合產生的能源，我們生成能源的效率將會超過核融合。"
  tech_zero_point_power:0 "零點動力"
  tech_zero_point_power_desc:0 "這種發電機可以抽取真空能量，提供近乎無盡的能源。這是已知的最有效的能源產生方式。"
- tech_enigmatic_power_core:0 "神秘能量核心"
- tech_enigmatic_power_core_desc:0 "這些發電機可以讓粒子以違背自然規律的方式相互互動。而且它們能夠生產出比一般發電機更多的電力。"
+ tech_dark_matter_power_core:0 "Dark Matter Power"
+ tech_dark_matter_power_core_desc:0 "These generators appear to somehow draw energy directly from dark matter, providing more power than should be possible according to the laws of physics."
+
+ tech_reactor_boosters_1:0 "Reactor Boosters"
+ tech_reactor_boosters_1_desc:0 "$REACTOR_BOOSTER_1_DESC$"
+ tech_reactor_boosters_2:0 "Improved Reactor Boosters"
+ tech_reactor_boosters_2_desc:0 "$REACTOR_BOOSTER_2_DESC$"
+ tech_reactor_boosters_3:0 "Advanced Reactor Boosters"
+ tech_reactor_boosters_3_desc:0 "$REACTOR_BOOSTER_3_DESC$"
  
  # Shield Components
  tech_shields_1:0 "偏轉器"
@@ -379,21 +446,21 @@
  tech_shields_5:0 "超級護盾"
  tech_shields_5_desc:0 "這些強化硬化的能量護盾十分強大。它們提供的防護能力首屈一指。"
  tech_shield_rechargers_1:0 "護盾電容"
- tech_shield_rechargers_1_desc:0 "這些電容裡面儲存著護盾的餘能，可以在護盾被攻破的時候迅速轉化為新的護盾。這會極大提升護盾的重新充能速度。"
+ tech_shield_rechargers_1_desc:1 "These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields."
  tech_planetary_shield_generator:0 "行星護盾"
  tech_planetary_shield_generator_desc:0 "在一個行星的大氣層中製造出一層強大的護盾甚至比在真空中還要困難，但這能夠在遭受軌道轟炸的時候工強有力的保護。"
- tech_enigmatic_deflector:0 "神秘偏轉器"
- tech_enigmatic_deflector_desc:0 "這些偏轉器的運作方式似乎有些違反自然法則。它們不知如何竟能夠生成出比一般護盾強大好幾倍的防護力場。"
+ tech_dark_matter_deflector:0 "Dark Matter Deflectors"
+ tech_dark_matter_deflector_desc:0 "These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature."
  tech_psionic_shield:0 "靈能護盾"
  tech_psionic_shield_desc:0 "這種極其強大的護盾是由靈能專家的純精神能量產生的，它還可被大型陣列靈能發射器進一步增強。"
 
  # Sensor Components
  tech_sensors_2:0 "重力探測器"
- tech_sensors_2_desc:0 "這些傳感器一直在監測空間中的引力波動，比如星際飛船等物體的存在造成的引力變化。"
+ tech_sensors_2_desc:0 "這些傳感器一直在監測空間中的引力波動，比如星際星艦等物體的存在造成的引力變化。"
  tech_sensors_3:0 "亞空間探測器"
- tech_sensors_3_desc:0 "這些傳感器在監測由於星際飛船飛行造成的亞空間波動。它們的敏感度和監測範圍甚至要高於引力監測傳感器陣列。"
+ tech_sensors_3_desc:0 "這些傳感器在監測由於星際星艦飛行造成的亞空間波動。它們的敏感度和監測範圍甚至要高於引力監測傳感器陣列。"
  tech_sensors_4:0 "速子探測器"
- tech_sensors_4_desc:0 "可以靠超光速粒子束的旋轉來監測極遠處飛船行動的先進傳感器。"
+ tech_sensors_4_desc:0 "可以靠超光速粒子束的旋轉來監測極遠處星艦行動的先進傳感器。"
  tech_orbital_sensor_array:0 "軌道傳感器陣列"
  tech_orbital_sensor_array_desc:0 "可以安裝在軌道太空港的強大的傳感器陣列。它們可以對周邊的空間保證優秀的傳感器覆蓋率。"
 
@@ -425,21 +492,27 @@
  tech_hyper_drive_1:0 "超空間移動"
  tech_hyper_drive_1_desc:0 "就像蜘蛛網上的一根線一樣，多維空間的其他次元在大多數行星之間像自流井一樣運動。 在這些地方之間，理論上是可以超過光速的。"
  tech_hyper_drive_2:0 "超平面突破點"
- tech_hyper_drive_2_desc:0 "我們發現了空間中有一些地方，飛船要「突破」進入超平面的話會消耗更少的能量。這會引領一種新的超速行進方式。"
+ tech_hyper_drive_2_desc:0 "我們發現了空間中有一些地方，星艦要「突破」進入超平面的話會消耗更少的能量。這會引領一種新的超速行進方式。"
  tech_hyper_drive_3:0 "超空間滑流"
  tech_hyper_drive_3_desc:0 "新一代的超速行進方式，可以進入超空間中的亞空間亂流。這會極大的提升移動速度。"
  tech_hyperlane_mapping:0 "超空間航道測繪"
  tech_hyperlane_mapping_desc:0 "儘管我們不能在超空間中穿梭，但是我們已經定位了整個銀河系中大量的超平面網路，這可以帶給我們巨大的優勢。"
  tech_warp_drive_1:0 "曲速移動"
- tech_warp_drive_1_desc:0 "用一個扭曲的場包裹飛船，形成一個亞空間氣泡，理論上來說就可以超越光速了。"
+ tech_warp_drive_1_desc:0 "用一個扭曲的場包裹星艦，形成一個亞空間氣泡，理論上來說就可以超越光速了。"
  tech_warp_drive_2:0 "曲速穩定器"
- tech_warp_drive_2_desc:0 "升級後的曲速穩定技術將會使我們的飛船消耗更少的能量，飛得更遠。"
+ tech_warp_drive_2_desc:0 "升級後的曲速穩定技術將會使我們的星艦消耗更少的能量，飛得更遠。"
  tech_warp_drive_3:0 "曲速引擎回力裝置"
- tech_warp_drive_3_desc:0 "這種革命性的動力回收裝置會安裝在曲速發動機上，並回收逸出的能量，用以補充星際飛船的能源損耗。"
+ tech_warp_drive_3_desc:0 "這種革命性的動力回收裝置會安裝在曲速發動機上，並回收逸出的能量，用以補充星際星艦的能源損耗。"
  tech_jump_drive_1:0 "折躍引擎"
- tech_jump_drive_1_desc:1 "一項偉大的開創性技術，折躍引擎會把當地的時空連續體破碎為量子形態重組，定位至目標地點——然後這艘飛船基本上就和「折躍」過去差不多了。"
+ tech_jump_drive_1_desc:1 "一項偉大的開創性技術，折躍引擎會把當地的時空連續體破碎為量子形態重組，定位至目標地點——然後這艘星艦基本上就和「折躍」過去差不多了。"
  tech_psi_jump_drive_1:0 "靈能折躍引擎"
  tech_psi_jump_drive_1_desc:1 "靈能折躍引擎利用船員發散出的靈能能量迫使船體通過現實的阻礙，立即「折躍」過超長的距離。"
+ tech_wormhole_stabilization:0 "Wormhole Stabilization"
+ tech_wormhole_stabilization_desc:0 "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however."
+ tech_gateway_activation:0 "Gateway Activation"
+ tech_gateway_activation_desc:0 "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times."
+ tech_gateway_construction:0 "Gateway Construction"
+ tech_gateway_construction_desc:0 "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel."
 
  # Aura Components
  tech_shield_recharge_aura_1:0 "電容區域"
@@ -460,6 +533,8 @@
  # Ascension perk
  tech_ascension_theory:0 "飛昇理論"
  tech_ascension_theory_desc:0 "伴隨著戲劇性的技術、政治和文化進步，我們的社會在歷史進程中迴旋式上升。那些進步有時發生在動盪時期，有時發生在穩定時期。通過抓住社會進步的關鍵，我們可以縮短迴旋的過程，讓社會更快地進步。"
+ tech_ascension_theory_apoc:0 "$tech_ascension_theory$"
+ tech_ascension_theory_apoc_desc:0 "$tech_ascension_theory_desc$"
  
  # ###################################
  # Physics - Weapons
@@ -477,13 +552,15 @@
  tech_lasers_5:0 "伽瑪射線雷射器"
  tech_lasers_5_desc:0 "伽瑪雷射器發出的電磁輻射的頻率非常高。這是擁有無與倫比的破壞力的武器。"
  tech_energy_lance_1:0 "粒子光矛"
- tech_energy_lance_1_desc:0 "這種重型能量武器可以發射強力的粒子束，造成巨大的傷害。它們的發射器陣列規模限制了其只能被使用於大型炮台。"
+ tech_energy_lance_1_desc:1 "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans."
  tech_energy_lance_2:0 "速子光矛"
- tech_energy_lance_2_desc:0 "質子槍的威力強化版，這種武器會發射擁有超高能量的超高速粒子束。 和它的前身一樣，其使用被限制於大型炮台。"
+ tech_energy_lance_2_desc:1 "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans."
+ tech_perdition_beam:0 "Perdition Beam"
+ tech_perdition_beam_desc:0 "A massive array of linked energy amplification conduits that fires a beam of unprecedented firepower. Its size means that it can only be fitted on Titan-class starships."
 
  # Plasma Weapons
  tech_plasma_1:0 "等離子發射器"
- tech_plasma_1_desc:0 "可以向目標發射毀滅性的高能等離子束的武器。這種等離子發射器在對付大型飛船的裝甲時特別有效。"
+ tech_plasma_1_desc:0 "可以向目標發射毀滅性的高能等離子束的武器。這種等離子發射器在對付大型星艦的裝甲時特別有效。"
  tech_plasma_2:0 "等離子加速器"
  tech_plasma_2_desc:0 "這種新的加速器利用升級的牽引場來加速發射高能等離子體。這中技術使得在發射等離子束的時候能量洩露更少了。"
  tech_plasma_3:0 "等離子火炮"
@@ -495,15 +572,15 @@
 
  # Disruptor Weapons
  tech_disruptors_1:0 "裂解器"
- tech_disruptors_1_desc:0 "破壞者能夠發射高能子彈，弱化並破壞目標的分子鍵。對付裝甲的時候尤其有效。"
+ tech_disruptors_1_desc:1 "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew."
  tech_disruptors_2:0 "離子裂解器"
  tech_disruptors_2_desc:1 "這些升級版的破壞者可以發射出對目標身上的鋼鐵更有效的子彈。"
  tech_disruptors_3:0 "相位裂解器"
- tech_disruptors_3_desc:0 "這種極限強化版的裂解器可以向目標方向發射出一道不可思議的量子能，任何不幸被命中的人都會承受可怕的傷害。"
- tech_energy_torpedoes_1:0 "質子魚雷"
- tech_energy_torpedoes_1_desc:0 "這些能量魚雷由緊密集中的質子組成，他們完全有能力穿透調製器屏蔽或護盾系統。"
- tech_energy_torpedoes_2:0 "中子魚雷"
- tech_energy_torpedoes_2_desc:0 "由中子代替質子組成的升級版的能量魚雷，還是擁有著強大的破壞力。和它們的前身一樣，這種武器是能量護罩無法阻擋的。"
+ tech_disruptors_3_desc:0 "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their ."
+ tech_energy_torpedoes_1:1 "質子魚雷"
+ tech_energy_torpedoes_1_desc:2 "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships."
+ tech_energy_torpedoes_2:1 "中子魚雷"
+ tech_energy_torpedoes_2_desc:1 "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power."
 
  # Critter Weapons
  tech_extradimensional_weapon_1:0 "異次元武器"
@@ -637,6 +714,9 @@
  tech_tb_deep_sinkhole:0 "地下殖民"
  tech_tb_deep_sinkhole_desc:1 "許多行星有出廣袤的地下空隙。通過地下勘探、開發和建設技術可以大大提高一些行星的適居面積。"
  
+ # Trade
+ tech_space_trading:0 "Space Trading"
+ tech_space_trading_desc:1 "Trade across interstellar distances presents a new set of challenges to overcome. It is critical to achieve the transfer of goods from one system to another in a timely and above all cost efficient manner."
 
  # Terraforming
  tech_terrestrial_sculpting:0 "地表塑造"
@@ -680,7 +760,7 @@
  tech_regenerative_hull_tissue:0 "再生式船體組織"
  tech_regenerative_hull_tissue_desc:0 "轉基因的矽基細菌可能能造出無機材料。"
  tech_vitality_boosters:0 "生命力增強"
- tech_vitality_boosters_desc:0 " "
+ tech_vitality_boosters_desc:1 "Where the body fails, science intervenes."
  
  # Fleet Organization
  tech_doctrine_fleet_size_1:0 "學說：太空作戰"
@@ -695,12 +775,18 @@
  tech_doctrine_fleet_size_5_desc:1 "逐步適應深空作戰的現實使我們能夠有效地協調大演習。"
  tech_interstellar_fleet_traditions:0 "星際艦隊傳統"
  tech_interstellar_fleet_traditions_desc:1 "要是命令沒有強大的約束力，多麼完善的知識體系都是沒用的。"
- tech_doctrine_fleet_support:0 "學說：艦隊支援"
- tech_doctrine_fleet_support_desc:1 "為了讓太陽系外探險變得更加普遍，重要的是提供星際邊緣救援，幫他們回來。"
- tech_doctrine_refit_standards:0 "學說：改裝標準"
- tech_doctrine_refit_standards_desc:1 "升級和改造船組件的標準化工作流程會導致大規模的效率提升。"
- tech_doctrine_command_matrix:0 "學說：指戰矩陣"
- tech_doctrine_command_matrix_desc:1 "重組的命令鏈決定了人員之間的相互依賴關係是什麼樣子，這使艦隊更加敏感，從而節省了成本。"
+ tech_command_matrix:1 "Command Matrix"
+ tech_command_matrix_desc:1 "Restructuring the chain of command and deciding what interdependencies are set between officers, make fleets more responsive and effective."
+ tech_doctrine_navy_size_1:0 "Doctrine: Fleet Support"
+ tech_doctrine_navy_size_1_desc:1 "As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets."
+ tech_doctrine_navy_size_2:1 "Doctrine: Support Vessels"
+ tech_doctrine_navy_size_2_desc:1 "A fleet does not run on zeal alone. To ensure steady access to critical supplies, we should organize our logistics corps into dedicated support vessels."
+ tech_doctrine_navy_size_3:0 "Doctrine: Interstellar Logistics"
+ tech_doctrine_navy_size_3_desc:0 "Amateurs talk about tactics. Professionals study logistics. By ensuring our fleets are regularly and efficiently supplied, we can increase the number of vessels we can effectively support."
+ tech_doctrine_navy_size_4:0 "Doctrine: Fleet Liasions"
+ tech_doctrine_navy_size_4_desc:0 "By maintaining a professional corps of fleet liasions, we can improve communications and the flow of orders throughout the chain of command."
+ tech_refit_standards:1 "Refit Standards"
+ tech_refit_standards_desc:1 "Standardizing workflows for upgrading and retrofitting ship components can lead to massive efficiency gains."
 
  # Army Organization
  tech_centralized_command_hive_mind:0 "工蜂指揮中心"
@@ -713,6 +799,10 @@
  tech_combat_training_desc:1 "這是為新士兵準備的更完善的培訓計劃，包括現實的戰鬥場景，為他們上戰場做好了準備。"
  tech_combat_training_machine_intelligence:0 "戰場維修"
  tech_combat_training_desc_machine_intelligence:0 "通過為我們的戰地單元配備技術資料庫，他們可以在戰場執行診斷並開展有限的自我修復。"
+ tech_ground_defense_planning:0 "Ground Defense Planning"
+ tech_ground_defense_planning_desc:0 "There are many alien empires who would gladly seize our worlds for themselves. We must be prepared for them, should the worst come to pass."
+ tech_global_defense_grid:0 "Global Defense Grid"
+ tech_global_defense_grid_desc:0 "The strategic value of a good defense remains as relevant today as it was to our predecessors in the far distant past. Technology does not render fortifications obsolete - it merely changes their requirements."
 
  # Psionics
  tech_psionic_theory:0 "靈能理論"
@@ -735,8 +825,8 @@
  tech_xeno_supremacy_desc:1 "我們在銀河系這片渾水中前進的目標只有一個；就是成為那萬中之一。"
  tech_xeno_diplomacy:0 "異星外交"
  tech_xeno_diplomacy_desc:1 "推進我們的理解——異星帝王的相互作用和利用是一個必要的步驟，可以形成更持久的星際聯盟。"
- tech_galactic_ambitions:0 "銀河野望"
- tech_galactic_ambitions_desc:2 "減少戰爭訴求§H割占星球§!和§H割占邊境哨站§!的戰爭點數成本。"
+ tech_galactic_ambitions:1 "銀河野望"
+ tech_galactic_ambitions_desc:3 "Our future lies in the sea of stars."
  tech_manifest_destiny:0 "昭昭天命"
  tech_manifest_destiny_desc:1 "我們必須有勇氣去抓住自己的命運，讓現實過得有意義。"
  tech_interstellar_campaigns:0 "星際戰役"
@@ -843,7 +933,7 @@
  tech_scourge_missile_1:0 "災禍導彈"
  tech_scourge_missile_1_desc:1 "通過分析蜂群使用的生物武器，我們可以造出同樣可怕的自航炮彈傳播式殺傷性武器。"
  tech_space_whale_weapon_1:0 "頻率調諧"
- tech_space_whale_weapon_1_desc:1 "適應緹楊凱提取氣態物質的能量的方法，就有可能造出可以從敵方飛船中汲取能量的武器。"
+ tech_space_whale_weapon_1_desc:1 "適應緹楊凱提取氣態物質的能量的方法，就有可能造出可以從敵方星艦中汲取能量的武器。"
  
  # ###################################
  # Repeatable techs
@@ -877,7 +967,7 @@
  tech_repeatable_weapon_type_energy_damage:0 "聚焦陣列"
  tech_repeatable_weapon_type_energy_damage_desc:1 "完善能量武器的發射節奏是一個可以讓任何行星的工程菁英忙幾個世紀的任務。"
  tech_repeatable_weapon_type_energy_fire_rate:0 "瞬間冷卻劑"
- tech_repeatable_weapon_type_energy_fire_rate_desc:1 "可以冷卻某一表面的新科技，提高了我們的武器系統的穩定性和效率。讓它們在使用的時候不至於炸掉我們的飛船。"
+ tech_repeatable_weapon_type_energy_fire_rate_desc:1 "可以冷卻某一表面的新科技，提高了我們的武器系統的穩定性和效率。讓它們在使用的時候不至於炸掉我們的星艦。"
  tech_repeatable_weapon_type_strike_craft_fire_damage:0 "突觸攔截器"
  tech_repeatable_weapon_type_strike_craft_fire_damage_desc:1 "提高戰鬥機飛行員處理敵人位置訊息並做出反應的速度，將艦載機提高幾個檔次。"
  tech_repeatable_weapon_type_strike_craft_fire_rate:0 "熱力循環器"
@@ -910,10 +1000,14 @@
  tech_repeatable_improved_army_health_desc:1 "小心地調整疼痛接收器，可以讓士兵在本來將造成損害的傷勢下繼續戰鬥。"
  tech_repeatable_improved_leader_life_span:0 "細胞再生"
  tech_repeatable_improved_leader_life_span_desc:1 "週期性細胞再生療法能讓領導階層保持活力，延年益壽。"
- tech_repeatable_improved_border_range:0 "宣傳速達"
- tech_repeatable_improved_border_range_desc:1 "通過未加密的廣播，向周邊星系宣示我們的所有權，這是一項基礎但有效的對外政策。"
+ tech_repeatable_improved_starbase_capacity:0 "Interstellar Expansion"
+ tech_repeatable_improved_starbase_capacity_desc:1 "The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations."
  tech_repeatable_improved_slave_mineral_output:0 "刺激性飲食"
  tech_repeatable_improved_slave_mineral_output_desc:1 "化學優化過的飲食，讓簽約的工人發揮出非同一般的生產力。"
+ tech_repeatable_naval_cap:0 "Fleet Management Procedures"
+ tech_repeatable_naval_cap_desc:0 "Improved fleet management procedures will free up the resources needed to maintain a bigger fleet."
+ tech_repeatable_command_limit:0 "Admiralty Support Staff"
+ tech_repeatable_command_limit_desc:0 "Improving the support staff available to our admirals will increase the number of ships they can command in a single fleet."
  
  # ###################################
  # TEMP
@@ -960,6 +1054,9 @@
  gateway_ship:0 "§H星艦之路§!\n§E這項科技的未來方向是建設更大的太空港以及更強力的戰艦。§!"
  gateway_psionics:0 "§H靈能之路§!\n§E這項科技的未來方向是靈能領域。§!"
  gateway_robotics:0 "§H機器之路§!\n§E這項科技的未來方向是機器人領域。§!"
+ gateway_kinetic_weapons:0 "§HKinetic Weapons Path§!\n§EThis technology will lead to further advancements in the field of kinetic weapons.§!"
+ gateway_energy_weapons:0 "§HEnergy Weapons Path§!\n§EThis technology will lead to further advancements in the field of energy weapons.§!"
+ gateway_power_generation:0 "§HPower Generation§!\n§EThis technology will lead to further advancements in several different fields.§!"
  
  #####################################
  # Enclave Techs
@@ -984,3 +1081,17 @@
  tech_biomechanics_desc:0 "有機生命體在經歷了數百萬年漫長演化後，偶爾能單純通過時間的積累沉澱出優雅的解決方案。這些解決方案也應當服務於機械體設計。"
  tech_singularity_core:0 "奇點核心"
  tech_singularity_core_desc:0 "在受控環境下研究一個被俘獲的黑洞，這真是令人難以置信的研究資產。"
+
+ #####################################
+ # Required technologies
+ #####################################
+ requires_tech_synchronized_defences:0 "§RRequires £physics  §Y$tech_synchronized_defences$§! technology.§!"
+ requires_tech_strike_craft_1:0 "§RRequires £engineering  §Y$tech_strike_craft_1$§! technology.§!"
+ requires_tech_titans:0 "§RRequires £engineering  §Y$tech_titans$§! technology.§!"
+ requires_tech_space_trading:0 "§RRequires £society  §Y$tech_space_trading$§! technology.§!"
+ requires_tech_hyper_drive_2:0 "§RRequires £physics  §Y$tech_hyper_drive_2$§! technology.§!"
+ requires_tech_aura_quantum_destabilizer:0 "§RRequires £physics  §Y$tech_aura_quantum_destabilizer$§! technology.§!"
+ requires_tech_interstellar_fleet_traditions:1 "§RRequires £society  §Y$tech_interstellar_fleet_traditions$§! technology.§!"
+ requires_tech_orbital_sensor_array:0 "§RRequires £physics  §Y$tech_orbital_sensor_array$§! technology.§!"
+ requires_tech_command_matrix:0 "§RRequires £society  §Y$tech_command_matrix$§! technology.§!"
+ 

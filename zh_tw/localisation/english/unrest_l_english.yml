@@ -108,7 +108,7 @@
  unrest.157.a:0 "他們已經做得太過分了。"
  unrest.157.b:0 "也許我們應該更改我們自己的方式。"
  unrest.160.name:0 "$unrest_title$ [revolt_planet.Planet.GetName]上的奴隸起義"
- unrest.160.desc:0 "[revolt_planet.Planet.GetName]上的奴隸人口已經團結起來公開起義，並使用暴力對抗當地政府。這一起義已經逐步擴大，起義軍已經攻擊並關閉了該星球的數個關鍵建築物。這顆星球的命運現在落在了當地的防禦部隊手中。如果他們失敗，我們則失去了[revolt_planet.Planet.GetName]。"
+ unrest.160.desc:1 "The slave population on [revolt_planet.Planet.GetName] has united and risen in open, armed revolt against the local leadership. The situation has escalated quickly, as rebel forces have struck against and disabled several key targets simultaneously. The fate of the planet now depends on our defending troops. If they fail, we lose [revolt_planet.Planet.GetName]."
  unrest.160.a:0 "碾碎叛亂分子！"
  unrest.160.a.tooltip:0 "奴隸軍隊將會試圖控制整個星球。"
  unrest.161.name:0 "叛亂被鎮壓"
@@ -136,4 +136,3 @@
  unrest.169.c:0 "恭喜，現在他們是你國的麻煩了。"
 
  opinion_took_in_rebels:0 "接受叛軍。"
-

@@ -10,6 +10,14 @@
  
  
  ####################################
+ # Titan
+ ####################################
+ 
+ TITAN_BOW:0 "泰坦艦首"
+ TITAN_MID:0 "泰坦核心"
+ TITAN_STERN:1 "泰坦艦尾"
+ 
+ ####################################
  # Battleship
  ####################################
  BATTLESHIP_BOW_L1M1S2:1 "齊射艦首"
@@ -46,20 +54,21 @@
  ####################################
  # Corvette
  #################################### 
- CORVETTE_MID_M1S1:1 "魚雷艇"
+ CORVETTE_MID_M1S1:2 "導彈艇"
  CORVETTE_MID_S3:1 "截擊艦"
  CORVETTE_MID_S1:1 "位移器核心"
+ CORVETTE_MID_S2PD1:0 "警戒艦"
 
  ####################################
  # Cruiser
  #################################### 
  CRUISER_BOW_L1:1 "火炮艦首"
- CRUISER_BOW_M1S2:1 "魚雷艦首"
+ CRUISER_BOW_M1S2:2 "導彈艦首"
  CRUISER_BOW_M2:1 "齊射艦首"
  CRUISER_MID_S2HB:1 "機庫核心"
  CRUISER_MID_L1M1:1 "火炮核心"
  CRUISER_MID_M3:1 "齊射核心"
- CRUISER_MID_M2S2:1 "魚雷核心"
+ CRUISER_MID_M2S2:2 "導彈核心"
  CRUISER_STERN_M1:1 "齊射艦尾"
  CRUISER_STERN_S2:1 "炮艇艦尾"
 
@@ -84,7 +93,9 @@
  # Science
  #################################### 
  LIGHT_MILITARY_STATION_SECTION:0 "輕型站點模組"
+ PD_MILITARY_STATION_SECTION:0 "基地點防禦模組"
  MEDIUM_MILITARY_STATION_SECTION:0 "中型站點模組"
+ MISSILE_MILITARY_STATION_SECTION:0 "基地導彈模組"
  HEAVY_MILITARY_STATION_SECTION:0 "重型站點模組"
  HANGAR_MILITARY_STATION_SECTION:0 "機庫站點模組"
  LIGHT_LARGE_MILITARY_STATION_SECTION:0 "輕型站點模組"
@@ -106,3 +117,4 @@
  DEFAULT_WORMHOLE_STATION_SECTION:0 "蟲洞站框架"
  DEFAULT_MILITARY_STATION_SECTION:0 "基礎軍事平台"
  DEFAULT_TRANSPORT_SECTION:1 "運輸船"
+ SHIP_COLOSSUS_SECTION:0 "巨像"

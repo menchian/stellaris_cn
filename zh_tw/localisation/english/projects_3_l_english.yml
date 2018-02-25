@@ -5,7 +5,7 @@
  ####################################
 
  ### Anomaly Events
- DERELICT_SHIP_PROJECT:0 "廢棄飛船"
+ DERELICT_SHIP_PROJECT:0 "廢棄星艦"
  DERELICT_SHIP_PROJECT_DESC:0 "天空中漂浮著一艘船，沒有信號傳入或送出。或許近距離的觀察能查明船上的人都發生了什麼。"
  ODD_STAR_PROJECT:0 "熔爐的火焰"
  ODD_STAR_PROJECT_DESC:0 "這顆星似乎能融合鈹，但這理應是不可能的。"

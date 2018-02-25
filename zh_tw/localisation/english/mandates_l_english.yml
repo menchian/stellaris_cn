@@ -4,12 +4,7 @@
  #	COMMON STRINGS
  ####################################
 
- mandate_influence_reward_t1:0 "£influence §G低（40 - 100）§!"
- mandate_influence_reward_t2:0 "£influence §G中（80 - 175）§!"
- mandate_influence_reward_t3:0 "£influence §G高（125 - 250）§!"
- mandate_influence_reward_t4:0 "£influence §G極高（150 - 300）§!"
- mandate_influence_reward_t5:0 "£influence §G極高（250 - 500）§!"
- mandate_happiness_reward_t1:0 "§G+15%§!幸福度，持續§Y1年§!"
+ mandate_unity_reward:0 "£unity  §G(50 - 1000)§!"
 
  ####################################
  #	MANDATES
@@ -41,11 +36,11 @@
  ####################################
 
  mandate_miner_chain_title:0 "礦工承諾"
- mandate_miner_chain_desc:2 "[This.GetRulerTitle][This.GetRulerName]因為承諾廣建§Y採礦基地§!並增加£minerals §Y礦物產值§!而當選。\n\n獎勵：\n$mandate_influence_reward_t2$"
+ mandate_miner_chain_desc:3 "[This.GetRulerTitle][This.GetRulerName]因為承諾廣建§Y採礦基地§!並增加£minerals §Y礦物產值§!而當選。\n\n獎勵：\n$mandate_unity_reward$"
  mining_stations_built:0 "已建造採礦基地"
 
  mandate_orbresearch_chain_title:0 "軌道研究承諾"
- mandate_orbresearch_chain_desc:2 "[This.GetRulerTitle][This.GetRulerName]因為承諾廣建§Y科研基地§!並增加§Y研究產值§!而當選。\n\n獎勵：\n$mandate_influence_reward_t2$"
+ mandate_orbresearch_chain_desc:3 "[This.GetRulerTitle][This.GetRulerName]因為承諾廣建§Y科研基地§!並增加§Y研究產值§!而當選。\n\n獎勵：\n$mandate_unity_reward$"
  orbresearch_built:0 "已建造科研基地"
 
  mandate_xenopurge_chain_title:0 "異族肅清承諾"
