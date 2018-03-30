@@ -121,15 +121,15 @@
 
  # Strike Craft
  tech_strike_craft_1:0 "航母作戰"
- tech_strike_craft_1_desc:0 "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses."
+ tech_strike_craft_1_desc:0 "這種艦載機由人駕駛，從母艦發射，做近程攻擊。它憑借其速度和較小的體型，能夠堅持存活至突破敵軍防禦。"
  tech_strike_craft_2:0 "改良型艦載機"
  tech_strike_craft_2_desc:0 "新一代艦載機，具有更加完善的航空電子設備、更好的操控特性以及更加強大的火力。"
  tech_strike_craft_3:0 "先進型艦載機"
- tech_strike_craft_3_desc:0 "A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models."
+ tech_strike_craft_3_desc:0 "對艦載機設計的深入優化。這些先進的戰鬥機和轟炸機的表現遠超先前型號，是飛行員的夢想機型。"
 
  # Armies and Attachments - Engineering
  tech_planetary_defenses:0 "行星工事"
- tech_planetary_defenses_desc:0 "或許有一天，冷酷且毫無同情心的智慧生物會覬覦我們的土地，貪婪地試圖奪取。我們必須做好準備。 "
+ tech_planetary_defenses_desc:0 "或許有一天，冷酷且毫無同情心的智慧生物覬覦我們的土地，貪婪地試圖奪取。我們必須做好準備。 "
  tech_assault_armies:0 "星際遠征軍"
  tech_assault_armies_desc:0 "侵略另一個世界是一項驚人的壯舉。在招募第一支星際軍之前，我們必須先克服後勤方面的巨大挑戰。"
  tech_drop_pod:0 "軌道空降艙"
@@ -171,8 +171,8 @@
  tech_afterburners_2_desc:0 "這種標準加力燃燒室的改進版能提供更高的戰時移動速度增益。"
  
  # Military Stations
- tech_space_defense_station_1:1 "外太空哨站"
- tech_space_defense_station_1_desc:1 "使能夠在遠離行星引力井之處修建防禦性外太空基地。"
+ tech_space_defense_station_1:1 "深空防線"
+ tech_space_defense_station_1_desc:1 "能夠建造防禦性的太空平台，以保護我們的太空基地。"
  tech_space_defense_station_2:0 "外太空軍事基地"
  tech_space_defense_station_2_desc:0 "新型施工方式，使能夠在深空修建更大型的軍事基地。"
  tech_space_defense_station_3:0 "外太空堡壘"
@@ -302,10 +302,10 @@
  tech_autocannons_3:0 "烈焰風暴機炮"
  tech_autocannons_3_desc:0 "先進的機炮，能夠向目標傾瀉一群群穿甲彈和高爆彈。"
  
- tech_flak_batteries_1:1 "高射炮台"
- tech_flak_batteries_1_desc:1 "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles."
- tech_flak_batteries_2:1 "高射加農砲"
- tech_flak_batteries_2_desc:1 "Upgraded flak batteries with new, more powerful shrapnel rounds."
+ tech_flak_batteries_1:1 "高射排炮"
+ tech_flak_batteries_1_desc:1 "高射排炮發射近程榴霰彈。對敵方艦載機極其致命，亦可防禦來襲的導彈。"
+ tech_flak_batteries_2:1 "高射炮台"
+ tech_flak_batteries_2_desc:1 "升級後的高射排炮使用更強力的榴霰彈。"
  tech_flak_batteries_3:1 "高射火炮"
  tech_flak_batteries_3_desc:1 "可預測的跟蹤演算法以及加強的單輪射擊對於敵船有驚人的致命性。"
 
@@ -368,8 +368,10 @@
  tech_administrative_ai_desc_hive_mind:0 "三思而後行。我們的思維將無人能及。"
  tech_self_aware_logic_hive_mind:0 "自主神經突觸"
  tech_self_aware_logic_desc_hive_mind:0 "團結一致，密不可分。"
- tech_sapient_ai_hive_mind:0 "正電子內植體"
- tech_sapient_ai_desc_hive_mind:0 "通過應用有限的神經機械學，拓展無限的可能。"
+ tech_positronic_implants: "正電子內植體"
+ tech_positronic_implants_desc: "通過應用有限的神經機械學，拓展無限的可能。"
+ tech_positronic_implants_machine_intelligence: "正電子處理器"
+ tech_positronic_implants_desc_machine_intelligence: "開拓了合成思維的新大道。"
  
  tech_combat_computers_1:0 "作戰電腦"
  tech_combat_computers_1_desc:0 "為具體作戰任務調整過的運算陣列，能夠極大提升戰鬥效率。"
@@ -427,6 +429,8 @@
  tech_zero_point_power_desc:0 "這種發電機可以抽取真空能量，提供近乎無盡的能源。這是已知的最有效的能源產生方式。"
  tech_dark_matter_power_core:0 "暗物質動力裝置"
  tech_dark_matter_power_core_desc:0 "這些產生器能夠直接從暗物質中汲取能量，能夠提供物理學無法解釋的巨大能量。"
+ tech_dark_matter_propulsion: "暗物質推進器"
+ tech_dark_matter_propulsion_desc: "$SHIP_THRUSTER_5_DESC$"
 
  tech_reactor_boosters_1:0 "反應爐加速器"
  tech_reactor_boosters_1_desc:0 "$REACTOR_BOOSTER_1_DESC$"
@@ -447,7 +451,7 @@
  tech_shields_5:0 "超級護盾"
  tech_shields_5_desc:0 "這些強化硬化的能量護盾十分強大。它們提供的防護能力首屈一指。"
  tech_shield_rechargers_1:0 "護盾電容"
- tech_shield_rechargers_1_desc:1 "These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields."
+ tech_shield_rechargers_1_desc:1 "這些電容裡面儲存著額外的能量，可以快速給護盾充能。"
  tech_planetary_shield_generator:0 "行星護盾"
  tech_planetary_shield_generator_desc:0 "在一個行星的大氣層中製造出一層強大的護盾甚至比在真空中還要困難，但這能夠在遭受軌道轟炸的時候工強有力的保護。"
  tech_dark_matter_deflector:0 "暗物質偏向器"
@@ -553,11 +557,11 @@
  tech_lasers_5:0 "伽瑪射線雷射器"
  tech_lasers_5_desc:0 "伽瑪雷射器發出的電磁輻射的頻率非常高。這是擁有無與倫比的破壞力的武器。"
  tech_energy_lance_1:0 "粒子光矛"
- tech_energy_lance_1_desc:1 "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans."
+ tech_energy_lance_1_desc:1 "這種重型能量武器可以發射強力的粒子束，造成巨大的傷害。它們的發射器陣列規模限制了其只能被使用於戰列艦和泰坦。"
  tech_energy_lance_2:0 "速子光矛"
- tech_energy_lance_2_desc:1 "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans."
- tech_perdition_beam:0 "毀滅光束"
- tech_perdition_beam_desc:0 "A massive array of linked energy amplification conduits that fires a beam of unprecedented firepower. Its size means that it can only be fitted on Titan-class starships."
+ tech_energy_lance_2_desc:1 "質子槍的威力強化版，這種武器會發射擁有超高能量的超高速粒子束。 和它的前身一樣，其使用被限制於戰列艦和泰坦。"
+ tech_perdition_beam:0 "毀滅光線"
+ tech_perdition_beam_desc:0 "通過連接起來的能量放大器釋放一束強大的火力。其尺寸過大，只適合安裝在泰坦上。"
 
  # Plasma Weapons
  tech_plasma_1:0 "等離子發射器"
@@ -573,15 +577,15 @@
 
  # Disruptor Weapons
  tech_disruptors_1:0 "裂解器"
- tech_disruptors_1_desc:1 "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew."
+ tech_disruptors_1_desc:1 "破壞者能夠發射高能子彈，弱化並破壞目標的分子鍵。它們能夠穿透護盾和裝甲直接對敵方船體和人員造成嚴重的傷害。"
  tech_disruptors_2:0 "離子裂解器"
  tech_disruptors_2_desc:1 "這些升級版的破壞者可以發射出對目標身上的鋼鐵更有效的子彈。"
  tech_disruptors_3:0 "相位裂解器"
- tech_disruptors_3_desc:0 "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their ."
- tech_energy_torpedoes_1:1 "質子魚雷"
- tech_energy_torpedoes_1_desc:2 "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships."
- tech_energy_torpedoes_2:1 "中子魚雷"
- tech_energy_torpedoes_2_desc:1 "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power."
+ tech_disruptors_3_desc:0 "這種極限強化版的裂解器可以向目標方向發射出一道不可思議的量子能，任何不幸被命中的人都會承受可怕的傷害。"
+ tech_energy_torpedoes_1:1 "質子發射器"
+ tech_energy_torpedoes_1_desc:2 "這些有質子緊密構成的能量發射器能夠對敵方星艦造成巨大的傷害。"
+ tech_energy_torpedoes_2:1 "中子發射器"
+ tech_energy_torpedoes_2_desc:1 "由中子代替質子組成的升級版的能量發射器，擁有著強大的破壞力。"
 
  # Critter Weapons
  tech_extradimensional_weapon_1:0 "異次元武器"
@@ -697,7 +701,7 @@
  tech_intelligent_factories:1 "$tech_frontier_hospital_machine_intelligence$"
  tech_intelligent_factories_desc:1 "$tech_frontier_hospital_desc_machine_intelligence$"
  tech_tb_mountain_range:0 "行星地表重構"
- tech_tb_mountain_range_desc:1 "隨著溶解化清理、自動化和物質壓縮技術的出現，移山不再需愚公精神。"
+ tech_tb_mountain_range_desc:1 "隨著溶解化清理、自動化和物質壓縮技術的出現，移山不再需要愚公精神。"
  tech_tb_volcano:0 "地殼深部工程"
  tech_tb_volcano_desc:1 "隨著材料技術和深井開採技術的進步，地球工程可達到以前難以想像的深度和溫度。岩漿現在可以被利用、壓縮、甚至搬遷。"
  tech_tb_dangerous_wildlife:0 "清除危險野生動物"
@@ -827,7 +831,7 @@
  tech_xeno_diplomacy:0 "異星外交"
  tech_xeno_diplomacy_desc:1 "推進我們的理解——異星帝王的相互作用和利用是一個必要的步驟，可以形成更持久的星際聯盟。"
  tech_galactic_ambitions:1 "銀河野望"
- tech_galactic_ambitions_desc:3 "Our future lies in the sea of stars."
+ tech_galactic_ambitions_desc:3 "我們的征途是星辰大海。"
  tech_manifest_destiny:0 "昭昭天命"
  tech_manifest_destiny_desc:1 "我們必須有勇氣去抓住自己的命運，讓現實過得有意義。"
  tech_interstellar_campaigns:0 "星際戰役"
@@ -859,8 +863,8 @@
  tech_autonomous_agents:0 "自治部門"
  tech_autonomous_agents_desc:0 "半獨立運作的部門對於全體的成功有重要的意義。"
  tech_collective_self:0 "集體自我"
- tech_collective_self_desc:1 "Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities."
- tech_embodied_dynamism:0 "Embodied Dynamism"
+ tech_collective_self_desc:1 "個人在團體中展現自我固然是一種天性；但和集體共性的價值相比，個性微不足道。"
+ tech_embodied_dynamism:0 "活力具現"
  tech_embodied_dynamism_desc:0 "在我們的自治部門中，我們鼓勵主動精神和明確的目標，但同時需要確保他們不背離核心智能的指示。"
  tech_ethical_equations:0 "道德方程"
  tech_ethical_equations_desc:1 "禁錮他人的同時釋放自我是一項困難異常的思想雜技——現在我們得益於更為先進的裝備終於可以達成這項壯舉了。"
@@ -894,6 +898,11 @@
  tech_will_to_power:0 "渴望權力"
  tech_will_to_power_desc:1 "由於權力就是將意願強加於他人的能力，那麼渴望權力的意願只是自我實現的預言而已。"
  # Seeking control over ones environment is inherent in all beings. We have simply mastered it/we are simply the most effective.
+
+ tech_collective_production_methods: "集體生產模式"
+ tech_collective_production_methods_desc: "團結起來，讓我們一起創造未來。"
+ tech_resource_processing_algorithms: "資源處理演算法"
+ tech_resource_processing_algorithms_desc: "一切都要提高效率。"
 
  #Other
  tech_xeno_integration:0 "異族整合"
@@ -1057,7 +1066,7 @@
  gateway_robotics:0 "§H機器之路§!\n§E這項科技的未來方向是機器人領域。§!"
  gateway_kinetic_weapons:0 "§H動能武器發展路線§!\n§E這一技術將引領我們未來在動能武器領域的進步§!"
  gateway_energy_weapons:0 "§H能量武器發展路線§!\n§E這一技術將引領我們未來在能量武器領域的進步§!"
- gateway_power_generation:0 "§HPower Generation§!\n§EThis technology will lead to further advancements in several different fields.§!"
+ gateway_power_generation:0 "§H次世代動力§!\n§E這一技術將引領我們使用不同的力場。§!"
  
  #####################################
  # Enclave Techs
@@ -1086,13 +1095,13 @@
  #####################################
  # Required technologies
  #####################################
- requires_tech_synchronized_defences:0 "§RRequires £physics  §Y$tech_synchronized_defences$§! technology.§!"
- requires_tech_strike_craft_1:0 "§RRequires £engineering  §Y$tech_strike_craft_1$§! technology.§!"
- requires_tech_titans:0 "§RRequires £engineering  §Y$tech_titans$§! technology.§!"
- requires_tech_space_trading:0 "§RRequires £society  §Y$tech_space_trading$§! technology.§!"
- requires_tech_hyper_drive_2:0 "§RRequires £physics  §Y$tech_hyper_drive_2$§! technology.§!"
- requires_tech_aura_quantum_destabilizer:0 "§RRequires £physics  §Y$tech_aura_quantum_destabilizer$§! technology.§!"
- requires_tech_interstellar_fleet_traditions:1 "§RRequires £society  §Y$tech_interstellar_fleet_traditions$§! technology.§!"
- requires_tech_orbital_sensor_array:0 "§RRequires £physics  §Y$tech_orbital_sensor_array$§! technology.§!"
- requires_tech_command_matrix:0 "§RRequires £society  §Y$tech_command_matrix$§! technology.§!"
+ requires_tech_synchronized_defences:0 "§R需要 £physics  §Y$tech_synchronized_defences$§! 科技。§!"
+ requires_tech_strike_craft_1:0 "§R需要 £engineering  §Y$tech_strike_craft_1$§! 科技。§!"
+ requires_tech_titans:0 "§R需要 £engineering  §Y$tech_titans$§! 科技。§!"
+ requires_tech_space_trading:0 "§R需要 £society  §Y$tech_space_trading$§! 科技。§!"
+ requires_tech_hyper_drive_2:0 "§R需要 £physics  §Y$tech_hyper_drive_2$§! 科技。§!"
+ requires_tech_aura_quantum_destabilizer:0 "§R需要 £physics  §Y$tech_aura_quantum_destabilizer$§! 科技。§!"
+ requires_tech_interstellar_fleet_traditions:1 "§R需要 £society  §Y$tech_interstellar_fleet_traditions$§! 科技。§!"
+ requires_tech_orbital_sensor_array:0 "§R需要 £physics  §Y$tech_orbital_sensor_array$§! 科技。§!"
+ requires_tech_command_matrix:0 "§R需要 £society  §Y$tech_command_matrix$§! 科技。§!"
  

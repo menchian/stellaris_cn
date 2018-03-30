@@ -20,7 +20,7 @@
  utopia.2551.desc:1 "終於。禁錮我們的肉體囚籠已被摧毀，所有公民的神經元也已經上傳至全新的合成人身體。疾病，衰老和所有的有機存在所帶來的苦難之源都已成過往。\n\nF未來的史學家將會毫無疑問的將這一事件標記為我們文明或整個銀河系的新紀元。由於我們已經脫離了以前的有機自我認同，為我們的合成人進化形式取一個新名字是理所當然的。"
  utopia.2551.a:0 "我們已經超越自身過往。"
  
- utopia.2555.1.desc:0 "在摒棄自我肉體的最終行動中，來自[From.GetName]的公民，在已經大量接受機械內植體改造的情況下，將它們的神經模式上傳到了新的合成人軀殼中。\n\n這個新的機械種族現在自稱為「[From.GetSpeciesNamePlural]」，它們的成員亦不會受到疾病或老化的影響。然而這個意識上傳過程的完整性還有待觀察……"
+ utopia.2555.1.desc:0 "在摒棄自我肉體的最終行動中，來自[From.GetName]的公民，在已經大量接受機械內植體改造的情況下，將它們的神經模式上傳到了新的合成人軀殼中。\n\n這個新的機械種族現在自稱為「[From.GetSpeciesNamePlural]」，它們的人口亦不會受到疾病或老化的影響。然而這個意識上傳過程的完整性還有待觀察……"
  utopia.2555.2.desc:0 "在一個即將遺臭萬年的最終墮落行動中，來自[From.GetName]的人口仍在堅持不懈的褻瀆它們的神聖肉體——將自我意識「上傳」到毫無生機的金屬外殼中。\n\n儘管事實上它們只能被稱作大規模文明種族自殺的產物，這些沒有靈魂的機器仍自稱為「[From.GetSpeciesNamePlural]」。它們似乎打算維持假象，偽裝成像我們一樣的有自我思想的生靈。"
  utopia.2555.a:0 "隨它們吧。"
  utopia.2555.b:0 "我們不會被蒙蔽。"
@@ -281,7 +281,7 @@
  boon.firing.high:0 "§G$boon.firing$§!"
  boon.firing.medium:0 "§Y$boon.firing$§!"
  boon.firing.low:0 "§R$boon.firing$§!"
- boon.ethics:0 "恩澤：執政道德吸引力提升"
+ boon.ethics:0 "恩澤：執政道德準則吸引力提升"
  boon.ethics.high:0 "§G$boon.ethics$§!"
  boon.ethics.medium:0 "§Y$boon.ethics$§!"
  boon.ethics.low:0 "§R$boon.ethics$§!"
@@ -525,3 +525,14 @@
  covenant_instrument_of_desire_desc:0 "我們與天幕中的一個強大的存在簽訂了契約，並受益於其庇佑。\n\n§Y必將有所代償§!"
  covenant_end_of_the_cycle:0 "契約：終寰靈尊"  # End of the Cycle
  covenant_end_of_the_cycle_desc:0 "我們與終寰靈尊簽訂了契約。\n\n§R必將有所代償§!"
+
+ utopia.3400.name: "神聖的君王"
+ utopia.3400.desc: "此為不朽者§H[chosen_one.GetName]§，曾為[chosen_one_species.GetName]，但如今遠超於此，其在[Root.GetName]中擁有大批虔誠的信徒. 被他們尊奉為至高無上的神, 如今[chosen_one.GetTitle]正式宣告加冕為我們偉大帝國的永久統治者，自今日始，直到永恆。"
+ utopia.3400.a: "雖然是個強大的靈魂，但是要成為神？真是妄想！"
+ utopia.3400.b: "願[chosen_one.GetHerHis]的統治無遠弗屆！"
+ reject_god_emperor: "作夢！[chosen_one.GetName]只能是[chosen_one.GetTitle]."
+ utopia.3401.name: "[chosen_one.GetTitle]於[From.Capital.GetName]加冕為王"
+ utopia.3401.desc: "一個非常強大的[chosen_one_species.GetName]神職人員掌控了§H[From.GetName]§!! 這位在[chosen_one.GetHerHis]追隨者的低聲耳語中被稱為天選之人的不朽的存在，今天上午於[From.Capital.GetName]的一個盛大儀式上加冕稱帝。慶祝§H[chosen_one.GetRulerTitle] [chosen_one.GetRegnalName]§!開始其永恆統治的公報隨後被照會給了所有星際間的政府。"
+ utopia.3401.a: "[chosen_one.GetName]已經一隻腳踏進了棺材."
+ utopia.3401.b: "迷信的無稽之談。"
+ utopia.3401.c: "這是一項重大的改變。" 

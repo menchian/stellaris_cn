@@ -66,7 +66,7 @@
  allow_edict_consectrated_worlds:3 "§H解鎖行星法令：§!$edict_consecrated_worlds$"
  describe_edict_consectrated_worlds:3 "§E這是一個持續§Y100§!年的行星法令，會提高 £pop 人口的§Y$MOD_POP_HAPPINESS$§!、§Y精神主義道德吸引力§!和§Y$MOD_POP_GROWTH_SPEED$§!，並提升 £unity 凝聚力§Y產出§!。§!"
  allow_machine_worlds:2 "§H解鎖環境改造方案:§!機械世界"
- describe_machine_worlds:2 "§Y機械世界§!是一種不適合有機體的特殊行星類別。§Y機械體人口§!生活在§Y機器世界§!會將他們的產出增加§G+20%§!。"
+ describe_machine_worlds:2 "§Y機械世界§!是一種不適合有機生命體的特殊行星類別。§Y機械體人口§!生活在§Y機器世界§!會將他們的產出增加§G+20%§!。"
  
  ALLOW_PSI_CORPS:0 "可以建造建築§H$building_psi_corps$§!。"
  ALLOW_PSI_ARMIES:0 "可以徵募§H$psionic_army_plural$§!。"
@@ -160,6 +160,8 @@
  SYNTHETIC_EVOLUTION_PROJECT:0 "$ap_synthetic_evolution$"
  SYNTHETIC_EVOLUTION_PROJECT_DESC:0 "放棄充滿缺陷的有機生命體擁抱不朽的時候到了。我們必須為全體人口準備先進的合成人化身，然後開始意識轉移的過程。"
  
+ TRAIT_IMPROVES_LEADERS: "§G來自於這個種族的領袖有額外的特質和加成§!"
+
  trait_cybernetic:0 "半機械化"
  trait_cybernetic_desc:0 "§L此種族大量運用神經機械學，其程度致其個體可被稱為半機械人。他們通常將有機身體部件替換成先進的機械版本。§!\n"
  trait_latent_psionic:0 "潛在靈能"
@@ -168,6 +170,17 @@
  trait_psionic_desc:0 "§L此種族的所有個體都擁有強大的靈能。他們通常通過心靈感應來相互溝通。§!\n"
  trait_self_modified:0 "自我修正"
  trait_self_modified_desc:0 "§L此分支種族自發的改變了他們的基因結構，為他們獲取了更多優勢。§!"
+
+ leader_trait_admiral_erudite: "博學"
+ leader_trait_admiral_erudite_desc: "這個領袖的智力有極大的提升，這增強了指揮艦隊的能力。"
+ leader_trait_general_erudite: "$leader_trait_admiral_erudite$"
+ leader_trait_general_erudite_desc: "這個領袖的智力有極大的提升，這增強了統帥軍隊的能力。"
+ leader_trait_governor_erudite: "$leader_trait_admiral_erudite$"
+ leader_trait_governor_erudite_desc: "這個領袖的智力有極大的提升，這增強了行政治理能力。"
+ leader_trait_scientist_erudite: "$leader_trait_admiral_erudite$"
+ leader_trait_scientist_erudite_desc: "這個領袖的智力有極大的提升，這增強了科學研究的能力。"
+ leader_trait_ruler_erudite: "$leader_trait_admiral_erudite$"
+ leader_trait_ruler_erudite_desc: "這個領袖的智力有極大的提升，這增強了統御國家的能力。"
 
  leader_trait_admiral_cyborg:0 "半機械人"
  leader_trait_admiral_cyborg_desc:0 "此領袖配備了軍用機械內植體，可以直接操控艦隊指揮與控制系統。"
@@ -289,6 +302,6 @@
 
  crisis.1011.desc:0 "我們失去了在 [Root.GetName] 上的殖民地！在搶佔了星球軌道後，異次元入侵者轟炸了星球表面，吞噬了上面一切生命形式。[Root.GetPlanetMoon] 的整個生態圈都被生物消耗殆盡 — 沒有留下任何的生命痕跡。"
 
- utopia.61.name:0 "[From.From.From.From.Planet.GetName] 太空移民站完成"
- utopia.61.desc.a:0 "我們完成了第一個太空移民站結構物，現在是時候準備一艘殖民船登陸上我們自己建立的這個世界上去了。\n\n從機械核心到表面的最高峰、每一顆螺釘、每一處裂隙，都是為了我們在群星之中安放一個完美的家園而設計的。"
- utopia.61.desc.b:0 "[From.From.From.From.Planet.GetName] 太空移民站現已完工、準備殖民。"
+ utopia.61.name:0 "[From.From.From.Planet.GetName] 太空移民站完成"
+ utopia.61.desc.a:0 "我們完成了第一個太空移民站結構物，現在是時候準備一艘殖民船登陸上我們自己創建的這個世界上去了。\n\n從機械核心到表面的最高峰、每一顆螺釘、每一條溪流、每一處裂隙，都是為了我們在群星之中安放一個完美的家園而設計的。"
+ utopia.61.desc.b:0 "[From.From.From.Planet.GetName] 太空移民站現已完工、準備殖民。"

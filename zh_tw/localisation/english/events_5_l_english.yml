@@ -68,3 +68,4 @@
  #action.7000.desc_fspiri:0 "$action.7000.desc_intro$ 很遺憾，當地居民對此充滿了懷疑與不信任，社團領袖也已公然反對提案，並稱其為對他們所代表一切的巨大侮辱。"
  #action.7000.desc_intro:0 "[Root.Planet.GetName]的工程師表示，我們的首隊機器人工人已經全面上線，可以投入使用了。"
  ##action.7000.desc_intro: "$action.7000.desc_intro$"#
+ 

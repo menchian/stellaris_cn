@@ -28,8 +28,8 @@
  pft_xenoist_desc:1 "親外主義派希望將外星生命與文化看作更高價值的東西。他們喜歡人口彼此不盡相同、種族相互作用。他們不喜歡種族全體奴役值和肅清。\n\n§L親外主義道德§!"
  pft_prosperity:0 "繁榮主義派"
  pft_prosperity_desc:2 "繁榮派系渴望經濟增長和資源增長。他們喜歡能源配額和戰略資源，他們不喜歡破壞內部發展的武裝衝突。\n\n§L和平主義道德§!"
- pft_democratic_election_1:0 "民主黨派"
- pft_democratic_election_1_desc:0 "帝國選舉中出現民主黨派系，此後不久就銷聲匿跡了，把某些受歡迎的領導人置於政治聚光燈下作為政治手段。"
+ pft_democratic_election_1:0 "民主派系"
+ pft_democratic_election_1_desc:0 "帝國選舉中出現民主派系系，此後不久就銷聲匿跡了，把某些受歡迎的領導人置於政治聚光燈下作為政治手段。"
  pft_democratic_election_2:0 "$pft_democratic_election_1$"
  pft_democratic_election_2_desc:0 "$pft_democratic_election_1_desc$"
  pft_democratic_election_3:0 "$pft_democratic_election_1$"
@@ -79,14 +79,14 @@
  SUPREMACIST_GIANT_MASSACRE:0 "屠殺巨物"
  SUPREMACIST_NO_GIANT_MASSACRE:0 "$SUPREMACIST_GIANT_MASSACRE$"
  SUPREMACIST_GIANT_MASSACRE_DESC:0 "擊破任何§Y利維坦§!異族巨物將在一定時期之內取悅 [Root.GetName] 。"
- SUPREMACIST_ISOLATIONIST_NO_FEDERATION:0 "Strong Alone"
- SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:1 "Allowing the [Root.Owner.GetName] to be exploited by alien interests by §Yjoining a Federation§! will displease the [Root.GetName]."
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION:0 "獨霸"
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:1 "允許 [Root.Owner.GetName] §Y加入聯邦§!被外星人利用會得罪 [Root.GetName]。"
  SUPREMACIST_ISOLATIONIST_FEDERATION:1 "$SUPREMACIST_ISOLATIONIST_NO_FEDERATION$"
  
  
  # XENOISTS
  XENOIST_PASSIVE_STUDY:0 "間接外星研究"
- XENOIST_PASSIVE_STUDY_DESC:0 "若限制土著研究為被動，可使 [Root.GetName] 更滿意。"
+ XENOIST_PASSIVE_STUDY_DESC:0 "立法限制§Y土著干涉§!為§Y被動研究§!會使 [Root.GetName] 更滿意。"
  XENOIST_NO_PASSIVE_STUDY:0 "$XENOIST_PASSIVE_STUDY$"
  XENOIST_NO_SLAVES:1 "不要全種族奴役"
  XENOIST_NO_SLAVES_DESC:2 "如果全面地奴役一整個種族，會極大地觸怒 [Root.GetName] 。"
@@ -94,8 +94,8 @@
  XENOIST_NO_PURGE:1 "不要肅清"
  XENOIST_NO_PURGE_DESC:1 "下令執行任何肅清，會使 [Root.GetName] 不高興。"
  XENOIST_PURGE:0 "$XENOIST_NO_PURGE$"
- XENOIST_ENCLAVE_BORDERS:0 "飛地聚流"
- XENOIST_ENCLAVE_BORDERS_DESC:0 "在我們境內保有飛地的基地以促進文化交流，可使 [Root.GetName] 更滿意。"
+ XENOIST_ENCLAVE_BORDERS:0 "包容飛地" # FIXME
+ XENOIST_ENCLAVE_BORDERS_DESC:0 "在我境內保有飛地的基地以促進文化交流，會使 [Root.GetName] 更滿意。"
  XENOIST_NO_ENCLAVE_BORDERS:1 "$XENOIST_ENCLAVE_BORDERS$"
  XENOIST_MULTICULTURALISM:0 "多元文化的社會"
  XENOIST_MULTICULTURALISM_DESC:0 "我們的帝國擁有至少§Y4§!個單獨的種族，可使 [Root.GetName] 更滿意。"
@@ -445,7 +445,7 @@
  POP_FACTION_NATIONALIST_DEMAND_TITLE:0 "回歸§Y[parameter:country.GetName]§!"
  POP_FACTION_NATIONALIST_DEMAND_DESC:0 "將各星球上所有屬於這個派系的人口遣返到§H[parameter:country.GetName]§!。"
  POP_FACTION_NATIONALIST_SABOTAGE_TITLE:0 "蓄意破壞"
- POP_FACTION_NATIONALIST_SABOTAGE_DESC:0 "該派系的成員§R摧毀§!了一座建築。"
+ POP_FACTION_NATIONALIST_SABOTAGE_DESC:0 "該派系的人民§R摧毀§!了一座建築。"
  POP_FACTION_NATIONALIST_CORRUPTION_TITLE:0 "腐敗"
  POP_FACTION_NATIONALIST_CORRUPTION_DESC:1 "有該派系人口居住的所有行星生產力下降。"
  POP_FACTION_NATIONALIST_REBELLION_TITLE:0 "叛變"
@@ -461,7 +461,7 @@
  POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_3_TITLE:0 "種族融合運動 3"
  POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_3_DESC:0 "幫助民族主義者融入新社會，以減少其挫敗感"
  POP_FACTION_NATIONALIST_RELEASE_PLANETS_TITLE:0 "歸還星球"
- POP_FACTION_NATIONALIST_RELEASE_PLANETS_DESC:0 "將所有居住了該派系成員的星球歸還給§Y[parameter:country.GetName]§!"
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_DESC:0 "將所有居住了該派系人民的星球歸還給§Y[parameter:country.GetName]§!"
  POP_FACTION_NATIONALIST_RELEASE_PLANETS_OCCUPIED:0 "沒有任何一個行星被佔領"
  POP_FACTION_NATIONALIST_RELEASE_PLANETS_COMBAT:0 "沒有任何一個行星發生地面戰爭"
 
@@ -618,7 +618,7 @@
 
  # Support Effects
  SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES:0 "非法奴役"
- SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES_DESC:0 "好戰派成員可能會非法奴役人口。"
+ SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES_DESC:0 "好戰派人民可能會非法奴役人口。"
  SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY:0 "與奴隸結盟"
  SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY_DESC:0 "該派系調動所有奴隸，密謀武裝革命。"
 
@@ -660,18 +660,18 @@
  
  ### New Events
  factions.1.title:0 "派系建立"
- factions.1.desc:0 "最近，[Root.Owner.GetName] 的內部政治格局中一個新的派係獲得了足夠的吸引力。他們稱自己為 [Root.GetName]，在創始人 [Root.Leader.GetTitle] [Root.Leader.GetName] 的領導下，其成員努力為我們解決他們關心的各種問題。\n\n當人口增長，人們的道德觀向不同的方向偏斜，我們將在未來看到更多的派系。心生不滿的派系會是麻煩的源頭，但那些政府贊同的活動會有用……"
+ factions.1.desc:0 "最近，[Root.Owner.GetName] 的內部政治格局中一個新的派係獲得了足夠的吸引力。他們稱自己為 [Root.GetName]，在創始人 [Root.Leader.GetTitle] [Root.Leader.GetName] 的領導下，其人民努力為我們解決他們關心的各種問題。\n\n當人口增長，人們的道德觀向不同的方向偏斜，我們將在未來看到更多的派系。心生不滿的派系會是麻煩的源頭，但那些政府贊同的活動會有用……"
  factions.1.desc.start:0 "最近，[Root.Owner.GetName] 的內部政治格局中一個新的派係獲得了足夠的吸引力。在 §H[Root.Leader.GetTitle] [Root.Leader.GetName]§! 的領導下，他們稱自己為 §H[Root.GetName]§! 。"
  factions.1.desc.firstfinisher:0 "心生不滿的派系會是麻煩的源頭，但那個政府贊同的活動會有用……"
- factions.1.desc.imperialist:0 "他們的成員努力推動我們從軍事方面統御銀河。\n\n"
- factions.1.desc.isolationist:0 "他們的成員提倡關閉邊界，不干預銀河事務。\n\n"
- factions.1.desc.progressive:0 "他們的成員為我們帝國內所有居民爭取平等和正義。\n\n"
- factions.1.desc.prosperity:1 "他們的成員為讓國家聚焦在經濟穩定增長而通過和平手段四處遊說。"
- factions.1.desc.supremacist:0 "他們的成員為 [Root.Owner.GetSpeciesAdj] 種族爭取首要地位，如果有必要不惜剝奪外星人的權利。\n\n"
- factions.1.desc.technologist:0 "他們的成員努力推動科學發展。\n\n"
- factions.1.desc.totalitarian:0 "他們的成員努力推動將政治軍事力量中央集權。\n\n"
- factions.1.desc.traditionalist:0 "他們的成員支持精神主義者以及保守派的社會準則。\n\n"
- factions.1.desc.xenoist:0 "他們的成員努力推動和外星種族的友誼。\n\n"
+ factions.1.desc.imperialist:0 "他們的人民努力推動我們從軍事方面統御銀河。\n\n"
+ factions.1.desc.isolationist:0 "他們的人民提倡關閉邊界，不干預銀河事務。\n\n"
+ factions.1.desc.progressive:0 "他們的人民為我們帝國內所有居民爭取平等和正義。\n\n"
+ factions.1.desc.prosperity:1 "他們的人民為讓國家聚焦在經濟穩定增長而通過和平手段四處遊說。"
+ factions.1.desc.supremacist:0 "他們的人民為 [Root.Owner.GetSpeciesAdj] 種族爭取首要地位，如果有必要不惜剝奪外星人的權利。\n\n"
+ factions.1.desc.technologist:0 "他們的人民努力推動科學發展。\n\n"
+ factions.1.desc.totalitarian:0 "他們的人民努力推動將政治軍事力量中央集權。\n\n"
+ factions.1.desc.traditionalist:0 "他們的人民支持精神主義者以及保守派的社會準則。\n\n"
+ factions.1.desc.xenoist:0 "他們的人民努力推動和外星種族的友誼。\n\n"
  
  factions.2000.title:0 "[TargetFaction.Owner.GetName] 的執政道德發生偏移"
  factions.2000.desc.start:0 "由於對§Y[TargetFaction.GetName]§! 的支持率長期持續增長，§Y[TargetFaction.Owner.GetName]§! 最終擁立了該派系，接納了他們的核心價值觀和政治理念。"
@@ -691,7 +691,7 @@
 
  ### Slaves
  faction.6.title:0 "絕食示威！"
- faction.6.desc:0 "[Root.Owner.GetName]的奴隸用絕食的方式來破壞我們的生產手段——他們的身體。[Root.GetName]派系的成員實際上是要將自己§Y肅清§!，以掙脫[Root.Owner.GetName]的枷鎖。\n\n如果長期不制止這種情況，我們就有可能會損失大量的奴役人口。要嘛眼睜睜地看著這群可憐的傢伙死掉，要嘛另尋方法對付這個惡劣的派系。"
+ faction.6.desc:0 "[Root.Owner.GetName]的奴隸用絕食的方式來破壞我們的生產手段——他們的身體。[Root.GetName]派系的人民實際上是要將自己§Y肅清§!，以掙脫[Root.Owner.GetName]的枷鎖。\n\n如果長期不制止這種情況，我們就有可能會損失大量的奴役人口。要嘛眼睜睜地看著這群可憐的傢伙死掉，要嘛另尋方法對付這個惡劣的派系。"
 
  faction.7.title:0 "奴隸革命！"
  faction.7.desc:0 "[slave_planet.GetName]的奴隸對其主人發動了革命，他們組織了一支非法的反抗軍來破壞[Root.Owner.GetName]對他們的合法約束！"
@@ -729,7 +729,7 @@
  faction.60.a.tooltip:0 "§H不滿的奴隸§!派系發動了§Y叛亂§!！"
 
  faction.80.title:0 "奴隸武裝化！"
- faction.80.desc:0 "當地[Root.GetName]組織的成員們似乎已經將一部分[Root.Owner.GetAdj]奴隸進行了武裝化，使這些暴民們更加強大了。"
+ faction.80.desc:0 "當地[Root.GetName]組織的人民們似乎已經將一部分[Root.Owner.GetAdj]奴隸進行了武裝化，使這些暴民們更加強大了。"
 
  ### Separatists
  # From = pop faction
@@ -744,7 +744,7 @@
 
  # Separatists riot
  faction.101.title:1 "分裂者發起暴動！"
- faction.101.desc:1 "§Y[planet.GetName]§!上的局勢一觸即發，§Y[Root.GetName]§!的成員們已經走上街頭，開始燒殺搶劫了。\n\n據報導說，大型殖民地設施已被摧毀。"
+ faction.101.desc:1 "§Y[planet.GetName]§!上的局勢一觸即發，§Y[Root.GetName]§!的人民們已經走上街頭，開始燒殺搶劫了。\n\n據報導說，大型殖民地設施已被摧毀。"
 
  # Separatist leader assassinated
  faction.102.title:1 "派系領導者遇刺！"
@@ -788,9 +788,9 @@
 
  ### Nationalists
  faction.301.title:2 "民族主義者蓄意破壞！"
- faction.301.desc:2 "[Root.GetName]的激進成員們摧毀了[planet.GetPlanetMoon]上的一所建築，位於[planet.GetName]。"
+ faction.301.desc:2 "[Root.GetName]的激進人民們摧毀了[planet.GetPlanetMoon]上的一所建築，位於[planet.GetName]。"
  faction.301.desc.phobe:0 "[Root.GetName]的外星戰士們摧毀了[planet.GetName]上的一座建築，想要對[Root.Owner.GetAdj]不利，瓦解我們的生活習俗。"
- faction.301.desc.phile:0 "[Root.GetName]的成員們對我方的統治多有不滿，竟然在[planet.GetName]上進行了蓄意破壞。"
+ faction.301.desc.phile:0 "[Root.GetName]的人民們對我方的統治多有不滿，竟然在[planet.GetName]上進行了蓄意破壞。"
 
  faction.302.title:1 "民族主義者反叛！"
  faction.302.desc:3 "[Root.GetName]受到大眾支持，發起武裝暴動，想要奪回起領地。"
@@ -828,7 +828,7 @@
 
  ### Emancipation Faction
  faction.600.title:0 "進擊的奴隸"
- faction.600.desc:0 "據說[Root.GetName]的成員對奴隸散佈各種逆反言論。根據部分謠言的說法，他們為[parameter:slave_faction.GetName]的邊緣分子提供訓練，甚至給他們配備武器，不過這些謠言看起來都假得比較離譜。"
+ faction.600.desc:0 "據說[Root.GetName]的人民對奴隸散佈各種逆反言論。根據部分謠言的說法，他們為[parameter:slave_faction.GetName]的邊緣分子提供訓練，甚至給他們配備武器，不過這些謠言看起來都假得比較離譜。"
  faction.600.a:0 "儘管如此，還是讓人有點擔心。"
  faction.600.a.tooltip:0 "[parameter:slave_faction.GetName]:\n§R+50%§! 戰爭狀態\n§R+30%§! 支持率"
  faction.601.title:0 "星際軌道"

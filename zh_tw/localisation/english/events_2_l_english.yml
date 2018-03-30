@@ -131,7 +131,7 @@
  anomaly.96.a.phobe:0 "發表聲明。然後把鋁板丟到他們的恆星裡去。"
  anomaly.96.a.phile:0 "你們朝虛空吶喊，我們便來了。"
  anomaly.100.name:0 "追隨先驅者"
- anomaly.100.desc:0 "一塊陽極鍍金的鋁板，發現自[From.GetName]的表面。[Root.GetName]上的所有成員在進行任何分析和數據對比之前就已經認識到了它的來源。"
+ anomaly.100.desc:0 "一塊陽極鍍金的鋁板，發現自[From.GetName]的表面。[Root.GetName]上的所有在進行任何分析和數據對比之前就已經認識到了它的來源。"
  anomaly.100.a:0 "鋁板來自……先驅者11號。"
  anomaly.105.name:0 "舊時光之曲"
  anomaly.105.desc:0 "[Root.GetName]在調查[From.GetName]微弱引力場時發現了一張金色碟片。碟片已被收回，初步分析表明它表面的細槽可能是經過加密的音頻和影片數據，由某種外星文明所創作。"
@@ -185,7 +185,7 @@
  anomaly.144.desc:0 " [Root.GetName]進入了 [Root.GetStarName]星系，其成員報告一個類似於未知者神殿的空間物體確實在圍繞恆星旋轉。"
  anomaly.144.a:0 "我懂了。"
  anomaly.145.name:0 "何方天籟"
- anomaly.145.desc:0 "[From.GetName]上的動物，無論是捕食者還是獵物，在夜晚降臨時，都會聚集在一起，然後開始……\n\n唱歌。\n\n乍聽之下，各種呼嘯鳴啼嘈雜不堪，但其中確實存在著可辨識的旋律。並且，據[Root.GetName]成員所言，旋律並不難聽。\n\n這種非智慧生物的合唱顯然是由某種外星存在引起的，而我們可能永遠無法知道它們為何要如此改變[From.GetName]的動物群。\n\n不過，我們至少可以著手調查它們是如何做到的。"
+ anomaly.145.desc:0 "[From.GetName]上的動物，無論是捕食者還是獵物，在夜晚降臨時，都會聚集在一起，然後開始……\n\n唱歌。\n\n乍聽之下，各種呼嘯鳴啼嘈雜不堪，但其中確實存在著可辨識的旋律。並且，據[Root.GetName]人民所言，旋律並不難聽。\n\n這種非智慧生物的合唱顯然是由某種外星存在引起的，而我們可能永遠無法知道它們為何要如此改變[From.GetName]的動物群。\n\n不過，我們至少可以著手調查它們是如何做到的。"
  anomaly.150.name:0 "卓氣之下"
  anomaly.150.desc:0 "[From.GetName]不僅是個冰凍巨行星，而且上面的冰十分不同尋常。冰內部包裹著許多卓氣，在行星大氣層的上層便可以展開開採。"
  anomaly.155.name:0 "禁忌物質"
@@ -197,7 +197,7 @@
  anomaly.166.name:0 "舊神：無畏者的神殿"
  anomaly.166.desc:1 "在「瞎找」了好幾天之後，科學家[Root.GetLeaderName]獲得了無畏者的檔案，是一個用堅固塑膠膜封存的織物卷軸。"
  anomaly.167.name:0 "舊神：感知者的神殿"
- anomaly.167.desc:0 "科學家[Root.GetLeaderName]匯報了[Root.GetName]在感知者神殿的發現。早先，他們識別出牆上的圖案具有文字性質，被半透明的膠漆所扭曲與掩蓋。\n\n最初他們試圖依靠[Root.GetName]電腦的原始功能直接從圖像中識別文字，這項努力終告失敗，因為這些文字過於扭曲，無法與已知的任何語言體系建立聯繫。後來，[Root.GetName]成員試圖用多種波段的射線穿透膠漆，但並未發現有益的反應。[Root.GetLeaderName]也考慮過用物理手段直接分離膠漆，但他意識到這些文字可能一開始就是扭曲的，只有透過膠漆才能看出它們本來的形狀。\n\n科學家[Root.GetLeaderName]惱怒地來回踱步，即將宣告任務失敗，但他在抬頭仰望時，注意到那些離散的線條會在他移動時短暫地形成連貫的文字，但片刻又溶解，並被新的文字替代。\n\n不久之後，他們便一邊轉動一邊記錄天花板、牆面和地板的圖像。其他神殿的文字可以幫他們理清頭緒。"
+ anomaly.167.desc:0 "科學家[Root.GetLeaderName]匯報了[Root.GetName]在感知者神殿的發現。早先，他們識別出牆上的圖案具有文字性質，被半透明的膠漆所扭曲與掩蓋。\n\n最初他們試圖依靠[Root.GetName]電腦的原始功能直接從圖像中識別文字，這項努力終告失敗，因為這些文字過於扭曲，無法與已知的任何語言體系建立聯繫。後來，[Root.GetName]人民試圖用多種波段的射線穿透膠漆，但並未發現有益的反應。[Root.GetLeaderName]也考慮過用物理手段直接分離膠漆，但他意識到這些文字可能一開始就是扭曲的，只有透過膠漆才能看出它們本來的形狀。\n\n科學家[Root.GetLeaderName]惱怒地來回踱步，即將宣告任務失敗，但他在抬頭仰望時，注意到那些離散的線條會在他移動時短暫地形成連貫的文字，但片刻又溶解，並被新的文字替代。\n\n不久之後，他們便一邊轉動一邊記錄天花板、牆面和地板的圖像。其他神殿的文字可以幫他們理清頭緒。"
  anomaly.168.name:0 "舊神：啟示"
  anomaly.168.desc:0 "所有文字揭示出的是諸神完整的教條，令[Root.GetSpeciesName]童話般的宗教相形見絀。這些文字既有啟示性又有革命性。\n\n只需一點有創造力的解讀，就不難發現[Root.Capital.GetName]的人民注定要成就偉大的事業，由強大的宗教領導者一手領導。\n\n我們的路是通往神性的路，但我們的過往充斥著虛假的預言和生於無知的罪惡。救贖的時機就在這一刻。"
  anomaly.168.a:0 "封鎖發現。"
@@ -224,7 +224,7 @@
  anomaly.171.desc:0 "科研基地本身沒什麼特別。它規模很小，只是用來對抗嚴酷環境的一個臨時庇護所，允許在有限時間進行表面級的星球研究，直到被嚴酷的環境拖垮為止。\n\n[From.From.GetName]的科研基地已經接近生命的盡頭，但那顆星球的嚴寒還未壓下最後一根稻草。那些功能正常、廉價且可拋棄的器材得到了充分使用，本地資料庫中填滿了詳盡卻極為尋常的行星數據，以及在嚴酷環境下進行的簡單試驗。\n\n有趣的是，他似乎並沒有深入檢查科研基地地基下的採礦基地。[Root.GetName]的掃瞄表明這座大部分被冰雪覆蓋的山脈可能是中空的。更令人警覺的是，科學家[Root.GetLeaderName]報告這座科研基地唯一的棲居者，那位神秘的「流亡者」消失不見了。"
  anomaly.171.a:0 "想不通。"
  anomaly.172.name:0 "深入地下"
- anomaly.172.desc:0 "[From.From.GetName]上的科研基地有點不尋常。建築本身並無奇怪之處——用來對抗嚴酷環境的小型臨時庇護所，允許短時間進行表面等級的星球研究，直到被嚴酷的環境拖垮為止——但它恰巧建在突破星球表面冰海的岩石之上。\n\n[Root.GetName]的成員發現，這座山的內部有複雜的洞穴和通道，由科研基地內部便可進入。\n\n在一個較大的岩洞裡，他們發現了科研基地原成員脫水的遺體。這些[Root.Owner.GetSpeciesAdj]研究員原先被派往別處，但顯然，他們卻來到了這個無人居住的危險行星。\n\n當然，那個所謂的「流亡者」如今已經不見蹤影。[Root.GetName]發射了一所逃生艙，將逝者的遺體送回[Root.Owner.Capital.GetName]。"
+ anomaly.172.desc:0 "[From.From.GetName]上的科研基地有點不尋常。建築本身並無奇怪之處——用來對抗嚴酷環境的小型臨時庇護所，允許短時間進行表面等級的星球研究，直到被嚴酷的環境拖垮為止——但它恰巧建在突破星球表面冰海的岩石之上。\n\n[Root.GetName]的人民發現，這座山的內部有複雜的洞穴和通道，由科研基地內部便可進入。\n\n在一個較大的岩洞裡，他們發現了科研基地原人民脫水的遺體。這些[Root.Owner.GetSpeciesAdj]研究員原先被派往別處，但顯然，他們卻來到了這個無人居住的危險行星。\n\n當然，那個所謂的「流亡者」如今已經不見蹤影。[Root.GetName]發射了一所逃生艙，將逝者的遺體送回[Root.Owner.Capital.GetName]。"
  anomaly.175.name:0 "鹽"
  anomaly.175.desc:0 "科研船[Root.GetName]原計劃對[From.GetName]冰凍地表的調查活動似乎難以為繼——除了冰和岩石似乎沒有別的東西了。\n\n然而，自稱美食家和歷史愛好者的科學家[Root.GetLeaderName]聲稱有重大發現。他說在[From.From.GetName]的多處冰面發現一種化合物，似乎、大概、很有可能和[Root.Owner.GetSpeciesAdj]星鹽關係密切，這種鹽是許多[Root.Owner.GetSpeciesAdj]傳統菜餚的必備調料，並被認為已經在[Root.Owner.Capital.GetName]絕跡。有人推測[Root.Owner.GetSpeciesAdj]星鹽並非我們母星原產，而是由某次遠古隕石撞擊帶來的。科學家在[From.GetName]上的發現為該理論提供了一些支持，不過[Root.GetLeaderName]依據的是現代化學發源之前的古代烹飪書中對鹽的描述。\n\n無論那種鹽與古代[Root.Owner.GetSpeciesAdj]星鹽味道是否相同，那都無關緊要。僅僅是還原歷史菜餚的這種想法都能刺激[Root.Owner.GetSpeciesAdj]經濟發展和美食文化。"
  anomaly.175.a:0 "可口。"
@@ -525,10 +525,11 @@
  anomaly.3110.b:0 "死人的話有什麼好聽的。"
  anomaly.3110.c:0 "拆除柱體，尋找發射器。"
  anomaly.3111.name:0 "湮滅的信號"
- anomaly.3111.desc:0 "什麼也沒有"
+ anomaly.3111.desc:1 "我們曾以為這個碑塔只是發射器的保護罩，但我們錯了。\n\n發射器一旦與之分離，發射器本身就變得毫無用處。那個現已被剷平的碑塔，是其內部結構讓它工作，恢復它的功能毫無希望。"
  anomaly.3111.a:0 "令人失望。"
- anomaly.3112.desc:0 "添加了一個炫酷的科技選項"
+ anomaly.3112.desc:1 "拆解碑塔出人意料的容易。與之前的假設相反，碑塔礦物結構中心有一個微小的發射器激發著整個碑塔，賦予其發射能力。"
  anomaly.3112.a:0 "真是有趣。"
+ anomaly.3112.b: "老新聞了，真無趣。"
  anomaly.3113.name:0 "被解密的信號"
  anomaly.3113.desc:0 "科學家[From.GetLeaderName]報告稱[From.From.GetName]發出的信號已經解密完成了。\n\n這是一段記錄性訊息，記載了千年前一場造成數百人死亡的戰鬥。一支原本堅定的的聯盟由於背叛與欺騙最終分崩離析，他們的大型艦隊在敵人到來之前就自相殘殺殆盡。\n\n看來這些殘骸作為墓碑被保留在了這裡，而其中的船員早已在船體遭受了精確打擊而死亡。"
  anomaly.3113.a:0 "研究這些記錄。"
@@ -542,13 +543,15 @@
  anomaly.3116.desc:0 "部分古代艦隊殘骸已恢復運轉，儘管派去的工程師無法對如何完成這一點達成一致。\n\n艦隊已經收編入[Root.GetSpeciesAdj]艦隊。"
  anomaly.3116.a.tooltip:0 "§Y古代聯軍艦隊§!已修復。"
  anomaly.3117.name:0 "艦隊啟動"
- anomaly.3117.desc:0 "工程師們首先將精力放在了大型無畏艦上。根據存儲信號顯示，這是整場戰鬥中最先對其它星艦發起攻擊的幾艘船之一。 \n\n然而事實證明這是個錯誤。 \n\n儘管我們已經有意嘗試繞過星艦的高級系統，但星艦的電腦最終還是突然啟動，並以高頻脈衝攻擊了我方星艦。由於我方為了增加行動可用頻寬而在此之前關閉了戰鬥防火牆，這段高頻脈衝便立即將附近所有我方星艦控制為己有。通訊切斷前的最後幾篇日誌顯示，星艦的所有生命支持系統均已失效，星艦被設置為前往[Root.Owner.Capital.GetName]。 \n\n據推測，我方船員已全體陣亡。古代作戰電腦也瞄準了我們的母星，我們得提前做好最壞的打算。"
+ anomaly.3117.desc:0 "工程師們首先將精力放在了大型無畏艦上。根據存儲信號顯示，這是整場戰鬥中最先對其它星艦發起攻擊的幾艘船之一。 \n\n然而事實證明這是個錯誤。 \n\n儘管我們已經有意嘗試繞過星艦的高級系統，但星艦的電腦最終還是突然啟動，並以高頻脈衝攻擊了我方星艦。由於我方為了增加行動可用頻寬而在此之前關閉了戰鬥防火牆，這段高頻脈衝便立即將附近所有我方星艦控制為己有。通訊切斷前的最後幾篇日誌顯示，星艦的所有生命支持系統均已失效，星艦被設定為前往[Root.Owner.Capital.GetName]。 \n\n據推測，我方船員已全體陣亡。古代作戰電腦也瞄準了我們的母星，我們得提前做好最壞的打算。"
  anomaly.3118.name:0 "艦隊被毀"
  anomaly.3118.desc:0 "無畏艦被摧毀，其餘星艦已啟動，事件結束"
  anomaly.3119.name:0 "艦隊被毀"
  anomaly.3119.desc:0 "無畏艦被他人摧毀，其餘星艦全部被毀"
  anomaly.3120.name:0 "剿滅海盜"
- anomaly.3120.desc:0 "你剿滅了海盜並獲取了礦物"
+ anomaly.3120.desc:1 "威脅終結了。我們至少可以從海盜戰利品中的遠古科技加以利用。"
+ anomaly.3120.a: "不過，還有一些問題……"
+ anomaly.3120.b: "$anomaly.3120.a$"
 
  # could have a pirate base built on the site, they got there first
 
@@ -840,6 +843,7 @@
  story.101.b:0 "我們的艦隊應該能夠快速擊殺這只生物。"
 
  story.105.name:0 "永遠的太空變形蟲"
+ #project completed
  story.105.desc.phile:0 "太空變形蟲——這個綽號已經在[Root.Capital.GetName]徹底火起來了——它們是一種獨自生活的生物。成年的太空變形蟲的身邊會伴隨著一種被稱為鞭狀體的半獨立生物。鞭狀體是由太空變形蟲所生成，並通過液態RNA分泌物來控制。一度被誤會為太空變形蟲的幼體，但其實這些鞭狀體並不含有繁殖器官，每個鞭狀體更像是太空變形蟲主體身上斷開的肢體一般。這些鞭狀體可以在離開主體的一定範圍內攻擊敵人，但每隔一段時間就需要回返太空變形蟲體內重新被編譯。\n\n這種鞭狀體的行動模式對於我們的軍事領域有一定啟示。"
  story.105.desc.pacif:0 "太空變形蟲——這個綽號因為它們能夠找到返回[Root.Capital.GetName]的路而徹底火起來了——它們是一種獨自生活的生物。成年的太空變形蟲的身邊會伴隨著一種被稱為鞭狀體的半獨立生物。鞭狀體是由太空變形蟲所生成，並通過液態RNA分泌物來控制。一度被誤會為太空變形蟲的幼體，但其實這些鞭狀體並不含有繁殖器官，每個鞭狀體更像是太空變形蟲主體身上斷開的肢體一般。這些鞭狀體可以在離開主體的一定範圍內攻擊敵人，但每隔一段時間就需要回返太空變形蟲體內被重新編譯。"
  story.105.desc:0 "太空變形蟲——因為官方的名字太難念了，所以這個原有的名字在[Root.GetSpeciesName]徹底火起來了——它們是一種獨自生活的生物。成年的太空變形蟲的身邊會伴隨著一種被稱為鞭狀體的半獨立生物。鞭狀體是由太空變形蟲所生成，並通過液態RNA分泌物來控制。一度被誤會為太空變形蟲的幼體，但其實這些鞭狀體並不含有繁殖器官，每個鞭狀體更像是太空變形蟲主體身上斷開的肢體一般。這些鞭狀體可以在離開主體的一定範圍內攻擊敵人，但每隔一段時間就需要回返太空變形蟲體內被重新編譯。\n\n這種鞭狀體的行動模式對於我們的軍事領域有一定啟示。"
@@ -847,6 +851,7 @@
  story.105.a:0 "確實神奇。"
 
  story.110.name:0 "太空變形蟲已解剖"
+ #debris studied
  story.110.desc.phobe:0 "太空變形蟲——現在已經是負責捕獵它們的[Root.GetSpeciesAdj]部隊口中的貶義詞——它們比預想中更加複雜。它們的堅硬外殼保護著體內的無數小型太空變形蟲，這些小型個體可比喻作保護著它們的太空變形蟲母艦的艦載機。這些攻擊型太空變形蟲雖然跟正常的太空變形蟲很相似，但其實它們是相對簡單的生物。太空變形蟲體內擁有成千上百個器官，無疑都是存活於惡劣的太空環境的必要零件。\n\n在分屍太空變形蟲身體時，這些器官大部分都要嘛破裂了要嘛被燒壞了，只留下了殘缺的屍體。\n\n不過，參與太空變形蟲項目的外星研究學家認為獲取樣本的過程是很重要的，所以他們發佈了特殊的開火命令給整支艦隊。只要針對五隻或更多太空變形蟲的特殊部位進行手術式打擊，我們就能重組一個完整的屍體。"
  story.110.desc.milit:0 "太空變形蟲——這是[Root.GetSpeciesAdj]部隊欽定的官方名字——它們比預想中更加複雜。它們的堅硬外殼保護著體內的無數小型太空變形蟲，這些小型個體可比喻作保護著它們的太空變形蟲母艦的艦載機。這些攻擊型太空變形蟲雖然跟正常的太空變形蟲很相似，但其實它們的生理構造相對簡單。太空變形蟲體內擁有成千上百個器官，無疑都是存活於惡劣的太空環境的必要零件。在分屍太空變形蟲身體時，這些器官大部分都要嘛破裂了要嘛被燒壞了，只留下了殘缺的屍體。\n\n不過，參與太空變形蟲項目的外星研究學家認為獲取樣本的過程是很重要的，所以他們發佈了特殊的開火命令給整支艦隊。只要針對五隻或更多太空變形蟲的特殊部位進行外科手術式打擊，我們就能重組一個完整的屍體。"
  story.110.desc:0 "太空變形蟲——[Root.Owner.Capital.GetSpeciesAdj]按照傳統的分類法起的簡易名字——它們比預想中更加複雜。它們的堅硬外殼保護著體內的無數小型太空變形蟲，這些小型個體可比喻作保護著它們的太空變形蟲母艦的艦載機。這些攻擊型太空變形蟲雖然跟正常的太空變形蟲很相似，但其實它們的生理構造相對簡單。太空變形蟲體內擁有成千上百個器官，無疑都是存活於惡劣的太空環境的必要零件。在分屍太空變形蟲身體時，這些器官大部分都要嘛破裂了要嘛被燒壞了，只留下了殘缺的屍體。\n\n不過，參與太空變形蟲項目的外星研究學家認為獲取樣本的過程是很重要的，所以他們發佈了特殊的開火命令給整支艦隊。只要針對五隻或更多太空變形蟲的特殊部位進行手術式打擊，我們就能重組一個完整的屍體。"
@@ -1115,7 +1120,7 @@
  uplift.7215.c.tooltip:1 "[From.From.From.GetName]獲得了§Y平等主義§!道德觀。"
 
  ####################################
- # Pre-Sentient Pop Interaction Events
+ # Pre-Sapient Pop Interaction Events
  ####################################
 
  uplift.7500.name:0 "支鏈"
@@ -1136,7 +1141,7 @@
  uplift.7520.b.tooltip:0 "那群醜陋的傢伙再也不會打擾殖民地居民了。"
  uplift.7520.c:0 "試圖找出他們去了哪裡。"
  uplift.7525.name:0 "永失永忘"
- uplift.7525.desc:0 "一小群外星生物學者和一隊武裝士兵離開殖民地去追蹤本地生物。\n\n他們找到的只是一些古老的種艦殘骸，屬於某個早已湮滅的小型原始文明。\n\n[Root.GetName]當地的優勢生物似乎是某種古生物的結合或者基因修改工程的產物；根據種艦周圍的結構，他們曾經是一個部落，擁有高度智能並已學會使用初級的文字。\n\n我們不知道是什麼原因導致了這個物種的退化，但他們現在的行為更為合理。在某些層面，他們本能的認為我們[Root.Owner.GetSpeciesNamePlural]就是一開始對他們進行開化的物種。或許我們有序的社會激發了他們被灌輸的秩序理念，但這卻終究改變不了他們的卑劣本性。\n\n或許我們最終可以將他們進化到與我們相同的水準，但到目前為止，我們從遠古太空物種的文化中獲得了如何控制有機生命體的珍貴知識。"
+ uplift.7525.desc:0 "一小群外星生物學者和一隊武裝士兵離開殖民地去追蹤本地生物。\n\n他們找到的只是一些古老的種艦殘骸，屬於某個早已湮滅的小型原始文明。\n\n[Root.GetName]當地的優勢生物似乎是某種古生物的結合或者基因修改工程的產物；根據種艦周圍的結構，他們曾經是一個帝國，擁有高度智慧並已學會使用初級的文字。\n\n我們不知道是什麼原因導致了這個物種的退化，但他們現在的行為更為合理。在某些層面，他們本能的認為我們[Root.Owner.GetSpeciesNamePlural]就是一開始對他們進行開化的物種。或許我們有序的社會激發了他們被灌輸的秩序理念，但這卻終究改變不了他們的卑劣本性。\n\n或許我們最終可以將他們進化到與我們相同的水準，但到目前為止，我們從遠古太空物種的文化中獲得了如何控制有機生命體的珍貴知識。"
 
  ####################################
  # Event Chain-related
@@ -1220,7 +1225,7 @@
 ### Starting Event - Wanderlust
 
  rogue_scientist_1_chain_title:0 "浪跡星涯：叛變的科學家"
- rogue_scientist_1_chain_desc:0 "[Root.GetName]抽像科學委員會的首席和一個非一般科研船原型機一起消失了。\n\n我們已經將他們的下落鎖定到三個可能的地點，請依次調查。"
+ rogue_scientist_1_chain_desc:0 "[Root.GetName]抽象科學委員會的首席和一個非正規科研船原型機一起消失了。\n\n我們已經將他們的下落鎖定到三個可能的地點，請依次調查。"
 
  likely_locations_searched:0 "可能的地點已搜索完畢"
 
@@ -1439,7 +1444,7 @@
  fallen_empires.2.a.tooltip:0 "§Y [Root.GetRulerTitle] [rulername.GetName]§R喪生了§!。§!"
  
  fallen_empires.4.name:0 "來自§H [From.GetName]§!的通訊"
- fallen_empires.4.desc:0 "自大而渺小的 [From.GetSpeciesName]！你覺得你們的 [Root.GetSpeciesName]殖民者可以不被發現地玷污我們的聖地嗎？馬上離開我們的領地，否則你們將會見識到我們艦隊的強大！"
+ fallen_empires.4.desc:1 "自大的蛆蟲！你覺得你們的 [Root.GetSpeciesName]殖民者可以不被發現地玷污我們的聖地嗎？馬上離開我們的領地，否則你們將會見識到我們艦隊的強大！"
  fallen_empires.4.a:0 "我們別無選擇，只能接受……"
  fallen_empires.4.b:0 "[Root.GetName]絕不會受到欺凌！"
  fallen_empires.5.name:0 "來自§H [From.GetName]§!的通訊"
@@ -1464,6 +1469,8 @@
  fallen_empires.9.desc:1 "[Root.GetSpeciesName]不敬神！你們在死亡大廳肆意妄為，將歷史辱沒於腳下，從不考慮你們打擾了多少靈魂。夠了！讓那些亡靈安息吧，不然就準備接受我們生者的問責吧。"
  fallen_empires.9.a:0 "我們別無選擇，只能接受……"
  fallen_empires.9.b:0 "[Root.GetName]絕不會受到欺凌！"
+ 
+ fallen_empire_refuse_tooltip:0 "§H[From.GetName]§! 將會非常憤怒, 並且很有可能準備開始攻擊我們."
  
  fallen_empire_happy_tooltip:0 "§H[FallenEmpireTaskOrigin.GetName]§!會很滿意的，也許還會在未來對我們加以青睞。"
  fallen_empire_unhappy_tooltip:0 "§H[FallenEmpireTaskOrigin.GetName]§!會不滿的。"
@@ -1620,10 +1627,9 @@
  fallen_machine_empire.31.tooltip:0 "§Y[FallenEmpireTaskPlanet.GetName]§!將交出一個£pop  §Y機械人口§!。"
  
  fallen_machine_empire.41.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
- fallen_machine_empire.41.desc:0 "托管協議62-1啟動。消息如下: 注意！ [Root.GetSpeciesName] 。§H[FallenEmpireTaskTarget.GetName]§!被§R<<錯誤：資料區塊損毀>>§!破壞。因為我們的程序中有道德限制，無法使用監護人項目的戰爭艦隊和戰爭軍隊等資產。在規定中，我們只能請求非我們的種族來消滅來自§R<<錯誤：資料區塊損毀>>§!的威脅。威脅在傳播之前，我們請求部署[Root.GetSpeciesAdj]。請求您的肯定回答。"
- fallen_machine_empire.41.a:0 "如果他們對於我們同樣是一個威脅，他們就必須被消滅。我們肯定您的請求"
- fallen_machine_empire.41.b:0 "我們為什麼要攻擊[FallenEmpireTaskTarget.GetName]？它和我們的利益無關，我們否定您的請求。"
-
+ fallen_machine_empire.41.desc:0 "托管協議62-1啟動。消息如下: 注意！ [Root.GetSpeciesName] 。§H[FallenEmpireTaskTarget.GetName]§!受到§R<<錯誤：資料區塊損毀>>§!的危及。因為我們的程序中的倫理限制，監護人項目的戰爭資產的使用受到限制。次級遏制協議規定在§R<<錯誤：資料區塊損毀>>§!威脅傳播前使用沒有危及文明來摧毀它。我們請求部署[Root.GetSpeciesAdj]戰爭資產來完成這個任務。你們是否聽命？"
+ fallen_machine_empire.41.a:0 "如果他們是一個威脅，那就必須阻止他們。"
+ fallen_machine_empire.41.b:0 "我們沒理由攻擊[FallenEmpireTaskTarget.GetName]。"
  fallen_machine_empire.42.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
  fallen_machine_empire.42.desc:0 "托管協議62-1完成。啟動[Root.GetSpeciesAdj]戰爭資產針對[FallenEmpireTaskTarget.GetSpeciesAdj]目標。更新[Root.GetName]的狀態由沒有危及至相容。"
  fallen_machine_empire.42.a:0 "那樣...好嗎？"
@@ -1696,21 +1702,12 @@
  war_in_heaven.4.b:0 "我們同意與[From.GetName]結盟。"
  war_in_heaven.4.c:0 "這次衝突，我們決定不予插手。"
  war_in_heaven.4.d:0 "作為附屬國，我們也無權決定。"
- war_in_heaven.5.name:0 "天堂戰爭之末"
- war_in_heaven.5.desc:0 "一場漫長的血戰之後，§H[WarInHeavenWinnerFE.GetName]§!擊敗了§H[WarInHeavenLoserFE.GetName]§!，成為了戰爭的勝者。被擊敗的先驅帝國被他們的宿敵徹底吞併了，§H[WarInHeavenWinnerFE.GetSpeciesName]§!現已成為整個宇宙不可撼動的霸主。\n\n那些決定站在§H[WarInHeavenLoserFE.GetName]§!一邊的帝國現在已失去了主子的庇護，不得不交出許多星球，作為給予勝利一方支持者的獎勵。\n\n銀河又恢復了來之不易的和平。但這和平能維持多久呢？"
- war_in_heaven.5.a:0 "[WarInHeavenWinnerFE.GetSpeciesName]一統天下。"
- war_in_heaven.6.name:0 "天堂之戰結束-勝利"
- war_in_heaven.6.desc:0 "一場漫長的血戰之後，§H[WarInHeavenWinnerFE.GetName]§!擊敗了§H[WarInHeavenLoserFE.GetName]§!，成為了戰爭的勝者。被擊敗的先驅帝國被他們的宿敵徹底吞併了，§H[WarInHeavenWinnerFE.GetSpeciesName]§!現已成為整個宇宙不可撼動的霸主。\n\n雖說我們在戰爭中支持了獲勝的一方，卻並未獲取星球作為獎賞。這可能是因為附近並沒有可以劃歸我們的合適星球，要嘛就是他們感覺我們的貢獻壓根就不值得這等獎賞。"
- war_in_heaven.6.a:0 "真是不幸。不過起碼我們是贏了。"
- war_in_heaven.7.name:0 "天堂之戰結束-勝利"
- war_in_heaven.7.desc:0 "一場漫長的血戰之後，§H[WarInHeavenWinnerFE.GetName]§!擊敗了§H[WarInHeavenLoserFE.GetName]§!，成為了戰爭的勝者。被擊敗的先驅帝國被他們的宿敵徹底吞併了，§H[WarInHeavenWinnerFE.GetName]§!現已成為整個宇宙不可撼動的霸主。\n\n我們在戰爭中支持了獲勝的一方，我們的宗主國把從戰敗國那裡獲得的星球獎給了我們。"
- war_in_heaven.7.a:0 "真是合適的回報！"
- war_in_heaven.8.name:0 "天堂之戰結束-戰敗"
- war_in_heaven.8.desc:0 "一場漫長的血戰之後，§H[WarInHeavenWinnerFE.GetName]§!擊敗了§H[WarInHeavenLoserFE.GetName]§!，成為了戰爭的勝者。被擊敗的先驅帝國被他們的宿敵徹底吞併了，§H[WarInHeavenWinnerFE.GetName]§!現已成為整個宇宙不可撼動的霸主。\n\n雖說我們支持了戰敗的一方，勝方卻十分仁慈地沒有奪走我們的任何星球——要嘛是因為他們覺得我們罪不該罰，或者乾脆是因為他們現在對我們的領土還沒有興趣。"
- war_in_heaven.8.a:0 "至少還算是憐憫吧。"
- war_in_heaven.9.name:0 "天堂之戰結束-戰敗"
- war_in_heaven.9.desc:0 "一場漫長的血戰之後，§H[WarInHeavenWinnerFE.GetName]§!擊敗了§H[WarInHeavenLoserFE.GetName]§!，成為了戰爭的勝者。被擊敗的先驅帝國被他們的宿敵徹底吞併了，§H[WarInHeavenWinnerFE.GetName]§!現已成為整個宇宙不可撼動的霸主。\n\n我們支持了戰敗的一方，部分星球被戰勝國搶走了，一定是用來獎勵支持他的帝國了吧。"
- war_in_heaven.9.a:0 "真是黑暗的一天。"
+ war_in_heaven.5.name:0 "天堂戰爭的終結"
+ war_in_heaven.5.desc:1 "一場漫長的血戰之後，§H[WarInHeavenWinnerFE.GetName]§! 在稱霸銀河的爭鬥中勝利。被擊敗的先驅帝國被他們的宿敵徹底吞併了，§H[WarInHeavenFEOne.GetSpeciesName]§! 現已成為整個宇宙不可撼動的霸主。\n\n終於，銀河又迎來了來之不易的和平，不知道這個新次序到底能持續多久？"
+ war_in_heaven.5.a:1 "[WarInHeavenFEOne.GetSpeciesName]一統天下。"
+ war_in_heaven.6.name:1 "$war_in_heaven.5.name$"
+ war_in_heaven.6.desc:1 "一場漫長的血戰之後，天堂之戰結束了，但雙方都沒能統御對手。§H[WarInHeavenFEOne.GetName]§! 和 §H[WarInHeavenFETwo.GetName]§! 簽署了停火協議，將各自的艦隊撤回自己的疆域。\n\n終於，銀河又迎來了來之不易的和平，不知道這個新次序到底能持續多久？"
+ war_in_heaven.6.a:1 "這並沒有結束……"
  war_in_heaven.11.name:0 "擊敗先驅帝國"
  war_in_heaven.11.desc:0 "兩大先驅帝國之間的戰鬥，以其中一方的毀滅而告終——但這帝國卻不是死於它宿敵的手中。不知是因為戰爭削弱了該帝國的實力，還是由於新興種族實在太過強力，該帝國最終毀滅於他們眼中的下等種族，這徹底改變了整個局勢。現在就留下了一個巨大的疑問——§H[RemainingAwakened.GetName]§!能否避免走上他們宿敵的老路，還是說這次失敗意味著宇宙已進入了新的時代？"
  war_in_heaven.11.a:0 "這還要走著瞧……"

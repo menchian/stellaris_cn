@@ -48,7 +48,7 @@
  # Diplomacy
  ####################################
  RIVALRY_INVALID_TITLE:0 "無法繼續作為對手"
- RIVALRY_INVALID_DESC:0 "$COUNTRY|Y$失去了繼續作為我們部落對手的資格"
+ RIVALRY_INVALID_DESC:0 "$COUNTRY|Y$失去了繼續作為我們帝國對手的資格"
  MESSAGE_MADE_FIRST_CONTACT_WE:0 "我們在§H$STAR$§!恆星系遭遇了§H$WHO$§!！"
  MESSAGE_MADE_FIRST_CONTACT_THEM:0 "已與§H$STAR$§!恆星系的§H$WHO$§!建立聯繫！"
  ACTION_DECLARE_WAR_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§!的宣戰投票已通過，我們現在與§H[Recipient.GetName]§!§Y開戰§!了！"
@@ -153,7 +153,7 @@
  MESSAGE_END_RIVALRY_TITLE:0 "$RIVALRY$結束了"
  MESSAGE_EMBASSY_TITLE:0 "設立了使館"
  MESSAGE_DECLARE_WAR_TITLE:0 "宣戰"
- MESSAGE_OFFER_PEACE_TITLE:0 "講和"
+ MESSAGE_OFFER_PEACE_TITLE:0 "和談"
  MESSAGE_INVITE_TO_ALLIANCE_TITLE:0 "聯盟邀請"
  MESSAGE_KICK_FROM_ALLIANCE_TITLE:0 "已除名聯盟成員"
  MESSAGE_KICK_FROM_FEDERATION_TITLE:0 "已除名聯邦成員"
@@ -390,8 +390,8 @@
  ####################################
  # Planet Destruction
  ####################################
- MESSAGE_PLANET_DESTROYED: "行星遭到破壞"
- MESSAGE_PLANET_DESTROYED_DESC: "$PLANET|Y$ $WEAPON_DESC$ $WEAPON_NAME|R$ 上\n $ADJ$ 巨人。"
+ MESSAGE_PLANET_DESTROYED: "行星已毀壞"
+ MESSAGE_PLANET_DESTROYED_DESC: "$ADJ$巨像用$WEAPON_NAME|R$使 $PLANET|Y$ $WEAPON_DESC$。" # "我們的巨像用<weapon>使 Sol III 徹底摧毀了。"
 
  ####################################
  # Terraforming
@@ -445,8 +445,8 @@
  MESSAGE_INVASION_DEFENDER_WIN:0 "我們成功在$PLANET|H$擊退了入侵者！"
  MESSAGE_INVASION_DEFENDER_LOSE:0 "我們在$PLANET|H$抵抗入侵者失敗。"
  MESSAGE_RETREAT_CASUALTIES_TITLE:0 "撤退的部隊遭受損失"
- RETREAT_CASUALTIES_DESC:0 "我們$TOTAL|Y$部隊企圖在$PLANET|H$$LOST$撤退時損失了$NUM|Y$"
- MESSAGE_LOST_ARMY:0 "$NUMBER$.$NAME|R$"
+ RETREAT_CASUALTIES_DESC:0 "我們在試圖從 $PLANET|H$ 撤退時損失了$TOTAL|Y$部隊中的$NUM|Y$\n$LOST$"
+ MESSAGE_LOST_ARMY:0 "$NUMBER$. $NAME|R$"
 
 
  ####################################
@@ -476,7 +476,7 @@
  MESSAGE_INVALIDATED_EDICT_TITLE:0 "法令已取消"
  COUNTRY_EDICT_BECAME_INVALID:1 "由於未滿足所需條件，$EDICT|Y$法令已經失效。"
  MESSAGE_EXPIRED_EDICT_TITLE:0 "法令失效"
- COUNTRY_EDICT_EXPIRED:0 "影響我們部落的$EDICT|Y$法令已失效。"
+ COUNTRY_EDICT_EXPIRED:0 "影響我們帝國的$EDICT|Y$法令已失效。"
  PLANET_EDICT_EXPIRED:0 "影響$PLANET$的$EDICT|Y$法令已失效。"
 
 #####################################

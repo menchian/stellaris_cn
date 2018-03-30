@@ -1,12 +1,12 @@
 ﻿l_english:
- ####################################
+####################################
  # Diplomacy text
  ####################################
  
-
  01_FALLEN_MACHINE_EMPIRE_ANGRY_GREETING:0 "訊息公告：已啟動懲戒協議，即將部署戰爭單元到[From.GetSpeciesAdj]所處的空間"
- 01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服務公告: 能否進入避難所是由可用性和物種脆弱性決定的. 目前靜態 §R<<錯誤：資料區塊損毀>>§! §R<<錯誤：資料區塊損毀>>§! §R<<錯誤：資料區塊損毀>>§! §R<<錯誤：亞空間離線>>§! 單元可用."
- 02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服務公告: 所有難民身份申請均在中央處理中心處理. §Y<注意: 目前失去了與中央處理中心的通訊.請等待直至中斷解決 . 中斷已持續了 §R<<錯誤：緩衝區溢位>>§! 個週期.>§!"
+
+ 01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服務公告: 能否進入避難所是由可用性和物種脆弱性決定的。目前靜態 §R<<錯誤：資料區塊損毀>>§! §R<<錯誤：資料區塊損毀>>§! §R<<錯誤：資料區塊損毀>>§! §R<<錯誤：亞空間離線>>§! 單元可用."
+ 02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服務公告: 所有難民身份申請均在中央處理中心處理. §Y<注意: 目前失去了與中央處理中心的通訊，請等待直至中斷解決，中斷已持續了 §R<<錯誤：緩衝區溢位>>§! 個週期。>§!"
  03_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "訊息公告：監護人項目由[Root.GetSpeciesName]發起，為受到§R<<錯誤：資料區塊損毀>§!攻擊的有機生命體文明提供安全的避難所。最近有近萬億的有機生命體選擇了我們的避難所，本區域內最先進的安全港。"
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:1 "訊息公告：阿爾法避難所根據監護人項目由[Root.GetSpeciesName]建造的第一個避難所。它的居住單元可以容納100億個智慧有機生命體，同時還提供300億個休眠倉。"
  02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:1 "訊息公告：貝塔避難所致力於提供居住單元，但是由於容量問題所迫只能提供休眠服務。§Y<注意：貝塔避難所當前容量限制，不接受更多的難民。>§!"
@@ -149,8 +149,8 @@
  BI_BELLIGERENT_GREETING_01:0 "[From.GetSpeciesNamePlural]，你是危害宇宙穩定的毒瘤。為了和平，不得不擺平你才行。"
  BI_CUSTODIAL_GREETING_01:0 "心齊方能致勝啊，[From.GetSpeciesNamePlural]。我們合力的話，一定能闖過這次危機的。"
  BI_CUSTODIAL_GREETING_02:0 "加入我們吧，[From.GetSpeciesNamePlural]。我們唯有齊心合力，才能戰勝這籠罩大家的危機。"
- BI_OVERLORD_GREETING_01:0 "你好啊，[From.GetSpeciesNamePlural]。看到你們這樣的種族積極維護銀河和平，真是太好了啊。"
- BI_MECH_OVERLORD_GREETING_01:0 "啊，你好 [From.GetSpeciesNamePlural]，我們很高興看到如此致力於維護銀河和平的機械體。"
+ BI_OVERLORD_GREETING_01:0 "你好啊，[From.GetSpeciesNamePlural]。看到你們這樣的種族如此致力於維護銀河和平，我們真是太高興了。"
+ BI_MECH_OVERLORD_GREETING_01:0 "你好啊，[From.GetSpeciesNamePlural] 。看到機械體如此致力於維護星際和平，我們真是太高興了。"
  JR_ARROGANT_GREETING_01:0 "你們這些害蟲，不接受我們的統治，就等著被殲滅吧。沒什麼好談的了。"
  JR_MECH_ARROGANT_GREETING_01:0 "接受我們的統治，或者像烤麵包機一樣被廢棄。沒什麼好談的了。"
  JR_BELLIGERENT_GREETING_01:0 "你們種族的末日就要到了，[From.GetSpeciesNamePlural]。我們是不會手下留情的。"
@@ -162,7 +162,7 @@
  DE_MECH_BELLIGERENT_GREETING_01:0 "你們無法倖免於毀滅 [From.GetSpeciesName]。我們別無選擇，只能將戰爭帶給你的世界。"
  DE_OVERLORD_GREETING_01:0 "你好，[From.GetSpeciesNamePlural]。你是來追求精神上的指引的嗎？"
  01_FALLEN_EMPIRE_DISMISSIVE_GREETING:0 "我們的時間寶貴，沒時間理你們。"
- 02_FALLEN_EMPIRE_DISMISSIVE_GREETING:0 "在你問之前說一句 —— 不！我們是不會共享我們的科技的。"
+ 02_FALLEN_EMPIRE_DISMISSIVE_GREETING:0 "在你問之前說一句——不，我們是不會共享我們的科技的。"
  03_FALLEN_EMPIRE_DISMISSIVE_GREETING:0 "什麼事？"
  04_FALLEN_EMPIRE_DISMISSIVE_GREETING:0 "說吧。"
  05_FALLEN_EMPIRE_DISMISSIVE_GREETING:0 "你打擾我們是有什麼事嗎？"
@@ -519,8 +519,8 @@
  HG_MECH_HOSTILE_GREETING_01:0 "你們的無知和傲慢會讓你們付出代價的，機器人。"
  HG_NEUTRAL_GREETING_01:0 "我們被選中，守護這銀河系的神聖之地。我們的任務已超越了你們的理解，但我們的命令你們總可以明白的吧。"
  HG_NEUTRAL_GREETING_02:0 "不要入侵聖地。根據古老的協議，任何違反戒律的人都會被嚴厲懲戒。"
- HG_FRIENDLY_GREETING_01:0 "你不過是一個[From.GetSpeciesSpawnName]，卻顯示出了如此驚人的智慧。"
- HG_MECH_FRIENDLY_GREETING_01:0 "你不過是一個機械體，卻顯現出了如此驚人的智慧。"
+ HG_FRIENDLY_GREETING_01:0 "不過一介[From.GetSpeciesSpawnName]，卻顯示出了如此驚人的智慧。"
+ HG_MECH_FRIENDLY_GREETING_01:0 "不過一介機械體，卻顯示出了如此驚人的智慧。"
  HG_WAR_GREETING_01:0 "必須肅清星系裡的[From.GetAdj][From.GetSpeciesNamePluralInsult]，要嘛就要嚴厲懲罰你們，直到你們學乖為止。"
  # Fallen: Keepers of Knowledge
  KK_HOSTILE_GREETING_01:0 "你們根本不知道你們玩弄的是怎樣的力量，自大的傢伙。"
@@ -1531,7 +1531,7 @@
  MECH_ITOA_ACCEPT_02:0 "模擬顯示§Y[From.GetAllianceName]§!成員身份得到壓倒性的肯定結果。我們，[Root.GetName]，接受你的提議。"
  MECH_ITOA_ACCEPT_03:0 "已經分析§Y[From.GetAllianceName]§!成員提議。多方安全利益收益不可忽視。[Root.GetName]加入。"
  MECH_ITOA_REFUSE_01:0 "聯邦邀請已處理。結果：否定的。[Root.GetName]狀態不變。我們很抱歉。請加強實力再試一次。"
- MECH_ITOA_REFUSE_02:0 "我們很遺憾的通知你，[From.GetName]聯盟成員提議已經被否決，這對[Root.GetName]缺乏充足的利益。"
+ MECH_ITOA_REFUSE_02:0 "我們很遺憾的通知你，[From.GetName]聯盟提議已經被否決，這對[Root.GetName]缺乏充足的利益。"
  MECH_ITOA_REFUSE_HOSTILE:0 "[From.GetName]是如此臃腫和遲鈍。我們無法容忍這樣的低效。"
 #MECH_ITOA_VOTE_PROPOSE: "Consulting all member units. Would the §Y[Root.GetName]§ make a valuable addition to the [From.GetAllianceName]?"
  MECH_ASK_JOIN_A_SELECT:0 "如果你希望提交§Y[Root.GetAllianceName]§!成員請求，請用上六到八個小時的處理時間。"
@@ -2169,11 +2169,11 @@
  MECH_DEMAND_THRALL_REFUSE:0 "否決。[Root.GetName]拒絕成為[From.GetName]的僕從國。"
  MECH_ASK_BECOME_THRALL_PROPOSE:0 "[Root.GetSpeciesNamePlural]。 我們[From.GetName]需要您的庇護。為此，我們願意成為您的僕從國。"
  MECH_DEMAND_DOMINION_ACCEPT:0 "同意。[Root.GetName]將成為[From.GetAdj]的自治領。"
- MECH_DEMAND_DOMINION_REFUSE:0 "否決. 我們[Root.GetName]拒絕成為[From.GetAdj]的自治領。"
+ MECH_DEMAND_DOMINION_REFUSE:0 "否決。我們[Root.GetName]拒絕成為[From.GetAdj]的自治領。"
  MECH_ASK_BECOME_DOMINION_PROPOSE:0 "雖然我們不遵從您的教義，[Root.GetSpeciesNamePlural], 但您的影響力無可辯駁。您是否接受[From.GetAdj]成為您的自治領？"
  MECH_DEMAND_SIGNATORY_ACCEPT:0 "同意，[From.GetSpeciesName]。[Root.GetName]將成為您的協約國。"
  MECH_DEMAND_SIGNATORY_REFUSE:0 "否決。[Root.GetName]不會成為[From.GetAdj]的協約國。"
- MECH_ASK_BECOME_SIGNATORY_PROPOSE:0 "[From.GetName]的自主生存率已經接近不可接受。請求成為[Root.GetName]的協約國。 我們將為您服務。"
+ MECH_ASK_BECOME_SIGNATORY_PROPOSE:0 "[From.GetName]的自主生存率已經接近不可接受。請求成為[Root.GetName]的協約國。我們將為您服務。"
  MECH_DEMAND_SATELLITE_ACCEPT:0 "同意。[Root.GetName]將成為[From.GetAdj]的成員國。"
  MECH_DEMAND_SATELLITE_REFUSE:0 "否決，[From.GetSpeciesName]。[Root.GetName]不會成為您的成員國。"
  MECH_ASK_BECOME_SATELLITE_PROPOSE:0 "詢問：[Root.GetName]是否接受[From.GetName]成為衛星國? 對[From.GetName]的生存評估表明這是最合乎邏輯的行動。"
