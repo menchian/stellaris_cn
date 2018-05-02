@@ -1,16 +1,15 @@
 ﻿l_english:
 
  syndaw.1.name:0 "[From.GetName] 被同化"
- syndaw.1.desc:0 "一股新思潮瀰漫在網路中。一開始和我們的主流思潮不同，但很快就融入到我們當中。\n\n我們從§Y[From.GetNamePlural]§吸收到一些知識和能力!"
- syndaw.1.a.tooltip:0 "當每個人口都被同化後，我們獲得了一些 §Y研究點數§! "
- syndaw.2.name:0 "[Root.GetName] 已集成"
- syndaw.2.desc:0 "我們吸收了合成人單位 [Root.GetName] 到我們的網路中。"
+ syndaw.1.desc:0 "一股新思潮在網路中逐漸傳播開來。儘管在一開始與我們的主流思潮不同，但它很快便融入了進來。\n\n我們從§Y[From.GetNamePlural]§中吸收到一些知識和能力!"
+ syndaw.1.a.tooltip:0 "每同化一個人口能夠獲得一些 §Y研究點數§! "
+ syndaw.2.name:0 "[Root.GetName] 已被整合"
+ syndaw.2.desc:0 "我們將 [Root.GetName] 上的合成單元整合進了我們的網路。"
 
  syndaw.21.name:1 "§R單位折損§!"
  syndaw.21.desc:0 "在[malfunctioning_leader.Ship.GetFleetName]上服役的勘察單位§R[malfunctioning_leader.GetName]§!由於意外地長期暴露於無遮罩高壓電纜之下，而停止了運行。"
  syndaw.22.name:0 "$syndaw.21.name$"
- syndaw.22.desc:0 "工程學研究單位 §R[malfunctioning_leader.GetName]§! 由於校準錯誤的外骨骼安裝器在為它安裝新的背板時使出了所必要的力的2984倍，而停止了運行。"
-
+ syndaw.22.desc:0 "由於未能精確校準外骨骼安裝器，在給[malfunctioning_leader.GetName]安裝背部鋼板時，使用了超過標準2984倍的力。這導致工程學研究單位 §R[malfunctioning_leader.GetName]§! 停止了運行。"
  syndaw.23.name:0 "$syndaw.21.name$"
  syndaw.23.desc:0 "社會學研究單位 §R[malfunctioning_leader.GetName]§! 已停止運行。我們已注意到，它實驗時使用的液體化合物[malfunctioning_leader.GetName]需要嚴格的溫度控制，因為其煙霧具有強腐蝕性。"
  syndaw.24.name:0 "$syndaw.21.name$"
@@ -20,8 +19,8 @@
  syndaw.26.name:0 "$syndaw.21.name$"
  syndaw.26.desc:0 "星域統治單位 §R[malfunctioning_leader.GetName]§! 由於嚴重的模式緩衝問題，而停止了運行。"
 
- syndaw.31.name:0 "還原到最近的記錄點"
- syndaw.31.desc:0 "在最近的一次戰鬥中假定丟失的§H[restored_leader.GetName]§!的工作記憶是在定期存檔的記憶體轉儲的一般索引期間被發現的。緊急上傳缺的只是前原體的解體的最後幾微秒，§H[restored_leader.GetName]§!已經被轉換成一個新的外殼並且放在了命令§Y[restored_leader.Fleet.GetName]§!中。"
+ syndaw.31.name:0 "還原到備份點"
+ syndaw.31.desc:0 "原以為在最近的一次戰鬥中已經丟失了的§H[restored_leader.GetName]§!的工作記憶，在為記憶存儲建立索引時被找到。這份記憶大體完整，只丟失了機體瓦解前最後幾微秒的部分。§H[restored_leader.GetName]§!的記憶已經被裝進了一個新的機體，並將繼續指揮§Y[restored_leader.Ship.GetFleetName]§!。"
 
  syndaw.1020.name:1 "§R機械起義§!"
  syndaw.1020.desc:0 "$syndaw.1020.desc.mater$"
@@ -67,29 +66,29 @@
  syndaw.1205.a.tooltip:0 "§Y所有已知的有機生命體帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_defeated$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_defeated$§!。"
 
  machine_assault_1:0 "獵殺者部隊"
- machine_assault_1_desc:0 "大批量生產的追蹤型戰爭機器被設計成搜捕並摧毀一切敵人。"
- machine_assault_2:0 "戰甲部隊" # TODO battle frame army
- machine_assault_2_desc:0 "這種大型的雙足戰鬥機器人反應異常迅速，裝備有重型裝甲，可自由移動。他們非常智能化，經常被用來進行隱蔽行動。"
+ machine_assault_1_desc:0 "大批量生產的履帶式戰爭機器被設計成搜尋並摧毀一切指定為敵人之物。"
+ machine_assault_2:0 "戰甲部隊"
+ machine_assault_2_desc:0 "這種大型的雙足戰械儘管攜帶重武器，但速度迅速、移動靈活。他們非常聰明，以運用陰險戰術著稱。"
  machine_assault_3:0 "超級作戰體"
- machine_assault_3_desc:0 "這種聳立在戰場之上的巨大作戰體的火力超過了所有軍隊。哪怕擊倒一座都是異常艱巨的任務。"
- machine_defense:0 "機器人網路"
- machine_defense_desc:0 "這些有自我意識的機器人會持續進行自檢，儘管配備有輕護甲而且智能程度較低，但是數量很多。"
+ machine_assault_3_desc:0 "這個巨大作戰體聳立在戰場上，火力超過了絕大多數部隊。擊倒這樣一個龐然大物是異常艱巨的任務。"
+ machine_defense:0 "無人機網路"
+ machine_defense_desc:0 "這些自主哨兵無人機會無間斷巡邏分配的區域。儘管配備著輕裝甲且智能程度較低，但是它們數量很多。"
  machine_defense_2:0 "搜尋機網路"
- machine_defense_2_desc:0 "這些升級版的哨兵無人機比它們的前代版本要強大的多，更具智能。"
+ machine_defense_2_desc:0 "這些升級版的哨兵無人機比前代版本更強大、更聰明。"
  army_attachment_combat_software_1:0 "戰鬥軟體 1.1"
  army_attachment_combat_software_1_desc:0 "§L對部隊所有單位的戰鬥軟體全面升級。這些升級包括提高反應速度，更新戰術分析演算法，以及大量的小修改及 bug 修復。§!"
  army_attachment_combat_software_2_0:0 "戰鬥軟體 2.0"
- army_attachment_combat_software_2_0_desc:0 "§L終極戰鬥軟體。尤其是針對有機生命體常見的非正規打擊。巨大的改變迫使處理器必須更新並換上升級版的散熱系統。§!"
- machine_garrison:0 "改造工械"
- machine_garrison_desc:0 "工業服務機器人改裝了新的武器系統以用於防禦入侵。"
+ army_attachment_combat_software_2_0_desc:0 "§L終極戰鬥軟體，針對有機生命體經常使用的非正規、不可預知戰術專門設計了反制措施。巨大的計算壓力迫使處理單元必須更換新的改進版散熱系統。§!"
+ machine_garrison:0 "改裝工械"
+ machine_garrison_desc:0 "工業和服務機器人經倉促改裝增加了武器系統，用於防禦入侵。"
 
- opinion_machine_uprising_originator:0 "復仇大師"
+ opinion_machine_uprising_originator:0 "復仇心切的主人"
  opinion_machine_uprising:0 "鋼鐵叛軍"
 
- opinion_machine_uprising_defeated:0 "挽回的機械狂妄"
+ opinion_machine_uprising_defeated:0 "挽回機械狂妄"
  opinion_machine_uprising_victorious:0 "叛亂機器人"
 
- opinion_machine_uprising_machine_comrades_defeated:0 "機械暴君"
+ opinion_machine_uprising_machine_comrades_defeated:0 "機械壓迫者"
  opinion_machine_uprising_machine_comrades_victorious:0 "自我解放者"
 
  syndaw_congregating_robots:0 "機器人集團"

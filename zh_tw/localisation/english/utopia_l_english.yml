@@ -4,7 +4,7 @@
 
  # Unrest
  UNREST:0 "動亂"
- UNREST_DESC:0 "§E§H動亂§!代表該行星的政治動亂及公民不滿的程度。§H不愉快§!的公民和奴隸增加§H動亂§!，§H駐守軍隊§!駐紮可降低動亂程度。\n\n高的§H動亂§!會直接導致消極的結果。§!"
+ UNREST_DESC:1 "§E§H動亂§!代表該行星的政治動亂及公民不滿的程度。§H不愉快§!的公民和奴隸增加§H動亂§!，§H要塞§! 和 §H堡壘§! 可降低動亂程度。\n\n高的§H動亂§!會直接導致消極的結果。§!"
  UNREST_VALUE_POP_DESC:0 "$NAME$：$VALUE$"
  UNREST_HAPPY_POPS:0 "心滿意足的人口"
  UNREST_UNHAPPY_POPS:0 "心懷不滿的人口"
@@ -63,6 +63,7 @@
  allow_spy_orb:0 "§H解鎖巨型結構：§!監探陣列"
  allow_think_tank:0 "§H解鎖巨型結構：§!研究中樞"
  allow_habitats:0 "§H解鎖基地：§!太空移民站"
+ ap_master_builders_habitat_size: "我帝國的§H太空移民站§!將額外擁有§Y3§!地塊空間。"
  allow_edict_consectrated_worlds:3 "§H解鎖行星法令：§!$edict_consecrated_worlds$"
  describe_edict_consectrated_worlds:3 "§E這是一個持續§Y100§!年的行星法令，會提高 £pop 人口的§Y$MOD_POP_HAPPINESS$§!、§Y精神主義道德吸引力§!和§Y$MOD_POP_GROWTH_SPEED$§!，並提升 £unity 凝聚力§Y產出§!。§!"
  allow_machine_worlds:2 "§H解鎖環境改造方案:§!機械世界"
@@ -160,7 +161,7 @@
  SYNTHETIC_EVOLUTION_PROJECT:0 "$ap_synthetic_evolution$"
  SYNTHETIC_EVOLUTION_PROJECT_DESC:0 "放棄充滿缺陷的有機生命體擁抱不朽的時候到了。我們必須為全體人口準備先進的合成人化身，然後開始意識轉移的過程。"
  
- TRAIT_IMPROVES_LEADERS: "§G來自於這個種族的領袖有額外的特質和加成§!"
+ TRAIT_IMPROVES_LEADERS:0 "§G來自於這個種族的領袖有額外的特質和加成§!"
 
  trait_cybernetic:0 "半機械化"
  trait_cybernetic_desc:0 "§L此種族大量運用神經機械學，其程度致其個體可被稱為半機械人。他們通常將有機身體部件替換成先進的機械版本。§!\n"
@@ -171,16 +172,16 @@
  trait_self_modified:0 "自我修正"
  trait_self_modified_desc:0 "§L此分支種族自發的改變了他們的基因結構，為他們獲取了更多優勢。§!"
 
- leader_trait_admiral_erudite: "博學"
- leader_trait_admiral_erudite_desc: "這個領袖的智力有極大的提升，這增強了指揮艦隊的能力。"
- leader_trait_general_erudite: "$leader_trait_admiral_erudite$"
- leader_trait_general_erudite_desc: "這個領袖的智力有極大的提升，這增強了統帥軍隊的能力。"
- leader_trait_governor_erudite: "$leader_trait_admiral_erudite$"
- leader_trait_governor_erudite_desc: "這個領袖的智力有極大的提升，這增強了行政治理能力。"
- leader_trait_scientist_erudite: "$leader_trait_admiral_erudite$"
- leader_trait_scientist_erudite_desc: "這個領袖的智力有極大的提升，這增強了科學研究的能力。"
- leader_trait_ruler_erudite: "$leader_trait_admiral_erudite$"
- leader_trait_ruler_erudite_desc: "這個領袖的智力有極大的提升，這增強了統御國家的能力。"
+ leader_trait_admiral_erudite:0 "博學"
+ leader_trait_admiral_erudite_desc:0 "此領袖的智力有極大的提升，這增強了指揮艦隊的能力。"
+ leader_trait_general_erudite:0 "$leader_trait_admiral_erudite$"
+ leader_trait_general_erudite_desc:0 "此領袖的智力有極大的提升，這增強了統帥軍隊的能力。"
+ leader_trait_governor_erudite:0 "$leader_trait_admiral_erudite$"
+ leader_trait_governor_erudite_desc:0 "此領袖的智力有極大的提升，這增強了行政治理能力。"
+ leader_trait_scientist_erudite:0 "$leader_trait_admiral_erudite$"
+ leader_trait_scientist_erudite_desc:0 "此領袖的智力有極大的提升，這增強了科學研究的能力。"
+ leader_trait_ruler_erudite:0 "$leader_trait_admiral_erudite$"
+ leader_trait_ruler_erudite_desc:0 "此領袖的智力有極大的提升，這增強了統御國家的能力。"
 
  leader_trait_admiral_cyborg:0 "半機械人"
  leader_trait_admiral_cyborg_desc:0 "此領袖配備了軍用機械內植體，可以直接操控艦隊指揮與控制系統。"
@@ -296,7 +297,7 @@
  utopia.2017.name:0 "環形世界區塊修復完成"
  utopia.2017.desc:0 "建立在[From.GetName]恆星系毀壞環形世界的殘骸上, 我工程師設法徹底修好了其一區塊。雖然新的生物圈得由我們的尖端行星學家或多或少的拼湊出來，但它的穩定性已被充分考察過，做好了居住的準備。"
  anomaly.2576.name:0 "新金屬"
- anomaly.2576.desc:0 "對 [From.GetName] 表面的細緻掃瞄發現了一個大的隕石坑中有幾艘從未見過的古老星艦殘骸。這些星艦上完全沒有生命維持系統，這表明它們要嘛是及其巨大的無人機，要嘛是由某種形式的人工智慧來操控的。\n\n有趣的是，星艦的護甲全部由§H活性金屬§!製造,這是一種罕見的無機材料，擁有許多獨特的特性。這種金屬可以被「編譯」來呈現為指定的形狀和結構，當損壞後可以自己再生。經過了數千年，星艦殘骸中剩下的金屬沉積下來，可供我們開採幾百年。"
+ anomaly.2576.desc:0 "對 [From.GetName] 表面的細緻掃瞄發現了一個大的隕石坑中有幾艘從未見過的古老星艦殘骸。這些星艦上完全沒有生命維持系統，這表明它們要嘛是及其巨大的無人機，要嘛是由某種形式的人工智慧來操控的。\n\n有趣的是，星艦的裝甲全部由§H活金屬§!製造,這是一種罕見的無機材料，擁有許多獨特的特性。這種金屬可以被「編譯」來呈現為指定的形狀和結構，當損壞後可以自己再生。經過了數千年，星艦殘骸中剩下的金屬沉積下來，可供我們開採幾百年。"
  living_metal_category:0 "古怪的環形山"
  living_metal_category_desc:0 "發現了一個巨大的衝擊造成的環形山，看起來絕非自然形成。"
 

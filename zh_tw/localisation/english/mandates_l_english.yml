@@ -63,7 +63,7 @@
  planet_freed:0 "已解放行星"
 
  mandate_separatist_chain_title:0 "分離主義承諾"
- mandate_separatist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] 承諾§Y釋放§!§H [release_planet.GetName] §!為獨立帝國，並因此當選。詳情請查看§Y黨派列表§!。\n\n獎勵：\n$mandate_influence_reward_t3$"
+ mandate_separatist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] 承諾§Y釋放§!§H [release_planet.GetName] §!為獨立帝國，並因此當選。詳情請查看§Y派系列表§!。\n\n獎勵：\n$mandate_influence_reward_t3$"
  empire_released:0 "已釋放帝國"
 
  mandate_peacemaker_chain_title:0 "和平使者承諾"
@@ -75,7 +75,7 @@
  pops_enslaved:0 "已奴役人口"
 
  mandate_nationalist_chain_title:0 "回歸者承諾"
- mandate_nationalist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] 承諾在任期結束前§Y割讓§!屬於§H [ceding_empire.GetName] §!的殖民地，並因此當選。此行動可在黨派列表中執行。\n\n獎勵：\n$mandate_influence_reward_t3$"
+ mandate_nationalist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] 承諾在任期結束前§Y割讓§!屬於§H [ceding_empire.GetName] §!的殖民地，並因此當選。此行動可在派系列表中執行。\n\n獎勵：\n$mandate_influence_reward_t3$"
  planet_ceded:0 "已割讓星球"
 
  ####################################

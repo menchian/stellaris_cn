@@ -17,7 +17,7 @@
  waiting_world_ruins:0 "寂絕遺跡"
  waiting_world_ruins_desc:0 "風在廢墟中歎息著。沒有人會去那裡。"
 
- loop_debris_01_object:0 "彼岸信號殘骸"
+ loop_debris_01_object:0 "事件視界信號殘骸"
  loop_debris_02_object:0 "螺旋艙"
 
  worm_quarantined:0 "隔離區"
@@ -46,15 +46,15 @@
  building_akx_worm_2:0 "無限循環學院"
  building_akx_worm_2_desc:0 "無限循環的教育方式十分注重對直覺，服從性與洞察力的培養。"
 
- building_akx_worm_3:0 "歐米伽排列"
- building_akx_worm_3_desc:0 "這個物體的表面可以扭曲空間。內部無論使用何種傳感器或者成像技術都無法觀測，但我們都知道裡面是什麼東西。"
+ building_akx_worm_3:0 "歐米伽校準儀"
+ building_akx_worm_3_desc:0 "這個物體的表面可以扭曲空間。內部無論使用何種傳感器或者成像技術都無法觀測，但我們都知道裡面有什麼。"
 
  requires_power_hub_absence:0 "星球上若有普通發電中心存在，則會干擾螺旋浮流，進而影響螺旋傳輸發電中心的工作。"
 
- building_worm_mine:0 "螺旋狀開鑿的礦井"
+ building_worm_mine:0 "旋鑿礦場"
  building_worm_mine_desc:0 "狹窄的礦道圍繞著螺旋狀的礦脈。"
 
- building_worm_farm:0 "環形耕作的農場"
+ building_worm_farm:0 "環作農場"
  building_worm_farm_desc:0 "不知怎麼，這裡的作物都是向著風的方向生長的。"
 
  ### TRAITS
@@ -64,17 +64,17 @@
  ####################
  ### SPECIAL PROJECTS
  
- HORIZON_SIGNAL_PROJECT:0 "分析彼岸信號"
+ HORIZON_SIGNAL_PROJECT:0 "分析事件視界信號"
  HORIZON_SIGNAL_PROJECT_DESC:0 "派一艘科研船對[Root.GetStarName]黑洞發出的神秘信號進行解密。"
  
  LOOP_TEMPLE_PROJECT:0 "調查無限時循神廟"
  LOOP_TEMPLE_PROJECT_DESC:0 "創立研究項目，對無限時循神廟的起源與建造目的進行調查。"
 
- MESSENGER_POD_PROJECT_1:0 "研究信使族，與其傳遞的訊息。"
+ MESSENGER_POD_PROJECT_1:0 "研究「信使」及其所傳之「信」"
  MESSENGER_POD_PROJECT_1_DESC:0 "也許我們可以根據其他的事件建立起聯繫——搞不好還能找到某種解釋呢。"
 
- MESSENGER_POD_PROJECT_2_UNLEASHED:0 "研究信使族與我們種族之間的聯繫。"
- MESSENGER_POD_PROJECT_2_UNLEASHED_DESC:0 "初步調查結果顯示，該種族比我們智慧更高，但體質似乎更為孱弱。"
+ MESSENGER_POD_PROJECT_2_UNLEASHED:0 "研究「信使」與我們的異同"
+ MESSENGER_POD_PROJECT_2_UNLEASHED_DESC:0 "初步調查表示，該種族比我們擁有更高的智慧，但其體質似乎更為羸弱。"
 
  MESSENGER_POD_PROJECT_2_LEASHED:0 "研究信使族與我們種族之間的聯繫。"
  MESSENGER_POD_PROJECT_2_LEASHED_DESC:0 "初步調查結果顯示，該種族比我們更為壯碩，攻擊性也更強。"
@@ -83,9 +83,9 @@
  COILS_GOD_PROJECT_DISRUPT_DESC:0 "用信號干涉也好，用蠻力破壞也好，用假情報誤導也好，只要不做過火，我們一定要全力施為。"
  
  COILS_GOD_PROJECT_PREVENT:0 "進行秘密行動，破壞輪迴儀式。"
- COILS_GOD_PROJECT_PREVENT_DESC:0 "假造也好，綁架也好，洗腦也好，就算殺人放火我們也在所不惜，一定要全力施為。"
+ COILS_GOD_PROJECT_PREVENT_DESC:0 "偽造也好，綁架也好，洗腦也好，就算殺人放火我們也在所不惜，一定要全力施為。"
   
- COILS_GOD_PROJECT_PARTICIPATE:0 "派種族學家到表面祛，近距離觀察輪迴儀式。"
+ COILS_GOD_PROJECT_PARTICIPATE:0 "派種族學家到表面，近距離觀察輪迴儀式。"
  COILS_GOD_PROJECT_PARTICIPATE_DESC:0 "真是了不得的文化活動啊！我們必須盡量進行研究。"
  
  WAITING_WORLD_DISAPPEARANCE:0 "調查人口失蹤事件"
@@ -100,7 +100,7 @@
  WORM_ENTRY_POINT:0 "產生入口"
  WORM_ENTRY_POINT_DESC:0 "根據歐米伽理論，我們稱為無限循環，即潛時之蟲的東西，正是時間異常造成的。它是由糾結在一起的悖論結產生的意識，游離於時間之外的意識與慾望的結合體。其成因，也就是其結果——對於這樣的東西，使用這些說法有些太過抽像了。但，它會受開始與結束的吸引。我們可以使用歐米伽排列將其引到我們的母星星系中。如果成功，一定會發生些什麼的。這一事件的發生要依靠很多東西，但最重要的是，這要依靠科學。"
  
- HORIZON_DEBRIS_PROJECT:0 "調查彼岸信號來源處的碎片"
+ HORIZON_DEBRIS_PROJECT:0 "調查事件視界信號來源處的碎片"
  HORIZON_DEBRIS_PROJECT_DESC:0 "引擎引爆時，打斷了星艦周圍的空間變化。碎片顯示出了超乎尋常的物理與時間屬性。"
  
  SYZYGY_DEBRIS_PROJECT:0 "調查朔望號遺骸"
@@ -110,29 +110,29 @@
  ################################################
  ##THE HORIZON SIGNAL: intro events to Worm chain 
  
- akx.9000.name:0 "彼岸信號"
- akx.9000.desc:0 "一位警報通信官發現了一道十分微弱的信號，其在黑洞產生的伽瑪射線爆發下幾乎完全被淹沒了——但這信號雖然微弱，卻毫無疑問是人工發出的。我們的科學家對這一現象提出了許多有趣的猜測。"
+ akx.9000.name:0 "事件視界信號"
+ akx.9000.desc:0 "一位預警通信員發現了一道十分微弱的信號，其在黑洞產生的伽瑪射線爆發下幾乎完全被淹沒了——但這信號雖然微弱，卻毫無疑問是人工發出的。我們的科學家對這一現象提出了許多有趣的猜測。"
  #create the HORIZON_SIGNAL_PROJECT project
 
- akx.9001.name:0 "彼岸信號：§H引力即慾望§!"
- akx.9001.desc:0 "科學官員[Root.GetLeaderName]回報稱，信號的解密出乎意料的簡單……但他的團隊還是花了大把時間，原因是他們想確定這不是一個騙局。信號的內容是不斷循環，且不大通順的[Root.Owner.GetAdj]語語句——有點像是詩歌。內容是重複的語句：§H引力即慾望§!和§H時間即眼界§!。其中還包含一段加密的坐標，位置就位於黑洞附近。信號的最後，則寫著我們科學官員§G本人的名字§!。該科學官員冷靜地宣稱，這個信號在其誕生之前已經在向宇宙中傳播了，甚至有可能比我們的文明還要古老。"
- akx.9001.a:0 "太神奇了！快把坐標發送給艦隊。"
- akx.a.tooltip:0 "此選項將開啟彼岸信號事件。"
+ akx.9001.name:0 "事件視界信號：§H引力即欲求§!"
+ akx.9001.desc:0 "科學官員[Root.GetLeaderName]報告說，信號的解密出乎意料的簡單……但他的團隊還是花了大把時間，原因是他們想確定這不是一個騙局。信號的內容是不斷循環，且不大通順的[Root.Owner.GetAdj]語言的語句——有點像是詩歌。內容是重複的語句：§H引力即欲求§!和§H時間即視界§!。其中還包含一段加密的坐標，位置就位於黑洞附近。信號的最後，則寫著我們科學官員§G本人的名字§!。該科學官員冷靜地宣稱，這個信號在其誕生之前已經在向宇宙中傳播了。甚至有可能比我們的文明還要古老。"
+ akx.9001.a:0 "太神奇了！派我們的人到那個坐標去。"
+ akx.a.tooltip:0 "此選項將開啟事件視界信號事件。"
  akx.9001.b:0 "這肯定是有人搞的鬼把戲，要嘛就是陷阱。記錄下來，繼續前進吧。"
  akx.9001.b.tooltip:0 "我們開發用於研究信號的技術對我們的物理學研究也會有所裨益。"
  
- akx.9005.name:0 "彼岸信號：§H潛時之蟲§!"
+ akx.9005.name:0 "事件視界信號：§H潛時之蟲§!"
  akx.9005.desc:0 "[Root.GetName]接近信號中提到的坐標位置時，開始探測到空間扭曲和奇怪的引力透鏡效應——也為我們傳回了大量寶貴的數據。隨後，通訊出現干擾。至於接下來發生了什麼，我們進行了全面的分析。\n\n星艦外殼在越發奇詭的環境下狀態越發嚴峻，科學官員[horizonsignal_firstleader.GetName]語氣中的激動也逐漸變成了恐懼。星艦隨後發出了求救信號。[horizonsignal_firstleader.GetName]大喊「是蟲！」——也有可能是在大喊§H潛時之蟲§!！隨後，所有通訊中斷。[Root.GetName]一切存在的痕跡都消失了——再也沒有進行通訊，沒有發現任何殘骸，坐標位置處的空間也恢復了正常，再沒有出現任何扭曲或者異狀。但他們傳回的數據對我們的物理學研究產生了極大的推動。也許他們的犧牲還是值得的。"
  akx.9005.a.spiritualist:0 "先是黑暗，乍現光明。歸於黑暗。"
  akx.9005.a.materialist:0 "唯有學習，方能進步。"
  akx.9005.a.neutral:0 "我們會銘記他們的。"
  
- akx.9006.name:0 "彼岸信號：-訊息終止-"
+ akx.9006.name:0 "事件視界信號：-訊息終止-"
  akx.9006.desc:0 "[horizonsignal_firstleader.GetName]帶著又勉強又鬆了口氣的心情遵照執行了。隨後對他們進行的精神心理分析表明，他們出現了重複的噩夢——內容多為無法逃出的迷宮，宇宙空間中產生揮之不去的眩暈感，以及黑暗中有人呼喚自己的名字。在母星上不到一年的時間內，這些訊息就都停止了。"
  akx.9006.a:0 "我們這是逃過了一劫。"
  akx.9006.b:0 "我們這是錯失了大好機會。"
  
- akx.9010.name:0 "彼岸信號：§H重奏§!"
+ akx.9010.name:0 "事件視界信號：§H重奏§!"
  akx.9010.desc:0 "[horizonsignal_system.GetName]的黑洞又活躍起來了。於是，正常空間邊緣處的黑暗之中，又出現了斷斷續續的循環信號。但這一次，在信號中夾雜著聲音訊息，聽起來很像[horizonsignal_firstleader.GetName]的聲音。「過去即未來，」[horizonsignal_firstleader.GetName]低聲吟誦道，「未來即過去。」然後便是和最初信號中一樣的，[horizonsignal_firstleader.GetName]失蹤地點的坐標。這一地點，被我們的媒體命名為「出口」。隨後，信號說出了一個名字：§G[horizonsignal_secondleader.GetName]§!。"
  akx.9010.a.collective:0 "把[horizonsignal_secondleader.GetName]派到出口去。"
  akx.9010.a.tooltip:0 "§H[horizonsignal_secondleader.GetName]§!將在§Y30天§!後到達出口。"
@@ -142,51 +142,51 @@
  akx.9010.b.notcollective:0 "允許他們前往，但要給他們的星艦引擎裝上引爆裝置。"
  akx.9010.c:0 "這次可不行。無視掉吧。"
 
- akx.9011.name:0 "彼岸信號：我已通過"
+ akx.9011.name:0 "事件視界信號：我已通過"
  akx.9011.desc:0 "這一次，星艦完全靠自動控制。\n船上唯有[horizonsignal_secondleader.GetName]一人。隨著星艦逐漸接近出口，遙感信號中漸漸填滿了神奇的數據。空間折疊，引力解構的現象又一次出現了。\n\n[horizonsignal_secondleader.GetName]已不再是匯報數據了，而是在預測數據。遙感數據起初並不符合，但只持續了數秒，便與預測數據完全相同了。監測團隊正在通報預測的領先時長越發變大時，我們聽到了[horizonsignal_secondleader.GetName]驚訝的聲音：「我已通過。」\n\n「很黑。」對方還說道。「沒關係，我們可以在黑暗中生存。我還真從沒想過這一點。當然，我們也可以永遠在這裡生活下去——只要潛時之蟲可以等下去——」\n\n就在此時，信號中斷，星艦的信號也從我們的傳感器消失了。"
  akx.9011.a:0 "太可怕了。"
  akx.9011.b:0 "太遺憾了。"
  akx.9011.c:0 "太神奇了。"
 
- akx.9012.name:0 "彼岸信號：插手"
- akx.9012.desc:0 "這次，船上僅有[horizonsignal_secondleader.GetName]一人。星艦完全依靠自動操控……其系統程序已設置為，根據上一次的記錄，在周圍環境符合上艘星艦消失時間點的狀態前一瞬將星艦引擎引爆。隨著星艦接進出口，遙感信號中漸漸填滿了神奇的數據。空間折疊，引力解構的現象又一次出現了。[horizonsignal_secondleader.GetName]隨時匯報著實時數據，並通過遙感進行傳送。對方似乎表現了卓絕的冷靜，不愧是專業人士。只不過，過了一會兒就有人發現，計時出現了奇怪的跡象。\n\n[horizonsignal_secondleader.GetName]已不再是匯報數據了，而是在預測數據。遙感數據起初並不符合，但只持續了數秒，便與預測數據完全相同了。監測團隊正在通報預測的領先時長越發變大時，出現了巨大的能量波動。\n\n引擎被引爆了：如恆星般的光芒一閃而逝，淹沒在[horizonsignal_system.GetName]的黑暗之中。不管我們遭遇的對方是誰，應該都會對這次的插手感到後悔不已吧。只不過，我們是無從得知了。彼岸信號已經不會再出現了，但我們的隊伍也許能從星艦的灰燼之中找到什麼有趣的東西。"
+ akx.9012.name:0 "事件視界信號：插手"
+ akx.9012.desc:0 "這次，船上僅有[horizonsignal_secondleader.GetName]一人。星艦完全依靠自動操控……其系統程序已設置為，根據上一次的記錄，在周圍環境符合上艘星艦消失時間點的狀態前一瞬將星艦引擎引爆。隨著星艦接進出口，遙感信號中漸漸填滿了神奇的數據。空間折疊，引力解構的現象又一次出現了。[horizonsignal_secondleader.GetName]隨時匯報著實時數據，並通過遙感進行傳送。對方似乎表現了卓絕的冷靜，不愧是專業人士。只不過，過了一會兒就有人發現，計時出現了奇怪的跡象。\n\n[horizonsignal_secondleader.GetName]已不再是匯報數據了，而是在預測數據。遙感數據起初並不符合，但只持續了數秒，便與預測數據完全相同了。監測團隊正在通報預測的領先時長越發變大時，出現了巨大的能量波動。\n\n引擎被引爆了：如恆星般的光芒一閃而逝，淹沒在[horizonsignal_system.GetName]的黑暗之中。不管我們遭遇的對方是誰，應該都會對這次的插手感到後悔不已吧。只不過，我們是無從得知了。事件視界信號已經不會再出現了，但我們的隊伍也許能從星艦的灰燼之中找到什麼有趣的東西。"
  ##create HORIZON_DEBRIS_PROJECT
  akx.9012.a:0 "也許，這還不算完呢。"
  
- akx.9013.name:0 "彼岸信號：-訊息終止-"
+ akx.9013.name:0 "事件視界信號：-訊息終止-"
  akx.9013.desc:0 "[horizonsignal_secondleader.GetName]明顯鬆了口氣的樣子，遵照執行了。隨後對他們進行的精神心理分析表明，他們出現了重複的噩夢——內容多為無法逃出的迷宮，宇宙空間中產生揮之不去的眩暈感，以及黑暗中有人呼喚自己的名字。在母星上不到一年的時間內，這些訊息就都停止了。"
  akx.9013.a:0 "我們這是錯失了大好機會。"
  akx.9013.b:0 "真是千鈞一髮。"
  
- akx.9020.name:0 "彼岸信號：§H自生的三神§!"
- akx.9020.desc:0 "[horizonsignal_system.GetName]的彼岸信號又啟動了。這次勢頭更勁。這次的傳訊中依舊包含出口的坐標，並以[horizonsignal_firstleader.GetName]和[horizonsignal_secondleader.GetName]的私人通訊識別碼署名。但這一次，通訊的內容是一段老式編譯語言，運行後會自動生成一段情詩——而這情詩，是指名寫給[horizonsignal_thirdleader.GetName]的。\n\n詩寫得並不是十分優美，但我們的科學家一致承認，想要像這樣自動按步驟生成情詩是十分困難的，而黑洞本身會發出情詩這種事，本身就已經夠匪夷所思了。"
+ akx.9020.name:0 "事件視界信號：§H自生的三神§!"
+ akx.9020.desc:0 "[horizonsignal_system.GetName]的事件視界信號又啟動了。這次勢頭更勁。這次的傳訊中依舊包含出口的坐標，並以[horizonsignal_firstleader.GetName]和[horizonsignal_secondleader.GetName]的私人通訊識別碼署名。但這一次，通訊的內容是一段老式編譯語言，運行後會自動生成一段情詩——而這情詩，是指名寫給[horizonsignal_thirdleader.GetName]的。\n\n詩寫得並不是十分優美，但我們的科學家一致承認，想要像這樣自動按步驟生成情詩是十分困難的，而黑洞本身會發出情詩這種事，本身就已經夠匪夷所思了。"
  akx.9020.a:0 "嗯，還是很有禮貌的嘛。派出[horizonsignal_thirdleader.GetName]。"
  akx.9020.a.tooltip:0 "§H[horizonsignal_thirdleader.GetName]§!將在§Y30天後§!到達出口。"
  akx.9020.b:0 "派[horizonsignal_thirdleader.GetName]去吧，別忘了給他的引擎裝上引爆裝置。"
  akx.9020.c:0 "這不僅是不祥，簡直是愚蠢又不祥。算了吧。"
  
- akx.9021.name:0 "彼岸信號：終末的來處"
+ akx.9021.name:0 "事件視界信號：終末的來處"
  akx.9021.desc:0 "「我這次是回不來了，」[horizonsignal_thirdleader.GetName]在發射前的簡報中說道，「我知道我回不來的。但我感覺，我知道會發生這種事。那黑洞裡的東西已經等了我們很久了——我感覺，早在我出生之前，他們就在等我了。」\n\n再一次，只載有一名駕駛員的星艦接近了出口。再一次，空間如同沸騰一般扭曲起來。再一次，我們的傳感器列陣傳回了不可思議的數據。但這一次，[horizonsignal_thirdleader.GetName]卻十分沉寂。遙感信號變得斷斷續續，隨後，也歸於沉寂。星艦到達了出口。周圍的環境回歸了正常。卻什麼也沒發生。\n\n什麼也沒發生？監測團隊氣憤地低語著。但星艦卻變化了……其實，我們觀測的已經是另一艘船了。我們發現的是[horizonsignal_firstleader.GetName]的星艦，在消失了這麼多年之後，現在卻從出口處緩緩飄了出來。派出的回收隊伍發現星艦完好無損，但是空無一物——乘員都消失了，也沒有暴力打鬥的痕跡。但，卻留下了一篇[horizonsignal_firstleader.GetName]署名的日誌，標題為§H過去即未來§!。我們的科學家緊張地對其進行了調查。「這不可能。」一位科學家說道。另一位則回應：「但願不可能吧。」\n\n星艦被重新命名為「浪子號」並回歸了服役隊伍。不知信號是陷入了睡眠，還是已經徹底消亡，總之再也沒有出現。"
  akx.9021.a:0 "也許，這還不算完呢。"
  
- akx.9022.name:0 "彼岸信號：插手"
- akx.9022.desc:0 "「我這次是回不來了，」[horizonsignal_thirdleader.GetName]在發射前的簡報中說道，「我知道我回不來的。但我感覺，我知道會發生這種事。那黑洞裡的東西已經等了我們很久了——我感覺，早在我出生之前，他們就在等我了。」\n\n再一次，只載有一名駕駛員的星艦接近了出口。再一次，空間如同沸騰一般扭曲起來。再一次，我們的傳感器列陣傳回了不可思議的數據。但這一次，[horizonsignal_thirdleader.GetName]卻十分沉寂。遙感信號變得斷斷續續……\n\n引擎被引爆了：如恆星般的光芒一閃而逝，淹沒在[horizonsignal_system.GetName]的黑暗之中。不管我們遭遇的對方是誰，應該都會對這次的插手感到後悔不已吧。只不過，我們是無從得知了。彼岸信號已經不會再出現了，但我們的隊伍也許能從星艦的灰燼之中找到什麼有趣的東西。"
+ akx.9022.name:0 "事件視界信號：插手"
+ akx.9022.desc:0 "「我這次是回不來了，」[horizonsignal_thirdleader.GetName]在發射前的簡報中說道，「我知道我回不來的。但我感覺，我知道會發生這種事。那黑洞裡的東西已經等了我們很久了——我感覺，早在我出生之前，他們就在等我了。」\n\n再一次，只載有一名駕駛員的星艦接近了出口。再一次，空間如同沸騰一般扭曲起來。再一次，我們的傳感器列陣傳回了不可思議的數據。但這一次，[horizonsignal_thirdleader.GetName]卻十分沉寂。遙感信號變得斷斷續續……\n\n引擎被引爆了：如恆星般的光芒一閃而逝，淹沒在[horizonsignal_system.GetName]的黑暗之中。不管我們遭遇的對方是誰，應該都會對這次的插手感到後悔不已吧。只不過，我們是無從得知了。事件視界信號已經不會再出現了，但我們的隊伍也許能從星艦的灰燼之中找到什麼有趣的東西。"
  ##create HORIZON_DEBRIS_PROJECT
  akx.9022.a:0 "也許，這還不算完呢。"
 
 
- akx.9023.name:0 "彼岸信號：-訊息終止-"
+ akx.9023.name:0 "事件視界信號：-訊息終止-"
  akx.9023.desc:0 "[horizonsignal_thirdleader.GetName]明顯鬆了口氣的樣子，遵照執行了。隨後對他們進行的精神心理分析表明，他們出現了重複的噩夢——內容多為無法逃出的迷宮，宇宙空間中產生揮之不去的眩暈感，以及黑暗中有人呼喚自己的名字。在母星上不到一年的時間內，這些訊息就都停止了。"
 
- akx.9090.name:0 "彼岸信號：因與果"
+ akx.9090.name:0 "事件視界信號：因與果"
  akx.9090.desc:0 "我們的觀測站發現[horizonsignal_system.GetName]中發送信號的黑洞在[horizonsignal_secondleader.GetName]死亡時短暫進入了活躍狀態，發出了一道短暫且無法解讀的信號波。一位想像力豐富的觀測員補充稱，信號如同怒氣爆發一般。"
  akx.9090.a:0 "這還不算完呢。"
 
- akx.9091.name:0 "彼岸信號：紀念"
+ akx.9091.name:0 "事件視界信號：紀念"
  akx.9091.desc:0 "我們的觀測站發現[horizonsignal_system.GetName]中發送信號的黑洞在[horizonsignal_thirdleader.GetName]死亡時短暫進入了活躍狀態，將最初的詩歌信號重新發送了三次。一位異想天開的觀測員稱，這有點像醉酒的死者親朋在守喪時放聲高歌。"
  akx.9091.a:0 "這還不算完呢。"
 
- akx.9095.name:0 "彼岸信號：灰燼中升起"
+ akx.9095.name:0 "事件視界信號：灰燼中升起"
  akx.9095.desc:0 "我們成功模擬了黑洞附近的環境狀況，並發現碎片在該環境中會在數個狀態間循環，然而，這種循環在理論上是不可能的——簡直如同時間本身在震盪一般。我們可以從中獲取能量，但有人擔憂這會對當地的時空造成改變。"
 
  ########################################
@@ -266,13 +266,13 @@
  
  akx.9300.name:0 "太空密會"
  akx.9300.desc:0 "[Root.GetName]收到了§H朔望號§!的問候，來自於[Root.Owner.GetName]。然而，他們所發送來的ID號碼無法識別，而我方也並沒有一艘名為朔望號的星艦。這艘迷之星艦的船長自稱為[mirrored_syzygy_admiral.GetName]。"
- akx.9300.a.admiralabsent:0 "不對啊。咱們叫這個名字的船長現在正在別處工作。"
- akx.9300.a.admiralabsent.tooltip:0 "打開通道。"
- akx.9300.a.admiralpresent:0 "還真有意思。[mirrored_syzygy_admiral.GetName]就在這裡。"
+ akx.9300.a.admiralabsent:0 ""啊？我們的叫這個名字的船長正活得好好的，只是在別的地方。"
+ akx.9300.a.admiralabsent.tooltip:0 "打開通信頻道。"
+ akx.9300.a.admiralpresent:0 "真有意思。是[mirrored_syzygy_admiral.GetName]耶。"
  akx.9300.b:0 "一定是敵人的埋伏。不能大意，做好戰鬥準備。"
 
  akx.9310.name:0 "太空密會：曾經的船長"
- akx.9310.desc:0 "顯示屏上的船長的的確確就是[mirrored_syzygy_admiral.GetName]，但比起[mirrored_syzygy_admiral.GetName]來，似乎經歷了更多風雨。他的神情中充滿了迷惑，受傷與勞累，也更為年邁。他的臉上佈滿了各種戰鬥中留下的傷疤。\n\n§G"可算等到你們了。都已經忘記等了多久。給予我的懲罰就是與你一戰，直到戰死沙場。求你了，讓我趕緊死個痛快吧……抱歉。"§!"
+ akx.9310.desc:0 "螢幕上的船長的的確確就是[mirrored_syzygy_admiral.GetName]，但比起[mirrored_syzygy_admiral.GetName]來，似乎經歷了更多風雨。他的神情中充滿了迷惑，受傷與勞累，也更為年邁。他的臉上佈滿了各種戰鬥中留下的傷疤。\n\n§G"可算等到你們了。都已經忘記等了多久。給予我的懲罰就是與你一戰，直到戰死沙場。求你了，讓我趕緊死個痛快吧……抱歉。"§!"
  akx.9310.a:0 "這到底是怎麼回事？你真的是[mirrored_syzygy_admiral.GetName]嗎？"
  akx.9310.a.response:0 "§G"你說我是不是？難道說你和去年此時的那個[Root.GetSpeciesName]也還是同一個人嗎？每一天的開始就是前一天的死亡。每一個未來都需要一個抉擇。時間並不是一條直線，而是無比黑暗的迷宮。"§!\n\n他勉強擠出了一絲笑容，卻掩蓋不住眼中的痛苦神色。\n\n§G"問問時之循環你就知道了。"§!"
  akx.9310.b:0 "如果只是想要尋死，為什麼不在戰船上自行了斷呢？"
@@ -297,7 +297,7 @@
  akx.9310.f.tooltip:0 "關閉通話頻道。"
 
  akx.9315.name:0 "太空密會：結局"
- akx.9315.desc:0 "朔望號正在充能武器。"
+ akx.9315.desc:0 "朔望號正在啟動武器。"
  #spawn the Syzygy
  akx.9315.a:0 "如果有別的辦法就好了……"
  akx.9315.b:0 "那就走著瞧吧。"
@@ -461,7 +461,7 @@
  akx.9610.c.response:0 "我們的前身也總是這麼說。「以後再說。」他們的以後就是我們的現在。我們真懷念他們。"
 
  akx.9620.name:0 "機械僕人的終極義務"
- akx.9620.desc:0 "高科技球體吸收了這些資源，沒有致謝，根本什麼都沒有講。它開始輻射能量，發出幾乎危險的光芒，迫使你後撤。黑洞有所反應。其周圍的空間扭曲萎縮，如同你見到彼岸信號時的情形。高科技球體現在是藍白色。突然它燃燒並冷卻，只剩下殘渣。\n\n他們的前身復活了嗎？恆星系中依然沒有智能生命的痕跡。但傳感器在黑洞的低層軌道上定位到了不尋常的超超級微生物，沐浴在黑洞的輻射下。科學官確信這些微生物之前並不存在。不過並沒有任何證據表明它們是有智慧的。也許它們是高科技球體的創造者的遙遠的後代。也許它們是創造者的祖先。"
+ akx.9620.desc:0 "高科技球體吸收了這些資源，沒有致謝，根本什麼都沒有講。它開始輻射能量，發出幾乎危險的光芒，迫使你後撤。黑洞有所反應。其周圍的空間扭曲萎縮，如同你見到事件視界信號時的情形。高科技球體現在是藍白色。突然它燃燒並冷卻，只剩下殘渣。\n\n他們的前身復活了嗎？恆星系中依然沒有智能生命的痕跡。但傳感器在黑洞的低層軌道上定位到了不尋常的超超級微生物，沐浴在黑洞的輻射下。科學官確信這些微生物之前並不存在。不過並沒有任何證據表明它們是有智慧的。也許它們是高科技球體的創造者的遙遠的後代。也許它們是創造者的祖先。"
  akx.9620.a:0 "生命永恆？"
 
  ######################################################
