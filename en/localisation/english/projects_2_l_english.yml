@@ -6,109 +6,109 @@
 
  ### Story Events
 
- AMOEBAS_1_PROJECT:0 "Space Amoeba Observation"
- AMOEBAS_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Space Amoebas."
+ AMOEBAS_1_PROJECT:0 "太空變形蟲觀測"
+ AMOEBAS_1_PROJECT_DESC:0 "要求科學部門收集核對與太空變形蟲有關的數據。"
 
- CRYSTALS_1_PROJECT:0 "Crystalline Entity Observation"
- CRYSTALS_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Crystalline Entities."
+ CRYSTALS_1_PROJECT:0 "結晶實體觀測"
+ CRYSTALS_1_PROJECT_DESC:0 "要求科學部門收集核對與結晶實體有關的數據。"
 
- DRONES_1_PROJECT:0 "Mining Drone Observation"
- DRONES_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Ancient Mining Drones."
+ DRONES_1_PROJECT:0 "採礦無人機觀測"
+ DRONES_1_PROJECT_DESC:0 "要求科學部門收集核對與古代採礦無人機有關的數據。"
 
- CLOUDS_1_PROJECT:0 "Void Cloud Observation"
- CLOUDS_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Void Clouds."
+ CLOUDS_1_PROJECT:0 "虛空之雲觀測"
+ CLOUDS_1_PROJECT_DESC:0 "要求科學部門收集核對與虛空之雲有關的數據。"
 
- CRYSTAL_CONSTRUCT_PROJECT:0 "The Crystal Construct"
- CRYSTAL_CONSTRUCT_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the unique Crystalline Construct."
+ CRYSTAL_CONSTRUCT_PROJECT:0 "晶體構造物"
+ CRYSTAL_CONSTRUCT_PROJECT_DESC:0 "委派一個科學部門去採集並分析跟獨特的晶體構造物相關的數據。"
 
- MINING_BASE_PROJECT:0 "The Processing Hub"
- MINING_BASE_PROJECT_DESC:0 "Task a science department with remotely studying the last known Ancient Mining Drone Processing Hub."
+ MINING_BASE_PROJECT:0 "加工站"
+ MINING_BASE_PROJECT_DESC:0 "委派一個科學部門去遠程研究最後的一個古代採礦無人機加工站。"
 
  ### Anomaly Events
 
- DEAL_WITH_FLORA:0 "Plant Aggression"
- DEAL_WITH_FLORA_DESC:0 "The planet's flora is remarkably dexterous, alarmingly aggressive, and definitely worthy of closer study."
+ DEAL_WITH_FLORA:0 "植物侵略性"
+ DEAL_WITH_FLORA_DESC:0 "星球當地的植物群技巧純熟，侵略性極強，非常值得進一步的研究。"
 
- OLD_GODS_BENEFACTRESS_PROJECT:0 "Old Gods: The Benefactress"
- OLD_GODS_BENEFACTRESS_PROJECT_DESC:1 "Every surface of the Benefactress' shrine is covered with a complex web of pictograms, seemingly telling a story far more expansive than the molecular fables that survived through the ages on [Root.Owner.Capital.GetName].\n\nThough only distantly related to known ancient [Root.Owner.GetSpeciesName] languages, current technology should allow us to decipher the pictograms given enough time and resources."
- OLD_GODS_UNDAUNTED_PROJECT:0 "Old Gods: The Undaunted"
- OLD_GODS_UNDAUNTED_PROJECT_DESC:1 "The temple holding the Undaunted's shrine is, true to the myths surrounding him, filled with contraptions of indeterminate origin and purpose. A far cry from the simple puzzle-boxes and tests of strength that once filled his temples on [Root.Owner.Capital.GetName], here his holy texts will truly only be read by the worthy.\n\nThat said, our sophisticated analysis tools should make short work of these conundrums."
- OLD_GODS_PERCIPIENT_PROJECT:0 "Old Gods: The Percipient"
- OLD_GODS_PERCIPIENT_PROJECT_DESC:1 "The walls of the space housing the shrine to the Percipient are coated with thick layers of mineral-based lacquer, but the shrine itself is bare.\n\nThe tales of the Percipient are told only to those perceptive enough to understand their meaning - it is just a matter of figuring out what needs to be perceived."
+ OLD_GODS_BENEFACTRESS_PROJECT:0 "古神：奉獻者"
+ OLD_GODS_BENEFACTRESS_PROJECT_DESC:1 "每個奉獻者聖殿的表面都有十分複雜的象形文字，似乎講述了一個比[Root.Owner.Capital.GetName]時代的分子傳奇更艱深的故事。\n\n雖然和古老的[Root.Owner.GetSpeciesName]語言並沒有什麼太大的關係，但給予充足的時間和資源，現有的科技依然可以破解這個像形文字。"
+ OLD_GODS_UNDAUNTED_PROJECT:0 "古神：無畏者"
+ OLD_GODS_UNDAUNTED_PROJECT_DESC:1 "供奉無畏者聖殿的寺廟正如他的傳說那樣，充滿了各種不明用途和來源的精巧發明。和曾經在[Root.Owner.Capital.GetName]充滿寺廟的腦力和智力測試不同，在這裡，他的神諭只會在有緣之人面前顯現。\n\n也即是說，我們的尖端科技很快就能破解這些字謎。"
+ OLD_GODS_PERCIPIENT_PROJECT:0 "古神：洞察者"
+ OLD_GODS_PERCIPIENT_PROJECT_DESC:1 "洞察者聖殿的牆上都是厚厚的礦物漆，但聖殿本身卻沒有這些東西。\n\n洞察者的傳說只會講述給那些真正理解的人-只要搞清楚需要理解什麼就好了。"
 
- LIMBO_1_PROJECT:0 "In Limbo"
- LIMBO_1_PROJECT_DESC:0 "An alien vault filled with data storage devices practically begs for some archaeological data recovery."
+ LIMBO_1_PROJECT:0 "深入地獄"
+ LIMBO_1_PROJECT_DESC:0 "一座滿是數據儲存設備的外星寶庫正在急切的等待一些考古學家的大駕光臨。"
 
- PROJECTING_MOON_PROJECT:0 "Projecting"
- PROJECTING_MOON_PROJECT_DESC:0 "An unusual planet has an unusual moon; the usual scanning techniques do not give satisfactory results, and a more hands-on approach is needed."
+ PROJECTING_MOON_PROJECT:0 "勘察"
+ PROJECTING_MOON_PROJECT_DESC:0 "奇怪的星球有一個奇怪的衛星；正規的檢測手段沒有一點結果，必須近距離進行考察。"
 
- GRIMACING_PLANET_PROJECT:0 "Grimacing Planet"
- GRIMACING_PLANET_PROJECT_DESC:0 "The violently animated face of this planet can be stabilized into something potentially habitable, if we act soon."
+ GRIMACING_PLANET_PROJECT:0 "鬼臉星球"
+ GRIMACING_PLANET_PROJECT_DESC:0 "這個星球栩栩如生的地表有非常大的居住潛力，只要我們快點行動。"
 
- OLFACTORY_PROJECT:0 "Olfactory Study"
- OLFACTORY_PROJECT_DESC:0 "An alien artifact is suspected of relaying information through aerosolized aromatic compounds."
+ OLFACTORY_PROJECT:0 "嗅覺研究"
+ OLFACTORY_PROJECT_DESC:0 "一個異星製品被認為通過霧化香料成分來傳遞訊息。"
 
- ULTIMATE_WEAPON_PROJECT:0 "The Ultimate Weapon"
- ULTIMATE_WEAPON_PROJECT_DESC:0 "A cache of weapons lie hidden somewhere on the planet. If we can find them, they may provide new martial technologies for our Empire."
+ ULTIMATE_WEAPON_PROJECT:0 "終極殺器"
+ ULTIMATE_WEAPON_PROJECT_DESC:0 "星球上有一箱隱藏的武器。找到它們的話，或許能為我們帝國提供新的軍事科技。"
 
- REFINE_ROCK_PROJECT:0 "Positron Bombardment"
- REFINE_ROCK_PROJECT_DESC:0 "Controlled dispersal of positrons from orbit may change the minerals native to the planet into a more useful form."
+ REFINE_ROCK_PROJECT:0 "正電子炮擊"
+ REFINE_ROCK_PROJECT_DESC:0 "可控的軌道正電子轟擊或許能將當地礦物質變成更有用的形態。"
 
- CRYSTAL_CODEX_PROJECT:0 "Crystal Codex"
- CRYSTAL_CODEX_PROJECT_DESC:0 "A mineral formation houses hologram-encoded information. Its structure is familiar, but the sheer data density makes it a challenge to decode."
+ CRYSTAL_CODEX_PROJECT:0 "水晶記錄儀"
+ CRYSTAL_CODEX_PROJECT_DESC:0 "一個礦物組內含全息圖像編碼訊息。它的結構很常見，但其純粹的數據密度讓解碼變得比較困難。"
 
- ALIEN_BARRACKS_PROJECT:0 "Alien Barracks"
- ALIEN_BARRACKS_PROJECT_DESC:0 "A closer xeno-socio-archaeological study of these ruins may provide insights into some past alien war machine."
+ ALIEN_BARRACKS_PROJECT:0 "外星軍營"
+ ALIEN_BARRACKS_PROJECT_DESC:0 "對這些遺跡進行一次徹底的外星-社會學-考古研究或許會提供一些戰前的外星戰爭機器訊息。"
 
- ROBOT_MINERALS_PROJECT:0 "Reclaimed by Nature"
- ROBOT_MINERALS_PROJECT_DESC:0 "An overgrown facility may house important secrets."
+ ROBOT_MINERALS_PROJECT:0 "大自然的回收"
+ ROBOT_MINERALS_PROJECT_DESC:0 "雜草叢生的設施裡或許有些非常重要的秘密。"
 
- BALANCE_ECOSYSTEM_PROJECT:0 "Balance Ecosystem"
- BALANCE_ECOSYSTEM_PROJECT_DESC:0 "A plan has been formulated to attempt to balance the planet's lopsided biosphere using only the tools available to a standard Science Ship.\n\nThere may be unforeseen consequences."
+ BALANCE_ECOSYSTEM_PROJECT:0 "和諧的生態系統"
+ BALANCE_ECOSYSTEM_PROJECT_DESC:0 "一個打算僅使用標準科研船工具來解決星球不平衡生物圈的計劃正在實施。\n\n也許會產生意料之外的結果。"
 
- HEAD_IN_SAND_PROJECT:0 "Head in the Sand"
- HEAD_IN_SAND_PROJECT_DESC:0 "A military fleet can attempt to salvage an ever-burrowing ship."
+ HEAD_IN_SAND_PROJECT:0 "埋頭入沙"
+ HEAD_IN_SAND_PROJECT_DESC:0 "一支艦隊可以用來截獲經常潛伏的星艦，"
 
- THE_PRINCE_PROJECT:0 "The Prince"
- THE_PRINCE_PROJECT_DESC:0 "A databank found floating in space houses nothing but a lengthy piece of text, written in a strange, yet familiar, alien language."
+ THE_PRINCE_PROJECT:0 "《王子》"
+ THE_PRINCE_PROJECT_DESC:0 "天空裡漂浮著一個資料庫，裡面只有一條訊息，是用奇怪但卻有些熟悉的異星語言寫成的。"
 
- EMERGENCY_BUOY_PROJECT:0 "Emergency Buoy"
- EMERGENCY_BUOY_PROJECT_DESC:0 "A heavily-damaged object seems to act as a repeater for a comms signal."
+ EMERGENCY_BUOY_PROJECT:0 "應急浮標"
+ EMERGENCY_BUOY_PROJECT_DESC:0 "一個嚴重損壞的物體，似乎在不斷重複一個通訊信號。"
 
- WRECKED_FLEET_1:0 "Monumental Transmission"
- WRECKED_FLEET_1_DESC:0 "Decode the message emanating from the monolith."
+ WRECKED_FLEET_1:0 "意義深遠的傳輸"
+ WRECKED_FLEET_1_DESC:0 "解碼巨石柱上的訊息。"
 
- WRECKED_FLEET_2:0 "Ancient Alliance Armada"
- WRECKED_FLEET_2_DESC:0 "Deploy engineering teams to restore the salvageable vessels to working order."
+ WRECKED_FLEET_2:0 "古老聯盟艦隊"
+ WRECKED_FLEET_2_DESC:0 "派遣工程小隊修復受損的艦隻。"
 
- MANUFACTORY_PROJECT:0 "Mining Restoration"
- MANUFACTORY_PROJECT_DESC:0 "Deploy engineering teams to restore an ancient orbital station to working order."
+ MANUFACTORY_PROJECT:0 "恢復礦產"
+ MANUFACTORY_PROJECT_DESC:0 "派遣工程小隊修復受損的古老軌道基地。"
 
 ### Colony Events
 
- HELPFUL_DRONES_1_PROJECT:0 "Left Behind"
- HELPFUL_DRONES_1_PROJECT_DESC:0 "Strange readings are coming from the planet's moon. It could be nothing.\n\nBut it could be something. With a ship in orbit acting as a relay, the colony's scientists will carefully scan the moon's surface in order to get to the heart of the matter."
- POLLEN_1_PROJECT:0 "Floral Study"
- POLLEN_1_PROJECT_DESC:0 "Some of the planet's native flora exhibit several potentially interesting properties."
- POLLEN_2_PROJECT:0 "Labor Study"
- POLLEN_2_PROJECT_DESC:0 "Several recent studies from reputable [Root.Owner.GetSpeciesName] seats of learning present a number of alternative ways of arranging a vast workforce. An exhaustive meta-study of these new ideas could provide the answer to the problem of declining productivity in challenging colony environments."
- POLLEN_3_PROJECT:0 "A Sense of Impending Doom"
- POLLEN_3_PROJECT_DESC:0 "The situation on the pollen-infested planet has taken a turn for the potentially dangerous. A speedy assessment of the colony's unique situation and especially its increasingly volatile environmental factors is of the utmost importance.\n\nOnce all threats are known, an action plan can be drafted and executed within hours."
+ HELPFUL_DRONES_1_PROJECT:0 "遺棄"
+ HELPFUL_DRONES_1_PROJECT_DESC:0 "星球的衛星傳來奇怪的讀數。或許只是雜音。\n\n但也可能不是。借助軌道的一艘星艦，殖民地的科學家會仔細的掃瞄衛星表面來查明事件真相。"
+ POLLEN_1_PROJECT:0 "植物研究"
+ POLLEN_1_PROJECT_DESC:0 "當地的一些植物群顯露出一些有趣的特徵。"
+ POLLEN_2_PROJECT:0 "勞動力研究"
+ POLLEN_2_PROJECT_DESC:0 "來自可信的 [Root.Owner.GetSpeciesName]的數個最新研究揭示了多個安排大量勞動力的方法。對這些方法進行一次詳細的研究或許會為困擾殖民地的效率下降的問題找到解決辦法。"
+ POLLEN_3_PROJECT:0 "末日降臨"
+ POLLEN_3_PROJECT_DESC:0 "星球上蔓延的花粉或許會帶來危害。對殖民地的獨特情況以及多變的環境因素進行一次快速評估是目前的當務之急。\n\n一旦辨明了威脅來自何處，我們可以在數小時內展開行動。"
 
 ### Starting Events
 
 # Wanderlust
- ROGUE_SCIENTIST_1_PROJECT:0 "Wanderlust: What Was Left Behind"
- ROGUE_SCIENTIST_1_PROJECT_DESC:0 "The Chairperson's unseen departure from this system resulted in a perplexing mass of residual energy signatures being cast upon the solar winds.\n\nHopefully a complete analysis of these energies should point us to the Chairperson's next destination, and if need be, make them easier to track in the future."
+ ROGUE_SCIENTIST_1_PROJECT:0 "旅行癖：後果如何"
+ ROGUE_SCIENTIST_1_PROJECT_DESC:0 "主席從這個星系的不辭而別使得大量的剩餘能量指數被加到了太陽風上。\n\n希望對這些能量的徹底分析能找出主席的下一站在哪裡，有可能的話，盡量下次能更方便的找出他們。"
 
 # Mass Extinction
- MASSEX_1_PROJECT:0 "Analysis: Broken"
- MASSEX_1_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_2_PROJECT:0 "Analysis: Burned"
- MASSEX_2_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_3_PROJECT:0 "Analysis: Desolate"
- MASSEX_3_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_4_PROJECT:0 "Analysis: Noxious"
- MASSEX_4_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_5_PROJECT:0 "Analysis: Chilly"
- MASSEX_5_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
+ MASSEX_1_PROJECT:0 "分析：損壞"
+ MASSEX_1_PROJECT_DESC:0 "重建這個天體的悲傷過去。"
+ MASSEX_2_PROJECT:0 "分析：燒燬"
+ MASSEX_2_PROJECT_DESC:0 "重建這個天體的悲傷過去。"
+ MASSEX_3_PROJECT:0 "分析：荒蕪"
+ MASSEX_3_PROJECT_DESC:0 "重建這個天體的悲傷過去。"
+ MASSEX_4_PROJECT:0 "分析：有毒"
+ MASSEX_4_PROJECT_DESC:0 "重建這個天體的悲傷過去。"
+ MASSEX_5_PROJECT:0 "分析：寒冷"
+ MASSEX_5_PROJECT_DESC:0 "重建這個天體的悲傷過去。"
