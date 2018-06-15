@@ -40,7 +40,7 @@
  LIMBO_1_PROJECT_DESC:0 "一座滿是數據儲存設備的外星寶庫正在急切的等待一些考古學家的大駕光臨。"
 
  PROJECTING_MOON_PROJECT:0 "勘察"
- PROJECTING_MOON_PROJECT_DESC:0 "奇怪的星球有一個奇怪的衛星；正規的檢測手段沒有一點結果，必須近距離進行考察。"
+ PROJECTING_MOON_PROJECT_DESC:0 "奇怪的星球有一個奇怪的衛星，一般的調查方式無法得知詳情，必須近距離進行考察。"
 
  GRIMACING_PLANET_PROJECT:0 "鬼臉星球"
  GRIMACING_PLANET_PROJECT_DESC:0 "這個星球栩栩如生的地表有非常大的居住潛力，只要我們快點行動。"
@@ -55,7 +55,7 @@
  REFINE_ROCK_PROJECT_DESC:0 "可控的軌道正電子轟擊或許能將當地礦物質變成更有用的形態。"
 
  CRYSTAL_CODEX_PROJECT:0 "水晶記錄儀"
- CRYSTAL_CODEX_PROJECT_DESC:0 "一個礦物組內含全息圖像編碼訊息。它的結構很常見，但其純粹的數據密度讓解碼變得比較困難。"
+ CRYSTAL_CODEX_PROJECT_DESC:0 "一個礦物組內含全像圖像編碼訊息。它的結構很常見，但其純粹的數據密度讓解碼變得比較困難。"
 
  ALIEN_BARRACKS_PROJECT:0 "外星軍營"
  ALIEN_BARRACKS_PROJECT_DESC:0 "對這些遺跡進行一次徹底的外星-社會學-考古研究或許會提供一些戰前的外星戰爭機器訊息。"
@@ -67,9 +67,9 @@
  BALANCE_ECOSYSTEM_PROJECT_DESC:0 "一個打算僅使用標準科研船工具來解決星球不平衡生物圈的計劃正在實施。\n\n也許會產生意料之外的結果。"
 
  HEAD_IN_SAND_PROJECT:0 "埋頭入沙"
- HEAD_IN_SAND_PROJECT_DESC:0 "一支艦隊可以用來截獲經常潛伏的星艦，"
+ HEAD_IN_SAND_PROJECT_DESC:0 "一支艦隊可以用來截獲經常潛伏的星艦。"
 
- THE_PRINCE_PROJECT:0 "《王子》"
+ THE_PRINCE_PROJECT:0 "《君主論》"
  THE_PRINCE_PROJECT_DESC:0 "天空裡漂浮著一個資料庫，裡面只有一條訊息，是用奇怪但卻有些熟悉的異星語言寫成的。"
 
  EMERGENCY_BUOY_PROJECT:0 "應急浮標"

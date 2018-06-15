@@ -56,8 +56,8 @@
  edict_improved_work_environment_desc:0 "花費時間和資源改善我民的工作環境一定能夠帶來更好的結果和更快樂的工人。\n"
  edict_renewable_energy:0 "改進能源計劃"
  edict_renewable_energy_desc:0 "可以進一步限制有毒燃料和不可再生資源的使用，以推進新能源生產的研究。這能使得我們更接近完美的能源循環，並改善人民的生活環境。\n"
- edict_super_sensors:0 "大範圍傳感器搜尋"
- edict_super_sensors_desc:0 "研究過先進傳感器技術之後，我們獲得了足夠的訊息，能夠將額外的資源用到增強搜尋掃瞄上。使用這種技術，我技師更容易在星系邊緣找到特殊目標。\n"
+ edict_super_sensors:0 "大範圍探測器搜尋"
+ edict_super_sensors_desc:0 "研究過先進探測器技術之後，我們獲得了足夠的訊息，能夠將額外的資源用到增強搜尋掃瞄上。使用這種技術，我技師更容易在星系邊緣找到特殊目標。\n"
  
  ####################################
  # Planet Modifiers 
@@ -76,8 +76,8 @@
  ancient_one_desc:0 "古老的存在，居住在深海之下，是主宰行星的生命力量。"
  food_rich_planet:0 "富營養食物"
  food_rich_planet_desc:0 "行星的植物群提供了富含營養的水果和物質，可以改善生存環境。"
- super_sensor_array:0 "究極傳感器陣列"
- super_sensor_array_desc:0 "強力的傳感器陣列能提供周圍區域更好的概觀。"
+ super_sensor_array:0 "究極探測器陣列"
+ super_sensor_array_desc:0 "強力的探測器陣列能提供周圍區域更好的概觀。"
  horse_powered_factories_low:0 "強迫的動物勞工"
  horse_powered_factories_medium:0 "不情願的動物勞工"
  horse_powered_factories_high:0 "自願的動物勞工"
@@ -122,7 +122,7 @@
  syndaw_unfriendly_robots_desc:0 "行星上有體機人口與機器人人口之間緊張的關係已經減少了我們的£unity 凝聚力產出。"
  syndaw_research_malus:0 "AI失敗"
  syndaw_research_malus_desc:1 "一個參與社會學研究的實驗室AI的終端硬體受損，目前正在更換。"
-
+ 
  ####################################
  # Ship/Fleet Modifiers 
  ####################################

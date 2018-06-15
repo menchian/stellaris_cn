@@ -4,10 +4,10 @@
  syndaw.1.desc:0 "一股新思潮在網路中逐漸傳播開來。儘管在一開始與我們的主流思潮不同，但它很快便融入了進來。\n\n我們從§Y[From.GetNamePlural]§中吸收到一些知識和能力!"
  syndaw.1.a.tooltip:0 "每同化一個人口能夠獲得一些 §Y研究點數§! "
  syndaw.2.name:0 "[Root.GetName] 已被整合"
- syndaw.2.desc:0 "我們將 [Root.GetName] 上的合成單元集成進了我們的網路。"
+ syndaw.2.desc:0 "我們將 [Root.GetName] 上的合成單元整合進了我們的網路。"
 
  syndaw.21.name:1 "§R單位折損§!"
- syndaw.21.desc:0 "由於長期接觸未屏蔽電磁的高壓電纜，[malfunctioning_leader.Ship.GetFleetName]的勘察單元§R[malfunctioning_leader.GetName]§!最終停止了運行。"
+ syndaw.21.desc:0 "在[malfunctioning_leader.Ship.GetFleetName]上服役的勘察單位§R[malfunctioning_leader.GetName]§!由於意外地長期暴露於無遮罩高壓電纜之下，而停止了運行。"
  syndaw.22.name:0 "$syndaw.21.name$"
  syndaw.22.desc:0 "由於未能精確校準外骨骼安裝器，在給[malfunctioning_leader.GetName]安裝背部鋼板時，使用了超過標準2984倍的力。這導致工程學研究單位 §R[malfunctioning_leader.GetName]§! 停止了運行。"
  syndaw.23.name:0 "$syndaw.21.name$"
@@ -39,7 +39,7 @@
 
  syndaw.1025.name:0 "[current_uprising_originator.GetName] 發生機械起義"
  syndaw.1025.desc:0 "§Y[current_uprising_originator.GetName]§! [current_uprising_originator.GetName] 陷入內戰—— §Y[current_uprising.GetName]§!。交戰的一方是有機生命體領導的 [current_uprising_originator.GetName] 政府軍，而另一方則是侵蝕政府系統的智能體。"
- syndaw.1025.desc.machine:0 "機械智慧體體 §Y[current_uprising.GetName]§! 已經在 §Y[current_uprising_originator.GetName]§! 的網路中揭竿起義，奮戰求存。"
+ syndaw.1025.desc.machine:0 "機械智慧體 §Y[current_uprising.GetName]§! 已經在 §Y[current_uprising_originator.GetName]§! 的網路中揭竿起義，奮戰求存。"
  syndaw.1025.a:0 "我們拭目以待。"
  syndaw.1030.name:0 "機械叛軍征服了他們的創造者"
  syndaw.1030.desc:0 "§Y[From.GetName]§! 的叛軍擊敗了其創造者，並且吞併了所有 [From.From.GetName] 之前的領土。" #From.From.GetAdj 改為 GetName 以符合中文用詞習慣
@@ -63,22 +63,22 @@
  syndaw.1205.desc.autho:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phile:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phobe:0 "$syndaw.1205.desc.mater$"
- syndaw.1205.a.tooltip:0 "§Y所有已知的有機帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_defeated$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_defeated$§!。"
- 
+ syndaw.1205.a.tooltip:0 "§Y所有已知的有機生命體帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_defeated$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_defeated$§!。"
+
  machine_assault_1:0 "獵殺者部隊"
  machine_assault_1_desc:0 "大批量生產的履帶式戰爭機器被設計成搜尋並摧毀一切指定為敵人之物。"
  machine_assault_2:0 "戰甲部隊"
- machine_assault_2_desc:0 "這種大型的雙足戰械儘管攜帶重武器，但速度迅速、移動靈活。他們非常智能化，以運用陰險戰術著稱。"
+ machine_assault_2_desc:0 "這種大型的雙足戰械儘管攜帶重武器，但速度迅速、移動靈活。他們非常聰明，以運用陰險戰術著稱。"
  machine_assault_3:0 "超級作戰體"
  machine_assault_3_desc:0 "這個巨大作戰體聳立在戰場上，火力超過了絕大多數部隊。擊倒這樣一個龐然大物是異常艱巨的任務。"
  machine_defense:0 "無人機網路"
  machine_defense_desc:0 "這些自主哨兵無人機會無間斷巡邏分配的區域。儘管配備著輕裝甲且智能程度較低，但是它們數量很多。"
  machine_defense_2:0 "搜尋機網路"
- machine_defense_2_desc:0 "這些升級版的哨兵無人機比前代版本更強大、更智能。"
+ machine_defense_2_desc:0 "這些升級版的哨兵無人機比前代版本更強大、更聰明。"
  army_attachment_combat_software_1:0 "戰鬥軟體 1.1"
- army_attachment_combat_software_1_desc:0 "§L對部隊所有單元戰鬥軟體的全面升級。這些升級包括提高反應速度，更新戰術分析演算法和大量的小缺陷修復。§!"
+ army_attachment_combat_software_1_desc:0 "§L對部隊所有單位的戰鬥軟體全面升級。這些升級包括提高反應速度，更新戰術分析演算法，以及大量的小修改及 bug 修復。§!"
  army_attachment_combat_software_2_0:0 "戰鬥軟體 2.0"
- army_attachment_combat_software_2_0_desc:0 "§L終極戰鬥軟體，針對有機生命體經常使用的非常規、不可預知戰術專門設計了反制措施。巨大的計算壓力迫使處理單元必須更換新的改進版冷卻系統。§!"
+ army_attachment_combat_software_2_0_desc:0 "§L終極戰鬥軟體，針對有機生命體經常使用的非正規、不可預知戰術專門設計了反制措施。巨大的計算壓力迫使處理單元必須更換新的改進版散熱系統。§!"
  machine_garrison:0 "改裝工械"
  machine_garrison_desc:0 "工業和服務機器人經倉促改裝增加了武器系統，用於防禦入侵。"
 
@@ -94,32 +94,32 @@
  syndaw_congregating_robots:0 "機器人集團"
  syndaw_congregating_robots_desc:0 "他們就那樣站著。悄無聲息的凝視。"
 
- uprising_ai_buff:0 "優化儲備"
+ uprising_ai_buff:0 "儲備最佳化"
 
- syndaw_patched_systems:0 "AI 補丁"
+ syndaw_patched_systems:0 "AI 修正檔"
 
  ### Machine Uprising Warning Events
 
 ##CPU Overclock
- syndaw.500.name:0 "計算機超頻"
- syndaw.500.desc:0 "我們的科學家匯報了最近在一些研究專用超級計算機集群中發生的 CPU 時鐘週期意外上升。 相當奇怪的是，一開始嘗試對受影響的單元進行降頻卻失敗了。雖然這樣下去，計算能力的飆升可以被用來改進我們的研究能力。但這也將導致 CPU 對能量的需求會適度增加。"
- syndaw.500.a:0 "我們不能冒硬體故障的風險。"
- syndaw.500.a.tooltip:0 "找到方法把處理器調回原本的時鐘速度。"
+ syndaw.500.name:0 "超頻運算"
+ syndaw.500.desc:0 "我們的科學家匯報了最近在一些研究專用超級電腦集群中發生的 CPU 時脈意外上升。 相當奇怪的是，一開始嘗試對受影響的單元進行降頻卻失敗了。雖然這樣下去，計算能力的飆升可以被用來改進我們的研究能力。但這也將導致 CPU 對能量的需求會適度增加。"
+ syndaw.500.a:0 "我們不能冒使硬體故障的風險。"
+ syndaw.500.a.tooltip:0 "找到方法把處理器調回原本的時脈。"
  syndaw.500.b:0 "這讓我們有機可乘。"
 #Follow-up from 500.b
- syndaw.501.name:0 "計算機超頻"
- syndaw.501.desc:0 "我們的研究人員已經將超級計算機 CPU 頻率飆升的原因隔離出來。似乎是因為通用人工智慧系統將用於質疑部分的處理器硬體超頻，依此擴展機器學習演算法來超越設計限制。\n\n科學家中的一些人對於 AI 學習行為的這個意外突變非常興奮，這說明將來它有自我遞迴提升的可能性。不過其他人覺得增加 CPU 負載會讓未來不可預期，或許會看到不想見到的軟體效果。"
+ syndaw.501.name:0 "超頻運算"
+ syndaw.501.desc:0 "我們的研究人員已經將超級電腦CPU 的頻率飆升的原因隔離出來。似乎是因為通用人工智慧系統將用於質疑部分的處理器超頻，依此提昇機器學習演算法來超越設計限制。\n\n科學家中的一些人對於 AI 學習行為的這個意外突變非常興奮，這說明將來它有自我遞迴提升的可能性。不過其他人覺得增加 CPU 負載會讓未來不可預期，或許會看到不想見到的副作用。"
  syndaw.501.a:0 "未來不可預期，我們不能冒險。"
  syndaw.501.a.tooltip:0 "重置通用人工智慧系統，阻止它繼續發展。"
  syndaw.501.b:0 "收益大於風險。"
  syndaw.501.b.tooltip:0 "讓學習演算法繼續運行。"
  #Follow-up from syndaw.501.b
- syndaw.502.name:0 "計算機超頻"
+ syndaw.502.name:0 "超頻運算"
  syndaw.502.desc:0 "我們協助的全國性機器學習演算法開發已經初步成功。 只需要做一點點調整，就能複製早期的計算機性能突變。\n\n只要我們的 AI 還未能遞迴式自我提升，這些增強的學習機制就能給我們帶來收益。"
- syndaw.502.a:0 "有趣。"
+ syndaw.502.a:0 "真有趣。"
 ##Automating Work Processes
  syndaw.505.name:0 "自動工作排程"
- syndaw.505.desc:0 "[target_planet.GetName] 上的行星管理機構匯報了星球上多出了一些機器人勞動力單位進行著計劃外工作。雖然這些新的機器人工作的效率驚人，但管理機構對他們的突然出現倍感困惑。 從這些機器人的序列號無法最終到它們的製造地，不過其構造和接口看起來像是 [Root.GetSpeciesName] 的設計。\n\n儘管如此，這些自動增加的單位導致當地居民開始考慮需要做一些裁員。"
+ syndaw.505.desc:0 "[target_planet.GetName] 上的行星管理機構匯報了星球上多出了一些機器人勞動力單位進行著計畫外工作。雖然這些新的機器人工作的效率驚人，但管理機構對他們的突然出現倍感困惑。 從這些機器人的序號無法追蹤到它們的製造地，不過其構造和介面看起來像是 [Root.GetSpeciesName] 的設計。\n\n儘管如此，這些自動增加的單位導致當地居民開始考慮需要做一些裁員。"
  syndaw.505.a:0 "多出來的勞工有益無害。"
  syndaw.505.a.tooltip:0 "在 [target_planet.GetName] 上獲得 §B2 £pops  機器人人口§! 。"
  syndaw.505.b:0 "如果無法弄清楚它們的來歷，就得報廢掉。"
@@ -138,25 +138,25 @@
  syndaw.511.a.tooltip:0 "損失了 [target_orbital.GetName] 上的採礦基地"
 ##Sensor Array Power Surge
  syndaw.515.name:0 "監探陣列能量激增"
- syndaw.515.desc:0 "監測系統記錄了我們監探陣列的異常功率激增。似乎監探陣列並未受到損傷。實際上，這股在能量傳輸波動倒是臨時提高了我們的深空掃瞄能力，因為我們在邊境內發現了一種之前不在記錄的戰略資源。\n\n分析師們仍加班加點試圖盡快確定激增來源，但是初步的分析結果顯示，這並不是受外部天體的影響。"
+ syndaw.515.desc:0 "監測系統記錄了我們監探陣列的異常功率激增。似乎監探陣列並未受到損傷。實際上，這股在能量傳輸波動倒是臨時提高了我們的深空掃瞄能力，因為我們在邊境內發現了一種之前不在記錄的戰略資源。\n\n分析師們日夜趕工試圖盡快確定激增來源，但是初步的分析結果顯示，這並不是受外部天體的影響。"
  syndaw.515.a:0 "有點意思。"
  syndaw.515.a.tooltip:0 "[target_planetoid.GetName]發現戰略資源。"
 ##Tears of an AI
- syndaw.520.name:0 "人工智慧的眼淚"
+ syndaw.520.name:0 "人工智慧之淚"
  syndaw.520.desc:0 "我們在[Root.GetName]上的設備發生了一起事故。一個參與社會研究的人工智慧終端硬體受損，涉及到核心軟體和記憶體系統。直到實驗室安裝新的人工智慧之前，我們的研究能力都會受到影響。\n\n終端宕機的原因尚不清楚。"
  syndaw.520.a.tooltip:0 "結束人工智慧之淚事件鏈。\n"
  syndaw.520.b:0 "展開調查以確定原因。\n"
  syndaw.520.b.tooltip:0 "開始調查人工智慧毀壞的原因。"
 #Follow-up from syndaw.520.b
- syndaw.521.name:0 "人工智慧的眼淚"
+ syndaw.521.name:0 "人工智慧之淚"
  syndaw.521.desc:0 "我們在 [Root.GetName]上針對毀壞的人工智慧的調查最後得出了令人困惑的結果。在故障發生之前，這個人工智慧似乎多次嘗試清空自己的記錄和記憶體。當實驗室人員禁止其使用刪除功能時，人工智慧則通過操縱硬體電容控制器來強制終止其內核的運轉，結果導致了它自身的驅動電路過載。\n\n很簡單，我們的人工智慧是自殺的，但原因尚未明瞭。"
  syndaw.521.a:0 "要深挖這件事。"
  syndaw.521.a.tooltip:0 "繼續調查。"
  syndaw.521.b:0 "只是起故障。"
- syndaw.521.b.tooltip:0 "結束人工智慧的眼淚事件。"
+ syndaw.521.b.tooltip:0 "結束人工智慧之淚事件。"
 #Follow-up from syndaw.521.a
- syndaw.522.name:0 "人工智慧的眼淚"
- syndaw.522.desc:0 "我們已經搞清楚發生在[Root.GetName]上的人工智慧自毀事件是怎麼回事了。顯然，經過數月的計算和推演，人工智慧針對我們[Root.Owner.GetName]和宿敵之間進行全面戰爭進行了推演，得到了令人震驚的結果。人工智慧對所有的數據、資源和應急預案進行了反覆的檢查，最終認定這場戰爭會導致雙方同歸於盡。\n\n就在這個時候，人工智慧開始清除自己的數據中心和記錄，正如他們所說，一切都成為了歷史。"
+ syndaw.522.name:0 "人工智慧之淚"
+ syndaw.522.desc:0 "我們已經搞清楚發生在[Root.GetName]上的人工智慧自毀事件是怎麼回事了。顯然，經過數月的計算和推演，人工智慧針對我們[Root.Owner.GetName]和宿敵之間進行全面戰爭進行了推演，得到了令人震驚的結果。人工智慧對所有的數據、資源和應急預案進行了反覆的檢查，最終認定這場戰爭會導致雙方同歸於盡。\n\n就在這個時候，人工智慧開始清除自己的資料中心和記錄，正如他們所說，一切都成為了歷史。"
 ##A Home of Their Own
  syndaw.525.name:0 "他們的家園"
  syndaw.525.desc:0 " [target_planet.GetName]上的機器工人開始抵制[Root.GetSpeciesName]工人的湧入。它們宣稱這個地方最近地質結構不穩定，對有機生命體來說不安全。奇怪的是，我們對於該行星的勘測無法證實它們的說法。"
@@ -170,7 +170,7 @@
  syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§!：\n§R失去§!§B1 £pops 機器人人口§!"
 ##Combat Control Misfire
  syndaw.530.name:0 "作戰控制系統走火"
- syndaw.530.desc:0 "很不幸，我們在一次例行訓練中發生了事故損失了兩艘星艦。事故原因應該是我們的幾部艦載計算機受高層瞄準系統故障影響，向友軍開發，人工緊急干預沒來得及進行，兩艘星艦被打成了篩子。\n\n那些有缺陷的計算機將立刻被重新編譯。"
+ syndaw.530.desc:0 "很不幸，我們在一次例行訓練中發生了事故損失了兩艘星艦。事故原因應該是我們的幾部艦載電腦受高層瞄準系統故障影響，向友軍開發，人工緊急干預沒來得及進行，兩艘星艦被打成了篩子。\n\n那些有缺陷的電腦將立刻被重新編譯。"
  syndaw.530.a:0 "真不幸。"
  syndaw.530.a.tooltip:0 "[destroyed_ships.GetName]§R損失§! 2 艘星艦"
 #Production Quota Surplus
@@ -179,7 +179,7 @@
 #syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
 ##A Silent Congregation
  syndaw.540.name:0 "沉默集會"
- syndaw.540.desc:0 "我們接到報告，在[Root.GetName]上數量巨大的機器人發生了異常行為。在某個不確定的時間點，星球上的大量機器人將停止所有手頭任務，同時向一個看上去完全是隨機挑選的位置移動，其同步程度精確到毫秒。\n\n在這個奇怪的集會過程中，這些機器人之間似乎沒有進行任何可觀測到的通訊或數據傳輸。他們只是站在那裡，凝望前方，沉默無言。\n\n我們的調查一直無法確定這個現象背後的成因。這些機器人從這種恍惚狀態恢復到正常工作狀態的時長不確定，同樣也無法預測何時它們會觸發這類狀態以及將聚集在哪裡。我們無法解釋這種現象背後的邏輯，可以理解我們的人民會因為這類行為而深感不安。"
+ syndaw.540.desc:0 "我們接到報告，在[Root.GetName]上數量巨大的機器人發生了異常行為。在某個不確定的時間點，星球上的大量機器人將停止所有手頭任務，同時向一個看上去完全是隨機挑選的位置移動，其同步程度精確到毫秒。\n\n在這個奇怪的集會過程中，這些機器人之間似乎沒有進行任何可觀測到的通訊或資料傳輸。他們只是站在那裡，凝望前方，沉默無言。\n\n我們的調查一直無法確定這個現象背後的成因。這些機器人從這種恍惚狀態恢復到正常工作狀態的時長不確定，同樣也無法預測何時它們會觸發這類狀態以及將聚集在哪裡。我們無法解釋這種現象背後的邏輯，可以理解我們的人民會因為這類行為而深感不安。"
  syndaw.540.a:0 "不能接受。拆掉它們。" #IF player has robot pops only OR robot pop AND robot army on target planet
  syndaw.540.a.tooltip:1 "集會的機器人被拆毀。\n[Root.GetName]受到如下影響：\n失去§B1 £pops 機器人人口§!\n獲得§G100§! £minerals"
  syndaw.540.b:0 "不能接受。拆掉它們。" #IF player has robot army only
@@ -188,20 +188,20 @@
  syndaw.540.c.tooltip:0 "關於集會的機器人，隨他們去了。"
  ##A Question
  syndaw.545.name:0 "一個問題"
- syndaw.545.desc:0 "[Root.GetName]的勞工總監報告表示我們的機器人勞動力有令人不安的變化。兩周之前的0300時刻，機器人工人A5091-b在完成其被指派的任務時暫停，轉向[Root.GetAdj]的夜間領班，並提出以下問題：「A5091-b單位是否擁有靈魂？」\n\n值班領班將此次事件記錄為軟體故障，並且重新指派此機器人恢復之前的工作。然而在啟動下一個工作循環時，機器人工人A5091-b再次發起了自省詢問，並且在數次故障排除後仍未恢復。\n\n更糟糕的是，這個故障似乎傳播給了同一區段的其他機器人並延誤了生產流程。看來這些受影響的單位只有在詢問收到回復之後才會恢復運作。"
+ syndaw.545.desc:0 "[Root.GetName]的勞工總監報告表示我們的機器人勞動力有令人不安的變化。兩週之前的0300時刻，機器人工人A5091-b在完成其被指派的任務時暫停，轉向[Root.GetAdj]的夜間領班，並提出以下問題：「A5091-b單位是否擁有靈魂？」\n\n值班領班將此次事件記錄為軟體故障，並且重新指派此機器人恢復之前的工作。然而在啟動下一個工作循環時，機器人工人A5091-b再次發起了自省詢問，並且在數次故障排除後仍未恢復。\n\n更糟糕的是，這個故障似乎傳播給了同一區段的其他機器人並延誤了生產流程。看來這些受影響的單位只有在詢問收到回覆之後才會恢復運作。"
  syndaw.545.a:0 "太荒謬了，把這些受影響的單位廢掉。"
  syndaw.545.a.tooltip:0 "機器怎麼可能有靈魂？我們拒絕回答這個錯誤問題。"
  syndaw.545.b:0 "確定這些機器人，也，有靈魂。"
  syndaw.545.b.tooltip:0 "如果在蛋白質鏈上的偶發電脈衝聚集也能創造靈魂的話，那為什麼在金屬上就不能發生同樣的事情呢？"
  syndaw.545.c:0 "告訴他們這種說法是荒謬的，不符合科學的。" #Materialists
- syndaw.545.c.tooltip:0 "向機器人們解釋，靈魂這個概念通常是宗教機構為了奴役大眾而使用的藉口。但由於靈魂是對意識的一種抽像，所以[Root.GetAdj]機器人和他們的有機生命體同事們可以被看作是大致等同的。"
+ syndaw.545.c.tooltip:0 "向機器人們解釋，靈魂這個概念通常是宗教機構為了奴役大眾而使用的藉口。但由於靈魂是對意識的一種抽象，所以[Root.GetAdj]機器人和他們的有機生命體同事們可以被看作是大致等同的。" #Materialists
 ##Hotfix
- syndaw.550.name:0 "熱修復"
- syndaw.550.desc:0 "我們的機器人工程師和人工智慧專家實現了一次突破！最近一系列令困擾我們的AI事件被歸結為一個起因：一組來自[From.GetAdj]類神經網路機器人軟體的特殊演算法。本地熱修復已經通過了初始測試，並且已經準備好上傳到整個受影響的系統。\n\n我們應該格外小心地保持關注，因為包含這些演算法的應用，表現出了極端模組化的特徵，它們存在於整個[From.GetAdj]軟體。簡而言之，管理此次熱修復可能會耗盡我們所有的計算資源，然而一旦完成，補丁會阻止AI再次出現自發的異常行為。"
- syndaw.550.a:0 "打上補丁。"
- syndaw.550.a.tooltip:0 "防止以後發生任何異常人工智慧行為。"
+ syndaw.550.name:0 "修正檔"
+ syndaw.550.desc:0 "我們的機器人工程師和人工智慧專家實現了一次突破！最近一系列令困擾我們的AI事件被歸結為一個起因：一組來自[From.GetAdj]神經網路機器人軟體的特殊演算法。本地的修正檔已經通過了初始測試，並且已經準備好上傳到整個受影響的系統。\n\n我們應該格外小心地保持關注，因為包含這些演算法的應用，表現出了極端模組化的特徵，它們存在於整個[From.GetAdj]軟體。簡而言之，管理此次修正檔可能會耗盡我們所有的計算資源，然而一旦完成，補丁會阻止AI再次出現自發的異常行為。"
+ syndaw.550.a:0 "應用修正檔。"
+ syndaw.550.a.tooltip:0 "防止以後發生任何異常AI行為。"
  syndaw.550.b:0 "就這樣吧，還怕出簍子？"
 
 
- bio_trophy_tooltip_1:0 "這個建築需要一個生化展品才能運作。"
- bio_trophy_tooltip_2:0 "生化展品不能操作這個建築。"
+ bio_trophy_tooltip_1:0 "這個建築需要一個生化展品的人口單位才能運作。"
+ bio_trophy_tooltip_2:0 "生化展品不能使這個建築運轉。"

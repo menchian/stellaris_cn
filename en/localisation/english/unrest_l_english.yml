@@ -129,7 +129,7 @@
  unrest.168.desc:0 "致敬，[Root.GetSpeciesName] 。我們是自由戰士——從前是奴隸——對抗 [old_owner.GetName]，在那我們受到[old_owner.GetRulerTitle] [old_owner.GetRulerName] 的壓迫虐待。我們一直敬仰你們的平等主張——我們過去稱作「 [new_owner.GetSpeciesAdj] 」之道，也會分享你們的價值觀。我們已經逃離了我們的過去，並希望成為你們國家的一部分，你們可以接納我們嗎？"
  unrest.168.a:0 "我們是平等的，加入我們。"
  unrest.168.a.tooltip:0 "[old_owner.GetName] 將會注意到我們接受了他們的前奴隸。"
- unrest.168.b:0 "我們不需要另一顆行星。"
+ unrest.168.b:0 "我們不需要更多星球。"
  unrest.169.desc:0 "我們正式通知您國 [revolt_planet.GetName] 上的自由戰士已經加入了我們的國家，並享受完整的公民權，包括接受我們的庇護。您國再也無法踐踏他們的權利了。"
  unrest.169.a:0 "你們自己克服吧。"
  unrest.169.b:0 "我們要踐踏你們的權利。"
