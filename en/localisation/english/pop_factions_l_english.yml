@@ -132,8 +132,8 @@
  IMPERIALIST_PHILOSOPHY:0 "侵略性的外交"
  IMPERIALIST_PHILOSOPHY_DESC:2 "不允許「侵略戰爭」會使 [Root.GetName] 不高興。"
  IMPERIALIST_NO_PHILOSOPHY:0 "$IMPERIALIST_PHILOSOPHY$"
- IMPERIALIST_CONQUEST:0 "征服"
- IMPERIALIST_CONQUEST_DESC:0 "征服外星行星，或使其他帝國在戰爭中臣服可在一段時間內使 [Root.GetName] 更滿意。"
+ IMPERIALIST_CONQUEST:2 "征服"
+ IMPERIALIST_CONQUEST_DESC:1 "征服外星行星會在一段時間內取悅 [Root.GetName]。"
  IMPERIALIST_NO_CONQUEST:0 "$IMPERIALIST_CONQUEST$"
  IMPERIALIST_FRONTIER_OUTPOSTS:0 "邊界擴張"
  IMPERIALIST_FRONTIER_OUTPOSTS_DESC:1 "修建一個§Y邊境哨站§!擴大我們的領土會在一段時間內使 [Root.GetName] 更滿意。"
@@ -195,8 +195,8 @@
  ISOLATIONIST_PEACE_DESC3:0 "迴避任何大規模銀河衝突長達§Y50年或更久§!，可使 [Root.GetName] 更滿意。"
  ISOLATIONIST_NO_PEACE3:0 "$ISOLATIONIST_PEACE3$"
  ISOLATIONIST_STRONG_ARMY:0 "常備軍"
- ISOLATIONIST_STRONG_ARMY_DESC:0 "保持至少§Y3§!國防軍或更多，在§Y5§!人口以上的 [Root.Owner.GetAdj] 世界，會使 [Root.GetName] 更滿意。"
- ISOLATIONIST_WEAK_ARMY:0 "軍力不足"
+ ISOLATIONIST_STRONG_ARMY_DESC:0 "在所有§Y5§!人口以上的 [Root.Owner.GetAdj] 星球保持至少§Y3§!支防禦部隊，會使 [Root.GetName] 更滿意。"
+ ISOLATIONIST_WEAK_ARMY:0 "兵甲不足"
  ISOLATIONIST_DEFENSIVE_STATIONS:0 "深空防禦"
  ISOLATIONIST_DEFENSIVE_STATIONS_DESC:0 "至少在每個殖民星系有§Y1§!個外太空軍事基地，會使 [Root.GetName] 更滿意。"
  ISOLATIONIST_FEW_DEFENSIVE_STATIONS:0 "$ISOLATIONIST_DEFENSIVE_STATIONS$"
@@ -270,7 +270,7 @@
  TECHNOLOGIST_NO_SYNTH_ENVY:0 "覬覦合成人"
  TECHNOLOGIST_NO_SYNTH_ENVY_DESC:0 "眼睜睜看著其他國家炫耀各種機器人口—在我們的世界裡卻沒有與之匹敵的東西—會使 [Root.GetName] 不高興。"
  TECHNOLOGIST_SYNTH_ENVY:0 "$TECHNOLOGIST_NO_SYNTH_ENVY$"
- TECHNOLOGIST_DISCOVERY:0 "探索之傳統"
+ TECHNOLOGIST_DISCOVERY:0 "探索傳統"
  TECHNOLOGIST_NO_DISCOVERY:0 "$TECHNOLOGIST_DISCOVERY$"
  TECHNOLOGIST_DISCOVERY_DESC:0 "採用§Y探索§!傳統會使 [Root.GetName] 更滿意。"
  TECHNOLOGIST_SECRET_KNOWLEDGE:0 "秘密知識"
@@ -327,7 +327,7 @@
  TOTALITARIAN_DOMINATION_DESC:0 "採用 §Y統御傳統§! 將使 [Root.GetName] 更滿意。"
  TOTALITARIAN_EXTRANATIONAL_AUTHORITY:0 "國外威權"
  TOTALITARIAN_NO_EXTRANATIONAL_AUTHORITY:0 "$TOTALITARIAN_EXTRANATIONAL_AUTHORITY$"
- TOTALITARIAN_EXTRANATIONAL_AUTHORITY_DESC:0 "通過將其他國家納為§Y附庸國§!來擴張我們的影響將取悅 [Root.GetName] 。"
+ TOTALITARIAN_EXTRANATIONAL_AUTHORITY_DESC:0 "通過將其他國家納為§Y附屬國§!來擴大我們的影響會使 [Root.GetName] 更滿意。"
  TOTALITARIAN_UNDERLING:0 "下屬"
  TOTALITARIAN_NOT_UNDERLING:0 "$TOTALITARIAN_UNDERLING$"
  TOTALITARIAN_UNDERLING_DESC:0 "將另一個國家認作我們的§Y宗主國§!將激怒 [Root.GetName] 。"
@@ -353,7 +353,7 @@
  PROSPERITY_TRADITION_DESC:0 "採用任何強調§Y繁榮§!的傳統會使 [Root.GetName] 更滿意。"
  PROSPERITY_PEACE:0 "保持和平"
  PROSPERITY_NO_PEACE:0 "$PROSPERITY_PEACE$"
- PROSPERITY_PEACE_DESC:0 "發展需要穩定-即不參與戰爭，會使 [Root.GetName] 更滿意。"
+ PROSPERITY_PEACE_DESC:0 "發展需要穩定——不參與戰爭會使 [Root.GetName] 更滿意。"
  PROSPERITY_NOT_AGGRESSOR:0 "非暴力"
  PROSPERITY_AGGRESSOR:0 "$PROSPERITY_NOT_AGGRESSOR$"
  PROSPERITY_NOT_AGGRESSOR_DESC:0 "將生命與資源投入侵略戰爭將極大地激怒 [Root.GetName] 。"
@@ -373,7 +373,7 @@
  FACTION_ACTION_FAVOR_INVALID:0 "我們每年只能施行一次獎賞，否則這項措施將失去作用。"
  FACTION_ACTION_TYRANNIZE:0 "暴政"
  FACTION_ACTION_TYRANNIZE_DESC:0 "故意降低民眾對執政者的支持度。"
- FACTION_ACTION_TYRANNIZE_TOOLTIP:0 "§Y[Root.GetName]§!的所有人口獲得§Y暴政§!減益，大幅降低幸福度。\n"
+ FACTION_ACTION_TYRANNIZE_TOOLTIP:0 "§Y[Root.GetName]§! 的所有人口獲得§Y暴政§!調整因素，大幅降低幸福度。\n"
  FACTION_ACTION_TYRANNIZE_INVALID:0 "我們只能每半年對目標施行暴政，否則這項措施將失去作用。"
  ACCEPT_DEMANDS_NO_ACTIVE_DEMANDS:1 "§R該派系當前沒有問題§!"
 
@@ -400,10 +400,10 @@
  ### SEPARATIST
 
  # Separatist Demands
- POP_FACTION_SEPARATIST_DEMAND_TITLE_1:0 "§H[parameter:planet.GetName]§!自治"
- POP_FACTION_SEPARATIST_DEMAND_DESC_1:0 "在§H[parameter:planet.GetName]§!劃分出一個地區作為其自治區首府。"
- POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "§H[parameter:planet.GetName]§!獨立"
- POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "解放§H[parameter:planet.GetName]§!使其成為新的獨立帝國首府。"
+ POP_FACTION_SEPARATIST_DEMAND_TITLE_1:0 "§H[parameter:planet.GetName]§! 自治"
+ POP_FACTION_SEPARATIST_DEMAND_DESC_1:0 "建立一個治所位於 §H[parameter:planet.GetName]§! 的星域。"
+ POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "§H[parameter:planet.GetName]§! 獨立"
+ POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "釋放 §H[parameter:planet.GetName]§! 使其成為新的獨立帝國的首都。"
  
  ### PLANET SEPARATISTS
  POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:1 "獨立的[parameter:Planet.GetName]"
@@ -455,8 +455,8 @@
  POP_FACTION_NATIONALIST_REBELLION_DESC:1 "$POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC$"
  POP_FACTION_NATIONALIST_LEADER_IS_RULER:1 "派系領導者成為統治者"
  POP_FACTION_NATIONALIST_RECENT_SABOTAGE:0 "近期蓄意破壞活動"
- POP_FACTION_NATIONALIST_MEMBERS_OCCUPIED:0 "職業"
- POP_FACTION_NATIONALIST_MEMBERS_GROUND_COMBAT:0 "地面戰爭"
+ POP_FACTION_NATIONALIST_MEMBERS_OCCUPIED:0 "行星被佔領"
+ POP_FACTION_NATIONALIST_MEMBERS_GROUND_COMBAT:0 "地面戰鬥"
  POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_1_TITLE:0 "種族融合運動 1"
  POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_1_DESC:0 "幫助民族主義者融入新社會，以減少其挫敗感"
  POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_2_TITLE:0 "種族融合運動 2"
@@ -628,8 +628,8 @@
  ### CRUSADER
 
  # Demands
- POP_FACTION_CRUSADE_DEMAND_TITLE_1:0 "改革運動"
- POP_FACTION_CRUSADE_DEMAND_DESC_1:0 "向異教的[parameter:heathens.GetName]發動聖戰。"
+ POP_FACTION_CRUSADE_DEMAND_TITLE_1:0 "十字軍"
+ POP_FACTION_CRUSADE_DEMAND_DESC_1:0 "向異教 [parameter:heathens.GetName] 發動聖戰。"
 
  # Actions
 
@@ -690,7 +690,7 @@
 
  ### Loyalists
  faction.4.title:0 "擁護者的訴求"
- faction.4.desc:0 "擁護者對[Root.Owner.GetName]的[Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName]忠心耿耿，沒有任何要求。"
+ faction.4.desc:0 "擁護者對 [Root.Owner.GetName] 的[Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName] 忠心耿耿，無任何訴求。"
 
  ### Slaves
  faction.6.title:0 "絕食示威！"
@@ -820,12 +820,12 @@
  faction.501.title:0 "侮辱[parameter:enemy.GetName]"
  faction.501.desc:0 "一個安保工作的小失誤讓[Root.GetName]僥倖接入了我們的外交通訊頻道，他們借此機會大肆侮辱了[parameter:enemy.GetName]，並要求立即歸還[parameter:planet.GetName]。\n\n[parameter:enemy.GetSpeciesPlural]並沒有太在意這次事件。"
  faction.501.a:0 "真尷尬。"
- faction.501.a.tooltip:0 "§Y[parameter:enemy.GetName]§! 對§Y我們的帝國§!新增了§Y派系侮辱§!係數。"
- faction.502.title:0 "羞辱未遂"
- faction.502.desc:0 "又一次尷尬的安保漏洞讓[Root.GetName]接入了我們的外交通訊頻道，他們再次公然羞辱[parameter:enemy.GetName]並要求立即歸還[parameter:planet.GetName]。\n\n但[parameter:enemy.GetSpeciesPlural]依然沒有放鬆警惕，他們似乎對此番侮辱毫不在乎。"
- faction.502.a:0 "歎息……"
- faction.503.title:0 "強硬派叛變！"
- faction.503.desc:0 "情報表示[Root.GetName]的激進分子在[planet.GetName]建立了一支有著高度組織的反抗軍。\n\n這場叛變仍處於初始階段，我們最好將它扼殺在搖籃裡。"
+ faction.501.a.tooltip:0 "§Y[parameter:enemy.GetName]§! 對§Y我帝國§!的評價增加了§Y派系侮辱§!調整因素。。"
+ faction.502.title:0 "企圖羞辱"
+ faction.502.desc:0 "又一次極度尷尬的安保漏洞讓 [Root.GetName] 再次短暫接入了我們的外交通訊頻道。他們再次大肆侮辱 [parameter:enemy.GetName] ，並要求立即歸還 [parameter:planet.GetName]。\n\n然而，可以理解，這次意外早在 [parameter:heathens.GetSpeciesPlural] 預料之中，他們似乎對此番侮辱毫不在乎。"
+ faction.502.a:0 "唉……"
+ faction.503.title:0 "鷹派叛亂！"
+ faction.503.desc:0 "報告稱 [Root.GetName] 的激進分子在 [planet.GetName] 建立了高度組織的反抗軍。\n\n這場叛亂仍處於初始階段，我們最好將它扼殺在搖籃裡。"
  faction.503.a:0 "很好。"
  faction.503.a.tooltip:0 "[planet.GetName]:\n§R叛變！§!"
 

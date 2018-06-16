@@ -63,7 +63,7 @@
  allow_spy_orb:0 "§H解鎖巨型結構：§!監探陣列"
  allow_think_tank:0 "§H解鎖巨型結構：§!研究中樞"
  allow_habitats:0 "§H解鎖基地：§!太空移民站"
- ap_master_builders_habitat_size: "我帝國的§H太空移民站§!將額外擁有§Y3§!地塊空間。"
+ ap_master_builders_habitat_size:0 "我帝國的§H太空移民站§!將額外擁有§Y3§!地塊空間。"
  allow_edict_consectrated_worlds:3 "§H解鎖行星法令：§!$edict_consecrated_worlds$"
  describe_edict_consectrated_worlds:3 "§E這是一個持續§Y100§!年的行星法令，會提高 £pop 人口的§Y$MOD_POP_HAPPINESS$§!、§Y精神主義道德吸引力§!和§Y$MOD_POP_GROWTH_SPEED$§!，並提升 £unity 凝聚力§Y產出§!。§!"
  allow_machine_worlds:2 "§H解鎖環境改造方案:§!機械世界"
@@ -148,7 +148,7 @@
  maneuvers_cancelled:0 "取消艦隊演習"
  maneuvers_cancelled_desc:0 "§L因艦隊演習被取消，造成了許多軍隊領導不滿，他們覺得這是一種軟弱的表現。我們的鄰居一定會趁虛而入。§!"
  maneuvers_no_protest:0 "未能阻止艦隊演習"
- maneuvers_no_protest_desc:0 "§L因為我們沒有與鄰國建立良好的關係，大量外星艦隊在我國邊境附近演習，這激怒了許多我國的軍人。§!"
+ maneuvers_no_protest_desc:0 "§L因為我們沒有與鄰國建立良好的關係，大量外星艦隊在我們邊境附近演習，這激怒了我們的許多軍人。§!"
  
  standardized_colony_ships:0 "標準化殖民船"
  
@@ -304,5 +304,5 @@
  crisis.1011.desc:0 "我們失去了在 [Root.GetName] 上的殖民地！在搶佔了星球軌道後，異次元入侵者轟炸了星球表面，吞噬了上面一切生命形式。[Root.GetPlanetMoon] 的整個生態圈都被生物消耗殆盡 — 沒有留下任何的生命痕跡。"
 
  utopia.61.name:0 "[From.From.From.Planet.GetName] 太空移民站完成"
- utopia.61.desc.a:0 "我們完成了第一個太空移民站結構物，現在是時候準備一艘殖民船登陸上我們自己創建的這個世界上去了。\n\n從機械核心到表面的最高峰、每一顆螺釘、每一條溪流、每一處裂隙，都是為了我們在群星之中安放一個完美的家園而設計的。"
+ utopia.61.desc.a:0 "我們完成了第一個太空移民站結構物，現在是時候準備一艘殖民船登陸上我們自己建立的這個世界上去了。\n\n從機械核心到表面的最高峰、每一顆螺釘、每一條溪流、每一處裂隙，都是為了我們在群星之中安放一個完美的家園而設計的。"
  utopia.61.desc.b:0 "[From.From.From.Planet.GetName] 太空移民站現已完工、準備殖民。"

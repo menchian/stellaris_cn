@@ -204,7 +204,7 @@
  BOARD_CULT_SHIP_1_DESC:0 "一艘異教徒的船被我們的軍隊俘獲。我們需要登船抓獲犯人，並盡可能尋找情報。"
  BOARD_CULT_SHIP_2:0 "登上異教徒的旗艦"
  BOARD_CULT_SHIP_2_DESC:0 "我們俘獲了一艘異教徒的旗艦！若想成功登陸並俘獲星艦，必須派出大量部隊。"
- CULTIST_DEBRIS:0 "異教徒戰艦殘骸"
+ CULTIST_DEBRIS:0 "異教徒星艦殘骸"
  CULTIST_DEBRIS_DESC:0 "這宗教在開發某種新型武器，而通向他們行動大營的蹤跡在此處終結了。如果我們調查一下他們的科技，或許能對找到他們的領頭人提供一些線索。"
  SMUGGLER_RAID_PROJECT:0 "奇襲走私基地"
  SMUGGLER_RAID_PROJECT_DESC:0 "走私者在[From.GetName]表面建立了一個非法前哨站，該地區是一個原始聖殿，在我們的保護範圍內。要在走私者對[From.GetPlanetMoon]當地文明造成永久性傷害之前，清除掉他們。"
