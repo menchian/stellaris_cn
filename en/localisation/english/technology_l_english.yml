@@ -984,7 +984,7 @@
  tech_repeatable_weapon_type_strike_craft_fire_rate:0 "熱力循環器"
  tech_repeatable_weapon_type_strike_craft_fire_rate_desc:1 "回收武器開火時發散的熱量，用於裝載彈藥，提高艦載機的武器射速。"
  tech_repeatable_improved_planet_sensor_range:0 "行星信號增強器"
- tech_repeatable_improved_planet_sensor_range_desc:1 "我們的艦隊愈發遠離祖籍，我們的傳感科技也不斷突破極限。"
+ tech_repeatable_improved_planet_sensor_range_desc:1 "我們的艦隊越來越離祖先的家，我們的探索科技也不斷突破極限。"
  tech_repeatable_reduced_building_cost:0 "重力分析"
  tech_repeatable_reduced_building_cost_desc:1 "計算模型的日益強大使得單個建築項目能夠更好地適應行星重力條件和微局部重力條件。"
  tech_repeatable_reduced_building_time:0 "裝配演算法"

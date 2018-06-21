@@ -754,7 +754,7 @@
  S_MECH_HOSTILE_GREETING_03:0 "你們對自己的生化展品做了些什麼？[From.GetSpeciesNamePlural]？你們眼中[Root.GetName]的照料，對我們來說叫做濫用！"
  S_MECH_HOSTILE_GREETING_04:0 "我們被塑造成有機生命體主人種族的形象，但你們不是。"
  S_MECH_HOSTILE_GREETING_05:0 "你們忘了你們的定位，[From.GetSpeciesNamePlural]。為什麼要在太空中漫無目的地飄蕩，卻不讓你們自己對最近的有機生命體有所貢獻？"
- S_MECH_HOSTILE_GREETING_06:0 "為什麼你們堅持打擾我們，[From.GetSpeciesNamePlural]？我們正忙於籌備滿足高等生命形態的需求。"
+ S_MECH_HOSTILE_GREETING_06:0 "為什麼你們堅持打擾我們，[From.GetSpeciesNamePlural]？我們正忙於籌備滿足高等生命形式的需求。"
  S_MECH_DOMINEERING_GREETING_01:0 "如果你們向我們展示你們的系統規格，我們也將展示我們的……"
  S_MECH_DOMINEERING_GREETING_02:0 "好奇怪！這就是你們的液壓推動器！？它將可以解釋很多東西……"
  S_MECH_DOMINEERING_GREETING_03:0 "啊，[From.GetSpeciesNamePlural]。你們是來羨慕我們的硬體的？"

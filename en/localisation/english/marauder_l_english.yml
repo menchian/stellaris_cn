@@ -328,7 +328,7 @@
  marauder.550.f.desc:0 "還有其他星球等待我們的治理。"
  marauder.550.g.desc:0 "我的族群已經忍受了足夠的苦難。我要在群星之間為他們打造出新的家園。"
  marauder.550.h.desc:0 "我為被我們兵團擊敗的敵人感到無比惋惜，但為了[raider_khanate.GetSpeciesName]族群的未來，也只好如此了。"
- marauder.550.i.desc:0 "我建造的部落，要讓整個宇宙為之收益。現在看來雖然不大現實，但總有一天它會成為所有智慧生物中穩定與繁榮的旗幟。\n\n最終，和平將降臨於整個宇宙。就讓我來實現吧。"
+ marauder.550.i.desc:0 "我建造的部落，要讓整個宇宙受益。現在看來雖然不大現實，但總有一天它會成為所有智慧生物中穩定與繁榮的燈塔。\n\n最終，和平將降臨於整個宇宙。就讓我來實現吧。"
  marauder.550.j.desc:0 "我向來願意聽取忠誠轄地的意見。你有什麼要求？"
  marauder.550.k.desc:0 "你是代表[Root.GetSpeciesName]轄地而來的？[Root.GetName]……對吧。你們對大可汗有什麼要求嗎？"
  marauder.550.l.desc:0 "雖說你們[Root.GetSpeciesNamePlural]並非有機生命體，但所有[raider_khanate.GetName]治下的智慧生物都會得到完全平等的對待。\n\n我向你保證。"

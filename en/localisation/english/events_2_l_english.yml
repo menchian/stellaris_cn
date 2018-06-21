@@ -231,7 +231,7 @@
  anomaly.175.desc:0 "科研船[Root.GetName]原計劃對[From.GetName]冰凍地表的調查活動似乎難以為繼——除了冰和岩石似乎沒有別的東西了。\n\n然而，自稱美食家和歷史愛好者的科學家[Root.GetLeaderName]聲稱有重大發現。他說在[From.From.GetName]的多處冰面發現一種化合物，似乎、大概、很有可能和[Root.Owner.GetSpeciesAdj]星鹽關係密切，這種鹽是許多[Root.Owner.GetSpeciesAdj]傳統菜餚的必備調料，並被認為已經在[Root.Owner.Capital.GetName]絕跡。有人推測[Root.Owner.GetSpeciesAdj]星鹽並非我們母星原產，而是由某次遠古隕石撞擊帶來的。科學家在[From.GetName]上的發現為該理論提供了一些支持，不過[Root.GetLeaderName]依據的是現代化學發源之前的古代烹飪書中對鹽的描述。\n\n無論那種鹽與古代[Root.Owner.GetSpeciesAdj]星鹽味道是否相同，那都無關緊要。僅僅是還原歷史菜餚的這種想法都能刺激[Root.Owner.GetSpeciesAdj]經濟發展和美食文化。"
  anomaly.175.a:0 "可口。"
  anomaly.180.name:0 "敏克皮"
- anomaly.180.desc:0 "[From.From.GetName]上滿是微小且斑斕的生命體，介於植物與動物之間。它們缺乏真正的進化潛能，但與體型相比，它們的力量和組織協調性令人震驚。\n\n科學家[Root.GetLeaderName]迷上了他們，並承認對那個「紅色的小傢伙」情有獨鍾。"
+ 重力波:0 "[From.From.GetName]上滿是微小且斑斕的生命體，介於植物與動物之間。它們缺乏真正的進化潛能，但與體型相比，它們的力量和組織協調性令人震驚。\n\n科學家[Root.GetLeaderName]迷上了他們，並承認對那個「紅色的小傢伙」情有獨鍾。"
  anomaly.180.a:0 "令人愉悅。"
  anomaly.180.b:0 "[Root.Owner.GetName]不能容忍這些生物的存在。"
  anomaly.180.b.tooltip:0 "[Root.GetName]的工作人員們進行了詳盡迅速的驅除工作，保證這可愛的外星生物永遠沒有機會威脅[Root.Owner.GetName]。"

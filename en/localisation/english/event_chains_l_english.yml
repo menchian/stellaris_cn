@@ -47,7 +47,7 @@
  survey_habitable_worlds_chain_desc:0 "我們的外星生物學家催促我們勘察所以曾經被我們發現存在有生物圈的星球。他們渴望瞭解銀河中的各種外星生態系統。"
  habitable_worlds_surveyed:0 "已勘察的適居星球"
  specimen_procurement_chain_title:0 "獲取外星樣本"
- specimen_procurement_chain_desc:0 "[Root.Capital.GetName]的外太空生物博物館發來請求，他們想請求幫助收集在各個星球上辨識出的一些稀有外星生命體。"
+ specimen_procurement_chain_desc:0 "[Root.Capital.GetName]的外太空生物博物館發來請求，他們想請求幫助收集在各個星球上辨識出的一些稀有外星生命形式。"
  specimens_collected:0 "已收集的樣本"
  radical_cult_title:0 "[radical_cult.GetName]"
  radical_cult_desc:0 "自稱「[radical_cult.GetName]」的極端主義信徒正試圖暗中顛覆我們的統治，蠱惑民眾信仰他們扭曲的教義。他們已經在[Root.Capital.GetName]上歷兵秣馬了數世紀，他們的領袖現已逃往了外太空，準備在外太空指揮對我們進行的征服行動。"

@@ -21,7 +21,7 @@
  GAS_GIANT_BODIES_PROJECT:0 "分析死亡的太空生物"
  GAS_GIANT_BODIES_PROJECT_DESC:0 "我們在氣態巨行星[From.GetName]的軌道上發現了一些大型生物的殘骸。我們的科學家希望分析它們來推斷它們的起源。"
  SEA_EXPEDITION_PROJECT:0 "深海探險"
- SEA_EXPEDITION_PROJECT_DESC:0 "[From.GetName]冰層下隱藏大海。科學家希望能組織一次深海探險來研究此處的特殊生命形態。"
+ SEA_EXPEDITION_PROJECT_DESC:0 "[From.GetName]冰層下隱藏大海。科學家希望能組織一次深海探險來研究這種環境下的特殊生命形式。"
  GIGANTIC_SKELETON_PROJECT:0 "調查巨大骨架"
  GIGANTIC_SKELETON_PROJECT_DESC:0 "在[From.GetName]的荒蕪地表發現了距今三十多億年的巨大骨架。科學家迫切地想要追究其來龍去脈。"
  BATTLE_WRECKAGE_PROJECT:0 "墓地探險"

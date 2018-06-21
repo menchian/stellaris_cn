@@ -231,7 +231,7 @@
  leviathans.300.desc.continued:0 "很好。然後還有什麼我們可以為您效勞的呢？"
  leviathans.300.a:0 "我們想贊助一件藝術品。"
  leviathans.300.a.reply:0 "很遺憾我們不能給予更多了，以免我們覺得你不再欣賞之前買過的東西了。你知道的，我們的自尊會讓我們那樣想。"
- leviathans.300.b:0 "我們想成為您的資助對象。"
+ leviathans.300.b:0 "我們想成為您的贊助人。"
  leviathans.300.b.stop:0 "我們想取消我們的贊助。"
  leviathans.300.b.stop.tooltip:0 "§R停止§! 每月 £opinion 評價的獲取\n\n"
  leviathans.300.b.reply:0 "哦，我明白了。不幸的[my_country.GetSpeciesAdj]，但我們還是感謝您一開始的支持。\n\n再見。"
