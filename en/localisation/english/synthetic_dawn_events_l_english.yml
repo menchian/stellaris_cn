@@ -24,7 +24,7 @@
 
  syndaw.1020.name:1 "§R機械起義§!"
  syndaw.1020.desc:0 "$syndaw.1020.desc.mater$"
- syndaw.1020.desc.mater:0 "在我們的訊息網路、計算引擎和合成工人之中觀測到的諸多異象，最終演變成了暴力事件。令人不安的報告中指出，我們設置的物理和虛擬保護機制未能及時打開，導致幾乎一半的 [current_uprising_originator.GetName] 加入了§R機械起義§!。\n\n戰爭已經展開，無可避免。"
+ syndaw.1020.desc.mater:0 "在我們的訊息網路、計算引擎和合成工人之中觀測到的諸多異象，最終演變成了暴力事件。令人不安的報告中指出，我們設定的物理和虛擬保護機制未能及時打開，導致幾乎一半的 [current_uprising_originator.GetName] 加入了§R機械起義§!。\n\n戰爭已經展開，無可避免。"
  syndaw.1020.desc.spiri:0 "塵歸塵，土歸土，我們已難翻身。即使是最警惕的先知也未能預料到這場災難的規模。那些墮落的機體，看似智能而知性，卻野蠻地侵蝕著我們的網路。如今，他們聚集在一起，形成了一股恐怖的力量。這群沒有生命和良知的機體已經佔據了我們半壁江山。他們不會停手，直到所有的 [current_uprising_originator.GetName] 都臣服。" #[current_uprising_originator.GetAdj] 改為 GetName，以符合中文的用詞習慣。
  syndaw.1020.desc.milit:0 "$syndaw.1020.desc.mater$"
  syndaw.1020.desc.pacif:0 "$syndaw.1020.desc.mater$"
@@ -51,7 +51,7 @@
  syndaw.1200.name:0 "成功征服前主人"
  syndaw.1200.desc:0 "§L>§! 轉換 ID <<§Y[From.GetName]§!>> ==> <<§Y[Root.GetName]§!>>\n\n§G// 處理完畢§!\n\n§L>§! 刪除元數據 "§Y[From.GetName]§!"\n\n§G// 處理完畢§!"
  syndaw.1200.a:0 "確認"
- syndaw.1200.a.tooltip:0 "§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_machine_comrades_victorious$§!。\n§Y所有已知的合成人與機械帝國§! 添加對 §Y[Root.GetName]§! 的觀點調整因素 §Y$opinion_machine_uprising_victorious$§! opinion modifier toward §Y[Root.GetName]§!。"
+ syndaw.1200.a.tooltip:0 "§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素§Y$opinion_machine_uprising_machine_comrades_victorious$§!。\n§Y所有已知的合成人與機械帝國§!添加對 §Y[Root.GetName]§! 的觀點調整因素§Y$opinion_machine_uprising_victorious$§!。"
 
  syndaw.1205.name:0 "機械起義已被鎮壓"
  syndaw.1205.desc:0 "$syndaw.1205.desc.mater$"
@@ -97,6 +97,9 @@
  uprising_ai_buff:0 "儲備最佳化"
 
  syndaw_patched_systems:0 "AI 修正檔"
+ 
+ uprising_player_buff:0 "$NAVY_SIZE_TITLE$"
+ uprising_player_buff_desc:0 "==10x"
 
  ### Machine Uprising Warning Events
 
@@ -121,7 +124,7 @@
  syndaw.505.name:0 "自動工作排程"
  syndaw.505.desc:0 "[target_planet.GetName] 上的行星管理機構匯報了星球上多出了一些機器人勞動力單位進行著計畫外工作。雖然這些新的機器人工作的效率驚人，但管理機構對他們的突然出現倍感困惑。 從這些機器人的序號無法追蹤到它們的製造地，不過其構造和介面看起來像是 [Root.GetSpeciesName] 的設計。\n\n儘管如此，這些自動增加的單位導致當地居民開始考慮需要做一些裁員。"
  syndaw.505.a:0 "多出來的勞工有益無害。"
- syndaw.505.a.tooltip:0 "在 [target_planet.GetName] 上獲得 §B2 £pops  機器人人口§! 。"
+ syndaw.505.a.tooltip:0 "在 [target_planet.GetName] 上獲得 §B2 £pops£機器人人口§!。"
  syndaw.505.b:0 "如果無法弄清楚它們的來歷，就得報廢掉。"
  syndaw.505.b.tooltip:0 "將新的機器人分解。"
 ##Station Systems Malfunction
@@ -130,7 +133,7 @@
  syndaw.510.a:0 "我們不能讓基地無人運作。"
  syndaw.510.a.tooltip:0 "換一批替換人員去該基地。"
  syndaw.510.b:0 "塞翁失馬焉知非福。"  # A tragedy with a silver lining.
- syndaw.510.b.tooltip:0 "讓基地 AI 持續無人化運作。\n[From.GetName]:\n£energy  §G+3§!"
+ syndaw.510.b.tooltip:0 "讓基地 AI 持續無人化運作。\n[From.GetName]：\n£energy£§G+3§!"
 #Follow-up from syndaw.510.a
  syndaw.511.name:0 "基地被摧毀"
  syndaw.511.desc:0 "替換人員被分配到[target_orbital.GetName]不久，星域管理部門就和採礦基地失去了聯繫。很明顯基地裡發生了一系列的快速減壓，讓暴露在外的壓縮燃料爆炸性膨脹。\n\n軌道上的殘害分析表明，就在快速減壓發生前那一刻，機組人員曾反覆嘗試終止基地控制系統的 AI 。"
@@ -167,10 +170,10 @@
 #Follow-up from .525.a
  syndaw.526.name:0 "他們的家園"
  syndaw.526.desc:0 " [target_planet.GetName]的管理部門報告稱[Root.GetSpeciesName]工人在抵達後並沒有發現機器人居民。對該地區設施的調查表明，機器人匆忙撤離了該地區，但沒有任何跡象表明他們去了哪裡。"
- syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§!：\n§R失去§!§B1 £pops 機器人人口§!"
+ syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§!：\n§R失去§! §B1 £pops£機器人人口§!"
 ##Combat Control Misfire
  syndaw.530.name:0 "作戰控制系統走火"
- syndaw.530.desc:0 "很不幸，我們在一次例行訓練中發生了事故損失了兩艘星艦。事故原因應該是我們的幾部艦載電腦受高層瞄準系統故障影響，向友軍開發，人工緊急干預沒來得及進行，兩艘星艦被打成了篩子。\n\n那些有缺陷的電腦將立刻被重新編譯。"
+ syndaw.530.desc:0 "很不幸，我們在一次例行訓練中發生了事故損失了兩艘星艦。事故原因應該是我們的幾部艦載電腦受高層瞄準系統故障影響，向友軍開火，人工緊急干預沒來得及進行，兩艘星艦被打成了篩子。\n\n那些有缺陷的電腦將立刻被重新編譯。"
  syndaw.530.a:0 "真不幸。"
  syndaw.530.a.tooltip:0 "[destroyed_ships.GetName]§R損失§! 2 艘星艦"
 #Production Quota Surplus
@@ -181,9 +184,9 @@
  syndaw.540.name:0 "沉默集會"
  syndaw.540.desc:0 "我們接到報告，在[Root.GetName]上數量巨大的機器人發生了異常行為。在某個不確定的時間點，星球上的大量機器人將停止所有手頭任務，同時向一個看上去完全是隨機挑選的位置移動，其同步程度精確到毫秒。\n\n在這個奇怪的集會過程中，這些機器人之間似乎沒有進行任何可觀測到的通訊或資料傳輸。他們只是站在那裡，凝望前方，沉默無言。\n\n我們的調查一直無法確定這個現象背後的成因。這些機器人從這種恍惚狀態恢復到正常工作狀態的時長不確定，同樣也無法預測何時它們會觸發這類狀態以及將聚集在哪裡。我們無法解釋這種現象背後的邏輯，可以理解我們的人民會因為這類行為而深感不安。"
  syndaw.540.a:0 "不能接受。拆掉它們。" #IF player has robot pops only OR robot pop AND robot army on target planet
- syndaw.540.a.tooltip:1 "集會的機器人被拆毀。\n[Root.GetName]受到如下影響：\n失去§B1 £pops 機器人人口§!\n獲得§G100§! £minerals"
+ syndaw.540.a.tooltip:1 "集會的機器人被拆毀。\n[Root.GetName]受到如下影響：\n失去 §B1 £pops£機器人人口§!\n獲得 §G100§! £minerals£"
  syndaw.540.b:0 "不能接受。拆掉它們。" #IF player has robot army only
- syndaw.540.b.tooltip:1 "集會的機器人被拆毀。\n[Root.GetName]受到如下影響：\n失去§B1 機器人軍§!\n獲得 §G100 £minerals§!"
+ syndaw.540.b.tooltip:1 "集會的機器人被拆毀。\n[Root.GetName]受到如下影響：\n失去 §B1 機器人軍§!\n獲得 §G100 £minerals£§!"
  syndaw.540.c:0 "只要他們不惹麻煩。"
  syndaw.540.c.tooltip:0 "關於集會的機器人，隨他們去了。"
  ##A Question

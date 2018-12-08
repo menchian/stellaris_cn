@@ -129,7 +129,7 @@
  FIRST_LEAGUE_ARCHEOLOGY_9:0 "貿易中心"
  FIRST_LEAGUE_ARCHEOLOGY_9_DESC:0 "[From.GetName]曾經是古老的第一聯盟主要的貿易中心。[From.GetPlanetMoon]曾經極度城市化，現在還留下了許多廢墟供考古學家研究。"
  FIRST_LEAGUE_ARCHEOLOGY_10:0 "戰役殘骸"
- FIRST_LEAGUE_ARCHEOLOGY_10_DESC:0 "兩百萬年前，第一聯盟一場大型星艦戰鬥在[From.GetName]附近爆發。飛往[From.GetPlanetMoon]的航道上，還能看到這些戰艦的殘骸，我們的考古學家建議在附近建立營地。"
+ FIRST_LEAGUE_ARCHEOLOGY_10_DESC:0 "兩百萬年前，第一聯盟一場大型星艦戰鬥在[From.GetName]附近爆發。飛往[From.GetPlanetMoon]的航道上，還能看到這些星艦的殘骸，我們的考古學家建議在附近建立營地。"
  FIRST_LEAGUE_ARCHEOLOGY_11:0 "流放地"
  FIRST_LEAGUE_ARCHEOLOGY_11_DESC:0 "敵方[From.GetName]的[From.GetPlanetMoon]是古老第一聯盟的流放地，如果建立考古挖掘基地，可以發掘出一些監禁設施。"
  FIRST_LEAGUE_ARCHEOLOGY_12:0 "觀察站"
@@ -228,7 +228,7 @@
  CAPTURE_QUEEN_DESC:0 "[queen_system.GetName]星系最近發生了一場太空戰，蟲族女王受重傷，受到折磨，無藥可救。這生物仍活著，捕獲它會是情報工作的重大成功。"
  
  ESTABLISH_COMMUNICATIONS:0 "調查[Prev.From.GetName]"
- ESTABLISH_COMMUNICATIONS_DESC:1 "我們需要進一步瞭解我們將其編碼命名為§Y[Prev.From.GetName]§!的神秘外星種族。如果他們也擁有語言，那我們必須對其進行破譯並且建立交流。\n\n獎勵: £influence §G影響力§!或§S特殊項目§!"
+ ESTABLISH_COMMUNICATIONS_DESC:1 "我們需要深入瞭解代號為 §Y[Prev.From.GetName]§! 的神秘外星人。如果他們也擁有語言，那我們必須破解並建立聯繫。\n\n獎勵：£influence£§G影響力§!或§S特殊項目§!"
  INVESTIGATE_SPACE_AMOEBA:0 "$ESTABLISH_COMMUNICATIONS$"
  INVESTIGATE_SPACE_AMOEBA_DESC:1 "$ESTABLISH_COMMUNICATIONS_DESC$"
  INVESTIGATE_CRYSTALS:0 "$ESTABLISH_COMMUNICATIONS$"

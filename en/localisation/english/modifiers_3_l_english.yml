@@ -97,7 +97,7 @@
  abandoned_mining:0 "被遺棄的採礦基地"
  abandoned_mining_desc:0 "這顆星球上曾有過古老的採礦基地，說明這裡有潛在的資源。"
  gas_rich_planet:0 "豐富氣藏"
- gas_rich_planet_desc:0 "在這顆星球上建立殖民地以開發其資源。\n£energy §G+50%§!"
+ gas_rich_planet_desc:0 "在這顆星球上建立殖民地以開發其資源。\n£energy£§G+50%§!"
  gas_rich_planet_fo_realz:0 "無節制天然氣開採"
  gas_rich_planet_fo_realz_desc:0 "對這顆星球上稀有自然資源的開採會在短期內大幅度增加整體能量生產。"
  gas_responsible_mining:0 "合理天然氣開採"
@@ -119,7 +119,7 @@
  syndaw_automated_work:0 "自動化的工作流程"
  syndaw_automated_work_desc:0 "不管合理與否，對自動化導致的失業的擔憂正在影響著這可行星。"
  syndaw_unfriendly_robots:0 "機器人融合緊張"
- syndaw_unfriendly_robots_desc:0 "行星上有體機人口與機器人人口之間緊張的關係已經減少了我們的£unity 凝聚力產出。"
+ syndaw_unfriendly_robots_desc:0 "行星上有體機人口與機器人人口之間的緊張關係減少了我們的£unity£凝聚力產出。"
  syndaw_research_malus:0 "AI失敗"
  syndaw_research_malus_desc:1 "一個參與社會學研究的實驗室AI的終端硬體受損，目前正在更換。"
  

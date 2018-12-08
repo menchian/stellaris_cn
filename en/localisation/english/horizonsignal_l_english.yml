@@ -16,6 +16,8 @@
 
  waiting_world_ruins:0 "寂絕遺跡"
  waiting_world_ruins_desc:0 "風在廢墟中歎息著。沒有人會去那裡。"
+ d_mothballed_facilities:0 "封存的設施"
+ d_mothballed_facilities_desc:0 "這些區劃與建築是按照最新的殖民地標準建造的，但明顯已棄置多年，並且未得到妥善維護。"
 
  loop_debris_01_object:0 "事件視界信號殘骸"
  loop_debris_02_object:0 "螺旋艙"

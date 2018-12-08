@@ -43,7 +43,7 @@
  unrest.120.desc:0 "發生在§Y [Root.GetName] §!的騷亂推動一種新的敘事成為行星政治舞台的寵兒：人民希望強人和秩序，寧可犧牲自由。"
 
  unrest.125.name:0 "$unrest_title$異鄉之客"
- unrest.125.desc:0 "隨著§Y [Root.GetName] §!社會秩序的不斷瓦解，非 [Root.Owner.GetName] 原住民發現自己在殖民地愈發遭受排斥。"
+ unrest.125.desc:0 "隨著§Y [Root.GetName] §!社會秩序的不斷瓦解，非 [Root.Owner.GetName] 原住民發現自己在殖民地越來越遭受排斥。"
 
  unrest.130.name:0 "$unrest_title$理性客觀"
  unrest.130.desc:0 "§Y [Root.GetName] §!的地方精神領袖實在無能，不能使當地人民從不安中平靜下來，民眾開始以更理性的觀點看待身處的物質世界。"
