@@ -391,8 +391,8 @@
  terraforming_candidate_category_desc:0 "這個了無生氣的貧瘠之地表現出它曾經擁有過一個生態圈的跡象。"
  anomaly.2575.name:0 "發現環境改造備選地"
  anomaly.2575.desc.intro:0 "我們在 [From.GetName] 的勘測細節顯示，在遙遠的過去它曾經有過生命。在 [From.GetPlanetMoon] 極地的冰帽表層之下有大量的冰凍水。 現存的山脈分佈圖顯示，這些水曾經在其間流淌。"
- anomaly.2575.desc.1:0 "$anomaly.2575.desc.intro$\n\n對這個 [From.GetPlanetMoon] 進行環境改造在理論上是行得通的，但我們尚未具備在現實時間內完成這項艱巨任務的科技。"
- anomaly.2575.desc.2:0 "$anomaly.2575.desc.intro$\n\n雖然能源開銷異常艱巨，但我們擁有將 [From.GetPlanetMoon] 進行環境改造的科技，可以讓它重新支持生命。"
+ anomaly.2575.desc.1:0 "$anomaly.2575.desc.intro$\n\n對這個 [From.GetPlanetMoon] 進行環境改造在理論上是行得通的，但我們尚未具備在現實時間內完成這項艱鉅任務的科技。"
+ anomaly.2575.desc.2:0 "$anomaly.2575.desc.intro$\n\n雖然能源開銷異常艱鉅，但我們擁有將 [From.GetPlanetMoon] 進行環境改造的科技，可以讓它重新支持生命。"
 
  utopia.3300.desc:0 "這裡有某種存在，完全佔據了天幕的這個部分。我們曾經見識過靈體，但這個存在是某種其他的東西，某種更為強大……更為古老的東西。\n\n它似乎還沒意識到我們。也許是在休眠。也許早就注意到了我們。\n\n也許我們該離開。"
  utopia.3300.1.a:0 "§G嘗試與該存在作交流§!"
@@ -538,4 +538,4 @@
  utopia.3401.c:0 "這是一項重大的改變。"
 
  master_builders_habitats:0 "$ap_master_builders$：擴張"
- master_builders_habitats_desc:0 "此$pc_habitat$已額外擴張了§Y2§!個$MOD_PLANET_MAX_DISTRICTS_ADD$。"
+ master_builders_habitats_desc:0 "此$pc_habitat$已經擴張獲得了§Y2§!額外$MOD_PLANET_MAX_DISTRICTS_ADD$。"

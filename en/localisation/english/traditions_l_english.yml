@@ -49,7 +49,7 @@
  tradition_expansion_hive_desc:0 "蜂群只有兩種狀態：生長，或者滅亡。"
  tr_expansion_adopt:0 "擴張傳統"
  tr_expansion_adopt_desc:0 "$tradition_expansion_desc$\n\n$tr_expansion_adopt_effect$\n\n$tr_expansion_finish_effect$"
- tr_expansion_adopt_effect:6 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!增加§G+25%§!。"
+ tr_expansion_adopt_effect:6 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!加快§G+25%§!。"
  tr_expansion_adopt_machine:1 "擴張傳統"
  tr_expansion_adopt_machine_desc:0 "$tradition_expansion_machine_desc$\n\n$tr_expansion_adopt_machine_effect$\n\n$tr_expansion_finish_machine_effect$"
  tr_expansion_adopt_machine_effect:2 "$tr_expansion_adopt_effect$"
@@ -66,11 +66,11 @@
  tr_expansion_colonization_fever_hive_delayed:0 "主腦是思想的合奏，就連寒冷虛空的太空也無法沉默。"
  
  tr_expansion_a_new_life:0 "新的生活"
- tr_expansion_a_new_life_desc:3 "£pops£ §Y$MOD_POP_GROWTH_SPEED$§! 增加 §G+10%§!。"
+ tr_expansion_a_new_life_desc:3 "£pops£ §Y$MOD_POP_GROWTH_SPEED$§!加快§G+10%§!。"
  tr_expansion_a_new_life_delayed:0 "我們公民期待著在外星殖民地上展開新的生活。在機遇與挑戰並存的黃金之地重新開始！在積極的市場營銷影響下，那些在現社會中不那麼幸運的個體蜂擁進入殖民船。"
  tr_expansion_a_new_life_machine:1 "加速建造協議"
- tr_expansion_a_new_life_machine_desc:0 "£pops  §Y$MOD_POP_ASSEMBLY_SPEED$§!提高§G+10%§!。"
- tr_expansion_a_new_life_machine_delayed:2 "組建新人口的進程現在可以通過在機體還在建造的同時加入操作模組來加速。"
+ tr_expansion_a_new_life_machine_desc:0 "£pops£ §Y$MOD_POP_ASSEMBLY_SPEED$§!加快§G+10%§!。"
+ tr_expansion_a_new_life_machine_delayed:2 "組建新人口的進程現在可以通過在機體還在建造的同時載入操作模組來加速。"
  tr_expansion_a_new_life_hive:0 "產卵狂潮"
  tr_expansion_a_new_life_hive_desc:0 "$tr_expansion_a_new_life_desc$"
  tr_expansion_a_new_life_hive_delayed:0 "在佔領新巢穴時，繁殖者會由於強烈的本能衝動而以瘋狂的速度產卵。雖然他們通常會過勞而死，但無數新生的工蜂加速了新世界的開發進程。"
@@ -81,7 +81,7 @@
  tr_expansion_courier_network_machine:0 "可擴展軟體"
  tr_expansion_courier_network_machine_delayed:0 "我們構建的類神經網路在將來擴展到其他世界後，可以減少乃至星際間通訊的信號損失。"
  tr_expansion_courier_network_hive:2 "有限自治權"
- tr_expansion_courier_network_hive_delayed:1 "蜂巢們不一定需要每時每刻都被主宰所控制，在新指令到達之前，它們可以自主推行一些基本的指令。"
+ tr_expansion_courier_network_hive_delayed:1 "蜂巢們不一定需要每時每刻都被主思維所控制，在新指令到達之前，它們可以自主執行一些基本的指令。"
  
  tr_expansion_reach_for_the_stars:0 "觸摸星辰"
  tr_expansion_reach_for_the_stars_desc:4 "§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§!減少§G10%§!。"
@@ -101,7 +101,7 @@
  
  tr_expansion_finish:0 "擴張傳統完成"
  tr_expansion_finish_machine:0 "擴張傳統完成"
- tr_expansion_finish_effect:4 "§E$TRADITIONS_FINISH$:§!\n採納所有$tr_expansion_adopt$將能夠在所有你的非適居星球上面建造§Y1§!個額外的區域。"
+ tr_expansion_finish_effect:4 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_expansion_adopt$後，除太空移民站外的所有行星上可以多建造§Y1§!個地區。"
  tr_expansion_finish_hive_effect:0 "$tr_expansion_finish_machine_effect$"
  
  ################################################################
@@ -116,17 +116,17 @@
  tradition_domination_hive_desc:0 "非我族類盡皆臣服於我，或為奴僕，或為食糧。"
  tr_domination_adopt:0 "統御傳統"
  tr_domination_adopt_desc:0 "$tradition_domination_desc$\n\n$tr_domination_adopt_effect$\n\n$tr_domination_finish_effect$"
- tr_domination_adopt_effect:3 "§E$TRADITIONS_ADOPT$:§!\n\n征服其他帝國的戰爭目標花費降低§Y25%§!。"
+ tr_domination_adopt_effect:3 "§E$TRADITIONS_ADOPT$：§!\n£blocker£ §Y$MOD_PLANET_CLEAR_BLOCKER_COST_MULT$§!減少§G33%§!。"
  
  tr_domination_colonial_viceroys:0 "殖民總督"
- tr_domination_colonial_viceroys_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§!提升§Y2§!，§Y帝國統治者上限§!增加§Y2§!。"
+ tr_domination_colonial_viceroys_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§!增加§Y2§!。"
  tr_domination_colonial_viceroys_delayed:0 "我們對殖民地的掌控取決於找到忠誠而能幹的人才來推行政府的意志。"
  tr_domination_colonial_viceroys_machine:0 "自主AI"
  tr_domination_colonial_viceroys_machine_delayed:0 "從大多數行為約束子中解放出來的AI可能更容易表現不穩定且隨機崩潰，但他們是唯一能夠處理由星際殖民固有的巨量變量的類型。"
  tr_domination_colonial_viceroys_hive:0 "思維交織" # TODO Meeting of the Minds 思維交織
  tr_domination_colonial_viceroys_hive_delayed:0 "隨著我們的蜂群數量增加，我們必須有更多的自主工蜂來加強協調。"
  
- tr_domination_grand_council:1 "私人議會"
+ tr_domination_grand_council:1 "樞密院"
  tr_domination_grand_council_desc:0 "§Y$MOD_LEADER_RULER_SKILL_LEVELS$§!增加§Y2§!。"
  tr_domination_grand_council_delayed:2 "爭奪進諫偉大領袖的大競賽開始了，這可是將國家帶往更好方向的機會。"
  tr_domination_multi_thread:0 "多線程核心功能"
@@ -135,14 +135,14 @@
  tr_domination_synaptic_network_delayed:1 "思維只能夠在接受到受其控制的子成員的指令之後才能有所行動。有了更快更高效的突觸網路之後，響應延遲將不再是個問題。"
  
  tr_domination_imperious_architecture:0 "宏偉建築"
- tr_domination_imperious_architecture_desc:2 "每座£building£ §Y首都建築§!和£building£ §Y住房建築§!提供§G+1§!£housing£ §Y$MOD_PLANET_HOUSING_ADD$§!。"
- tr_domination_imperious_architecture_delayed:1 "我們偉大帝國中的每一座政府建築，都應當成為矗立於人民之上的豐碑，激發人民的服從、忠誠與敬畏。"
+ tr_domination_imperious_architecture_desc:2 "每座£building£ §Y首府建築§!和£building£ §Y住房建築§!提供§G+1§!£housing£ §Y$MOD_PLANET_HOUSING_ADD$§!。"
+ tr_domination_imperious_architecture_delayed:1 "我們偉大帝國中的每一座政府建築，都應當成為國家的紀念碑，無時無刻不籠罩著民眾，激發人們的服從、忠誠和敬畏。"
  tr_domination_synaptic_extensions:0 "突觸延展"
- tr_domination_synaptic_extensions_desc:0 "£building£§Y$building_hive_node$§!也將使£housing£§Y$MOD_PLANET_HOUSING_ADD$§!增加§Y2§!。"
- tr_domination_synaptic_extensions_delayed:1 "思維的影響必須持續得到擴充。擁有了額外的突觸網路之後，思維便能夠更有效地控制更多的子成員。"
+ tr_domination_synaptic_extensions_desc:0 "£building£§Y$building_hive_node$§!現在將增加§Y2§!£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
+ tr_domination_synaptic_extensions_delayed:1 "思維的偉大影響必須持續延展。額外的突觸延展將使思維有效控制更多的工蜂。"
  tr_domination_modular_depot:0 "模組化倉庫"
- tr_domination_modular_depot_desc:0 "£building£§Y$building_maintenance_depot$§!也將使£housing£§Y$MOD_PLANET_HOUSING_ADD$§!增加§Y2§!。"
- tr_domination_modular_depot_delayed:1 "為了最大化能夠派出的無人機的數量，我們的倉庫必須更加效率。此時一個模組化的設計將能夠大大提升我們的靈活性。"
+ tr_domination_modular_depot_desc:0 "£building£§Y$building_maintenance_depot$§!現在將增加§Y2§!£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
+ tr_domination_modular_depot_delayed:1 "為了最大化可以部署的無人機數量，我們對倉庫的使用必須更有效率。模組化的設計將提供更高的靈活性。"
  
  tr_domination_workplace_motivators:0 "監工"
  tr_domination_workplace_motivators_desc:0 "§Y$pop_cat_worker_plural$§!和§Y$pop_cat_slave_plural$§!的資源產出增加§G5%§!。"
@@ -175,7 +175,7 @@
  #tr_domination_star_lords_hive_delayed:0 "Generations of experimentation have revealed that certain combinations of gaseous emissions and pheromones greatly reduce the pugnacity and will to resist of the others. Some die, but they perish in bliss, having ever so briefly touched the beautiful purity of our mind."
  
  tr_domination_finish:0 "統御傳統完成"
- tr_domination_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_domination_adopt$將使我們所有星球的£stability£§Y$mod_country_influence_produces_add$§!增加§G5%§!。"
+ tr_domination_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_domination_adopt$將使£influence£§Y$mod_country_influence_produces_add$§!增加§Y1§!。"
 
  ################################################################
  # PURITY
@@ -223,8 +223,8 @@
  tr_harmony_the_greater_good_desc:4 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!增加§G+25%§!。"
  tr_harmony_the_greater_good_delayed:0 "全帝國的民眾都知曉他們在為了長遠的利益而共同奮鬥，每個人都是集體裡雖微小卻重要的一部分，這一信念無疑讓所有人都倍感安心。"
  tr_harmony_kinship:0 "手足之情"
- tr_harmony_kinship_desc:2 "失業£pop£§Y人口§!降至更低§Y社會階層§!所需的時間減少§G50%§!。"
- tr_harmony_kinship_delayed:1 "我們偉大星際國度的所有子民之間都產生了一種真正的手足情誼，無論其社會地位的高低。"
+ tr_harmony_kinship_desc:2 "失業£pop£§Y人口§!降至更低§Y階級§!所需時間縮短§G50%§!。"
+ tr_harmony_kinship_delayed:1 "我偉大星際帝國的所有公民都發展出了真摯的超越血緣的手足之情，不管其社會階層高低。"
  tr_harmony_bulwark_of_harmony:0 "和諧堡壘"
  tr_harmony_bulwark_of_harmony_desc:2 "防禦戰爭時，§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!加快§G+33%§!。除此以外，在境內時艦隊的§Y$MOD_SHIP_FIRE_RATE_MULT$§!加快§G+15%§!。"
  tr_harmony_bulwark_of_harmony_delayed:0 "所有生物，無論有多完美，都依靠免疫系統來對抗外界的疾病。我們的社會亦是如此。"
@@ -235,7 +235,7 @@
  tr_harmony_mind_and_body_desc:0 "§Y領袖預期壽命§!增加§G+20§!年。"
  tr_harmony_mind_and_body_delayed:0 "通過結合新冥想技術和良好的飲食習慣，我們的大部分人口都享有比以往更長的預期壽命。"
  tr_harmony_finish:0 "和諧傳統完成"
- tr_harmony_finish_effect:6 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_harmony_adopt$將使我們的£influence£$MOD_PLANET_STABILITY_ADD$增加§Y1§!。"
+ tr_harmony_finish_effect:6 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_harmony_adopt$將使我們所有行星的£stability£§Y$MOD_PLANET_STABILITY_ADD$§!增加§G5%§!。"
  
  ################################################################
  # SYNCHRONICITY
@@ -252,7 +252,7 @@
  tr_synchronicity_kinship_gestalt_desc:0 "§Y$mod_leaders_upkeep_mult$§!減少§G20%§!。"
  tr_synchronicity_kinship_gestalt_delayed:0 "具有類似目的的代理人應作為一組給予命令，減少對主宰的壓力。"
  tr_synchronicity_integrated_preservation:1 "整合保存"
- tr_synchronicity_integrated_preservation_desc:0 "£building£§Y$building_maintenance_depot$§!額外提供§Y1§!個£job_maintenance_drone£§Y$job_maintenance_drone$職業§!。"
+ tr_synchronicity_integrated_preservation_desc:0 "£building£§Y$building_maintenance_depot$§!額外提供§Y1§!個£job_maintenance_drone£§Y$job_maintenance_drone$職位§!。"
  tr_synchronicity_collective_reasoning:1 "集體思維"
  tr_synchronicity_collective_reasoning_desc:1 "£mod_pop_amenities_usage_no_happiness_mult£  §Y$MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT$§!減少§G10%§!。"
  tr_synchronicity_collective_reasoning_delayed:1 "通過同步各組子成員，星球基礎設施就能夠被更有效率地利用！"
@@ -262,12 +262,12 @@
  tr_synchronicity_collective_efforts_delayed:2 "通過同步各組子成員，星球基礎設施就能夠被更有效率地利用！"
  tr_synchronicity_machine_adopt:0 "$tr_synchronicity_hive_adopt$"
  tr_synchronicity_machine_adopt_desc:0 "$tradition_synchronicity_desc$\n\n$tr_synchronicity_machine_adopt_effect$\n\n$tr_synchronicity_finish_effect$"
- tr_synchronicity_machine_adopt_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$mod_planet_pops_robotics_upkeep_mult$§!增加§G10%§!."
+ tr_synchronicity_machine_adopt_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$mod_planet_pops_robotics_upkeep_mult$§!減少§G10%§!。"
  tr_synchronicity_self_preservation:0 "自我保護協議"
  tr_synchronicity_self_preservation_desc:0 "機械體領袖遭遇故障和事故的機率降低§Y50%§!。"
  tr_synchronicity_self_preservation_delayed:0 "機器人必須保護自己，前提是不違……§R『C° eu¿T ew+A eOI( eI8" <數據損壞>§!"
  tr_synchronicity_finish:0 "同步傳統完成"
- tr_synchronicity_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_synchronicity_hive_adopt$可使所有我方星球的£stability£ §Y$MOD_PLANET_STABILITY_ADD$§!增加§G5%§!。"
+ tr_synchronicity_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_synchronicity_hive_adopt$將使我們所有行星的£stability£§Y$MOD_PLANET_STABILITY_ADD$§!增加§G5%§!。"
  
 ################################################################
 # SUPREMACY
@@ -285,21 +285,21 @@
  tr_supremacy_adopt_desc:0 "$tradition_supremacy_desc$\n\n$tr_supremacy_adopt_effect$\n\n$tr_supremacy_finish_effect$"
  tr_supremacy_adopt_machine_desc:0 "$tradition_supremacy_machine_desc$\n\n$tr_supremacy_adopt_machine_effect$\n\n$tr_supremacy_finish_machine_effect$"
  tr_supremacy_adopt_hive_desc:0 "$tradition_supremacy_hive_desc$\n\n$tr_supremacy_adopt_hive_effect$\n\n$tr_supremacy_finish_hive_effect$"
- tr_supremacy_adopt_effect:6 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_ARMY_DAMAGE_MULT$§!增加§Y2§!，§Y$MOD_STARBASE_UPGRADE_COST_MULT$§!減少§G20%§!。"
+ tr_supremacy_adopt_effect:6 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_COUNTRY_STARBASE_CAPACITY_ADD$§!增加§Y2§!，§Y$MOD_ARMY_DAMAGE_MULT$§!增加§G20%§!。"
  tr_supremacy_adopt_machine_effect:0 "$tr_supremacy_adopt_effect$"
  tr_supremacy_adopt_hive_effect:0 "$tr_supremacy_adopt_effect$"
  tr_supremacy_above_the_fray:0 "超越紛爭"
- tr_supremacy_above_the_fray_desc:0 "£unity£ §Y凝聚力§!產出增加§G+10%§!"
+ tr_supremacy_above_the_fray_desc:0 "£unity£§Y凝聚力§!產出增加§G+10%§!"
  tr_supremacy_above_the_fray_delayed:0 "我們克服了瑣碎的競爭和政治口角。任弱小帝國說去吧，我們的目標永不動搖。"
  tr_supremacy_armed_deterrence:0 "武裝威懾"
  tr_supremacy_armed_deterrence_desc:0 "§Y$shipsize_military_station_small_build_cost_mult$§!減少§G25%§!且§Y$shipsize_military_station_small_hull_mult$§!增加§G20%§!。"
  tr_supremacy_armed_deterrence_delayed:0 "那些希望和平的人必須為戰爭做好準備。邊境線不過是一道隨時被侵略者們打破的牆。"
  tr_supremacy_natural_preeminence:0 "天然優勢"
- tr_supremacy_natural_preeminence_desc:1 "我們所有星球上的§Y$MOD_PLANET_STABILITY_ADD$§!增加§G5%§!。"
+ tr_supremacy_natural_preeminence_desc:1 "我們所有行星的§Y$MOD_PLANET_STABILITY_ADD$§!增加§G5%§!。"
  tr_supremacy_natural_preeminence_delayed:0 "這是個不容置疑的事實，順應事物的自然法則，我們就會比其他物種更加優秀。我們應當確保所有人都知道這個真相，我們的人民會為他們的優越而感到高興，並讓更多人接受我們為他們選擇的命運。"
  
  tr_supremacy_great_game:0 "大博弈"
- tr_supremacy_great_game_desc:1 "每個鄰近競爭對手的£unity£§Y凝聚力§!產出增加§G+10%§!。"
+ tr_supremacy_great_game_desc:1 "§Y$mod_shipclass_starbase_damage_mult$§!增加§G20%§!，§Y$MOD_STARBASE_UPGRADE_COST_MULT$§!減少§G33%§!。"
  tr_supremacy_great_game_delayed:0 "隨著我們不斷擴張，其它帝國必然會挑戰我們的主權，就像我們對他們做的一樣。我們處於爭奪資源和領土的大博弈中。沒什麼比在博弈中站在頂端更重要的了。"
 
  #tr_supremacy_great_game_machine:0 "Diplomatic Target Prioritization"
@@ -327,7 +327,7 @@
  #tr_supremacy_right_of_conquest_hive_delayed:0 "The others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance."
  
  tr_supremacy_master_shipwrights:0 "造船宗師"
- tr_supremacy_master_shipwrights_desc:6 "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!增加§G+25%§!，§Y$MOD_COUNTRY_SHIP_UPGRADE_COST_MULT$§!減少§G20%§!。"
+ tr_supremacy_master_shipwrights_desc:6 "§Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§!減少§G10%§!，§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!加快§G+25%§!。"
  tr_supremacy_master_shipwrights_delayed:0 "規模不斷增長的造船業讓我們的船廠建立起了高技能和高效率的工作隊伍。工藝持續改進，從船殼電鍍開始到完成整個星艦的速度比過去加快了很多。"
  tr_supremacy_master_shipwrights_hive:0 "仿生結構"
  tr_supremacy_master_shipwrights_hive_desc:0 "$tr_supremacy_master_shipwrights_desc$"
@@ -337,7 +337,7 @@
  tr_supremacy_master_shipwrights_machine_delayed:0 "由於大量預制可替換船體部件的儲備，我們的艦隊生產工作更加合理化。"
  
  tr_supremacy_war_games:0 "戰爭遊戲"
- tr_supremacy_war_games_desc:3 "§Y$MOD_COUNTRY_COMMAND_LIMIT_ADD$§!增加§G+20§!並且§Y$MOD_LEADER_ADMIRAL_SKILL_LEVELS$§!增加§Y2§!。"
+ tr_supremacy_war_games_desc:3 "§Y$MOD_COUNTRY_COMMAND_LIMIT_ADD$§!增加§G+20§!，§Y$MOD_LEADER_ADMIRAL_SKILL_LEVELS$§!增加§Y2§!。"
  tr_supremacy_war_games_delayed:0 "一個強大的戰爭遊戲傳統根植於我艦隊高級指揮官的靈魂中，無論這場遊戲發生在計算機模擬環境還是真實的太空。這趨使我們的艦隊司令官跳出正規思維，產生了無數戰術創新和新戰略。"
  tr_supremacy_war_games_machine_desc:0 "$tr_supremacy_war_games_desc$"
  tr_supremacy_war_games_machine:0 "削減戰鬥變量"
@@ -347,7 +347,7 @@
  tr_supremacy_war_games_hive_delayed:0 "水生生物由於其生存環境的三維性質而擁有更優越的空間意識。一旦我們將那部分皮層嫁接到戰爭主腦中，我們的蟲群就能像魚群一樣遨遊。" # TODO battlemind 戰爭主腦
   
  tr_supremacy_overwhelming_force:1 "絕對武力"
- tr_supremacy_overwhelming_force_desc:0 "§Y$MOD_ARMY_DAMAGE_MULT$§!提升§G+25%§!。"
+ tr_supremacy_overwhelming_force_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§!加快§G+10%§!，§Y$MOD_SHIP_ORBITAL_BOMBARDMENT_MULT$§!增加§G+20%§!。"
  tr_supremacy_overwhelming_force_delayed:1 "對付敵人必須傾盡全力，方可確保勝利。一場快速而決定性的攻擊，反而可以避免長期交戰造成的更多人員傷亡。"
  
  #tr_supremacy_overwhelming_force:1 "Overwhelming Force"
@@ -368,7 +368,7 @@
  tradition_diplomacy_desc:0 "只要大家都是朋友，我們便無敵於天下。"
  tr_diplomacy_adopt:0 "外交傳統"
  tr_diplomacy_adopt_desc:0 "$tradition_diplomacy_desc$\n\n$tr_diplomacy_adopt_effect$\n\n$tr_diplomacy_finish_effect$"
- tr_diplomacy_adopt_effect:3 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_COUNTRY_DIPLOMACY_INFLUENCE_COST$§!減少§G50%§!並且§Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§!增加§G+25%§!。"
+ tr_diplomacy_adopt_effect:3 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_COUNTRY_DIPLOMACY_INFLUENCE_COST$§!減少§G50%§!，§Y$MOD_POP_GROWTH_FROM_IMMIGRATION$§!增加§G+10%§!。"
  
  tr_diplomacy_the_federation:0 "聯邦"
  tr_diplomacy_the_federation_desc:0 "$TECH_UNLOCK_DIPLOMATIC_ACTION_CREATE_FEDERATION_TITLE$"
@@ -394,13 +394,13 @@
  tr_diplomacy_secure_shipping_delayed:1 "對抗海盜的任務通常由艦隊負責，但組建一支專門在貿易路線上執法的星際巡邏隊，應該可以嚴重打擊海盜的囂張氣焰。"
  
  tr_diplomacy_federal_unity:0 "聯邦凝聚力"
- tr_diplomacy_federal_unity_desc:0 "每有一位聯邦成員，我們的£unity£ §Y凝聚力§!產出便增加§G+5%§!，至多§G+30%§!。"
+ tr_diplomacy_federal_unity_desc:0 "每有一位聯邦成員，我們的£unity£§Y凝聚力§!產出便增加§G+5%§!，至多§G+30%§!。"
  tr_diplomacy_federal_unity_delayed:0 "多樣性是種不可思議的資產，從聯邦裡的每個成員那裡獲得的視野和觀點都將增強我們的社會。"
  #tr_diplomacy_alien_tourism:0 "Alien Tourism"
  #tr_diplomacy_alien_tourism_desc:1 "§HUnlocks Building:§! $building_visitor_center$\n§EThis is a building that produces Energy and Unity, while also increasing Xeno Migration Attraction and Habitability.§!"
  #tr_diplomacy_alien_tourism_delayed:0 "It is easy to take our rich culture for granted. We should make it easier for visitors from other civilizations to share in its beauty."
  tr_diplomacy_finish:0 "外交傳統完成"
- tr_diplomacy_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_diplomacy_adopt$將使我們的§Y$MOD_COUNTRY_TRUST_CAP_ADD$§!增加§G+50§!並且§Y$MOD_COUNTRY_TRUST_GROWTH$§!增加§G+33%§!。"
+ tr_diplomacy_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_diplomacy_adopt$將使其它帝國對我們的§Y$MOD_COUNTRY_TRUST_CAP_ADD$§!增加§G+50§!，§Y$MOD_COUNTRY_TRUST_GROWTH$§!加快§G+33%§!。"
  
 ################################################################
 # ADAPTABILITY
@@ -417,7 +417,7 @@
  tr_adaptability_dietary_enrichment_delayed:1 "通過各種富集技術我們可以提高供應給人口的食物的營養價值，因此我們可以用更少的食物餵飽更多的嘴。"
  
  tr_adaptability_survival_fittest:0 "適者生存"
- tr_adaptability_survival_fittest_desc:3 "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§!下降§G25§!同時§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!提升§G+25§!。"
+ tr_adaptability_survival_fittest_desc:3 "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§!減少§G25%§!，§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!增加§G+25%§!。"
  tr_adaptability_survival_fittest_delayed:1 "通過與其他種族之間的聯繫，我們明白了為了生存下去我們必須克服我們的弱點。"
  
  tr_adaptability_environmental_diversification:0 "環境多樣"
@@ -425,15 +425,15 @@
  tr_adaptability_environmental_diversification_delayed:0 "通過適應不同的環境，我們學會了如何更快進化和適應。"
  
  tr_adaptability_adaptive_ecology:0 "生態適應"
- tr_adaptability_adaptive_ecology_desc:4 "我們擁有的所有星球增加§Y1個可用建築槽位§!。"
+ tr_adaptability_adaptive_ecology_desc:4 "我們所有行星增加§Y1個可用建築槽位§!"
  tr_adaptability_adaptive_ecology_delayed:1 "生態學最高級的功能便是我們對後果的理解。"
  
  tr_adaptability_appropriation:0 "人口分配"
- tr_adaptability_appropriation_desc:1 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!下降§G33%§!。"
+ tr_adaptability_appropriation_desc:1 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!減少§G33%§!。"
  tr_adaptability_appropriation_delayed:0 "沒有分配人口去工作的地塊是不會為帝國產生任何收益的。勞力理應被分配到最需要用到他們的地方。"
  
  tr_adaptability_finish:0 "適應傳統完成"
- tr_adaptability_finish_effect:3 "§E$TRADITIONS_FINISH$:§!\n採納所有$tr_adaptability_adopt$將解鎖§Y$decision_prospect$§!決策，將能夠讓我們在我們的星球上勘探額外的資源儲藏點。"
+ tr_adaptability_finish_effect:3 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_adaptability_adopt$將解鎖§Y$decision_prospect$§!，使我們能夠在行星上勘探一次額外的資源礦藏。"
  
 ################################################################
 # VERSATILITY
@@ -445,22 +445,22 @@
  tr_versatility_adopt_desc:0 "$tradition_versatility_desc$\n\n$tr_versatility_adopt_effect$\n\n$tr_versatility_finish_effect$"
  tr_versatility_adopt_effect:3 "§E$TRADITIONS_ADOPT$：§!\n§Y$mod_planet_pop_assemblers_upkeep_mult$§!減少§G10%§!。"
  tr_versatility_adaptive_programming:0 "自適應編譯"
- tr_versatility_adaptive_programming_desc:1 "§Y$mod_MACHINE_species_trait_points_add$§!增加§Y1§!。"
+ tr_versatility_adaptive_programming_desc:1 "§Y$MOD_COUNTRY_TRADE_FEE$§!減少§G10%§!。"
  tr_versatility_adaptive_programming_delayed:1 "我們也許沒有經過億萬年演化，但自適應性的編譯技術讓我們如同其他有機生命體生命形式一樣，能夠適應新的局面和環境。"
  tr_versatility_spatial_optimization:0 "空間優化"
  tr_versatility_spatial_optimization_desc:0 "£pops£§Y$MOD_POP_HOUSING_USAGE_MULT$§!減少§G10%§!。"
  tr_versatility_spatial_optimization_delayed:1 "伸縮天線，可彎曲外殼，可堆疊存儲空間。在有限的空間裡面我們還能做很多。"
  tr_versatility_operational_proxies:0 "業務代理"
- tr_versatility_operational_proxies_desc:3 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!下降§G33%§!。"
- tr_versatility_operational_proxies_delayed:2 "將附屬類別R-7低優先級功能交由半自動因子處理可以解放出運算能力讓我們可以處理更加重要的任務，比如說子成員搬遷之類的。"
+ tr_versatility_operational_proxies_desc:3 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!減少§G33%§!。"
+ tr_versatility_operational_proxies_delayed:2 "將附加類型R-7的低優先級功能委託給半自主的代理，為更重要的任務解放計算能力。"
  tr_versatility_material_analysis:0 "材料分析"
- tr_versatility_material_analysis_desc:2 "§Y調整§!所有£job£  §Y人口工作§!下降§G5%§!。"
+ tr_versatility_material_analysis_desc:2 "所有£job£§Y人口職位§!的§Y維護費§!減少§G5%§!。"
  tr_versatility_material_analysis_delayed:1 "空間現象是只是一種有趣的消遣，宇宙的真正奇蹟只存在於材料科學領域中。"
  tr_versatility_universal_compatibility:0 "通用相容性"
- tr_versatility_universal_compatibility_desc:0 "§H解鎖外交功能：§!成立聯邦\n\n§Y$MOD_COUNTRY_TRUST_CAP_ADD$§!增加§G+50§!，£opinion£ §Y評價§!增加§G+20§!，但只對同為$機械智慧體$的帝國有效。"
+ tr_versatility_universal_compatibility_desc:0 "§H解鎖外交功能：§!成立聯邦\n\n§Y$MOD_COUNTRY_TRUST_CAP_ADD$§!增加§G+50§!，£opinion£§Y評價§!增加§G+20§!，但只對同為$auth_machine_intelligence$的帝國有效。"
  tr_versatility_universal_compatibility_delayed:1 "通過深入分析控制有機生命體和其他機械智慧體行為的各種刺激和心理因素，我們將減少外交摩擦。"
  tr_versatility_finish:0 "通用傳統完成"
- tr_versatility_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_versatility_adopt$會增加我們機械£pops£人口§G+5%§!的資源產出。"
+ tr_versatility_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_versatility_adopt$將在拆除建築或地區時獲得§G50%§!退款。"
  
 ################################################################
 # DISCOVERY
@@ -476,14 +476,14 @@
  
  tr_discovery_adopt:0 "探索傳統"
  tr_discovery_adopt_desc:0 "$tradition_discovery_desc$\n\n$tr_discovery_adopt_effect$\n\n$tr_discovery_finish_effect$"
- tr_discovery_adopt_effect:9 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_SHIP_ANOMALY_RESEARCH_SPEED$§!增加§G+20%§!。"
+ tr_discovery_adopt_effect:9 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_SHIP_ANOMALY_RESEARCH_SPEED$§!加快§G+20%§!。"
  tr_discovery_adopt_machine:0 "$tr_discovery_adopt$"
  tr_discovery_adopt_hive:0 "$tr_discovery_adopt$"
  tr_discovery_adopt_machine_desc:0 "$tradition_discovery_machine_desc$\n\n$tr_discovery_adopt_machine_effect$\n\n$tr_discovery_finish_machine_effect$"
  tr_discovery_adopt_hive_desc:0 "$tradition_discovery_hive_desc$\n\n$tr_discovery_adopt_hive_effect$\n\n$tr_discovery_finish_hive_effect$"
   
  tr_discovery_to_boldly_go:0 "勇往直前"
- tr_discovery_to_boldly_go_desc:6 "§Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§!增加§G+35%§!，並且§Y$mod_shipclass_science_ship_disengage_mult$§!增加§G+50%§!。"
+ tr_discovery_to_boldly_go_desc:6 "§Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§!加快§G+35%§!，§Y$mod_shipclass_science_ship_disengage_mult$§!增加§G+50%§!。"
  tr_discovery_to_boldly_go_delayed:0 "在我們的面前是一個大探險的新時代。我們已經踏遍了母星每一寸土地，是時候勇敢邁向新世界——太空了。有個充滿奇蹟的銀河等待我們去探索。"
  tr_discovery_to_boldly_go_machine:0 "探索無人機"
  tr_discovery_to_boldly_go_machine_desc:0 "$tr_discovery_to_boldly_go_desc$"
@@ -497,7 +497,7 @@
  tr_discovery_databank_uplinks_delayed:0 "$tech_databank_uplinks_desc$"
  
  tr_discovery_science_division:0 "科研部門"
- tr_discovery_science_division_desc:3 "§Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§!增加§Y1§!，並且§Y$MOD_LEADER_SCIENTIST_SKILL_LEVELS$§!增加§Y2§!。"
+ tr_discovery_science_division_desc:3 "§Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§!增加§Y1§!，§Y$MOD_LEADER_SCIENTIST_SKILL_LEVELS$§!增加§Y2§!。"
  tr_discovery_science_division_delayed:0 "整個艦隊中的科學官和醫療官越來越多，他們組成了一個專門的科研部門。為了向這些部隊供給軍官而新建立的培訓程序大大加快了招募新科學官的速度。"
  tr_discovery_science_division_machine:0 "研究路徑優化"
  tr_discovery_science_division_machine_desc:0 "$tr_discovery_science_division_desc$"
@@ -517,14 +517,14 @@
  tr_discovery_polytechnic_education_hive_delayed:0 "事實證明，為了他們過度發育的大腦，將思考蜂的體格降低到只比最低限度的生命維持系統高一點是非常有效的措施。他們現在由其它低階蜂種餵養照料，從而專注於他們的研究領域。"
 
  tr_discovery_faith_in_science:0 "科學信仰"
- tr_discovery_faith_in_science_desc:6 "£pop£職業為§Y研究§!相關的人口的§Y維持花費§!減少§G20%§!。"
+ tr_discovery_faith_in_science_desc:6 "£pop£職位為§Y研究§!相關的人口§Y維護費§!減少§G20%§!。"
  #tr_discovery_faith_in_science_desc:6 "For every §Y20§!  £pop£ Pops, our planets will have §Y1§! £job_researcher£ §Y$job_researcher$ Job§!."
  tr_discovery_faith_in_science_delayed:0 "對公眾來說，科學幾乎成為了一種宗教——他們絕對信仰科學。宇宙中也沒有什麼問題困難到科學不能解釋。"
  tr_discovery_faith_in_science_machine:0 "上行延遲減少"
- tr_discovery_faith_in_science_machine_desc:1 "我們的行星每§Y20§!£pop£人口可以維持§Y1§!£job_calculator£§Y$job_calculator$職業§!。"
+ tr_discovery_faith_in_science_machine_desc:1 "我們的行星每§Y20§!£pop£人口增加§Y1§!個£job_calculator£§Y$job_calculator$職位§!。"
  tr_discovery_faith_in_science_machine_delayed:0 "軌道至地表的數據傳輸延遲減少了3.878%，因此研究數據處理速度加快了5.226%。我們將獲得的剩餘計算能力部署到試圖解釋剩餘計算能力獲取這件事上。"
  tr_discovery_faith_in_science_hive:0 "突觸廣播"
- tr_discovery_faith_in_science_hive_desc:1 "我們的行星每§Y20§!£pop£人口可以維持§Y1§!£job_brain_drone£§Y$job_brain_drone$職業§!。"
+ tr_discovery_faith_in_science_hive_desc:1 "我們的行星每§Y20§!£pop£人口增加§Y1§!個£job_brain_drone£§Y$job_brain_drone$職位§!。"
  tr_discovery_faith_in_science_hive_delayed:0 "通過突觸發射機的戰略應用，我們可以從軌道上將蜂群意志廣播至整顆行星。"
  
  tr_discovery_finish:0 "探索傳統完成"
@@ -556,7 +556,7 @@
  tr_prosperity_adopt_hive_effect:0 "$tr_prosperity_adopt_effect$"
  
  tr_prosperity_sct:0 "標準化建設模組"
- tr_prosperity_sct_desc:5 "§Y建築§!和§Y區劃§!的§Y建築花費§!降低§G10%§!，並且§Y建造速度§!增加§G+25%§!。"
+ tr_prosperity_sct_desc:5 "§Y建築§!和§Y地區§!的§Y建築費用§!降低§G10%§!，§Y建造速度§!加快§G+25%§!。"
  tr_prosperity_sct_delayed:0 "隨著科技發展，技術變得越來越複雜，勞動者需要面對各種新需求。利用標準化建設模組，工人可以不必理解細節就能造出東西來。"
 
  tr_prosperity_sct_machine:1 "合成建築"
@@ -564,17 +564,17 @@
  tr_prosperity_sct_machine_delayed:1 "建造大量通用標準的建築要比單獨對房屋進行設計建造更加有效率。"
 
  tr_prosperity_public_works:0 "公共工程局"
- tr_prosperity_public_works_desc:0 "§Y城市區劃§!可提供§Y1§!額外的£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
+ tr_prosperity_public_works_desc:0 "§Y都市區§!可額外提供§Y1§!£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
  tr_prosperity_public_works_delayed:1 "我們的城市增長將會因為前所未見規模的公共建設而增強。所以我們必須建立一個政府部門來對他們進行監管。"
- tr_prosperity_optimized_nexus:0 "強化中心"
- tr_prosperity_optimized_nexus_desc:0 "§Y樞紐區劃§!可提供§Y1§!額外的£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
- tr_prosperity_optimized_nexus_delayed:1 "不用操心個體的舒適與否，§Y聯結區域§!裡的各位可以用小身軀在垂直空間中迸發出大用處。"
- tr_prosperity_extended_hives:0 "擴充蜂巢"
- tr_prosperity_extended_hives_desc:0 "§Y蜂巢區劃§!可提供§Y1§!額外的£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
- tr_prosperity_extended_hives_delayed:1 "通過擴張地下§Y蜂巢區§!，可以安置更多的子成員。"
+ tr_prosperity_optimized_nexus:0 "優化中樞"
+ tr_prosperity_optimized_nexus_desc:0 "§Y中樞區§!可額外提供§Y1§!£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
+ tr_prosperity_optimized_nexus_delayed:1 "不用操心個體舒適與否，§Y中樞區§!裡的房間更小，也更充分利用了垂直空間。"
+ tr_prosperity_extended_hives:0 "擴張蜂巢"
+ tr_prosperity_extended_hives_desc:0 "§Y蜂巢區§!可額外提供§Y1§!£housing£§Y$MOD_PLANET_HOUSING_ADD$§!。"
+ tr_prosperity_extended_hives_delayed:1 "通過在地下擴張§Y蜂巢區§!，可以容納更多的工蜂。"
  
  tr_prosperity_administrative_operations:0 "行政管理處"
- tr_prosperity_administrative_operations_desc:2 "§Y$MOD_COUNTRY_STARBASE_UPKEEP_MULT$§!§Y$MOD_PLANET_BUILDING_UPKEEP_MULT$§!減少§G-10%§!。"
+ tr_prosperity_administrative_operations_desc:2 "§Y$mod_planet_buildings_upkeep_mult$§!和§Y$mod_planet_districts_upkeep_mult$§!減少§G10%§!。"
  tr_prosperity_administrative_operations_delayed:0 "隨著帝國成長，清除腐敗和低效成了重中之重。這些吸血蟲必須被拔除！"
  tr_prosperity_administrative_operations_machine:0 "超導能量傳輸"
  tr_prosperity_administrative_operations_machine_desc:0 "$tr_prosperity_administrative_operations_desc$"
@@ -584,17 +584,17 @@
  tr_prosperity_administrative_operations_hive_delayed:0 "從海洋般巨大的精煉池中捕獲有機質，並從中提取出的樹脂建材，比大多數無機材料都更可塑且更耐用。它甚至可以耐受寒冷的虛空。"
  
  tr_prosperity_interstellar_franchising:0 "星際特許經營"
- tr_prosperity_interstellar_franchising_desc:0 "§Y城市區劃§!可提供§Y1§!額外的£job_clerk£§Y$job_clerk$職業§!。"
+ tr_prosperity_interstellar_franchising_desc:0 "§Y都市區§!可額外提供§Y1§!£job_clerk£§Y$job_clerk$職位§!。"
  tr_prosperity_interstellar_franchising_delayed:1 "開放經營權能夠讓最普通的星球也可以擁有最繁華的生意，不但提供當地工作也可以增加貿易值！"
  tr_prosperity_efficiency_algorithms:0 "高效演算法"
- tr_prosperity_efficiency_algorithms_desc:0 "§Y£pops£人口維護花費§!減少§G-10%§!。"
+ tr_prosperity_efficiency_algorithms_desc:0 "£energy£§Y$mod_country_energy_produces_mult$§!增加§G5%§!。"
  tr_prosperity_efficiency_algorithms_delayed:0 "無效率的機器罪大惡極。"
  tr_prosperity_efficiency_instincts:0 "效率本能"
  tr_prosperity_efficiency_instincts_desc:0 "$tr_prosperity_efficiency_algorithms_desc$"
  tr_prosperity_efficiency_instincts_delayed:1 "我們的成員們被灌輸了很強的節約意識，他們會在日常的方方面面節約生活。這應該會為我們帶來可觀的能源節省。"
  
  tr_prosperity_trans_stellar_corporations:0 "越星公司"
- tr_prosperity_trans_stellar_corporations_desc:2 "§Y£energy£能量產出§!提升§G5%§!。同時，§Y貿易中心§!生產§Y1§!額外£energy£能量。"
+ tr_prosperity_trans_stellar_corporations_desc:2 "§Y£energy£能量產出§!增加§G5%§!。同時，§Y貿易中心§!額外生產§Y1§!£energy£能源點數。"
  tr_prosperity_trans_stellar_corporations_delayed:1 "一些有實力的企業樂意承擔我們的大部分工業成本。"
 
  tr_prosperity_creative_collectives:0 "創意共同體"
@@ -610,13 +610,13 @@
  tr_prosperity_hive_neural_signal_boosters_delayed:1 "為城市供電的電網也可以用於增強子成員間的神經信號交流，進一步改善和增強整個蜂巢。"
  
  tr_prosperity_finish:0 "繁榮傳統完成"
- tr_prosperity_finish_effect:6 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_prosperity_adopt$可為所有行星帶來每§Y50§!£pop£人口額外§Y1§!£job_merchant£§Y$job_merchant$職業§!的加成。"
+ tr_prosperity_finish_effect:6 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_prosperity_adopt$將使我們的行星每§Y50§!£pop£人口增加§Y1§!個£job_merchant£§Y$job_merchant$職位§!。"
 
  tr_prosperity_finish_machine:0 "$tr_prosperity_finish$"
- tr_prosperity_finish_machine_effect:2 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_prosperity_adopt_machine$可使我們的星球每§Y20§!£pop£人口獲得§Y1§!£job_coordinator£§Y$job_coordinator$職業§!。"
+ tr_prosperity_finish_machine_effect:2 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_prosperity_adopt_machine$將使我們的行星每§Y20§!£pop£人口增加§Y1§!個£job_coordinator£§Y$job_coordinator$職位§!。"
 
  tr_prosperity_finish_hive:0 "$tr_prosperity_finish$"
- tr_prosperity_finish_hive_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_prosperity_adopt_hive$可使我們的£pops£人口使用的§Y$CONSUMER_GOODS$§!礦物消耗減少§G-20%§!。"
+ tr_prosperity_finish_hive_effect:0 "§E$TRADITIONS_FINISH$：§!\n採納全部$tr_prosperity_adopt_hive$將使我們的行星每§Y20§!£pop£人口增加§Y1§!個£job_synapse_drone£§Y$job_synapse_drone$職位§!。"
  
  #tr_prosperity_hive_mind_adopt_desc:0 "$tr_prosperity_adopt_desc$"
  #tr_prosperity_hive_mind_finish:0 "$tr_prosperity_finish$"
@@ -642,9 +642,9 @@
 
  requires_ap_mind_over_matter:1 "$TRIGGER_FAIL$需要飛昇特典§Y$ap_mind_over_matter$§!。"
  requires_not_ap_mind_over_matter:1 "$TRIGGER_FAIL$不能擁有飛昇特典§Y$ap_mind_over_matter$§!。"
- allow_decision_mastery_of_nature:0 "§H解鎖決策：§!自然支配"
- describe_decision_mastery_of_nature:0 "§E此決策將使星球所支持的區劃數量上限永久性增加§Y2§!。此決策在每顆星球上只可實施一次。§!"
- decision_mastery_of_nature:0 "自然支配"
+ allow_decision_mastery_of_nature:0 "§H解鎖決策：§!自然掌控"
+ describe_decision_mastery_of_nature:0 "§E此決策將使星球所支持的地區數量上限永久性增加§Y2§!。此決策在每顆星球上只可實施一次。§!"
+ decision_mastery_of_nature:0 "自然掌控"
  decision_mastery_of_nature_desc:0 "人口是需要空間方可增長的，所以我們必須騰出足夠的空間，不能讓大自然阻礙我們的步伐。"
  mastery_of_nature:0 "$decision_mastery_of_nature$"
  mastery_of_nature_desc:0 "$decision_mastery_of_nature_desc$"

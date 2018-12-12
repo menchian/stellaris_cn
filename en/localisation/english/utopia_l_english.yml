@@ -17,7 +17,7 @@
  MEGASTRUCTURE_ALREADY_UPGRADING:0 "§R升級進行中！§!"
  MEGASTRUCTURE_TOOLTIP_PRODUCTION_HEADER:0 "每月產出："
  MEGASTRUCTURE_TOOLTIP_MAINTENANCE_HEADER:1 "每月維持費："
- MEGASTRUCTURE_UPGRADE_REMAINING:0 "還剩 £time£ $DAYS|Y0$ 天"
+ MEGASTRUCTURE_UPGRADE_REMAINING:0 "還剩£time£ $DAYS|Y0$ 日"
  MEGASTRUCTURE_UPGRADES_TO:0 "升級至："
 
  ring_world_1_MEGASTRUCTURE_DETAILS:1 "§Y$pc_ringworld_habitable$§!擁有數塊如同行星一樣的區域，同時需要破碎同一星系內其他所有行星天體作為原材料。"
@@ -32,7 +32,7 @@
  ring_world_3_intermediate_DESC:0 "一個完整的可居住的環形世界區塊，其上覆蓋著已經啟動的大氣層，居民已經可以移民至其中了。"
  
  habitat_0_MEGASTRUCTURE_DETAILS:1 "§Y$pc_habitat$§!是一個理論上可以自我維持永久居住的基地。"
- habitat_0_CONSTRUCTION_INFO_DELAYED:3 "居住站只可以建造居住站特有的£building §Y建築§!並且限制使用§Y12§!個地塊。"
+ habitat_0_CONSTRUCTION_INFO_DELAYED:3 "太空移民站只能建設太空移民站專屬£building£ §Y建築§!。"
  habitat_0:0 "太空移民站"
  habitat_0_DESC:0 "環繞著無法棲息的星球的軌道基地，它能在遠離星球表面的地方支持一定數量的§H人口§!和§H建築§! 。"
 
@@ -53,13 +53,13 @@
  allow_spy_orb:0 "§H解鎖巨型結構：§!監探陣列"
  allow_think_tank:0 "§H解鎖巨型結構：§!研究中樞"
  allow_habitats:0 "§H解鎖基地：§!太空移民站"
- ap_master_builders_habitat_size:1 "帝國所擁有的§H居住地§!額外擁有§Y2§!個閒置區劃。"
- allow_edict_consectrated_worlds:5 "§H解鎖決策：§!封為聖地"
- describe_edict_consectrated_worlds:5 "§E將無人居住的星球封為聖地（最多§Y3§!個）可增加§Y唯心主義種族心理吸引力§!、§Y帝國舒適度§!以及£unity£ §Y凝聚力產出§!，具體效果視乎於該行星的宗教影響力。§!"
+ ap_master_builders_habitat_size:1 "我帝國的§H太空移民站§!將額外擁有§Y2§!個閒置地區。"
+ allow_edict_consectrated_worlds:5 "§H解鎖決策：§!$decision_consecrated_worlds$"
+ describe_edict_consectrated_worlds:5 "§E祝聖無人居住的行星（最多§Y3§!顆），增強§Y精神主義道德吸引力§!和§Y全帝國內的舒適度§!，並提升£unity£ §Y凝聚力產出§!，具體效果取決於祝聖星球在宗教中的重要程度。§!"
  allow_machine_worlds:2 "§H解鎖環境改造方案:§!機械世界"
- describe_machine_worlds:6 "§Y機械星球§!是一種特殊的星球類型，大多數有機生命體都無法居住，但£district£ §Y發電§!和§Y採礦§!區劃的數量不受星球特徵的限制。居住在§Y機械星球§!上的£pop£ §Y人口§!的 §Y資源產出§! 增加§G+10%§!並且 §Y住房使用§! 減少§G10%§!。星球上任何現存的£district£ §Y農業區劃§!都將被摧毀。"
- allow_hive_worlds:0 "§H解鎖環境改造選項：§!蜂巢星球"
- describe_hive_worlds:0 "§Y蜂巢星球§!是一種特別的星球劃分，對非蜂巢思維人口來說不適居，但是不會受限於星球特性帶來的£district£  §Y發電機§!，§Y採礦§!以及§Y農業區劃§!限制。£pop£  §Y人口§!居住在§Y蜂巢星球§!能夠將他們的§Y資源產出§!提升§G+10%§!。"
+ describe_machine_worlds:6 "§Y機械世界§!是一種不適合大多數有機生命體居住的特殊行星類別，但不受行星地貌帶來的£district£ §Y電力§!和§Y礦業區§!數量限制。居住在§Y機械世界§!上的£pop£ §Y人口§!§Y資源產出§!增加§G+10%§!，§Y住房使用§!減少§G10%§!。行星上所有現存的£district£ §Y農業區§!都將被摧毀。"
+ allow_hive_worlds:0 "§H解鎖環境改造選項：§!蜂巢世界"
+ describe_hive_worlds:0 "§Y蜂巢世界§!是一種不適合非蜂群思維人口居住的特殊行星類別，但不受行星地貌帶來的£district£  §Y電力§!、§Y礦業§!和§Y農業區§!數量限制。居住在§Y蜂巢世界§!上的£pop£ §Y人口§!§Y資源產出§!增加§G+10%§!。"
  
  ALLOW_PSI_CORPS:0 "可以建造建築§H$building_psi_corps$§!。"
  ALLOW_PSI_ARMIES:0 "可以徵募§H$psionic_army_plural$§!。"
@@ -137,8 +137,8 @@
  fleet_maneuvers_recruitment_desc:0 "§L最近的艦隊演習吸引了許多人的興趣，招募新兵變得容易，這意味著我們可以花更少的資源來獲得船員。§!"
  fleet_maneuvers:0 "艦隊演習"
  fleet_maneuvers_desc:0 "§L經大規模艦隊演習，船員素質提高，我們可以以更快的速度射擊了。§!"
- maneuvers_canceled:0 "已取消艦隊機動指令"
- maneuvers_canceled_desc:0 "§L我們的軍隊領導層的大部分成員都就最近被撤銷的艦隊機動指令而表達不滿。他們認為此行為是在向鄰國示弱，很可能會引致對方得寸進尺。§!"
+ maneuvers_canceled:0 "取消艦隊演習"
+ maneuvers_canceled_desc:0 "§L我軍領導層大量成員就最近艦隊演習的取消表達了不滿。他們覺得這是一種軟弱的表現。我們的鄰居一定會趁虛而入。§!"
  maneuvers_no_protest:0 "未能阻止艦隊演習"
  maneuvers_no_protest_desc:0 "§L因為我們沒有與鄰國建立良好的關係，大量外星艦隊在我們邊境附近演習，這激怒了我們的許多軍人。§!"
  
@@ -146,7 +146,7 @@
  
  opinion_maneuvers_hardline:0 "艦隊演習"
  opinion_maneuvers_conciliatory:0 "$opinion_maneuvers_hardline$"
- opinion_maneuvers_canceled:0 "已取消艦隊機動指令"
+ opinion_maneuvers_canceled:0 "取消艦隊演習"
  
  FLESH_IS_WEAK_PROJECT:0 "$ap_the_flesh_is_weak$"
  FLESH_IS_WEAK_PROJECT_DESC:0 "當更有效的身體替代品出現時，非要留戀那些破舊衰老的儀器的人都是傻瓜。\n\n我們現在擁有大範圍為[Root.GetName]的人口加裝機械內植體的技術。我們的公民將會更強大、更迅速、更智能，因為四肢和器官都被先進的機械版本取代。"
@@ -299,4 +299,4 @@
  utopia.61.desc.a:0 "我們完成了第一個太空移民站結構物，現在是時候準備一艘殖民船登陸上我們自己建立的這個世界上去了。\n\n從機械核心到表面的最高峰、每一顆螺釘、每一條溪流、每一處裂隙，都是為了我們在群星之中安放一個完美的家園而設計的。"
  utopia.61.desc.b:0 "[From.From.From.Planet.GetName] 太空移民站現已完工、準備殖民。"
 
- allow_dyson_sphere:0 "§H解鎖巨構建築：§!戴森球"
+ allow_dyson_sphere:0 "§H解鎖巨型結構：§!戴森球"
