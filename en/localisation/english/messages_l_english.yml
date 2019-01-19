@@ -258,7 +258,7 @@
  ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§!與§H[Root.GetName]§!達成了互不侵犯條約。\n\n不知這和平能夠持續多久。"
  ACTION_BREAK_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§!撕毀了與§H[Root.GetName]§!的互不侵犯條約。\n\n或許和平對他們來說太無趣了……"
  ACTION_FORM_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§!與§H[Root.GetName]§!達成了商業條約。\n\n現在雙方尋求共同繁榮。"
- ACTION_BREAK_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§!撕毀了與§H[Root.GetName]§!的商業協議。\n\n看來雙方在經濟利益方面產生了分歧……"
+ ACTION_BREAK_COMMERCIAL_PACT_NOTIFICATION:0 "§H[From.GetName]§!撕毀了與§H[Root.GetName]§!的商業條約。\n\n看來雙方在經濟利益方面產生了分歧……"
  ACTION_FORM_RESEARCH_AGREEMENT_NOTIFICATION:0 "§H[From.GetName]§!與§H[Root.GetName]§!達成了研究協議。\n\n現在雙方將互相學習。"
  ACTION_BREAK_RESEARCH_AGREEMENT_NOTIFICATION:0 "§H[From.GetName]§!撕毀了與§H[Root.GetName]§!的研究協議。\n\n看來他們不想再相互分享秘密……"
  ACTION_FORM_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§!與§H[Root.GetName]§!達成了移民條約。\n\n兩國的人民可以自由通行了。"

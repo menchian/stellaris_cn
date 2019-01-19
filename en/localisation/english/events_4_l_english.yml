@@ -169,7 +169,7 @@
  colony.3002.desc:1 "[event_target:roguemoon.Planet.GetName]的神秘面紗終於被揭開了！詳細勘探後發現該月球的傾角稍微偏移正軌，因此月球的遠端擁有異常大的占重比。我們懷疑此現象的觸發誘因是因為[event_target:roguemoon.Planet.GetName]曾經環繞著某個現已因劇烈爆炸而消失的行星公轉的緣故。[event_target:roguemoon.Planet.GetName]的遠端特別厚是因為那一段曾經是面向該行星的，而在行星爆炸時部分碎片衝擊向[event_target:roguemoon.Planet.GetName]併合為一體，並且該衝擊力最終將月球撞進[Root.GetName]的重力範圍中。由於月球遠端的地表上擁有較高濃度的暗物質，我們相信該爆炸的行星是被某種基於暗物質的武器或能源所毀滅。"
  colony.3003.name:0 "次元旅者"
  colony.3003.desc:0 "謎團真是接踵而至。現在我們已經知道[event_target:roguemoon.Planet.GetName]是從另一個次元被吸入，或是被送至了[Root.GetName]的軌道上。但我們仍不知道具體原因，因為除了背景輻射稍有差異之外，[event_target:roguemoon.Planet.GetName]似乎平淡無奇。至於在[event_target:roguemoon.Planet.GetName]中心發現的機器，它似乎可以進行次元轉移，其原理就更令人費解了。目前對我們來說，這無異於是魔法。"
- colony.3005.name:0 "門口"
+ colony.3005.name:0 "門道"
  colony.3005.desc:0 "我們在[Root.GetName]上的偏遠地區發現了一個只能被稱為是異次元傳送門的東西。天氣預報演算法發現了奇怪的氣流動向，最終發現是因為大氣在向傳送門裡洩漏造成的。大氣流失的速度十分緩慢，對[Root.GetName]上的生活不會造成什麼影響。但這個傳送門的存在引起了一些令人擔憂的問題，比如它通向哪裡，以及會不會有什麼東西從傳送門另一側穿過來？"
  portal_zone_tooltip:0 "我們可以對異次元傳送門進行研究。"
  colony.3006.name:0 "痛苦次元"

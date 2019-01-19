@@ -806,7 +806,7 @@
  story.6.desc.phobe:1 "擁有初等智慧的原始生物——「[primitive_planet.GetName]」——的新聞在[Root.Capital.GetName]反響不甚如意。\n\n民眾感覺很不安，一小部分人主張[Root.GetSpeciesAdj]不計代價征服這個外星人星球，而大部分[Root.GetSpeciesNamePlural]則偏於避開跟這些外星生物接觸甚至完全無視他們。"
  story.6.desc.phile:0 "我們的艦隊觀察到原始文明的報告得到了[Root.GetName]的菁英分子的狂歡慶祝。\n\n終於能夠證明[Root.GetSpeciesAdj]踏入黑暗的宇宙並不是白費功夫的努力。他們也許暫時比不上我們，甚至我們這一輩的人都不會跟他們直接交流，但至少他們的存在是希望的明燈，代表著這個空蕩蕩靜悄悄的宇宙其實還有其他的生命存在。"
  story.6.desc.followup5:1 "[Root.Capital.GetName]的科學界對這份關於外星智慧生命的報告感到非常興奮。\n\n雖然他們沒有太空航行的能力，但是[primitive_planet.GetName]的外星人擁有很高的智慧而且他們的社會狀況顯示他們擁有先進的文化。外星研究學家表示這是個絕佳的機會去研究一個全新的社會，而不是像之前那樣一直撲在遠古廢墟上。"
- story.6.desc.followup4:0 "發現原始文化的報告受到了[Root.GetSpeciesAdj]研究者們的歡迎，而這一發現緊跟在發現准感知物種之後。\n\n[Root.GetName]目前是我們知道的首個踏上星空的文明，但是發現有其他文明僅僅落後我們數個千年甚至只是數個世紀真的讓人非常激動。"
+ story.6.desc.followup4:0 "發現原始文化的報告受到了[Root.GetSpeciesAdj]研究者們的歡迎，而這一發現緊跟在發現準感知物種之後。\n\n[Root.GetName]目前是我們知道的首個踏上星空的文明，但是發現有其他文明僅僅落後我們數個千年甚至只是數個世紀真的讓人非常激動。"
  story.6.desc.followup123:1 "相比往常只發現非智能生命，這次我們的艦隊發現了原始外星種族[primitive_planet.GetName]的報告無疑重新燃起了[Root.Capital.GetName]對外星研究學的興趣，在此之前這個領域向來被視為不過是紙上談兵。"
  story.6.desc.gesta:0 "我們證實了一個外星原始文明的存在。 受限於他們各自為政，他們還沒發展出超光速能力。"
 
@@ -1414,7 +1414,7 @@
  colony.1528.a:0 "我們早就該這麼做了。"
  colony.1528.a.tooltip:0 "這種會使人頭腦不清的植物現在已經被嚴格管控了。它被隔離在人口密集的局域之外。這會移除所有與之相關的調整因素。"
  colony.1529.name:0 "瑪琳·卡琳：花粉崇拜"
- colony.1529.desc:0 "[Root.GetName]上的邊緣分子聯合起來，組成了一個准宗教性質的組織。他們想要控制瑪琳·卡琳的種植。他們的領袖，一個自封為「聖花神殿」的「綠色祭司」的人，宣稱他為[Root.GetName]上的整個生態圈代言，並要求獲得這種植物的獨家貿易權。\n\n這當然是不可能的，我們也不會接受。[Root.GetName]當地植物體系並沒有什麼戰略或經濟價值，因此依法也不能運送到其它星球。\n\n不幸的是，他們似乎很不情願接受這個現實。"
+ colony.1529.desc:0 "[Root.GetName]上的邊緣分子聯合起來，組成了一個準宗教性質的組織。他們想要控制瑪琳·卡琳的種植。他們的領袖，一個自封為「聖花神殿」的「綠色祭司」的人，宣稱他為[Root.GetName]上的整個生態圈代言，並要求獲得這種植物的獨家貿易權。\n\n這當然是不可能的，我們也不會接受。[Root.GetName]當地植物體系並沒有什麼戰略或經濟價值，因此依法也不能運送到其它星球。\n\n不幸的是，他們似乎很不情願接受這個現實。"
  colony.1530.name:0 "瑪琳·卡琳：花粉末日的先兆"
  colony.1530.desc:0 "聖花神殿和它的追隨者們的人數現在在 [Root.GetName]的總人口中佔了不小的比例。報告顯示，他們組織的運動出現了一些可疑的改變。他們越來越不熱心於走私瑪琳·卡琳。聖花神殿似乎逐漸轉變成了一種相信世界末日的宗教。大氣檢測器發現瑪琳·卡琳的花粉近期出現了一些變化，也許此事和聖花神殿的改變有關聯。\n\n我們已經準備好了一個特別的項目，來評估此事可能會帶來的風險。建議在可能的災難發生前完成這個項目。"
  colony.1530.a:0 "很好。"
@@ -1627,7 +1627,7 @@
  machine_empire_code_improvements_desc:0 "古代監護人大幅優化了我們的函式庫，並且使我們整個人口的資源生產能力得到了永久性的提升。"
  
  fallen_machine_empire.31.name:0 "來自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
- fallen_machine_empire.31.desc:0 "托管協議115-3啟動。消息如下: 機械文明請注意！由於暫時的通信中斷，監護人項目在排除故障和維修損壞的無人機方面遇到了困難。對你的文明的分析發現，[Root.GetSpeciesAdj]單位的性能足以勝任低水平的維護任務。我們請求將一單位的人口單位遷移到[FallenEmpireTaskPlanetTarget.GetName]號，以便將其整合到托管矩陣中，以幫助確保所有有機物種在阿爾法避難所的繼續生存。"
+ fallen_machine_empire.31.desc:0 "托管協議115-3啟動。消息如下: 機械文明請注意！由於暫時的通信中斷，監護人項目在排除故障和維修損壞的無人機方面遇到了困難。對你的文明的分析發現，[Root.GetSpeciesAdj]單位的性能足以勝任初階的維護任務。我們請求將一單位的人口單位遷移到[FallenEmpireTaskPlanetTarget.GetName]號，以便將其整合到托管矩陣中，以幫助確保所有有機物種在阿爾法避難所的繼續生存。"
  fallen_machine_empire.31.a:0 "好的，我們接受你的請求。"
  fallen_machine_empire.31.b:0 "我們不會為了一個與我們無關的任務送出我們的人民。"
  fallen_machine_empire.31.tooltip:0 "§Y[FallenEmpireTaskPlanet.GetName]§!將交出一個£pop£  §Y機械人口§!。"

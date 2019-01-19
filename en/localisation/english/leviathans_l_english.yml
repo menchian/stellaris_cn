@@ -204,11 +204,11 @@
  
  leviathans.150.desc:1 "最親愛的客戶，我們很遺憾地通知您，我們向 [Root.GetName] 的行星出口奇異瓦斯的協議已經到期了。當然，我們非常願意續簽十年，只要您付得起能源點數……"
  leviathans.150.a:0 "很好。我們希望延長訂單。"
- leviathans.150.b:0 "我們現在已經不再需要你的凝膠了。"
+ leviathans.150.b:1 "我們現在已經不再需要你的瓦斯了。"
  leviathans.150.c:0 "我們付不起延長訂單的價錢。"
  leviathans.151.desc:1 "我們的協議已經到期了，[Root.GetSpeciesName]。我們向您的行星出口高爆粉塵已滿十年。您希望我們繼續合作十年，還是終止這一協議？"
  leviathans.151.a:1 "我們繼續合作吧。粉塵不能斷供。"
- leviathans.151.b:0 "現在我們不再需要你們的香料了。"
+ leviathans.151.b:0 "現在我們不再需要你們的高爆粉塵了。"
  leviathans.152.desc:1 "真是時光飛逝啊，不是嗎，[Root.GetSpeciesName]？自我們簽訂稀有水晶出口協議以來已經過了十年。您是否希望再續簽十年呢？"
  leviathans.152.a:0 "好的。讓我們的交易繼續。"
  leviathans.152.b:0 "從現在開始，我們不再需要你們的水晶。"
@@ -229,7 +229,7 @@
  
  ### GUARDIAN 300-399 ARTIST
  leviathans.300.name:0 "藝術家團體"
- leviathans.300.desc:0 "你好，[my_country.GetRulerName]。我，[artist_enclave.GetRulerName]，藝術家團體的校長，歡迎您的到來。\n有什麼可以為您效勞？要不來件藝術品供您把玩？你是否願意贊助我們的飛地去創造那超凡脫俗的美？"
+ leviathans.300.desc:0 "你好，[my_country.GetRulerName]。我，[artist_enclave_country.GetRulerName]，藝術家團體的校長，歡迎您的到來。\n有什麼可以為您效勞？要不來件藝術品供您把玩？你是否願意贊助我們的飛地去創造那超凡脫俗的美？"
  leviathans.300.desc.continued:0 "很好。然後還有什麼我們可以為您效勞的呢？"
  leviathans.300.a:0 "我們想贊助一件藝術品。"
  leviathans.300.a.reply:0 "很遺憾我們不能給予更多了，以免我們覺得你不再欣賞之前買過的東西了。你知道的，我們的自尊會讓我們那樣想。"
@@ -246,9 +246,10 @@
  leviathans.300.f:0 "我們想要投資建造文化部。"
  leviathans.316.name:0 "文化部"
  leviathans.316.desc:1 "哇喔，§Y文化部§!……它的作用是通過藝術來消除帝國內的意見分歧，達成更偉大的凝聚。我不是在吹牛，這是一件真正的傑作。\n\n我們只需要不過§R£energy£ -2000§!而已。"
- leviathans.302.desc:1 "太好了！我們很高興交託給您一件作品。它一定會給您帝國的人民帶來歡樂。\n\n這是我們的報價：\n§R£energy£-1000§!"
- leviathans.302.a.tooltip:2 "獲得一棟§S£building£$building_artist$§!，它將帶來下列行星效應：\n£unity£凝聚力產出§G+8§!\n移民吸引力：§G+50%§!"
- leviathans.302.a.reply:0 "太棒了！作品將立刻送往您的倉庫。您只需要安排你的工程師安裝在你的任意行星上。\n我們由衷的感謝您的贊助。"
+ leviathans.302.desc:1 "太好了！我們很高興交託給您一件作品。它一定會給您帝國的人民帶來歡樂。\n\n這是我們的報價：\n§R£energy£-600§!"
+ leviathans.302.a.tooltip:2 "獲得一項§S£decision£ $decision_art_monument$§!，在一顆星球上頒布該 §Y決議§! 能帶來下列效應：\n£amenities£ $MOD_PLANET_AMENITIES_MULT$ §G+15%§!\n$MOD_PLANET_IMMIGRATION_PULL_MULT$: §G+50%§!"
+ leviathans.302.a.reply:0 "太棒了！作品將立刻送往您的倉庫。您只需要讓你的行星管理者選任一顆你喜歡的星球頒布該§YDecision§!。\n我們由衷的感謝您的贊助。"
+ leviathans.316.a.reply "太棒了！作品將立刻送往您的倉庫。您只需要安排你的工程師安裝在你的任意行星上。\n我們由衷的感謝您的贊助。"
  leviathans.303.desc:1 "組織一次如此大型的慶典需要我們所有藝術家一起貢獻才華。這可不是件簡單的工作，也絕不便宜。\n\n這裡是我們的報價：\n§R£energy£-1000§!"
  leviathans.303.a.reply:0 "好極了！我們將組織一次精彩絕倫的世界慶典！"
  leviathans.304.desc:2 "這太好了，這樣我們就可以有機會多嘗試一些新點子，在創作過程中多冒一些險。我們有一個§Y十年§! 計劃，需要一筆一次性先期投入。"
@@ -466,7 +467,7 @@
  leviathans.650.desc.gesta:0 "$leviathans.649.desc.gesta$"
 
  leviathans.660.name:0 "巨龍秘藏，龍之墳墓"
- leviathans.660.desc:0 "深埋在[Root.GetName]地下的是曾經生活在[Root.GetStarName]星系的以太龍獸的遺骸，它們已經部分變成了化石。\n\n龍獸的同族逝去的漫長歲月裡，它身上的軟組織硬化，骨骼形成了堅石般類似礦物一樣的結構。"
+ leviathans.660.desc:0 "在 [From.GetName] 地殼裡深埋著一些不完整的化石，似乎是曾經生活在 [From.GetStarName] 星系的以太龍獸的近親。\n\n這位龍獸的同族在逝去後的漫長歲月裡，其軟組織硬化，骨骼硬結，形成了類似礦物的結構。"
  leviathans.660.a:1 "研究遺骸。"
  leviathans.660.b:0 "把它們碾碎。"
 
@@ -490,8 +491,6 @@
  leviathans.670.desc.gesta:0 "可怕的以太巨龍被殺掉了。\n\n巨獸緊緊守護的 §H行星§! 現在能被安全地開發了。 誰能知道這生物在漫長的歲月中到底收集了多少財寶？"
  leviathans.670.a:0 "值得表揚。"
  leviathans.670.b:0 "這是必要的，但令人遺憾。"
- leviathans.670.spiritphile.tooltip:0 "可以建造帝國唯一§S£building£建築§!$building_guardian_dragon_shrine$。"
- leviathans.670.tooltip:0 "可以建造帝國唯一§S£building£建築§!$building_guardian_dragon_monument$。"
  
  # STELLARITE
  leviathans.999.name:0 "縮小的恆星"
@@ -504,7 +503,6 @@
  leviathans.1016.desc.gesta:0 "噬星者已經被消滅，殘留物正在慢慢收縮和消失，只留下消化系統和內部的恆星物質。\n\n或許可以從它的消化系統瞭解到一些深奧的知識？"
  leviathans.1016.a:0 "研究殘骸。"
  leviathans.1016.b:0 "把他做成紀念品讓所有人都看到。"
- leviathans.1016.b.tooltip:0 "可以建造帝國唯一§S£building£建築§!$building_stellarite_trophy$。\n\n"
  leviathans.1017.desc:0 "對噬星者依舊閃爍殘留物的研究讓我們的科學家感到迷惑和震驚。這個吞噬恆星的存在自身就是一個微型核融合反應爐，將恆星物質轉化成自身的能源。\n\n由於其遺骸內仍有 [guardians_stellarite_home_system.GetName] 星系恆星的巨量物質，我們還有可能從中提取能量以復活恆星。如果將殘骸中的能量據為己有，則可以短期內滿足我們的能量需求，但這個星系將會陷入永恆的寒冰世紀。"
  leviathans.1017.desc.gesta:0 "對噬星者依舊閃爍殘留物的研究讓我們的科學家感到迷惑和震驚。 這個吞噬恆星的存在自身就是一個微型核融合反應爐，將恆星物質轉化成自身的能源。\n\n由於其遺骸內仍有 [guardians_stellarite_home_system.GetName] 星系恆星的巨量物質，我們還有可能從中提取能量以復活恆星。如果將殘骸中的能量據為己有，則可以短期內滿足我們的能量需求，但這個星系將會陷入永恆的寒冰世紀。"
  leviathans.1017.a:0 "嘗試重新點燃恆星。"
@@ -901,3 +899,5 @@
  monthly_opinion1:0 "每月評價：£opinion£§G+1§!"
  monthly_opinion2:0 "每月評價：£opinion£§G+2§!"
  monthly_opinion3:0 "每月評價：£opinion£§G+3§!"
+ leviathans.670.spiritphile.tooltip:0 "可以建造帝國唯一§S£building£建築§!$building_guardian_dragon_shrine$。"
+ leviathans.670.tooltip:0 "可以建造帝國唯一§S£building£建築§!$building_guardian_dragon_monument$。"

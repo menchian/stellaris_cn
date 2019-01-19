@@ -946,7 +946,7 @@
  colony.56.a:0 "我們必須解決這個問題，一勞永逸。"
  colony.57.name:0 "[From.From.GetName]大敗！"
  colony.57.desc:0 "[From.From.GetName]的部隊消亡殆盡，穴居外星人已完全接管了我們的殖民地！它們用我們的衛星發來消息。"
- colony.58.desc:0 "地表人！我們偉大的軍隊已將你們擊敗，你們城市中的一切都歸我們所有。我們從你們的裝置中學到了很多東西，我們的武器變得更加強力。\n\n不准再踏足這個世界！"
+ colony.58.desc:0 "地表人！我們偉大的軍隊已將你們擊敗，你們城市中的一切都歸我們所有。我們從你們的裝置中學到了很多東西，我們的武器變得更加強力。\n\n不準再踏足這個世界！"
  colony.58.a:0 "扯淡。"
  colony.59.name:0 "地表外星人"
  colony.59.desc:0 "[From.From.GetName]的穴居外星人已突破地表！它們似乎只想進行小規模的探索與交易活動。它們也許願意和殖民者和諧共存，進行大宗交易也不是不可能。它們的代表與我們取得了聯繫。"
@@ -1661,7 +1661,7 @@
  observation.2053.desc:0 "我們啟蒙[From.GetName]原住民的任務開展得並沒有計劃中那麼順利。因為某些原因，[From.Owner.GetSpeciesName]科學家，姑且先稱他們為科學家……我們在傳授新的武器技術時，他們總是十分驚恐。\n\n我們的科學顧問在演示氫彈如何在城市爆炸之後，總要花好幾周來安撫他們的情緒。這大大拖延了我們的進度。"
  observation.2055.desc:0 "我們在對[From.GetName]的野蠻文明進行啟蒙時遇到了一些麻煩。[From.Owner.GetSpeciesNamePlural]特別迷信，有很多民眾抱著古老的宗教傳統不肯放手，拒絕接受我們傳授的科學知識。這讓我們的科學顧問感到非常沮喪。\n\n很不幸，看來我們對這個任務的預期有點過於樂觀了。要啟蒙[From.Owner.GetSpeciesNamePlural]，我們需要比計劃花費更長的時間。"
  observation.2057.desc:0 "我們啟蒙[From.Owner.GetSpeciesNamePlural]並引導他們進步的計劃遇到了挫折。我們派往[From.GetName]的宗教顧問和科學家報告稱，原住民沒有信仰，讓人感到憂慮。他們很樂意接受我們的科技，但不願意接受我們的信仰。\n\n這極大地妨礙了我們對[From.Owner.GetSpeciesNamePlural]的啟蒙。我們的計劃又要延遲了。"
- observation.2059.desc:1 "[From.GetName]上專制獨裁的社會體系阻礙了我們推動[From.Owner.GetSpeciesNamePlural]科技進步的任務。獨立思想和創新精神——科學需要的品質——在[From.Owner.GetSpeciesNamePlural]身上很難見到。\n\n這種原始的威權主義妨礙了我們的任務。科學家報告稱，教育他們的時間將會超過預期。"
+ observation.2059.desc:1 "[From.GetName]上專制獨裁的社會體系阻礙了我們推動[From.Owner.GetSpeciesNamePlural]科技進步的任務。獨立思想和創新精神——科學需要的條件——在[From.Owner.GetSpeciesNamePlural]身上很難見到。\n\n這種原始的威權主義妨礙了我們的任務。科學家報告稱，教育他們的時間將會超過預期。"
  observation.2061.desc:0 "[From.GetName]現在處於無政府狀態，我們的科學家在教育[From.Owner.GetSpeciesNamePlural]時遇到了很大的困難。他們所謂的科學家只研究自己感興趣的東西，還常常半途而廢，從不關心集體利益。\n\n儘管原住民誤信了平等主義，但我們的啟蒙還會繼續，只不過花費的時間將超過預期。"
 
 
@@ -1735,7 +1735,7 @@
  observation.3136.a.tooltip:0 "[From.From.GetName]上的§Y2Pops§!被殺死。\n\n$observation.3136.c.tooltip$"
  observation.3136.b.tooltip:0 "[From.From.GetName]上的§Y1Pop§!被殺死。\n\n$observation.3136.c.tooltip$"
  observation.3136.c.tooltip:0 "另外一座 £building£ §S$building_great_pyramid$§!在 [From.From.GetName]出現了。\n\n [From.From.GetName]獲得了§R$pyramid_wars$§!調整因素，持續§Y720§!天。效果如下：\n£happiness£ 幸福度 §R-40%§!\n\n"
- observation.3137.desc:0 "雖然我方與[From.From.GetName]的民眾進行了意外接觸，但事態並沒有愈演愈糟。人們漸漸將「天人」當做了神話傳說，並沒有因為金字塔的建成而形成任何教派。如今很多民眾在對金字塔的構造進行研究，進而培育出了不少知識分子。\n\n此次事件也讓我們有了意想不到的發現：原始生物會進行邏輯思考，即使在面對不尋常的大事件時也是如此。"
+ observation.3137.desc:0 "雖然我方與[From.From.GetName]的民眾進行了意外接觸，但事態並沒有愈演愈糟。人們漸漸將「天人」當做了神話傳說，並沒有因為金字塔的建成而形成任何教派。如今很多民眾在對金字塔的構造進行研究，進而培育出了不少知識份子。\n\n此次事件也讓我們有了意想不到的發現：原始生物會進行邏輯思考，即使在面對不尋常的大事件時也是如此。"
  observation.3137.a:0 "真是幸運。"
  observation.3139.name:0 "[From.GetSpeciesAdj] 社會轉變。"
  observation.3139.start.desc:0 "我們的特務在[From.Capital.GetName]軌道和地面上的秘密行動取得了成功，他們成功的促使[From.GetName]上社會道德轉向於有利於我們的方向。"

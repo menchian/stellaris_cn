@@ -26,7 +26,7 @@
  cream_origin_project_DESC:0 "我們必須找到這一面霜的來源。"
  MAGNETIC_PLANET_RESEARCH_PROJECT:0 "調查[Root.GetName]的磁場之謎"
  MAGNETIC_PLANET_RESEARCH_PROJECT_DESC:0 "數個奇怪的磁場干擾已經影響了[Root.GetName]上的生活。直到不久之前，磁場干擾的起因仍是個謎，但現在我們已經積累了足夠的數據，應該可以揭露真相了。"
- ROGUEMOON_PROJECT:0 "調查[Root.GetName]的神秘月球"
+ ROGUEMOON_PROJECT:0 "調查[Root.GetName]的神秘衛星"
  ROGUEMOON_PROJECT_DESC:0 "對[event_target：roguemoon.Planet.GetName]進行詳細勘察，試圖弄清它的來源。"
  DPORTAL_PROJECT:0 "探測[Root.GetName]上的異次元傳送門"
  DPORTAL_PROJECT_DESC:0 "調查異次元傳送門通向何方。"
